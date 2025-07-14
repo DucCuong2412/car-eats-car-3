@@ -1,0 +1,6337 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791802360899688059}
+  m_IsPrefabParent: 1
+--- !u!4 &1791802360950019708
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791802360899688059}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791802360899688059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791802360950019708}
+  - component: {fileID: 1791802362795513469}
+  m_Layer: 0
+  m_Name: "event_objects"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791802362795513469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791802360899688059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "objects_igor_pila (6)"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.48, y: 1.28, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.48, y: 1.28, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.24, y: -0.64, z: 0}
+    - {x: 0.24, y: -0.64, z: 0}
+    - {x: -0.24, y: 0.64, z: 0}
+    - {x: 0.24, y: 0.64, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3740244, y: 0.4169932}
+    - {x: 0.3740244, y: 0.4638662}
+    - {x: 0.4990225, y: 0.4169932}
+    - {x: 0.4990225, y: 0.4638662}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "c1c4d1a94ee910143825580958e2a3ba"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "objects_igor_pila (5)"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.32, y: 1.24, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.32, y: 1.24, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.16, y: -0.62, z: 0}
+    - {x: 0.16, y: -0.62, z: 0}
+    - {x: -0.16, y: 0.62, z: 0}
+    - {x: 0.16, y: 0.62, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2138682, y: 0.5996103}
+    - {x: 0.2138682, y: 0.6308584}
+    - {x: 0.33496, y: 0.5996103}
+    - {x: 0.33496, y: 0.6308584}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "24b144b0d0b977345973ed1a7f6081ce"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "objects_igor_pila (7)"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.7, y: 1.28, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.7, y: 1.28, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.35, y: -0.64, z: 0}
+    - {x: 0.35, y: -0.64, z: 0}
+    - {x: -0.35, y: 0.64, z: 0}
+    - {x: 0.35, y: 0.64, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5693369, y: 0.4677744}
+    - {x: 0.5693369, y: 0.5361319}
+    - {x: 0.694335, y: 0.4677744}
+    - {x: 0.694335, y: 0.5361319}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "2d30f420dd232374ca96d211f6d6f633"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "objects_igor_pila (2)"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.48, y: 0.32, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.48, y: 0.32, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.24, y: -0.16, z: 0}
+    - {x: 0.24, y: -0.16, z: 0}
+    - {x: -0.24, y: 0.16, z: 0}
+    - {x: 0.24, y: 0.16, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.430665, y: 0.546876}
+    - {x: 0.4775381, y: 0.546876}
+    - {x: 0.430665, y: 0.578124}
+    - {x: 0.4775381, y: 0.578124}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "a17493f37dec8a6498f160715bf83775"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "objects_igor_pila (3)"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.32, y: 0.28, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.32, y: 0.28, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.16, y: -0.14, z: 0}
+    - {x: 0.16, y: -0.14, z: 0}
+    - {x: -0.16, y: 0.14, z: 0}
+    - {x: 0.16, y: 0.14, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4814463, y: 0.546876}
+    - {x: 0.4814463, y: 0.578124}
+    - {x: 0.5087881, y: 0.546876}
+    - {x: 0.5087881, y: 0.578124}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "511194846527cb74ca75283661773dea"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "objects_igor_pila (4)"
+    boundsData:
+    - {x: 0, y: -0.00999999, z: 0}
+    - {x: 1.2, y: 1.18, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 1.2, y: 1.19, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.6, y: -0.6, z: 0}
+    - {x: 0.6, y: -0.6, z: 0}
+    - {x: -0.6, y: 0.58, z: 0}
+    - {x: 0.6, y: 0.58, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2138682, y: 0.4785166}
+    - {x: 0.2138682, y: 0.5957022}
+    - {x: 0.3291006, y: 0.4785166}
+    - {x: 0.3291006, y: 0.5957022}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "970bbc1e35300e545ac24fd55c70d7a0"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "objects_igor_pila (1)"
+    boundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.7, y: 0.31, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.7, y: 0.31, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.35, y: -0.16, z: 0}
+    - {x: 0.35, y: -0.16, z: 0}
+    - {x: -0.35, y: 0.15, z: 0}
+    - {x: 0.35, y: 0.15, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3388682, y: 0.5996103}
+    - {x: 0.4072256, y: 0.5996103}
+    - {x: 0.3388682, y: 0.6298819}
+    - {x: 0.4072256, y: 0.6298819}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "e44ff4791a4df4f43814b43d35d7ebab"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "valentine_obj_bulava_igor_1"
+    boundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 1.18, y: 1.53, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 1.18, y: 1.53, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.59, y: -0.77, z: 0}
+    - {x: 0.59, y: -0.77, z: 0}
+    - {x: -0.59, y: 0.76, z: 0}
+    - {x: 0.59, y: 0.76, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.09472754, y: 0.4824229}
+    - {x: 0.20996, y: 0.4824229}
+    - {x: 0.09472754, y: 0.631835}
+    - {x: 0.20996, y: 0.631835}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "504cdeac8bbb77140bf4d1b586cd0ea6"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "valentine_obj_bulava_igor_2"
+    boundsData:
+    - {x: 0.005000003, y: -0.005000025, z: 0}
+    - {x: 0.11, y: 0.73, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.005000003, y: -0.005000025, z: 0}
+    - {x: 0.11, y: 0.73, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.05, y: -0.37, z: 0}
+    - {x: 0.06, y: -0.37, z: 0}
+    - {x: -0.05, y: 0.36, z: 0}
+    - {x: 0.06, y: 0.36, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.9863291}
+    - {x: 0.001954101, y: 0.9970694}
+    - {x: 0.07324121, y: 0.9863291}
+    - {x: 0.07324121, y: 0.9970694}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "37d6770c01e7baa4588a75ef3c606365"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "objects_igor_shipi (3)"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.43, y: 1.1, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.43, y: 1.1, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.71, y: -0.55, z: 0}
+    - {x: 0.72, y: -0.55, z: 0}
+    - {x: -0.71, y: 0.55, z: 0}
+    - {x: 0.72, y: 0.55, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1474619, y: 0.3242197}
+    - {x: 0.1474619, y: 0.4638662}
+    - {x: 0.2548818, y: 0.3242197}
+    - {x: 0.2548818, y: 0.4638662}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "b447a307b5fef4c4b9fe9ee8937fb202"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "objects_igor_shipi (5)"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.45, y: 0.32, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.45, y: 0.32, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.72, y: -0.16, z: 0}
+    - {x: 0.73, y: -0.16, z: 0}
+    - {x: -0.72, y: 0.16, z: 0}
+    - {x: 0.73, y: 0.16, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4707041, y: 0.8515635}
+    - {x: 0.6123037, y: 0.8515635}
+    - {x: 0.4707041, y: 0.8828115}
+    - {x: 0.6123037, y: 0.8828115}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "fbf6e73d50eef824baf6010aa60312b9"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "objects_igor_shipi (4)"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.2, y: 0.96, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.2, y: 0.96, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.09999999, y: -0.48, z: 0}
+    - {x: 0.09999999, y: -0.48, z: 0}
+    - {x: -0.09999999, y: 0.48, z: 0}
+    - {x: 0.09999999, y: 0.48, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4541025, y: 0.3818369}
+    - {x: 0.4541025, y: 0.4013662}
+    - {x: 0.5478506, y: 0.3818369}
+    - {x: 0.5478506, y: 0.4013662}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "0f24ab75333f10a479ddd39cc952412e"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "objects_igor_shipi (1)"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.42, y: 0.18, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.42, y: 0.18, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.71, y: -0.09, z: 0}
+    - {x: 0.71, y: -0.09, z: 0}
+    - {x: -0.71, y: 0.09, z: 0}
+    - {x: 0.71, y: 0.09, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4277354, y: 0.9707041}
+    - {x: 0.5664053, y: 0.9707041}
+    - {x: 0.4277354, y: 0.9882803}
+    - {x: 0.5664053, y: 0.9882803}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "c378eb53c0318214981d2aab7c2aacc7"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "objects_igor_shipi (2)"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.45, y: 0.3, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.45, y: 0.3, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.72, y: -0.15, z: 0}
+    - {x: 0.73, y: -0.15, z: 0}
+    - {x: -0.72, y: 0.15, z: 0}
+    - {x: 0.73, y: 0.15, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5703135, y: 0.968751}
+    - {x: 0.7119131, y: 0.968751}
+    - {x: 0.5703135, y: 0.9980459}
+    - {x: 0.7119131, y: 0.9980459}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "5f0e85ee4f09efb4393a3b29c8c09e71"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_tramplin_30_001"
+    boundsData:
+    - {x: -0.004999995, y: 0, z: 0}
+    - {x: 2.17, y: 0.36, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.18, y: 0.36, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.09, y: -0.18, z: 0}
+    - {x: 1.08, y: -0.18, z: 0}
+    - {x: -1.09, y: 0.18, z: 0}
+    - {x: 1.08, y: 0.18, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2548838, y: 0.8515635}
+    - {x: 0.4667959, y: 0.8515635}
+    - {x: 0.2548838, y: 0.8867178}
+    - {x: 0.4667959, y: 0.8867178}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "47b757c15fe07eb4b85e72ea8eebb19f"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_tramplin_30_002"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.62, y: 0.78, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.62, y: 0.78, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.81, y: -0.39, z: 0}
+    - {x: 0.81, y: -0.39, z: 0}
+    - {x: -0.81, y: 0.39, z: 0}
+    - {x: 0.81, y: 0.39, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.390626, y: 0.890626}
+    - {x: 0.5488272, y: 0.890626}
+    - {x: 0.390626, y: 0.9667959}
+    - {x: 0.5488272, y: 0.9667959}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "d3256e4317fe7e14e81a613cab916f8d"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_tramplin_30_003"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.73, y: 0.68, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.73, y: 0.68, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.36, y: -0.34, z: 0}
+    - {x: 0.37, y: -0.34, z: 0}
+    - {x: -0.36, y: 0.34, z: 0}
+    - {x: 0.37, y: 0.34, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6982431, y: 0.4677744}
+    - {x: 0.7695303, y: 0.4677744}
+    - {x: 0.6982431, y: 0.5341787}
+    - {x: 0.7695303, y: 0.5341787}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "be5eb01b4efdc774b95798ab470c0267"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_tramplin_45_001"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.16, y: 0.22, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.16, y: 0.22, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.08, y: -0.11, z: 0}
+    - {x: 1.08, y: -0.11, z: 0}
+    - {x: -1.08, y: 0.11, z: 0}
+    - {x: 1.08, y: 0.11, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2128916, y: 0.9736338}
+    - {x: 0.4238271, y: 0.9736338}
+    - {x: 0.2128916, y: 0.9951162}
+    - {x: 0.4238271, y: 0.9951162}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "d3ebff13590d2824e84764bf435c24f4"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_tramplin_45_002"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.47, y: 0.84, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.47, y: 0.84, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.73, y: -0.42, z: 0}
+    - {x: 0.7399999, y: -0.42, z: 0}
+    - {x: -0.73, y: 0.42, z: 0}
+    - {x: 0.7399999, y: 0.42, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2880869, y: 0.6347666}
+    - {x: 0.2880869, y: 0.7783194}
+    - {x: 0.3701162, y: 0.6347666}
+    - {x: 0.3701162, y: 0.7783194}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "f289db5a41185e940af22b7fbd43f00c"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_tramplin_45_003"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.89, y: 0.19, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.89, y: 0.19, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.44, y: -0.09999999, z: 0}
+    - {x: 0.45, y: -0.09999999, z: 0}
+    - {x: -0.44, y: 0.09, z: 0}
+    - {x: 0.45, y: 0.09, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3740244, y: 0.7724619}
+    - {x: 0.4609365, y: 0.7724619}
+    - {x: 0.3740244, y: 0.7910147}
+    - {x: 0.4609365, y: 0.7910147}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "79caced35db0d6a43a7f106c761b0c63"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_platform_007"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.28, y: 0.16, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.28, y: 0.16, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.14, y: -0.08, z: 0}
+    - {x: 0.14, y: -0.08, z: 0}
+    - {x: -0.14, y: 0.08, z: 0}
+    - {x: 0.14, y: 0.08, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.734376, y: 0.750001}
+    - {x: 0.734376, y: 0.7773428}
+    - {x: 0.749999, y: 0.750001}
+    - {x: 0.749999, y: 0.7773428}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "e0320a5d135d2a64d8cbb485b4adb61c"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_platform_008"
+    boundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.28, y: 0.17, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.28, y: 0.17, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.14, y: -0.09, z: 0}
+    - {x: 0.14, y: -0.09, z: 0}
+    - {x: -0.14, y: 0.08000001, z: 0}
+    - {x: 0.14, y: 0.08000001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6298838, y: 0.7304697}
+    - {x: 0.6572256, y: 0.7304697}
+    - {x: 0.6298838, y: 0.7470694}
+    - {x: 0.6572256, y: 0.7470694}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "565cb0d146fc57c4191ab834141fda02"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_tramplin_1"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.34, y: 0.22, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.34, y: 0.22, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.17, y: -0.11, z: 0}
+    - {x: 0.17, y: -0.11, z: 0}
+    - {x: -0.17, y: 0.11, z: 0}
+    - {x: 0.17, y: 0.11, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4648447, y: 0.7685556}
+    - {x: 0.4980459, y: 0.7685556}
+    - {x: 0.4648447, y: 0.7900381}
+    - {x: 0.4980459, y: 0.7900381}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "7e3b058ef32325b4b9305f440f1096be"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_tramplin_15_001"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.36, y: 0.54, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.36, y: 0.54, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.18, y: -0.27, z: 0}
+    - {x: 1.18, y: -0.27, z: 0}
+    - {x: -1.18, y: 0.27, z: 0}
+    - {x: 1.18, y: 0.27, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2548838, y: 0.7949228}
+    - {x: 0.4853506, y: 0.7949228}
+    - {x: 0.2548838, y: 0.8476553}
+    - {x: 0.4853506, y: 0.8476553}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "88d21352be81646479abd638adfdb58d"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_tramplin_15_002"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.89, y: 0.79, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.89, y: 0.79, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.94, y: -0.4, z: 0}
+    - {x: 0.95, y: -0.4, z: 0}
+    - {x: -0.94, y: 0.39, z: 0}
+    - {x: 0.95, y: 0.39, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2021494, y: 0.8925791}
+    - {x: 0.3867178, y: 0.8925791}
+    - {x: 0.2021494, y: 0.9697256}
+    - {x: 0.3867178, y: 0.9697256}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "c5ea58b67d3beaa44826ad886bf3ec7a"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_tramplin_15_003"
+    boundsData:
+    - {x: -0.05999999, y: 0, z: 0}
+    - {x: 0.66, y: 0.66, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.78, y: 0.66, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.39, y: -0.33, z: 0}
+    - {x: 0.27, y: -0.33, z: 0}
+    - {x: -0.39, y: 0.33, z: 0}
+    - {x: 0.27, y: 0.33, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7539072, y: 0.2939463}
+    - {x: 0.8183584, y: 0.2939463}
+    - {x: 0.7539072, y: 0.3583975}
+    - {x: 0.8183584, y: 0.3583975}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "c826c2c81d999b848bbde964fecbb847"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_obj_log1_scrp_002"
+    boundsData:
+    - {x: 0.004999999, y: -3.72529E-09, z: 0}
+    - {x: 0.25, y: 0.24, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.27, y: 0.26, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.12, y: -0.12, z: 0}
+    - {x: 0.13, y: -0.12, z: 0}
+    - {x: -0.12, y: 0.12, z: 0}
+    - {x: 0.13, y: 0.12, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.531251, y: 0.7636728}
+    - {x: 0.531251, y: 0.788085}
+    - {x: 0.5546865, y: 0.7636728}
+    - {x: 0.5546865, y: 0.788085}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "d3a64208d02fcda4191a169bf16f5174"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_obj_basket_003"
+    boundsData:
+    - {x: 0.00499998, y: 0, z: 0}
+    - {x: 0.77, y: 0.92, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.79, y: 0.94, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.38, y: -0.46, z: 0}
+    - {x: 0.39, y: -0.46, z: 0}
+    - {x: -0.38, y: 0.46, z: 0}
+    - {x: 0.39, y: 0.46, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6748056, y: 0.2939463}
+    - {x: 0.749999, y: 0.2939463}
+    - {x: 0.6748056, y: 0.3837881}
+    - {x: 0.749999, y: 0.3837881}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "c6786c8925c219e4a96782a6494e3a41"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_obj_log_003"
+    boundsData:
+    - {x: 7.450581E-09, y: -0.00500001, z: 0}
+    - {x: 0.38, y: 0.5699999, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.4, y: 0.59, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.19, y: -0.29, z: 0}
+    - {x: 0.19, y: -0.29, z: 0}
+    - {x: -0.19, y: 0.28, z: 0}
+    - {x: 0.19, y: 0.28, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6376963, y: 0.7509775}
+    - {x: 0.6376963, y: 0.788085}
+    - {x: 0.6933584, y: 0.7509775}
+    - {x: 0.6933584, y: 0.788085}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "fb64859e1d0816c4093f8fdf6cb633b1"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_obj_log1_scrp_003"
+    boundsData:
+    - {x: -3.72529E-09, y: 7.450581E-09, z: 0}
+    - {x: 0.22, y: 0.26, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.24, y: 0.28, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.11, y: -0.13, z: 0}
+    - {x: 0.11, y: -0.13, z: 0}
+    - {x: -0.11, y: 0.13, z: 0}
+    - {x: 0.11, y: 0.13, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5019541, y: 0.7685556}
+    - {x: 0.5019541, y: 0.7900381}
+    - {x: 0.5273428, y: 0.7685556}
+    - {x: 0.5273428, y: 0.7900381}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "356440565659d4c4ebeda8136e179f68"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_obj_log2_scrp_003"
+    boundsData:
+    - {x: -3.72529E-09, y: 0, z: 0}
+    - {x: 0.16, y: 0.14, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.18, y: 0.16, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.08, y: -0.07, z: 0}
+    - {x: 0.07999999, y: -0.07, z: 0}
+    - {x: -0.08, y: 0.07, z: 0}
+    - {x: 0.07999999, y: 0.07, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7548838, y: 0.9677744}
+    - {x: 0.7548838, y: 0.9833975}
+    - {x: 0.7685537, y: 0.9677744}
+    - {x: 0.7685537, y: 0.9833975}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "4084ccf213fcb4f4c90b1d704dbedc2d"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_obj_log2_scrp_002"
+    boundsData:
+    - {x: -3.72529E-09, y: -3.72529E-09, z: 0}
+    - {x: 0.18, y: 0.18, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.2, y: 0.2, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.09, y: -0.09, z: 0}
+    - {x: 0.08999999, y: -0.09, z: 0}
+    - {x: -0.09, y: 0.08999999, z: 0}
+    - {x: 0.08999999, y: 0.08999999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7333994, y: 0.9677744}
+    - {x: 0.7509756, y: 0.9677744}
+    - {x: 0.7333994, y: 0.9853506}
+    - {x: 0.7509756, y: 0.9853506}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "2e13354d55291d54da31ed6346799603"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_platform_001"
+    boundsData:
+    - {x: 0.005000055, y: -0.004999995, z: 0}
+    - {x: 1.61, y: 0.65, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.005000055, y: -0.004999995, z: 0}
+    - {x: 1.61, y: 0.65, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.8, y: -0.33, z: 0}
+    - {x: 0.8100001, y: -0.33, z: 0}
+    - {x: -0.8, y: 0.32, z: 0}
+    - {x: 0.8100001, y: 0.32, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1484385, y: 0.2480479}
+    - {x: 0.3056631, y: 0.2480479}
+    - {x: 0.1484385, y: 0.3115225}
+    - {x: 0.3056631, y: 0.3115225}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "65b4bd1fb99bfe240b2ba78e009acd84"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_platform_002"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.85, y: 0.65, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.85, y: 0.65, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.92, y: -0.33, z: 0}
+    - {x: 0.9299999, y: -0.33, z: 0}
+    - {x: -0.92, y: 0.32, z: 0}
+    - {x: 0.9299999, y: 0.32, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1484385, y: 0.001954101}
+    - {x: 0.1484385, y: 0.1826162}
+    - {x: 0.2119131, y: 0.001954101}
+    - {x: 0.2119131, y: 0.1826162}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "2acabac3c8624f8488f56141e147d257"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_platform_003"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.49, y: 0.65, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.49, y: 0.65, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.24, y: -0.33, z: 0}
+    - {x: 0.25, y: -0.33, z: 0}
+    - {x: -0.24, y: 0.32, z: 0}
+    - {x: 0.25, y: 0.32, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7646494, y: 0.69629}
+    - {x: 0.7646494, y: 0.7441397}
+    - {x: 0.828124, y: 0.69629}
+    - {x: 0.828124, y: 0.7441397}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "3399e444abe07be4b8a43bf4f4095d4f"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_platform_004"
+    boundsData:
+    - {x: 0.005000025, y: -0.004999995, z: 0}
+    - {x: 0.55, y: 0.65, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.005000025, y: -0.004999995, z: 0}
+    - {x: 0.55, y: 0.65, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.27, y: -0.33, z: 0}
+    - {x: 0.28, y: -0.33, z: 0}
+    - {x: -0.27, y: 0.32, z: 0}
+    - {x: 0.28, y: 0.32, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8847666, y: 0.3515635}
+    - {x: 0.9384756, y: 0.3515635}
+    - {x: 0.8847666, y: 0.4150381}
+    - {x: 0.9384756, y: 0.4150381}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "f1360141de95d294ba5b3a026e4781b9"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_platform_005"
+    boundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.28, y: 0.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.28, y: 0.29, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.14, y: -0.15, z: 0}
+    - {x: 0.14, y: -0.15, z: 0}
+    - {x: -0.14, y: 0.14, z: 0}
+    - {x: 0.14, y: 0.14, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5126963, y: 0.546876}
+    - {x: 0.5400381, y: 0.546876}
+    - {x: 0.5126963, y: 0.5751944}
+    - {x: 0.5400381, y: 0.5751944}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "0d1f23dc6829ff541b824fc05ac3a634"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_easter_platform_006"
+    boundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.28, y: 0.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.28, y: 0.29, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.14, y: -0.15, z: 0}
+    - {x: 0.14, y: -0.15, z: 0}
+    - {x: -0.14, y: 0.14, z: 0}
+    - {x: 0.14, y: 0.14, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5439463, y: 0.546876}
+    - {x: 0.5712881, y: 0.546876}
+    - {x: 0.5439463, y: 0.5751944}
+    - {x: 0.5712881, y: 0.5751944}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "367072d32174efb46837101be379475d"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "valentine_column_02_scrap_olya"
+    boundsData:
+    - {x: 7.450581E-09, y: 0, z: 0}
+    - {x: 0.26, y: 0.14, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.28, y: 0.16, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.13, y: -0.07, z: 0}
+    - {x: 0.13, y: -0.07, z: 0}
+    - {x: -0.13, y: 0.07, z: 0}
+    - {x: 0.13, y: 0.07, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7949228, y: 0.8427744}
+    - {x: 0.7949228, y: 0.8681631}
+    - {x: 0.8085928, y: 0.8427744}
+    - {x: 0.8085928, y: 0.8681631}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "9196b233e1fe412488f5f6065278b6d5"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "valentine_olya_obj_005"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.28, y: 0.14, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.3, y: 0.16, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.14, y: -0.07, z: 0}
+    - {x: 0.14, y: -0.07, z: 0}
+    - {x: -0.14, y: 0.07, z: 0}
+    - {x: 0.14, y: 0.07, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5986338, y: 0.734376}
+    - {x: 0.6259756, y: 0.734376}
+    - {x: 0.5986338, y: 0.7480459}
+    - {x: 0.6259756, y: 0.7480459}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "ce7339950679b2049b5ded3cd288f17f"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "valentine_column_02_olya"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.56, y: 0.7, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.58, y: 0.72, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.28, y: -0.35, z: 0}
+    - {x: 0.28, y: -0.35, z: 0}
+    - {x: -0.28, y: 0.35, z: 0}
+    - {x: 0.28, y: 0.35, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.921876, y: 0.1074229}
+    - {x: 0.921876, y: 0.1621084}
+    - {x: 0.9902334, y: 0.1074229}
+    - {x: 0.9902334, y: 0.1621084}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "0d1e724489994f14a8a73d720bbd4cd4"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "valentine_olya_obj_006"
+    boundsData:
+    - {x: 7.450581E-09, y: -3.72529E-09, z: 0}
+    - {x: 0.38, y: 0.18, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.4, y: 0.2, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.19, y: -0.09, z: 0}
+    - {x: 0.19, y: -0.09, z: 0}
+    - {x: -0.19, y: 0.08999999, z: 0}
+    - {x: 0.19, y: 0.08999999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5517588, y: 0.3818369}
+    - {x: 0.5888662, y: 0.3818369}
+    - {x: 0.5517588, y: 0.3994131}
+    - {x: 0.5888662, y: 0.3994131}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "e6d3566bf8915d74f92a46537efb6aa7"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "valentine_column_03_olya"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.56, y: 0.7, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.58, y: 0.72, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.28, y: -0.35, z: 0}
+    - {x: 0.28, y: -0.35, z: 0}
+    - {x: -0.28, y: 0.35, z: 0}
+    - {x: 0.28, y: 0.35, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7861338, y: 0.50879}
+    - {x: 0.8408194, y: 0.50879}
+    - {x: 0.7861338, y: 0.5771475}
+    - {x: 0.8408194, y: 0.5771475}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "4a59f3a75ed33dd4da3c511517e3ed75"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "valentine_olya_obj_004"
+    boundsData:
+    - {x: 7.450581E-09, y: 0, z: 0}
+    - {x: 0.38, y: 0.14, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.4, y: 0.16, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.19, y: -0.07, z: 0}
+    - {x: 0.19, y: -0.07, z: 0}
+    - {x: -0.19, y: 0.07, z: 0}
+    - {x: 0.19, y: 0.07, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5576181, y: 0.734376}
+    - {x: 0.5947256, y: 0.734376}
+    - {x: 0.5576181, y: 0.7480459}
+    - {x: 0.5947256, y: 0.7480459}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "2f26e1a56598a1343a3c18908bd178dc"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "valentine_olya_obj_003"
+    boundsData:
+    - {x: 0.005000018, y: -0.005000001, z: 0}
+    - {x: 0.35, y: 0.11, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.00500001, y: -0.005000003, z: 0}
+    - {x: 0.37, y: 0.13, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.17, y: -0.06, z: 0}
+    - {x: 0.18, y: -0.06, z: 0}
+    - {x: -0.17, y: 0.05, z: 0}
+    - {x: 0.18, y: 0.05, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.07714941, y: 0.9863291}
+    - {x: 0.1113271, y: 0.9863291}
+    - {x: 0.07714941, y: 0.9970694}
+    - {x: 0.1113271, y: 0.9970694}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "949d55da127047147a1b99e97b738dc1"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "valentine_olya_obj_001"
+    boundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.8, y: 0.93, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.82, y: 0.95, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.4, y: -0.47, z: 0}
+    - {x: 0.4, y: -0.47, z: 0}
+    - {x: -0.4, y: 0.46, z: 0}
+    - {x: 0.4, y: 0.46, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5927744, y: 0.296876}
+    - {x: 0.6708975, y: 0.296876}
+    - {x: 0.5927744, y: 0.3876943}
+    - {x: 0.6708975, y: 0.3876943}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "79504b6cbf6e79e4daf46d59b2a0ffcf"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "valentine_column_01_scrap_olya"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.2, y: 0.26, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.2, y: 0.26, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.09999999, y: -0.13, z: 0}
+    - {x: 0.09999999, y: -0.13, z: 0}
+    - {x: -0.09999999, y: 0.13, z: 0}
+    - {x: 0.09999999, y: 0.13, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6435556, y: 0.6992197}
+    - {x: 0.663085, y: 0.6992197}
+    - {x: 0.6435556, y: 0.7246084}
+    - {x: 0.663085, y: 0.7246084}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "fe3a95a0e2d0d024dadb12131d4f12fa"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "valentine_olya_obj_008"
+    boundsData:
+    - {x: 0.00500001, y: -0.005000003, z: 0}
+    - {x: 0.29, y: 0.13, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.00500001, y: -0.005000003, z: 0}
+    - {x: 0.31, y: 0.15, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.14, y: -0.07, z: 0}
+    - {x: 0.15, y: -0.07, z: 0}
+    - {x: -0.14, y: 0.05999999, z: 0}
+    - {x: 0.15, y: 0.05999999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3330088, y: 0.5830088}
+    - {x: 0.3613271, y: 0.5830088}
+    - {x: 0.3330088, y: 0.5957022}
+    - {x: 0.3613271, y: 0.5957022}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "b124e594317bc9048b5ff3d13d7aa915"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "valentine_column_03_scrap_olya"
+    boundsData:
+    - {x: -3.72529E-09, y: -3.72529E-09, z: 0}
+    - {x: 0.18, y: 0.22, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.2, y: 0.24, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.09, y: -0.11, z: 0}
+    - {x: 0.08999999, y: -0.11, z: 0}
+    - {x: -0.09, y: 0.11, z: 0}
+    - {x: 0.08999999, y: 0.11, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7734385, y: 0.8427744}
+    - {x: 0.7910147, y: 0.8427744}
+    - {x: 0.7734385, y: 0.8642569}
+    - {x: 0.7910147, y: 0.8642569}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "4c60fcde3018db340855e1b446a157fa"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "valentine_olya_obj_007"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.28, y: 0.14, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.3, y: 0.16, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.14, y: -0.07, z: 0}
+    - {x: 0.14, y: -0.07, z: 0}
+    - {x: -0.14, y: 0.07, z: 0}
+    - {x: 0.14, y: 0.07, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7109385, y: 0.8447275}
+    - {x: 0.7382803, y: 0.8447275}
+    - {x: 0.7109385, y: 0.8583975}
+    - {x: 0.7382803, y: 0.8583975}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "9f5d52769203b7049a36bbf46b14f508"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "valentine_olya_obj_002"
+    boundsData:
+    - {x: 0.00499998, y: -0.004999995, z: 0}
+    - {x: 0.77, y: 0.95, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.79, y: 0.97, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.38, y: -0.48, z: 0}
+    - {x: 0.39, y: -0.48, z: 0}
+    - {x: -0.38, y: 0.47, z: 0}
+    - {x: 0.39, y: 0.47, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6240244, y: 0.1669932}
+    - {x: 0.6240244, y: 0.2421865}
+    - {x: 0.7167959, y: 0.1669932}
+    - {x: 0.7167959, y: 0.2421865}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "2eda80a10bf93f34d8f7d64cb12c6d88"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "valentine_column_01_olya"
+    boundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.7, y: 0.57, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.7, y: 0.57, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.35, y: -0.29, z: 0}
+    - {x: 0.35, y: -0.29, z: 0}
+    - {x: -0.35, y: 0.28, z: 0}
+    - {x: 0.35, y: 0.28, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8671885, y: 0.1660166}
+    - {x: 0.8671885, y: 0.234374}
+    - {x: 0.9228506, y: 0.1660166}
+    - {x: 0.9228506, y: 0.234374}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "e7e54152479949f4c8e4eaeefaced161"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_eyes_2"
+    boundsData:
+    - {x: 0, y: -0.035, z: 0}
+    - {x: 0.28, y: 0.19, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.32, y: 0.28, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.14, y: -0.13, z: 0}
+    - {x: 0.14, y: -0.13, z: 0}
+    - {x: -0.14, y: 0.06000001, z: 0}
+    - {x: 0.14, y: 0.06000001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6210947, y: 0.6992197}
+    - {x: 0.6210947, y: 0.7265615}
+    - {x: 0.6396475, y: 0.6992197}
+    - {x: 0.6396475, y: 0.7265615}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "f4a8b792e4564d545996a4ddc2e2e2d9"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_eyes_4"
+    boundsData:
+    - {x: 0, y: -0.075, z: 0}
+    - {x: 0.28, y: 0.09, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.32, y: 0.28, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.14, y: -0.12, z: 0}
+    - {x: 0.14, y: -0.12, z: 0}
+    - {x: -0.14, y: -0.03, z: 0}
+    - {x: 0.14, y: -0.03, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1474619, y: 0.4677744}
+    - {x: 0.1748037, y: 0.4677744}
+    - {x: 0.1474619, y: 0.4765615}
+    - {x: 0.1748037, y: 0.4765615}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "58a51b7ac2477fc40acecb13e4602f66"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_eyes_1"
+    boundsData:
+    - {x: 0.025, y: 7.450581E-09, z: 0}
+    - {x: 0.25, y: 0.26, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.32, y: 0.28, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.09999999, y: -0.13, z: 0}
+    - {x: 0.15, y: -0.13, z: 0}
+    - {x: -0.09999999, y: 0.13, z: 0}
+    - {x: 0.15, y: 0.13, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5292978, y: 0.734376}
+    - {x: 0.55371, y: 0.734376}
+    - {x: 0.5292978, y: 0.7597647}
+    - {x: 0.55371, y: 0.7597647}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "f5393e55e36a54c4795d7e321e5c8edf"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_eyes_3"
+    boundsData:
+    - {x: 0, y: -0.06, z: 0}
+    - {x: 0.28, y: 0.14, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.32, y: 0.28, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.14, y: -0.13, z: 0}
+    - {x: 0.14, y: -0.13, z: 0}
+    - {x: -0.14, y: 0.009999995, z: 0}
+    - {x: 0.14, y: 0.009999995, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7421885, y: 0.8447275}
+    - {x: 0.7695303, y: 0.8447275}
+    - {x: 0.7421885, y: 0.8583975}
+    - {x: 0.7695303, y: 0.8583975}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "722d102d096acb7459e31cbf41ed1f9c"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_hull_prt00"
+    boundsData:
+    - {x: 0, y: -0.00999999, z: 0}
+    - {x: 1.5, y: 0.52, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 1.5, y: 0.53, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.75, y: -0.27, z: 0}
+    - {x: 0.75, y: -0.27, z: 0}
+    - {x: -0.75, y: 0.25, z: 0}
+    - {x: 0.75, y: 0.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3095713, y: 0.2480479}
+    - {x: 0.4560537, y: 0.2480479}
+    - {x: 0.3095713, y: 0.2988271}
+    - {x: 0.4560537, y: 0.2988271}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "52269ecd8af88674fa2c124b94d18492"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_hull_prt01"
+    boundsData:
+    - {x: 0.00999999, y: -0.00500001, z: 0}
+    - {x: 1.38, y: 0.77, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.39, y: 0.78, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.68, y: -0.39, z: 0}
+    - {x: 0.7, y: -0.39, z: 0}
+    - {x: -0.68, y: 0.38, z: 0}
+    - {x: 0.7, y: 0.38, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4541025, y: 0.3027354}
+    - {x: 0.5888662, y: 0.3027354}
+    - {x: 0.4541025, y: 0.3779287}
+    - {x: 0.5888662, y: 0.3779287}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "f106473060f6cab47a817fe2081daff3"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_wheel_b"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.57, y: 0.57, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.58, y: 0.58, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.28, y: -0.29, z: 0}
+    - {x: 0.29, y: -0.29, z: 0}
+    - {x: -0.28, y: 0.28, z: 0}
+    - {x: 0.29, y: 0.28, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9267588, y: 0.1660166}
+    - {x: 0.9824209, y: 0.1660166}
+    - {x: 0.9267588, y: 0.2216787}
+    - {x: 0.9824209, y: 0.2216787}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "0bfbd71d954f15f49a3b2c66abe1d15c"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_hull_prt03_dmg2"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.67, y: 0.37, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.69, y: 0.39, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.33, y: -0.19, z: 0}
+    - {x: 0.34, y: -0.19, z: 0}
+    - {x: -0.33, y: 0.18, z: 0}
+    - {x: 0.34, y: 0.18, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6523447, y: 0.5771494}
+    - {x: 0.7177725, y: 0.5771494}
+    - {x: 0.6523447, y: 0.6132803}
+    - {x: 0.7177725, y: 0.6132803}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "b37226577a0d84042850f57f279979b1"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_hull_prt01_dmg1"
+    boundsData:
+    - {x: 0.00999999, y: -0.00500001, z: 0}
+    - {x: 1.38, y: 0.77, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.39, y: 0.78, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.68, y: -0.39, z: 0}
+    - {x: 0.7, y: -0.39, z: 0}
+    - {x: -0.68, y: 0.38, z: 0}
+    - {x: 0.7, y: 0.38, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3740244, y: 0.63379}
+    - {x: 0.3740244, y: 0.7685537}
+    - {x: 0.4492178, y: 0.63379}
+    - {x: 0.4492178, y: 0.7685537}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "9cad1874b26e3f942916dc9b32fc3a0e"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_engine2"
+    boundsData:
+    - {x: 0, y: -1.862645E-09, z: 0}
+    - {x: 0.28, y: 0.12, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.3, y: 0.14, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.14, y: -0.06, z: 0}
+    - {x: 0.14, y: -0.06, z: 0}
+    - {x: -0.14, y: 0.05999999, z: 0}
+    - {x: 0.14, y: 0.05999999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1533213, y: 0.9863291}
+    - {x: 0.1806631, y: 0.9863291}
+    - {x: 0.1533213, y: 0.9980459}
+    - {x: 0.1806631, y: 0.9980459}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "a0c1ce3996f31ff4fac1fa29c56910a8"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_hull_prt02_dmg1"
+    boundsData:
+    - {x: 0, y: -0.00500001, z: 0}
+    - {x: 1.6, y: 0.9499999, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.6, y: 0.96, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.8, y: -0.48, z: 0}
+    - {x: 0.8, y: -0.48, z: 0}
+    - {x: -0.8, y: 0.47, z: 0}
+    - {x: 0.8, y: 0.47, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.09472754, y: 0.6357431}
+    - {x: 0.09472754, y: 0.7919912}
+    - {x: 0.187499, y: 0.6357431}
+    - {x: 0.187499, y: 0.7919912}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "e4f545976deb17043af8e650424c0321"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_scp04"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.04, y: 0.86, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.08, y: 0.9, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.52, y: -0.43, z: 0}
+    - {x: 0.52, y: -0.43, z: 0}
+    - {x: -0.52, y: 0.43, z: 0}
+    - {x: 0.52, y: 0.43, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9013681, y: 0.001954101}
+    - {x: 0.9013681, y: 0.1035146}
+    - {x: 0.9853506, y: 0.001954101}
+    - {x: 0.9853506, y: 0.1035146}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "9b60be4be34e3fb4192d521a7b697ac2"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_hull_prt01_dmg2"
+    boundsData:
+    - {x: 0.00999999, y: -0.00500001, z: 0}
+    - {x: 1.38, y: 0.77, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.39, y: 0.78, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.68, y: -0.39, z: 0}
+    - {x: 0.7, y: -0.39, z: 0}
+    - {x: -0.68, y: 0.38, z: 0}
+    - {x: 0.7, y: 0.38, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.430665, y: 0.4677744}
+    - {x: 0.5654287, y: 0.4677744}
+    - {x: 0.430665, y: 0.5429678}
+    - {x: 0.5654287, y: 0.5429678}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "06b112999c78c9c4ea6db0c9e07c77b6"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_hull_prt02"
+    boundsData:
+    - {x: 0, y: -0.00500001, z: 0}
+    - {x: 1.6, y: 0.9499999, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.6, y: 0.96, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.8, y: -0.48, z: 0}
+    - {x: 0.8, y: -0.48, z: 0}
+    - {x: -0.8, y: 0.47, z: 0}
+    - {x: 0.8, y: 0.47, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.09472754, y: 0.7958994}
+    - {x: 0.2509756, y: 0.7958994}
+    - {x: 0.09472754, y: 0.8886709}
+    - {x: 0.2509756, y: 0.8886709}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "767d1ce7e1968a047a2d3bcc2c22cb8d"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_engine3"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.35, y: 0.09999999, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.35, y: 0.09999999, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.17, y: -0.05, z: 0}
+    - {x: 0.18, y: -0.05, z: 0}
+    - {x: -0.17, y: 0.05, z: 0}
+    - {x: 0.18, y: 0.05, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1152354, y: 0.9863291}
+    - {x: 0.1494131, y: 0.9863291}
+    - {x: 0.1152354, y: 0.9960928}
+    - {x: 0.1494131, y: 0.9960928}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "a78960541b36e124cb1d8b5e6634b26d"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_scp02"
+    boundsData:
+    - {x: 0.01000001, y: 0, z: 0}
+    - {x: 0.9399999, y: 0.96, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.96, y: 0.96, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.46, y: -0.48, z: 0}
+    - {x: 0.48, y: -0.48, z: 0}
+    - {x: -0.46, y: 0.48, z: 0}
+    - {x: 0.48, y: 0.48, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.805665, y: 0.8720713}
+    - {x: 0.89746, y: 0.8720713}
+    - {x: 0.805665, y: 0.9658194}
+    - {x: 0.89746, y: 0.9658194}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "a0bc8aca38bed8f4a86fdc604fa1c922"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_hull_prt02_dmg2"
+    boundsData:
+    - {x: 0.004999995, y: -0.00500001, z: 0}
+    - {x: 1.59, y: 0.9499999, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.6, y: 0.96, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.79, y: -0.48, z: 0}
+    - {x: 0.8, y: -0.48, z: 0}
+    - {x: -0.79, y: 0.47, z: 0}
+    - {x: 0.8, y: 0.47, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1914072, y: 0.6357431}
+    - {x: 0.1914072, y: 0.7910147}
+    - {x: 0.2841787, y: 0.6357431}
+    - {x: 0.2841787, y: 0.7910147}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "ac5b20ee7a5ec1247aa1123fbc02ed76"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_scp01"
+    boundsData:
+    - {x: 0, y: -0.01000001, z: 0}
+    - {x: 1.34, y: 0.66, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.38, y: 0.68, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.67, y: -0.34, z: 0}
+    - {x: 0.67, y: -0.34, z: 0}
+    - {x: -0.67, y: 0.32, z: 0}
+    - {x: 0.67, y: 0.32, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2158213, y: 0.1074229}
+    - {x: 0.3466787, y: 0.1074229}
+    - {x: 0.2158213, y: 0.171874}
+    - {x: 0.3466787, y: 0.171874}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "51f8781b356ef4f43ab34b57a0206910"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_hull_prt03"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.77, y: 0.37, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.78, y: 0.39, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.38, y: -0.19, z: 0}
+    - {x: 0.39, y: -0.19, z: 0}
+    - {x: -0.38, y: 0.18, z: 0}
+    - {x: 0.39, y: 0.18, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5585947, y: 0.7519541}
+    - {x: 0.6337881, y: 0.7519541}
+    - {x: 0.5585947, y: 0.788085}
+    - {x: 0.6337881, y: 0.788085}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "3a4b735e3fe03264e8e1499cbdacc6d4"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_hull_prt03_dmg1"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.77, y: 0.37, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.78, y: 0.39, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.38, y: -0.19, z: 0}
+    - {x: 0.39, y: -0.19, z: 0}
+    - {x: -0.38, y: 0.18, z: 0}
+    - {x: 0.39, y: 0.18, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5732431, y: 0.5791025}
+    - {x: 0.6484365, y: 0.5791025}
+    - {x: 0.5732431, y: 0.6152334}
+    - {x: 0.6484365, y: 0.6152334}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "21989205b21847d4494feb2c5a744c22"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_scp03"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.34, y: 0.7399999, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.38, y: 0.78, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.67, y: -0.37, z: 0}
+    - {x: 0.67, y: -0.37, z: 0}
+    - {x: -0.67, y: 0.37, z: 0}
+    - {x: 0.67, y: 0.37, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.453126, y: 0.63379}
+    - {x: 0.453126, y: 0.7646475}
+    - {x: 0.5253897, y: 0.63379}
+    - {x: 0.5253897, y: 0.7646475}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "dccbba656c64d964a9d2b4b04c0e6cc9"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_wheel_f"
+    boundsData:
+    - {x: 0.005000003, y: -0.004999995, z: 0}
+    - {x: 0.45, y: 0.45, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.46, y: 0.46, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.22, y: -0.23, z: 0}
+    - {x: 0.23, y: -0.23, z: 0}
+    - {x: -0.22, y: 0.22, z: 0}
+    - {x: 0.23, y: 0.22, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6660166, y: 0.2460947}
+    - {x: 0.70996, y: 0.2460947}
+    - {x: 0.6660166, y: 0.2900381}
+    - {x: 0.70996, y: 0.2900381}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "5f89d2cfa8611f347aaf3c843a1c481f"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_hull_prt04"
+    boundsData:
+    - {x: 0.01000001, y: 0, z: 0}
+    - {x: 1, y: 0.6, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.02, y: 0.64, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.49, y: -0.3, z: 0}
+    - {x: 0.51, y: -0.3, z: 0}
+    - {x: -0.49, y: 0.3, z: 0}
+    - {x: 0.51, y: 0.3, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5029306, y: 0.4052744}
+    - {x: 0.600585, y: 0.4052744}
+    - {x: 0.5029306, y: 0.4638662}
+    - {x: 0.600585, y: 0.4638662}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "b8a75bffe293d064d8979989cf112196"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car01_engine1"
+    boundsData:
+    - {x: 7.450581E-09, y: -0.01, z: 0}
+    - {x: 0.26, y: 0.2, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.005000003, z: 0}
+    - {x: 0.28, y: 0.21, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.13, y: -0.11, z: 0}
+    - {x: 0.13, y: -0.11, z: 0}
+    - {x: -0.13, y: 0.09, z: 0}
+    - {x: 0.13, y: 0.09, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6669931, y: 0.6992197}
+    - {x: 0.6669931, y: 0.7246084}
+    - {x: 0.6865225, y: 0.6992197}
+    - {x: 0.6865225, y: 0.7246084}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "2bbf74db5e661544cad5eeff85d9f713"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car02_eyes_4"
+    boundsData:
+    - {x: 0.004999999, y: -0.055, z: 0}
+    - {x: 0.25, y: 0.07, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.27, y: 0.19, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.12, y: -0.09, z: 0}
+    - {x: 0.13, y: -0.09, z: 0}
+    - {x: -0.12, y: -0.01999999, z: 0}
+    - {x: 0.13, y: -0.01999999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1787119, y: 0.4677744}
+    - {x: 0.203124, y: 0.4677744}
+    - {x: 0.1787119, y: 0.4746084}
+    - {x: 0.203124, y: 0.4746084}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "4f5f801a94845b541bd7d456d29b0976"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car02_eyes_1"
+    boundsData:
+    - {x: 0.02, y: -0.004999995, z: 0}
+    - {x: 0.24, y: 0.17, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.27, y: 0.19, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.09999999, y: -0.09, z: 0}
+    - {x: 0.14, y: -0.09, z: 0}
+    - {x: -0.09999999, y: 0.08000001, z: 0}
+    - {x: 0.14, y: 0.08000001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6904306, y: 0.8447275}
+    - {x: 0.6904306, y: 0.8681631}
+    - {x: 0.7070303, y: 0.8447275}
+    - {x: 0.7070303, y: 0.8681631}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "70b4ebb699d11af4fbb1a7d063e0b75c"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car02_eyes_3"
+    boundsData:
+    - {x: 0.004999999, y: -0.055, z: 0}
+    - {x: 0.25, y: 0.07, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.27, y: 0.19, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.12, y: -0.09, z: 0}
+    - {x: 0.13, y: -0.09, z: 0}
+    - {x: -0.12, y: -0.01999999, z: 0}
+    - {x: 0.13, y: -0.01999999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2070322, y: 0.4677744}
+    - {x: 0.2314443, y: 0.4677744}
+    - {x: 0.2070322, y: 0.4746084}
+    - {x: 0.2314443, y: 0.4746084}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "1bdbacc9f675b7b4fb1cf84391aacfaf"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car02_eyes_2"
+    boundsData:
+    - {x: 0.004999999, y: -0.02999999, z: 0}
+    - {x: 0.25, y: 0.12, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.27, y: 0.19, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.12, y: -0.09, z: 0}
+    - {x: 0.13, y: -0.09, z: 0}
+    - {x: -0.12, y: 0.03000001, z: 0}
+    - {x: 0.13, y: 0.03000001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1845713, y: 0.9863291}
+    - {x: 0.2089834, y: 0.9863291}
+    - {x: 0.1845713, y: 0.9980459}
+    - {x: 0.2089834, y: 0.9980459}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "f8875c6ff5ef40f498817a7d521bdb2a"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car02_scp01"
+    boundsData:
+    - {x: 0.01000001, y: -0.00999999, z: 0}
+    - {x: 0.8, y: 0.78, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.82, y: 0.8, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.39, y: -0.4, z: 0}
+    - {x: 0.41, y: -0.4, z: 0}
+    - {x: -0.39, y: 0.38, z: 0}
+    - {x: 0.41, y: 0.38, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7207041, y: 0.1660166}
+    - {x: 0.7988272, y: 0.1660166}
+    - {x: 0.7207041, y: 0.2421865}
+    - {x: 0.7988272, y: 0.2421865}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "7f29d01450380b64a9ac6b874b45e912"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car02_hull_prt01_dmg2"
+    boundsData:
+    - {x: 0, y: 7.450581E-09, z: 0}
+    - {x: 0.72, y: 0.48, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.74, y: 0.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.36, y: -0.24, z: 0}
+    - {x: 0.36, y: -0.24, z: 0}
+    - {x: -0.36, y: 0.24, z: 0}
+    - {x: 0.36, y: 0.24, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6904306, y: 0.6992197}
+    - {x: 0.7607412, y: 0.6992197}
+    - {x: 0.6904306, y: 0.7460928}
+    - {x: 0.7607412, y: 0.7460928}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "95e190af569833347bb2057a6df964f8"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car02_hull_prt00"
+    boundsData:
+    - {x: -1.490116E-08, y: -0.01000001, z: 0}
+    - {x: 0.74, y: 0.48, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.00500001, z: 0}
+    - {x: 0.76, y: 0.49, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.37, y: -0.25, z: 0}
+    - {x: 0.37, y: -0.25, z: 0}
+    - {x: -0.37, y: 0.23, z: 0}
+    - {x: 0.37, y: 0.23, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4111338, y: 0.5830088}
+    - {x: 0.4833975, y: 0.5830088}
+    - {x: 0.4111338, y: 0.6298819}
+    - {x: 0.4833975, y: 0.6298819}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "6e7d2d0edd19a304bb06273ac54ad938"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car02_hull_prt02_dmg1"
+    boundsData:
+    - {x: 0, y: -0.00999999, z: 0}
+    - {x: 0.78, y: 0.56, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.8, y: 0.57, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.39, y: -0.29, z: 0}
+    - {x: 0.39, y: -0.29, z: 0}
+    - {x: -0.39, y: 0.27, z: 0}
+    - {x: 0.39, y: 0.27, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7636728, y: 0.1074229}
+    - {x: 0.8398428, y: 0.1074229}
+    - {x: 0.7636728, y: 0.1621084}
+    - {x: 0.8398428, y: 0.1621084}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "721759c9afd336e4ead28853567cb9c0"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car02_hull_prt02_dmg2"
+    boundsData:
+    - {x: 0.005000025, y: -0.00999999, z: 0}
+    - {x: 0.79, y: 0.56, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.005000025, y: -0.004999995, z: 0}
+    - {x: 0.81, y: 0.57, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.39, y: -0.29, z: 0}
+    - {x: 0.4, y: -0.29, z: 0}
+    - {x: -0.39, y: 0.27, z: 0}
+    - {x: 0.4, y: 0.27, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6826181, y: 0.1074229}
+    - {x: 0.7597647, y: 0.1074229}
+    - {x: 0.6826181, y: 0.1621084}
+    - {x: 0.7597647, y: 0.1621084}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "a9299b2589e5e2c488a6d3cd59440624"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car02_scp04"
+    boundsData:
+    - {x: 0.01000001, y: 1.490116E-08, z: 0}
+    - {x: 0.6, y: 0.84, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.62, y: 0.88, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.29, y: -0.42, z: 0}
+    - {x: 0.31, y: -0.42, z: 0}
+    - {x: -0.29, y: 0.42, z: 0}
+    - {x: 0.31, y: 0.42, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4345713, y: 0.1074229}
+    - {x: 0.4345713, y: 0.1660146}
+    - {x: 0.5166006, y: 0.1074229}
+    - {x: 0.5166006, y: 0.1660146}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "854d2272edd93b34cb3711095ce34a2c"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car02_scp02"
+    boundsData:
+    - {x: 1.490116E-08, y: -0.01000001, z: 0}
+    - {x: 0.84, y: 0.42, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.88, y: 0.44, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.42, y: -0.22, z: 0}
+    - {x: 0.42, y: -0.22, z: 0}
+    - {x: -0.42, y: 0.2, z: 0}
+    - {x: 0.42, y: 0.2, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4873057, y: 0.5820322}
+    - {x: 0.569335, y: 0.5820322}
+    - {x: 0.4873057, y: 0.6230459}
+    - {x: 0.569335, y: 0.6230459}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "cdbbd63c8e2e8f44cab3ebc61e8ee266"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car02_scp03"
+    boundsData:
+    - {x: 0.01000001, y: -0.01000001, z: 0}
+    - {x: 0.64, y: 0.8199999, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.66, y: 0.84, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.31, y: -0.42, z: 0}
+    - {x: 0.33, y: -0.42, z: 0}
+    - {x: -0.31, y: 0.4, z: 0}
+    - {x: 0.33, y: 0.4, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3505869, y: 0.1074229}
+    - {x: 0.3505869, y: 0.1699209}
+    - {x: 0.4306631, y: 0.1074229}
+    - {x: 0.4306631, y: 0.1699209}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "13de772ad50e901478106ee77854b684"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car02_wheel"
+    boundsData:
+    - {x: 0.005000003, y: -0.004999995, z: 0}
+    - {x: 0.45, y: 0.45, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.46, y: 0.46, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.22, y: -0.23, z: 0}
+    - {x: 0.23, y: -0.23, z: 0}
+    - {x: -0.22, y: 0.22, z: 0}
+    - {x: 0.23, y: 0.22, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7138681, y: 0.2460947}
+    - {x: 0.7578115, y: 0.2460947}
+    - {x: 0.7138681, y: 0.2900381}
+    - {x: 0.7578115, y: 0.2900381}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "4c23b706bd5172e478b696504ae059df"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car02_hull_prt03"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.67, y: 0.57, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.67, y: 0.57, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.33, y: -0.29, z: 0}
+    - {x: 0.34, y: -0.29, z: 0}
+    - {x: -0.33, y: 0.28, z: 0}
+    - {x: 0.34, y: 0.28, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8359385, y: 0.4345713}
+    - {x: 0.8359385, y: 0.499999}
+    - {x: 0.8916006, y: 0.4345713}
+    - {x: 0.8916006, y: 0.499999}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "7578d0329ced0284b9565bb6e4c5c2fc"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car02_hull_prt01_dmg1"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.72, y: 0.5, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.74, y: 0.52, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.36, y: -0.25, z: 0}
+    - {x: 0.36, y: -0.25, z: 0}
+    - {x: -0.36, y: 0.25, z: 0}
+    - {x: 0.36, y: 0.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6884775, y: 0.7919931}
+    - {x: 0.7587881, y: 0.7919931}
+    - {x: 0.6884775, y: 0.8408194}
+    - {x: 0.7587881, y: 0.8408194}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "e5eb9e804eb74cb4095f60a927ef19d0"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car02_hull_prt02"
+    boundsData:
+    - {x: 0, y: -0.00999999, z: 0}
+    - {x: 0.78, y: 0.56, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.8, y: 0.57, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.39, y: -0.29, z: 0}
+    - {x: 0.39, y: -0.29, z: 0}
+    - {x: -0.39, y: 0.27, z: 0}
+    - {x: 0.39, y: 0.27, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7402353, y: 0.6162119}
+    - {x: 0.7402353, y: 0.6923819}
+    - {x: 0.7949209, y: 0.6162119}
+    - {x: 0.7949209, y: 0.6923819}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "5178cab87a7154344a7568e1522cae85"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car02_hull_prt01"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.72, y: 0.5, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.74, y: 0.52, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.36, y: -0.25, z: 0}
+    - {x: 0.36, y: -0.25, z: 0}
+    - {x: -0.36, y: 0.25, z: 0}
+    - {x: 0.36, y: 0.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4599619, y: 0.2480479}
+    - {x: 0.5302725, y: 0.2480479}
+    - {x: 0.4599619, y: 0.296874}
+    - {x: 0.5302725, y: 0.296874}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "d92af1d97c616664a96ffd5cb6ced293"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_eyes_1"
+    boundsData:
+    - {x: 7.450581E-09, y: -0.005000003, z: 0}
+    - {x: 0.26, y: 0.19, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.005000003, z: 0}
+    - {x: 0.28, y: 0.21, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.13, y: -0.1, z: 0}
+    - {x: 0.13, y: -0.1, z: 0}
+    - {x: -0.13, y: 0.09, z: 0}
+    - {x: 0.13, y: 0.09, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6611338, y: 0.7285166}
+    - {x: 0.6865225, y: 0.7285166}
+    - {x: 0.6611338, y: 0.7470694}
+    - {x: 0.6865225, y: 0.7470694}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "1dc56156548de804fb962366ae9842eb"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_eyes_2"
+    boundsData:
+    - {x: 7.450581E-09, y: -0.015, z: 0}
+    - {x: 0.26, y: 0.17, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.005000003, z: 0}
+    - {x: 0.28, y: 0.21, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.13, y: -0.1, z: 0}
+    - {x: 0.13, y: -0.1, z: 0}
+    - {x: -0.13, y: 0.07, z: 0}
+    - {x: 0.13, y: 0.07, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7539072, y: 0.750001}
+    - {x: 0.7539072, y: 0.7753897}
+    - {x: 0.7705069, y: 0.750001}
+    - {x: 0.7705069, y: 0.7753897}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "92b9b1c3b0a097c4a84c57c117f5d7db"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_eyes_3"
+    boundsData:
+    - {x: 0.005000006, y: -0.03, z: 0}
+    - {x: 0.25, y: 0.14, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.005000003, z: 0}
+    - {x: 0.28, y: 0.21, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.12, y: -0.1, z: 0}
+    - {x: 0.13, y: -0.1, z: 0}
+    - {x: -0.12, y: 0.04, z: 0}
+    - {x: 0.13, y: 0.04, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7158213, y: 0.9677744}
+    - {x: 0.7158213, y: 0.9921865}
+    - {x: 0.7294912, y: 0.9677744}
+    - {x: 0.7294912, y: 0.9921865}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "19b1bd96917a7f44e977424db85cd43d"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_eyes_4"
+    boundsData:
+    - {x: 0.02000001, y: -0.04, z: 0}
+    - {x: 0.22, y: 0.12, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.005000003, z: 0}
+    - {x: 0.28, y: 0.21, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.09, y: -0.1, z: 0}
+    - {x: 0.13, y: -0.1, z: 0}
+    - {x: -0.09, y: 0.02, z: 0}
+    - {x: 0.13, y: 0.02, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3652354, y: 0.5830088}
+    - {x: 0.3867178, y: 0.5830088}
+    - {x: 0.3652354, y: 0.5947256}
+    - {x: 0.3867178, y: 0.5947256}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "e8c5d7efcc0c3f4468ef23b465e06590"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_scp05"
+    boundsData:
+    - {x: 0, y: -0.01000001, z: 0}
+    - {x: 0.7399999, y: 0.6999999, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.78, y: 0.72, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.37, y: -0.36, z: 0}
+    - {x: 0.37, y: -0.36, z: 0}
+    - {x: -0.37, y: 0.34, z: 0}
+    - {x: 0.37, y: 0.34, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5517588, y: 0.1699229}
+    - {x: 0.5517588, y: 0.2421865}
+    - {x: 0.6201162, y: 0.1699229}
+    - {x: 0.6201162, y: 0.2421865}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "93d4e5a0496d7094ca8b2d46dfeff8d1"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_hull_prt01_dmg2"
+    boundsData:
+    - {x: 0.00999999, y: -0.01000001, z: 0}
+    - {x: 0.62, y: 0.6999999, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.63, y: 0.71, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.3, y: -0.36, z: 0}
+    - {x: 0.32, y: -0.36, z: 0}
+    - {x: -0.3, y: 0.34, z: 0}
+    - {x: 0.32, y: 0.34, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8027353, y: 0.1660166}
+    - {x: 0.8632803, y: 0.1660166}
+    - {x: 0.8027353, y: 0.234374}
+    - {x: 0.8632803, y: 0.234374}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "337d8544522a43246bd3805097cb4e7a"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_hull_prt02_dmg1"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 2.03, y: 0.91, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 2.04, y: 0.93, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.01, y: -0.46, z: 0}
+    - {x: 1.02, y: -0.46, z: 0}
+    - {x: -1.01, y: 0.45, z: 0}
+    - {x: 1.02, y: 0.45, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.6914072}
+    - {x: 0.001954101, y: 0.8896475}
+    - {x: 0.09081934, y: 0.6914072}
+    - {x: 0.09081934, y: 0.8896475}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "8e7e48bcf91bca74db6a538d0849d8fa"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_hull_prt02"
+    boundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 2.1, y: 0.91, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 2.12, y: 0.93, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.05, y: -0.46, z: 0}
+    - {x: 1.05, y: -0.46, z: 0}
+    - {x: -1.05, y: 0.45, z: 0}
+    - {x: 1.05, y: 0.45, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.4824229}
+    - {x: 0.001954101, y: 0.687499}
+    - {x: 0.09081934, y: 0.4824229}
+    - {x: 0.09081934, y: 0.687499}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "56c10ff3cac29a84d851fa3774c4f8de"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_engine"
+    boundsData:
+    - {x: 0.00999999, y: 0, z: 0}
+    - {x: 1.14, y: 0.36, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.15, y: 0.38, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.56, y: -0.18, z: 0}
+    - {x: 0.58, y: -0.18, z: 0}
+    - {x: -0.56, y: 0.18, z: 0}
+    - {x: 0.58, y: 0.18, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.25879, y: 0.4296885}
+    - {x: 0.3701162, y: 0.4296885}
+    - {x: 0.25879, y: 0.4648428}
+    - {x: 0.3701162, y: 0.4648428}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "f596d5e308a92e2449c0d17ca1095320"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_hull_prt00"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.91, y: 0.59, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.92, y: 0.6, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.95, y: -0.3, z: 0}
+    - {x: 0.96, y: -0.3, z: 0}
+    - {x: -0.95, y: 0.29, z: 0}
+    - {x: 0.96, y: 0.29, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1484385, y: 0.1865244}
+    - {x: 0.33496, y: 0.1865244}
+    - {x: 0.1484385, y: 0.2441396}
+    - {x: 0.33496, y: 0.2441396}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "3531504efa9fed842a3f9db974dc9aba"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_scp02"
+    boundsData:
+    - {x: 0, y: -0.01000001, z: 0}
+    - {x: 0.9999999, y: 0.66, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.04, y: 0.68, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.5, y: -0.34, z: 0}
+    - {x: 0.5, y: -0.34, z: 0}
+    - {x: -0.5, y: 0.32, z: 0}
+    - {x: 0.5, y: 0.32, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3388682, y: 0.1757822}
+    - {x: 0.4365225, y: 0.1757822}
+    - {x: 0.3388682, y: 0.2402334}
+    - {x: 0.4365225, y: 0.2402334}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "be67a6ee21cec144b990cc8b32da1b8a"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_scp06"
+    boundsData:
+    - {x: 0, y: 7.450581E-09, z: 0}
+    - {x: 1.02, y: 0.5, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.06, y: 0.54, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.51, y: -0.25, z: 0}
+    - {x: 0.51, y: -0.25, z: 0}
+    - {x: -0.51, y: 0.25, z: 0}
+    - {x: 0.51, y: 0.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4892588, y: 0.7939463}
+    - {x: 0.5888662, y: 0.7939463}
+    - {x: 0.4892588, y: 0.8427725}
+    - {x: 0.5888662, y: 0.8427725}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "f44f42d7895b72d469e498c3c40e53dc"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_hull_prt03_dmg1"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.72, y: 0.6, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.74, y: 0.62, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.36, y: -0.3, z: 0}
+    - {x: 0.36, y: -0.3, z: 0}
+    - {x: -0.36, y: 0.3, z: 0}
+    - {x: 0.36, y: 0.3, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7734385, y: 0.4345713}
+    - {x: 0.7734385, y: 0.5048819}
+    - {x: 0.8320303, y: 0.4345713}
+    - {x: 0.8320303, y: 0.5048819}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "e63489b9fcd0975488eb9853a9e36eb4"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_scp04"
+    boundsData:
+    - {x: 0.01000001, y: -0.00999999, z: 0}
+    - {x: 0.9399999, y: 0.54, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.96, y: 0.56, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.46, y: -0.28, z: 0}
+    - {x: 0.48, y: -0.28, z: 0}
+    - {x: -0.46, y: 0.26, z: 0}
+    - {x: 0.48, y: 0.26, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5927744, y: 0.7919931}
+    - {x: 0.6845694, y: 0.7919931}
+    - {x: 0.5927744, y: 0.8447256}
+    - {x: 0.6845694, y: 0.8447256}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "8bbb5eeb980073b4981c0df6ea27b548"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_hull_prt03"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.78, y: 0.6, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.8, y: 0.62, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.39, y: -0.3, z: 0}
+    - {x: 0.39, y: -0.3, z: 0}
+    - {x: -0.39, y: 0.3, z: 0}
+    - {x: 0.39, y: 0.3, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5205088, y: 0.1074229}
+    - {x: 0.5966787, y: 0.1074229}
+    - {x: 0.5205088, y: 0.1660146}
+    - {x: 0.5966787, y: 0.1660146}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "c1a9cca97ba31014b8289b3f03a44ed0"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_scp01"
+    boundsData:
+    - {x: 0.00999999, y: -0.00999999, z: 0}
+    - {x: 1.06, y: 0.9, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.08, y: 0.92, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.52, y: -0.46, z: 0}
+    - {x: 0.54, y: -0.46, z: 0}
+    - {x: -0.52, y: 0.44, z: 0}
+    - {x: 0.54, y: 0.44, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5292978, y: 0.6269541}
+    - {x: 0.5292978, y: 0.7304678}
+    - {x: 0.6171865, y: 0.6269541}
+    - {x: 0.6171865, y: 0.7304678}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "fda24908481e7b9459550ba29a08f067"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_wheel_b"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.57, y: 0.57, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.58, y: 0.58, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.28, y: -0.29, z: 0}
+    - {x: 0.29, y: -0.29, z: 0}
+    - {x: -0.28, y: 0.28, z: 0}
+    - {x: 0.29, y: 0.28, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9267588, y: 0.2255869}
+    - {x: 0.9824209, y: 0.2255869}
+    - {x: 0.9267588, y: 0.281249}
+    - {x: 0.9824209, y: 0.281249}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "fea0e6b6e6bce5a439865bf2b06ebbb1"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_scp03"
+    boundsData:
+    - {x: 0, y: -0.01000001, z: 0}
+    - {x: 0.36, y: 0.6, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.36, y: 0.62, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.18, y: -0.31, z: 0}
+    - {x: 0.18, y: -0.31, z: 0}
+    - {x: -0.18, y: 0.29, z: 0}
+    - {x: 0.18, y: 0.29, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5751963, y: 0.54004}
+    - {x: 0.5751963, y: 0.5751944}
+    - {x: 0.6337881, y: 0.54004}
+    - {x: 0.6337881, y: 0.5751944}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "74189380468c7294d90cb3397c5d1fc2"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_hull_prt03_dmg2"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.57, y: 0.6, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.58, y: 0.62, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.28, y: -0.3, z: 0}
+    - {x: 0.29, y: -0.3, z: 0}
+    - {x: -0.28, y: 0.3, z: 0}
+    - {x: 0.29, y: 0.3, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9003916, y: 0.2861338}
+    - {x: 0.9560537, y: 0.2861338}
+    - {x: 0.9003916, y: 0.3447256}
+    - {x: 0.9560537, y: 0.3447256}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "0f30519f393bf09479eff1e6d97c4df0"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_wheel_f"
+    boundsData:
+    - {x: 0.005000003, y: -0.004999995, z: 0}
+    - {x: 0.45, y: 0.45, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.46, y: 0.46, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.22, y: -0.23, z: 0}
+    - {x: 0.23, y: -0.23, z: 0}
+    - {x: -0.22, y: 0.22, z: 0}
+    - {x: 0.23, y: 0.22, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7617197, y: 0.2460947}
+    - {x: 0.8056631, y: 0.2460947}
+    - {x: 0.7617197, y: 0.2900381}
+    - {x: 0.8056631, y: 0.2900381}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "5571768829163314bbc2d1078ee296e9"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_hull_prt01"
+    boundsData:
+    - {x: 0.004999995, y: -0.01000001, z: 0}
+    - {x: 0.61, y: 0.6999999, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.63, y: 0.71, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.3, y: -0.36, z: 0}
+    - {x: 0.31, y: -0.36, z: 0}
+    - {x: -0.3, y: 0.34, z: 0}
+    - {x: 0.31, y: 0.34, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.82129, y: 0.3623057}
+    - {x: 0.8808584, y: 0.3623057}
+    - {x: 0.82129, y: 0.4306631}
+    - {x: 0.8808584, y: 0.4306631}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "e46c2a6deed6a65439401cfee991d37f"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_hull_prt02_dmg2"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 2.01, y: 0.91, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 2.03, y: 0.93, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1, y: -0.46, z: 0}
+    - {x: 1.01, y: -0.46, z: 0}
+    - {x: -1, y: 0.45, z: 0}
+    - {x: 1.01, y: 0.45, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.8935556}
+    - {x: 0.1982412, y: 0.8935556}
+    - {x: 0.001954101, y: 0.9824209}
+    - {x: 0.1982412, y: 0.9824209}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "73ef6c5964dbcc347ac873407904584b"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car03_hull_prt01_dmg1"
+    boundsData:
+    - {x: 0.00999999, y: -0.01000001, z: 0}
+    - {x: 0.62, y: 0.6999999, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.63, y: 0.71, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.3, y: -0.36, z: 0}
+    - {x: 0.32, y: -0.36, z: 0}
+    - {x: -0.3, y: 0.34, z: 0}
+    - {x: 0.32, y: 0.34, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7568369, y: 0.3623057}
+    - {x: 0.8173819, y: 0.3623057}
+    - {x: 0.7568369, y: 0.4306631}
+    - {x: 0.8173819, y: 0.4306631}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "c44fc712e7983ea4db1dbd7a46ed6e25"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car04_hull_dmg2"
+    boundsData:
+    - {x: 0, y: -0.005000025, z: 0}
+    - {x: 0.96, y: 1.13, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.98, y: 1.14, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.48, y: -0.57, z: 0}
+    - {x: 0.48, y: -0.57, z: 0}
+    - {x: -0.48, y: 0.5599999, z: 0}
+    - {x: 0.48, y: 0.5599999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.25879, y: 0.3154307}
+    - {x: 0.3525381, y: 0.3154307}
+    - {x: 0.25879, y: 0.4257803}
+    - {x: 0.3525381, y: 0.4257803}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "c6fc73b42d02c8a4db5057e32885f80e"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car04_hull_dmg1"
+    boundsData:
+    - {x: 0, y: -0.005000025, z: 0}
+    - {x: 0.96, y: 1.13, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.98, y: 1.14, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.48, y: -0.57, z: 0}
+    - {x: 0.48, y: -0.57, z: 0}
+    - {x: -0.48, y: 0.5599999, z: 0}
+    - {x: 0.48, y: 0.5599999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3564463, y: 0.3027354}
+    - {x: 0.4501943, y: 0.3027354}
+    - {x: 0.3564463, y: 0.413085}
+    - {x: 0.4501943, y: 0.413085}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "b83e76ca02be76b4793243fdde2a4125"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car04_hull"
+    boundsData:
+    - {x: 0, y: -0.005000025, z: 0}
+    - {x: 0.96, y: 1.13, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.98, y: 1.14, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.48, y: -0.57, z: 0}
+    - {x: 0.48, y: -0.57, z: 0}
+    - {x: -0.48, y: 0.5599999, z: 0}
+    - {x: 0.48, y: 0.5599999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3330088, y: 0.468751}
+    - {x: 0.4267568, y: 0.468751}
+    - {x: 0.3330088, y: 0.5791006}
+    - {x: 0.4267568, y: 0.5791006}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "00f8ad9cb9ccd37478b8b65f2dfe97f5"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car04_scp04"
+    boundsData:
+    - {x: 1.490116E-08, y: 1.490116E-08, z: 0}
+    - {x: 0.78, y: 0.78, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.82, y: 0.82, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.39, y: -0.39, z: 0}
+    - {x: 0.39, y: -0.39, z: 0}
+    - {x: -0.39, y: 0.39, z: 0}
+    - {x: 0.39, y: 0.39, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6767588, y: 0.3876963}
+    - {x: 0.7529287, y: 0.3876963}
+    - {x: 0.6767588, y: 0.4638662}
+    - {x: 0.7529287, y: 0.4638662}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "74ad54428336ae14e91987eda8528a0b"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car04_scp02"
+    boundsData:
+    - {x: 0, y: -0.01000001, z: 0}
+    - {x: 0.7399999, y: 0.6999999, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.78, y: 0.72, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.37, y: -0.36, z: 0}
+    - {x: 0.37, y: -0.36, z: 0}
+    - {x: -0.37, y: 0.34, z: 0}
+    - {x: 0.37, y: 0.34, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6044931, y: 0.3916025}
+    - {x: 0.6044931, y: 0.4638662}
+    - {x: 0.6728506, y: 0.3916025}
+    - {x: 0.6728506, y: 0.4638662}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "60340c68f1c4a8840b1b50a7fadc6099"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car04_scp01"
+    boundsData:
+    - {x: 0.01000001, y: 1.490116E-08, z: 0}
+    - {x: 0.76, y: 0.62, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.78, y: 0.66, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.37, y: -0.31, z: 0}
+    - {x: 0.39, y: -0.31, z: 0}
+    - {x: -0.37, y: 0.31, z: 0}
+    - {x: 0.39, y: 0.31, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7216806, y: 0.5380869}
+    - {x: 0.7216806, y: 0.6123037}
+    - {x: 0.7822256, y: 0.5380869}
+    - {x: 0.7822256, y: 0.6123037}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "98cbc079390878b4388369b7ee6ea70f"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car04_wheel"
+    boundsData:
+    - {x: 0.005000003, y: -0.004999995, z: 0}
+    - {x: 0.45, y: 0.45, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.46, y: 0.46, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.22, y: -0.23, z: 0}
+    - {x: 0.23, y: -0.23, z: 0}
+    - {x: -0.22, y: 0.22, z: 0}
+    - {x: 0.23, y: 0.22, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8662119, y: 0.2382822}
+    - {x: 0.9101553, y: 0.2382822}
+    - {x: 0.8662119, y: 0.2822256}
+    - {x: 0.9101553, y: 0.2822256}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "591000e3726a71e46b3b9314c3f36e5e"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy_igor_easter_car04_scp03"
+    boundsData:
+    - {x: 0.009999998, y: 0, z: 0}
+    - {x: 0.46, y: 0.72, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.48, y: 0.76, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.22, y: -0.36, z: 0}
+    - {x: 0.24, y: -0.36, z: 0}
+    - {x: -0.22, y: 0.36, z: 0}
+    - {x: 0.24, y: 0.36, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5341806, y: 0.2480479}
+    - {x: 0.5341806, y: 0.2929678}
+    - {x: 0.6044912, y: 0.2480479}
+    - {x: 0.6044912, y: 0.2929678}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "c41a278bbf94ab049b16cff784c54c58"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "civil_igor_easter_car01_hull_prt01_dmg1"
+    boundsData:
+    - {x: 0.00999999, y: -0.004999995, z: 0}
+    - {x: 1.46, y: 1.61, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.47, y: 1.62, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.72, y: -0.81, z: 0}
+    - {x: 0.7399999, y: -0.81, z: 0}
+    - {x: -0.72, y: 0.8, z: 0}
+    - {x: 0.7399999, y: 0.8, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.001954101}
+    - {x: 0.1445303, y: 0.001954101}
+    - {x: 0.001954101, y: 0.1591787}
+    - {x: 0.1445303, y: 0.1591787}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "61feda9921c44ef4caa10696cc4b79d8"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "civil_igor_easter_car01_wheel"
+    boundsData:
+    - {x: 0.01000002, y: -0.00999999, z: 0}
+    - {x: 0.54, y: 0.54, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.005000025, y: -0.004999995, z: 0}
+    - {x: 0.55, y: 0.55, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.26, y: -0.28, z: 0}
+    - {x: 0.28, y: -0.28, z: 0}
+    - {x: -0.26, y: 0.26, z: 0}
+    - {x: 0.28, y: 0.26, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7988291, y: 0.5810556}
+    - {x: 0.8515615, y: 0.5810556}
+    - {x: 0.7988291, y: 0.6337881}
+    - {x: 0.8515615, y: 0.6337881}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "cc3898445a895cd4ab2baa9785497ccc"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "civil_igor_easter_car01_hull_prt01_dmg2"
+    boundsData:
+    - {x: 0.004999965, y: -2.980232E-08, z: 0}
+    - {x: 1.45, y: 1.58, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.47, y: 1.6, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.72, y: -0.79, z: 0}
+    - {x: 0.7299999, y: -0.79, z: 0}
+    - {x: -0.72, y: 0.7899999, z: 0}
+    - {x: 0.7299999, y: 0.7899999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.3242197}
+    - {x: 0.1435537, y: 0.3242197}
+    - {x: 0.001954101, y: 0.4785146}
+    - {x: 0.1435537, y: 0.4785146}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "f63bbec6977af5a458f8e0265b9d380f"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "civil_igor_easter_car01_hull_scp01"
+    boundsData:
+    - {x: 7.450581E-09, y: -0.004999995, z: 0}
+    - {x: 0.48, y: 0.55, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.5, y: 0.57, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.24, y: -0.28, z: 0}
+    - {x: 0.24, y: -0.28, z: 0}
+    - {x: -0.24, y: 0.27, z: 0}
+    - {x: 0.24, y: 0.27, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6083994, y: 0.2460947}
+    - {x: 0.6083994, y: 0.2929678}
+    - {x: 0.6621084, y: 0.2460947}
+    - {x: 0.6621084, y: 0.2929678}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "b3cb5c38b4b2269418eaf7c6319d838b"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "civil_igor_easter_car01_hull_prt01"
+    boundsData:
+    - {x: 0.00999999, y: -0.004999995, z: 0}
+    - {x: 1.46, y: 1.61, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.47, y: 1.62, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.72, y: -0.81, z: 0}
+    - {x: 0.7399999, y: -0.81, z: 0}
+    - {x: -0.72, y: 0.8, z: 0}
+    - {x: 0.7399999, y: 0.8, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.1630869}
+    - {x: 0.1445303, y: 0.1630869}
+    - {x: 0.001954101, y: 0.3203115}
+    - {x: 0.1445303, y: 0.3203115}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "0b4aae96ae43dae4dbb5cdcc70a71900"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "civil_igor_easter_car01_hull_prt00"
+    boundsData:
+    - {x: 0.00999999, y: 0, z: 0}
+    - {x: 1.18, y: 0.78, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.19, y: 0.8, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.58, y: -0.39, z: 0}
+    - {x: 0.6, y: -0.39, z: 0}
+    - {x: -0.58, y: 0.39, z: 0}
+    - {x: 0.6, y: 0.39, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6210947, y: 0.6191416}
+    - {x: 0.7363272, y: 0.6191416}
+    - {x: 0.6210947, y: 0.6953115}
+    - {x: 0.7363272, y: 0.6953115}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "81cd108b50570054a9efb8ce9f64a7ad"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "civil_igor_easter_car01_hull_scp03"
+    boundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.54, y: 0.53, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.56, y: 0.54, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.27, y: -0.27, z: 0}
+    - {x: 0.27, y: -0.27, z: 0}
+    - {x: -0.27, y: 0.26, z: 0}
+    - {x: 0.27, y: 0.26, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8095713, y: 0.2382822}
+    - {x: 0.8623037, y: 0.2382822}
+    - {x: 0.8095713, y: 0.2900381}
+    - {x: 0.8623037, y: 0.2900381}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "785ea8ad3f2c21041820f080af829fba"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "civil_igor_easter_car01_hull_scp04"
+    boundsData:
+    - {x: 0.004999995, y: -0.00999999, z: 0}
+    - {x: 0.61, y: 1, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.63, y: 1.01, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.3, y: -0.51, z: 0}
+    - {x: 0.31, y: -0.51, z: 0}
+    - {x: -0.3, y: 0.49, z: 0}
+    - {x: 0.31, y: 0.49, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7626963, y: 0.7792978}
+    - {x: 0.7626963, y: 0.8388662}
+    - {x: 0.8603506, y: 0.7792978}
+    - {x: 0.8603506, y: 0.8388662}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "ce039931ebc41a748876aa59d3f90da6"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "civil_igor_easter_car01_hull_scp02"
+    boundsData:
+    - {x: 0.004999995, y: -0.00999999, z: 0}
+    - {x: 0.57, y: 0.8, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.58, y: 0.81, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.28, y: -0.41, z: 0}
+    - {x: 0.29, y: -0.41, z: 0}
+    - {x: -0.28, y: 0.39, z: 0}
+    - {x: 0.29, y: 0.39, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6005869, y: 0.1074229}
+    - {x: 0.6005869, y: 0.163085}
+    - {x: 0.67871, y: 0.1074229}
+    - {x: 0.67871, y: 0.163085}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "c676ce5403f2b114dbdd23af72500947"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy4_mini_easter_igor_hull"
+    boundsData:
+    - {x: 0, y: -1.490116E-08, z: 0}
+    - {x: 0.56, y: 0.76, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.58, y: 0.78, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.28, y: -0.38, z: 0}
+    - {x: 0.28, y: -0.38, z: 0}
+    - {x: -0.28, y: 0.38, z: 0}
+    - {x: 0.28, y: 0.38, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.843751, y: 0.1074229}
+    - {x: 0.843751, y: 0.1621084}
+    - {x: 0.9179678, y: 0.1074229}
+    - {x: 0.9179678, y: 0.1621084}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "3cdab80db2f237a40a228f18cb2f06b2"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: 
+    boundsData:
+    - {x: 0.31, y: -0.31, z: 0}
+    - {x: 0.64, y: 0.64, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.31, y: -0.31, z: 0}
+    - {x: 0.64, y: 0.64, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.01, y: -0.63, z: 0}
+    - {x: 0.63, y: -0.63, z: 0}
+    - {x: -0.01, y: 0.00999999, z: 0}
+    - {x: 0.63, y: 0.00999999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2021494, y: 0.9736338}
+    - {x: 0.2041006, y: 0.9736338}
+    - {x: 0.2021494, y: 0.975585}
+    - {x: 0.2041006, y: 0.975585}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: 
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy4_mini_easter_igor_wheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.34, y: 0.34, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.36, y: 0.36, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.17, y: -0.17, z: 0}
+    - {x: 0.17, y: -0.17, z: 0}
+    - {x: -0.17, y: 0.17, z: 0}
+    - {x: 0.17, y: 0.17, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6376963, y: 0.54004}
+    - {x: 0.6708975, y: 0.54004}
+    - {x: 0.6376963, y: 0.5732412}
+    - {x: 0.6708975, y: 0.5732412}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "9908e3c8864abc749b68a9a755a326d1"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: 
+    boundsData:
+    - {x: 0.31, y: -0.31, z: 0}
+    - {x: 0.64, y: 0.64, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.31, y: -0.31, z: 0}
+    - {x: 0.64, y: 0.64, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.01, y: -0.63, z: 0}
+    - {x: 0.63, y: -0.63, z: 0}
+    - {x: -0.01, y: 0.00999999, z: 0}
+    - {x: 0.63, y: 0.00999999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2021494, y: 0.9736338}
+    - {x: 0.2041006, y: 0.9736338}
+    - {x: 0.2021494, y: 0.975585}
+    - {x: 0.2041006, y: 0.975585}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: 
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy1_mini_easter_igor_hull"
+    boundsData:
+    - {x: -2.980232E-08, y: -1.490116E-08, z: 0}
+    - {x: 1.1, y: 0.76, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.12, y: 0.78, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.55, y: -0.38, z: 0}
+    - {x: 0.55, y: -0.38, z: 0}
+    - {x: -0.55, y: 0.38, z: 0}
+    - {x: 0.55, y: 0.38, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4404307, y: 0.1699229}
+    - {x: 0.5478506, y: 0.1699229}
+    - {x: 0.4404307, y: 0.2441396}
+    - {x: 0.5478506, y: 0.2441396}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "ba7ac66b8df6db745b5e186d36a19b2c"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: 
+    boundsData:
+    - {x: 0.31, y: -0.31, z: 0}
+    - {x: 0.64, y: 0.64, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.31, y: -0.31, z: 0}
+    - {x: 0.64, y: 0.64, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.01, y: -0.63, z: 0}
+    - {x: 0.63, y: -0.63, z: 0}
+    - {x: -0.01, y: 0.00999999, z: 0}
+    - {x: 0.63, y: 0.00999999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2021494, y: 0.9736338}
+    - {x: 0.2041006, y: 0.9736338}
+    - {x: 0.2021494, y: 0.975585}
+    - {x: 0.2041006, y: 0.975585}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: 
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy2_mini_easter_igor_hull"
+    boundsData:
+    - {x: 0.004999995, y: -1.490116E-08, z: 0}
+    - {x: 0.55, y: 0.76, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.57, y: 0.78, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.27, y: -0.38, z: 0}
+    - {x: 0.28, y: -0.38, z: 0}
+    - {x: -0.27, y: 0.38, z: 0}
+    - {x: 0.28, y: 0.38, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8222666, y: 0.2939463}
+    - {x: 0.8222666, y: 0.3476553}
+    - {x: 0.8964834, y: 0.2939463}
+    - {x: 0.8964834, y: 0.3476553}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "213c5783290bbbc4383d0d78ed12045a"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy3_mini_easter_igor_hull"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.54, y: 0.8, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.56, y: 0.82, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.77, y: -0.4, z: 0}
+    - {x: 0.77, y: -0.4, z: 0}
+    - {x: -0.77, y: 0.4, z: 0}
+    - {x: 0.77, y: 0.4, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5527353, y: 0.8867197}
+    - {x: 0.703124, y: 0.8867197}
+    - {x: 0.5527353, y: 0.9648428}
+    - {x: 0.703124, y: 0.9648428}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "4d923072b42376546bcb2361643d29e5"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy1_mini_easter_igor_wheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.34, y: 0.34, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.36, y: 0.36, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.17, y: -0.17, z: 0}
+    - {x: 0.17, y: -0.17, z: 0}
+    - {x: -0.17, y: 0.17, z: 0}
+    - {x: 0.17, y: 0.17, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6162119, y: 0.8486338}
+    - {x: 0.6494131, y: 0.8486338}
+    - {x: 0.6162119, y: 0.881835}
+    - {x: 0.6494131, y: 0.881835}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "88fd8a74c7e19714f856de5aa69f4806"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: 
+    boundsData:
+    - {x: 0.31, y: -0.31, z: 0}
+    - {x: 0.64, y: 0.64, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.31, y: -0.31, z: 0}
+    - {x: 0.64, y: 0.64, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.01, y: -0.63, z: 0}
+    - {x: 0.63, y: -0.63, z: 0}
+    - {x: -0.01, y: 0.00999999, z: 0}
+    - {x: 0.63, y: 0.00999999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2021494, y: 0.9736338}
+    - {x: 0.2041006, y: 0.9736338}
+    - {x: 0.2021494, y: 0.975585}
+    - {x: 0.2041006, y: 0.975585}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: 
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy2_mini_easter_igor_wheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.34, y: 0.34, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.36, y: 0.36, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.17, y: -0.17, z: 0}
+    - {x: 0.17, y: -0.17, z: 0}
+    - {x: -0.17, y: 0.17, z: 0}
+    - {x: 0.17, y: 0.17, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6533213, y: 0.8486338}
+    - {x: 0.6865225, y: 0.8486338}
+    - {x: 0.6533213, y: 0.881835}
+    - {x: 0.6865225, y: 0.881835}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "c20b75666a1466e4280cba74e3ed2a23"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: 
+    boundsData:
+    - {x: 0.31, y: -0.31, z: 0}
+    - {x: 0.64, y: 0.64, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.31, y: -0.31, z: 0}
+    - {x: 0.64, y: 0.64, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.01, y: -0.63, z: 0}
+    - {x: 0.63, y: -0.63, z: 0}
+    - {x: -0.01, y: 0.00999999, z: 0}
+    - {x: 0.63, y: 0.00999999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2021494, y: 0.9736338}
+    - {x: 0.2041006, y: 0.9736338}
+    - {x: 0.2021494, y: 0.975585}
+    - {x: 0.2041006, y: 0.975585}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: 
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "enemy3_mini_easter_igor_wheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.34, y: 0.34, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.36, y: 0.36, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.17, y: -0.17, z: 0}
+    - {x: 0.17, y: -0.17, z: 0}
+    - {x: -0.17, y: 0.17, z: 0}
+    - {x: 0.17, y: 0.17, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6748056, y: 0.54004}
+    - {x: 0.7080069, y: 0.54004}
+    - {x: 0.6748056, y: 0.5732412}
+    - {x: 0.7080069, y: 0.5732412}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "213391126756dc845a2c3463fdb9c7e6"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: 
+    boundsData:
+    - {x: 0.31, y: -0.31, z: 0}
+    - {x: 0.64, y: 0.64, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.31, y: -0.31, z: 0}
+    - {x: 0.64, y: 0.64, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.01, y: -0.63, z: 0}
+    - {x: 0.63, y: -0.63, z: 0}
+    - {x: -0.01, y: 0.00999999, z: 0}
+    - {x: 0.63, y: 0.00999999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2021494, y: 0.9736338}
+    - {x: 0.2041006, y: 0.9736338}
+    - {x: 0.2021494, y: 0.975585}
+    - {x: 0.2041006, y: 0.975585}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: 
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "civil_mini_igor_easter_car01_wheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.34, y: 0.34, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.36, y: 0.36, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.17, y: -0.17, z: 0}
+    - {x: 0.17, y: -0.17, z: 0}
+    - {x: -0.17, y: 0.17, z: 0}
+    - {x: 0.17, y: 0.17, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6972666, y: 0.750001}
+    - {x: 0.7304678, y: 0.750001}
+    - {x: 0.6972666, y: 0.7832022}
+    - {x: 0.7304678, y: 0.7832022}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "de6b8d723076cea4485b6c13e48d9001"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "civil_mini_igor_easter_car01_hull_prt01"
+    boundsData:
+    - {x: -1.490116E-08, y: -0.00500004, z: 0}
+    - {x: 0.9399999, y: 0.9699999, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.005000025, z: 0}
+    - {x: 0.96, y: 0.9899999, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.47, y: -0.49, z: 0}
+    - {x: 0.47, y: -0.49, z: 0}
+    - {x: -0.47, y: 0.4799999, z: 0}
+    - {x: 0.47, y: 0.4799999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7070322, y: 0.8720713}
+    - {x: 0.7070322, y: 0.9638662}
+    - {x: 0.8017569, y: 0.8720713}
+    - {x: 0.8017569, y: 0.9638662}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+    materialId: 0
+    sourceTextureGUID: "6865eabd9a5259f499deeaa73ad02865"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: def13f25bdac4a24ba8858dd03d83167, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 637f348acae24b07a1234db62704f424, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "5155e2bcf109dbf44b4527a2d3e7d470"
+  spriteCollectionName: "event_objects"
+  assetName: "event_objects"
+  loadable: 1
+  invOrthoSize: 2
+  halfTargetHeight: 50
+  buildKey: 2111313432
+  dataGuid: "d9382d93d21484a4aa0969c28bfcd032"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

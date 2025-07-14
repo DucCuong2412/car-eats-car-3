@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="-*%  cheaper than buying parts separately" xml:space="preserve">
+		<value>X% Günstiger als der Kauf der einzelnen Teile</value>
+	</data>
+	<data name="_beatFriend_description" xml:space="preserve">
+		<value />
+	</data>
+	<data name="_rateUs_btn" xml:space="preserve">
+		<value>PRIJS</value>
+	</data>
+	<data name="_rateUs_caption" xml:space="preserve">
+		<value>BEOORDEEL JE ERVARING!</value>
+	</data>
+	<data name="_rateUs_description" xml:space="preserve">
+		<value>JOUW BEOORDELING HELPT ONS OM UPDATES VOOR HET SPEL TE MAKEN</value>
+	</data>
+	<data name="_rateUs_remind" xml:space="preserve">
+		<value>HERINNER MIJ MEER</value>
+	</data>
+	<data name="+* MAX" xml:space="preserve">
+		<value>+* max.</value>
+	</data>
+	<data name="1 FREE SPIN" xml:space="preserve">
+		<value>1 GRATIS RONDE</value>
+	</data>
+	<data name="1 RACE COSTS * GALLONS OF FUEL" xml:space="preserve">
+		<value>EEN RACE KOST VIJF JERRYCANS.</value>
+	</data>
+	<data name="1-2-3-GO!" xml:space="preserve">
+		<value>START!</value>
+	</data>
+	<data name="5 SEC." xml:space="preserve">
+		<value>5 seconden</value>
+	</data>
+	<data name="A MONSTROUS MIXTURE OF DRILL AND TANK GUN" xml:space="preserve">
+		<value>TANKOMINATOR - EEN MONSTRAAL MENGSEL VAN BOOR EN TANKWIEL</value>
+	</data>
+	<data name="ACTIVE" xml:space="preserve">
+		<value>ACTIEF</value>
+	</data>
+	<data name="Ads allow you to play for free. We apologize if it was obsessive to you. Making any in-app purchase will disable ads forever." xml:space="preserve">
+		<value>Met advertenties kun je gratis spelen. We verontschuldigen ons als het voor jou obsessief was. Als u een in-app-aankoop doet, worden advertenties voor altijd uitgeschakeld.</value>
+	</data>
+	<data name="ADS IN THIS GAME" xml:space="preserve">
+		<value>ADVERTENTIE IN DIE SPEL</value>
+	</data>
+	<data name="AIRSTRIKE!" xml:space="preserve">
+		<value>LUCHTAANVAL!</value>
+	</data>
+	<data name="ALL PROGESS LOST" xml:space="preserve">
+		<value>ALLE VOORUITGANG ZAL VERLOREN ZIJN</value>
+	</data>
+	<data name="ALL PROGRESS IS NOW SYNCHRONIZED WITH YOUR ACCOUNT!" xml:space="preserve">
+		<value>ALLE VOORTGANG IS NU GESYNCHRONISEERD MET JE ACCOUNT!</value>
+	</data>
+	<data name="ALLIGATOR" xml:space="preserve">
+		<value>ALLIGATOR</value>
+	</data>
+	<data name="ANTIGRAVS" xml:space="preserve">
+		<value>ANTI-ZWAARTEKRACHT</value>
+	</data>
+	<data name="ANY PURCHASE REMOVES ALL ADS" xml:space="preserve">
+		<value>MET EEN AANKOOP KRIJG JE GEEN ADVERTENTIES MEER</value>
+	</data>
+	<data name="Archiver" xml:space="preserve">
+		<value>Archiveerder</value>
+	</data>
+	<data name="ARE YOU SHURE" xml:space="preserve">
+		<value>WEET JE HET ZEKER?</value>
+	</data>
+	<data name="ARE YOU SHURE YOU WANT TO QUIT" xml:space="preserve">
+		<value>WEET JE ZEKER DAT JE WILT STOPPEN?</value>
+	</data>
+	<data name="ARE YOU SURE YOU WANT TO BUY ADDITIONAL BOXES FOR * RUBIES?" xml:space="preserve">
+		<value>WEET JE ZEKER DAT JE EXTRA KISTEN WILT KOPEN VOOR * ROBIJNEN?</value>
+	</data>
+	<data name="ARENA *" xml:space="preserve">
+		<value>ARENA *</value>
+	</data>
+	<data name="ARMOR" xml:space="preserve">
+		<value>PANTSER</value>
+	</data>
+	<data name="ART" xml:space="preserve">
+		<value>VORMGEVING</value>
+	</data>
+	<data name="ASK ME LATER" xml:space="preserve">
+		<value>VRAAG HET ME LATER NOG EENS</value>
+	</data>
+	<data name="ATTRACT STARS WHILE DRIVING" xml:space="preserve">
+		<value>TREK STERREN AAN TIJDENS HET RIJDEN.</value>
+	</data>
+	<data name="AWESOME!" xml:space="preserve">
+		<value>GEWELDIG!</value>
+	</data>
+	<data name="BAD" xml:space="preserve">
+		<value>SLECHT</value>
+	</data>
+	<data name="BALANCE YOUR CAR USING TILT BUTTONS" xml:space="preserve">
+		<value>BALANCEER JE AUTO MET DE KANTELKNOPPEN.</value>
+	</data>
+	<data name="BASIC BOMB" xml:space="preserve">
+		<value>BASISCHE BOM</value>
+	</data>
+	<data name="BEERANHA" xml:space="preserve">
+		<value>BIJRANHA</value>
+	</data>
+	<data name="Beetlee" xml:space="preserve">
+		<value>BEETLEE</value>
+	</data>
+	<data name="Beetlee description" xml:space="preserve">
+		<value>BEETLEE - Hij gebruikte soort te zijn, maar nu is hij kwaad</value>
+	</data>
+	<data name="BERSERKER" xml:space="preserve">
+		<value>BERSERKER</value>
+	</data>
+	<data name="BEST" xml:space="preserve">
+		<value>HET BESTE</value>
+	</data>
+	<data name="BETTER TRACTION ON THE GROUND" xml:space="preserve">
+		<value>BETERE GREEP OP DE GROND.</value>
+	</data>
+	<data name="Bigfoot" xml:space="preserve">
+		<value>Bigfoot</value>
+	</data>
+	<data name="BOMB REPLICATOR" xml:space="preserve">
+		<value>BOM REPLICATOR</value>
+	</data>
+	<data name="Bomber" xml:space="preserve">
+		<value>Bommenwr.</value>
+	</data>
+	<data name="BOMBERS!" xml:space="preserve">
+		<value>Bommenwr.!</value>
+	</data>
+	<data name="BOMBS" xml:space="preserve">
+		<value>BOMMEN</value>
+	</data>
+	<data name="BONUS" xml:space="preserve">
+		<value>BONUS</value>
+	</data>
+	<data name="BOOSTS DOUBLED" xml:space="preserve">
+		<value>JE BELONING VERDUBBELD</value>
+	</data>
+	<data name="BOSS KILLER!" xml:space="preserve">
+		<value>BOSS KILLER!</value>
+	</data>
+	<data name="BOSS LEVEL" xml:space="preserve">
+		<value>BAAS NIVEAU</value>
+	</data>
+	<data name="BOSS LEVEL LOCKED" xml:space="preserve">
+		<value>BAAS NIVEAU VERGRENDELD</value>
+	</data>
+	<data name="BOSS1" xml:space="preserve">
+		<value>WOUTENBAK</value>
+	</data>
+	<data name="BOSS2" xml:space="preserve">
+		<value>BRAND</value>
+	</data>
+	<data name="BOSS3" xml:space="preserve">
+		<value>POLITIEAUTOWRAK</value>
+	</data>
+	<data name="BOUGHT" xml:space="preserve">
+		<value>GEKOCHT</value>
+	</data>
+	<data name="BUILD" xml:space="preserve">
+		<value>BUILD</value>
+	</data>
+	<data name="BUY" xml:space="preserve">
+		<value>KOPEN</value>
+	</data>
+	<data name="BUY ADDITIONAL BOXES OR CONTINUE PLAYING" xml:space="preserve">
+		<value>KOOP EXTRA KISTEN OF GA DOOR MET SPELEN.</value>
+	</data>
+	<data name="BUY FUEL" xml:space="preserve">
+		<value>BRANDSTOF KOPEN</value>
+	</data>
+	<data name="BUY NOW" xml:space="preserve">
+		<value>KOOP NU!</value>
+	</data>
+	<data name="BUY RUBIES" xml:space="preserve">
+		<value>ROBIJNEN KOPEN</value>
+	</data>
+	<data name="BY PROCEEDING YOU AGREE TO OUR UPDATED PRIVACY POLICY." xml:space="preserve">
+		<value>Door verder te gaan, gaat u akkoord met ons bijgewerkte privacybeleid.</value>
+	</data>
+	<data name="Can we continue to use your data to tailor ads for your?" xml:space="preserve">
+		<value>Can we continue to use your data to tailor ads for your?</value>
+	</data>
+	<data name="CANCEL" xml:space="preserve">
+		<value>Annuleer</value>
+	</data>
+	<data name="CAN'T FIND PURCHASED PRODUCTS" xml:space="preserve">
+		<value>KAN GEEN AANKOPEN VINDEN</value>
+	</data>
+	<data name="CAN'T PASS A LEVEL?" xml:space="preserve">
+		<value>KAN EEN NIVEAU NIET DOOR TE GEVEN?</value>
+	</data>
+	<data name="CAN'T WAIT?" xml:space="preserve">
+		<value>KUN JE NIET WACHTEN?</value>
+	</data>
+	<data name="CAR COLLECTION" xml:space="preserve">
+		<value>AUTO COLLECTIE</value>
+	</data>
+	<data name="CAR EATS CAR" xml:space="preserve">
+		<value>CAR EATS CAR</value>
+	</data>
+	<data name="CAR LOCKED" xml:space="preserve">
+		<value>ONTVANG DE AUTO OP NIVEAU *</value>
+	</data>
+	<data name="CAROCOP" xml:space="preserve">
+		<value>CAROCOP</value>
+	</data>
+	<data name="CAROCOP - BUNKER ON WHEELS" xml:space="preserve">
+		<value>CAROCOP - BUNKER OP WIELEN</value>
+	</data>
+	<data name="CHOOSE AN EGG" xml:space="preserve">
+		<value>CHOOSE AN EGG</value>
+	</data>
+	<data name="CLEARED" xml:space="preserve">
+		<value>GEWIST</value>
+	</data>
+	<data name="CLOSE" xml:space="preserve">
+		<value>SLUITEN</value>
+	</data>
+	<data name="CLUSTER BOMB" xml:space="preserve">
+		<value>CLUSTERBOM</value>
+	</data>
+	<data name="COCKCHAFER" xml:space="preserve">
+		<value>MEIKEVER</value>
+	</data>
+	<data name="COLLECT ALL PARTS AND GET TANKOMINATOR" xml:space="preserve">
+		<value>VERZAMEL ALLE ONDERDELEN EN KRIJG TANKMINATOR!</value>
+	</data>
+	<data name="COLLECT BOXES AND WIN PRIZES BY SPINNING A WHEEL AFTER EVERY LEVEL" xml:space="preserve">
+		<value>VERZAMEL KISTEN EN WIN PRIJZEN DOOR NA ELK LEVEL AAN EEN RAD TE DRAAIEN.</value>
+	</data>
+	<data name="COLLECT EGGS AND GEMS IN THE CAVE" xml:space="preserve">
+		<value>VERZAMEL EIEREN EN GEMS IN DE HOL</value>
+	</data>
+	<data name="COLLECTED" xml:space="preserve">
+		<value>VERZAMELD</value>
+	</data>
+	<data name="COMBO!" xml:space="preserve">
+		<value>COMBO!</value>
+	</data>
+	<data name="COMING SOON" xml:space="preserve">
+		<value>BINNENKORT BESCHIKBAAR...</value>
+	</data>
+	<data name="COMPACTOR" xml:space="preserve">
+		<value>Pers</value>
+	</data>
+	<data name="CONGRATULATIONS" xml:space="preserve">
+		<value>GEFELICITEERD</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU WON TANKOMINATOR" xml:space="preserve">
+		<value>GEFELICITEERD! JE HEBT TANKMINATOR GEOPEND</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED ANTIGRAVS" xml:space="preserve">
+		<value>GEFELICITEERD! JE HEBT ANTIGRAV GEOPEND</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED MEGA TURBO" xml:space="preserve">
+		<value>GEFELICITEERD! JE HEBT MEGA TURBO GEOPEND</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED SUPER GUN" xml:space="preserve">
+		<value>GEFELICITEERD! JE HEBT SUPER GUN GEOPEND</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED TANK" xml:space="preserve">
+		<value>GEFELICITEERD! JE HEBT TANK GEOPEND</value>
+	</data>
+	<data name="CONNECTION FAILED" xml:space="preserve">
+		<value>VERBINDING MISLUKT</value>
+	</data>
+	<data name="CONNECTION SUCCESS" xml:space="preserve">
+		<value>VERBINDING GESLAAGD</value>
+	</data>
+	<data name="CONSTRUCT IN POLICEPEDIA" xml:space="preserve">
+		<value>CONSTRUCTIE IN POLICEPEDIA</value>
+	</data>
+	<data name="CONTINUE" xml:space="preserve">
+		<value>DOORGAAN</value>
+	</data>
+	<data name="Copter" xml:space="preserve">
+		<value>Kopter</value>
+	</data>
+	<data name="COPTER!" xml:space="preserve">
+		<value>Kopter!</value>
+	</data>
+	<data name="COPYRIGHT 2015 BY SMOKOKO SA" xml:space="preserve">
+		<value>COPYRIGHT 2015-2018 VAN SMOKOKO LTD</value>
+	</data>
+	<data name="CREDITS" xml:space="preserve">
+		<value>CREDITS</value>
+	</data>
+	<data name="DAILY BONUS" xml:space="preserve">
+		<value>DAGELIJKSE BONUS</value>
+	</data>
+	<data name="DAMAGE" xml:space="preserve">
+		<value>SCHADE</value>
+	</data>
+	<data name="DAY *" xml:space="preserve">
+		<value>DAG *</value>
+	</data>
+	<data name="DEADLY BLADES" xml:space="preserve">
+		<value>KILLER MESSEN</value>
+	</data>
+	<data name="DEFEAT" xml:space="preserve">
+		<value>Je bent betrapt!</value>
+	</data>
+	<data name="DESCRIPTION BASIC BOMB " xml:space="preserve">
+		<value>Basis conventionele bom.
+Matig explosiegebied en schade.</value>
+	</data>
+	<data name="DESCRIPTION BOMB REPLICATOR" xml:space="preserve">
+		<value>Genereert langzaam bommen in de voorraad.</value>
+	</data>
+	<data name="DESCRIPTION CLUSTER BOMB" xml:space="preserve">
+		<value>Een cluster van HE-microbommen.
+ Dekt het explosiegebied met bommen.</value>
+	</data>
+	<data name="DESCRIPTION EMP EMITTER" xml:space="preserve">
+		<value>Zendt een elektromagnetische puls uit die verlamt de vijanden om je heen.</value>
+	</data>
+	<data name="DESCRIPTION FLAME BOMB" xml:space="preserve">
+		<value>Hoog explosieve bom.
+ Uitgebreid explosiegebied en schade.</value>
+	</data>
+	<data name="DESCRIPTION FRAG BOMB" xml:space="preserve">
+		<value>Basisbom met fragmenten.
+ Brengt extra schade toe door fragmenten.</value>
+	</data>
+	<data name="DESCRIPTION FREEZE RAY" xml:space="preserve">
+		<value>Schiet een straal van vloeibare stikstof. Bevriest je vijanden.</value>
+	</data>
+	<data name="DESCRIPTION MAGNET" xml:space="preserve">
+		<value>Genereert een magnetisch veld dat aantrekt robijnen.</value>
+	</data>
+	<data name="DESCRIPTION MISSILE LAUNCHER" xml:space="preserve">
+		<value>Geïntegreerde raketwerper. Vuurt vernietigende doelzoekende raketten.</value>
+	</data>
+	<data name="DESCRIPTION SHRINK BOMB" xml:space="preserve">
+		<value>HI-TECH-bom. Krimpt je vijanden tot grappige micro-organismen.</value>
+	</data>
+	<data name="DISTANCE" xml:space="preserve">
+		<value>AFGELEGDE AFSTAND</value>
+	</data>
+	<data name="DRILL GUN" xml:space="preserve">
+		<value>BOORMACHINE</value>
+	</data>
+	<data name="Driller" xml:space="preserve">
+		<value>Boorder</value>
+	</data>
+	<data name="DRON1 DESCRIPTION" xml:space="preserve">
+		<value>Krijg het gratis op de 5e dag</value>
+	</data>
+	<data name="DRON2 DESCRIPTION" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DROWNED CITY" xml:space="preserve">
+		<value>OVERSTROOMDE STAD</value>
+	</data>
+	<data name="EASTER EGG HUNT" xml:space="preserve">
+		<value>PAASEI HUNT</value>
+	</data>
+	<data name="EAT POLICE AND CIVILS" xml:space="preserve">
+		<value>DESTROY YOUR ENEMIES TO GAIN BADGES</value>
+	</data>
+	<data name="ECO FUEL" xml:space="preserve">
+		<value>ECO BENZINE</value>
+	</data>
+	<data name="EMP EMITTER" xml:space="preserve">
+		<value>EMP ZENDER</value>
+	</data>
+	<data name="ENDLESS STOCK OF FUEL" xml:space="preserve">
+		<value>EINDELOZE VOORRAAD VAN BRANDSTOF</value>
+	</data>
+	<data name="ENGINE" xml:space="preserve">
+		<value>MOTOR</value>
+	</data>
+	<data name="ENIGMA" xml:space="preserve">
+		<value>ENIGMA!</value>
+	</data>
+	<data name="EQUIP" xml:space="preserve">
+		<value>GEBRUIKEN</value>
+	</data>
+	<data name="EQUIPED" xml:space="preserve">
+		<value>UITGERUST</value>
+	</data>
+	<data name="EVOLUTION COMPLETE" xml:space="preserve">
+		<value>EVOLUTIE VOLLEDIG</value>
+	</data>
+	<data name="Excavator" xml:space="preserve">
+		<value>Opgraver</value>
+	</data>
+	<data name="EXCELLENT!" xml:space="preserve">
+		<value>UITSTEKEND!</value>
+	</data>
+	<data name="EXIT" xml:space="preserve">
+		<value>UITGANG</value>
+	</data>
+	<data name="FIND AT ARENA" xml:space="preserve">
+		<value>VIND BIJ ARENA</value>
+	</data>
+	<data name="FIND AT EASTER EGG HUNT" xml:space="preserve">
+		<value>VIND AAN PASEN EIJACHT</value>
+	</data>
+	<data name="FIND IN THE CAVE" xml:space="preserve">
+		<value>VIND ONDER DE GROND</value>
+	</data>
+	<data name="FIREBUG" xml:space="preserve">
+		<value>FIREFLY</value>
+	</data>
+	<data name="FIRED!?!" xml:space="preserve">
+		<value>ONTSLAGEN!?!</value>
+	</data>
+	<data name="FLAME BOMB" xml:space="preserve">
+		<value>VLAM BOM</value>
+	</data>
+	<data name="FORTUNE" xml:space="preserve">
+		<value>FORTUIN</value>
+	</data>
+	<data name="FRAG BOMB" xml:space="preserve">
+		<value>FRAG BOM</value>
+	</data>
+	<data name="FRANCOPSTEIN" xml:space="preserve">
+		<value>FRANCOPSTEIN</value>
+	</data>
+	<data name="FRANCOPSTEIN - IT'S ALIVE!" xml:space="preserve">
+		<value>FRANCOPSTEIN - HET LEEFT!</value>
+	</data>
+	<data name="FREE" xml:space="preserve">
+		<value>GRATIS</value>
+	</data>
+	<data name="FREE FUEL PACK" xml:space="preserve">
+		<value>GRATIS BENZINE!</value>
+	</data>
+	<data name="FREE RUBIES PACK" xml:space="preserve">
+		<value>GRATIS RUBIES!</value>
+	</data>
+	<data name="FREE SPIN" xml:space="preserve">
+		<value>GRATIS RONDE</value>
+	</data>
+	<data name="FREEDOM ISLAND!!!" xml:space="preserve">
+		<value>VRIJHEID EILAND!!!</value>
+	</data>
+	<data name="FREEZE RAY" xml:space="preserve">
+		<value>BEVRIEZEN STRAAL</value>
+	</data>
+	<data name="FRIENDOPEDIA" xml:space="preserve">
+		<value>FRIENDOPEDIA</value>
+	</data>
+	<data name="FUEL" xml:space="preserve">
+		<value>BRDSTF</value>
+	</data>
+	<data name="GADGETS" xml:space="preserve">
+		<value>GADGETS</value>
+	</data>
+	<data name="GAME DESIGN" xml:space="preserve">
+		<value>SPEL ONTWERP</value>
+	</data>
+	<data name="GAME DEVELOPED BY SMOKOKO SA" xml:space="preserve">
+		<value>SPEL ONTWIKKELD DOOR SMOKOKO LTD</value>
+	</data>
+	<data name="GAME PUBLISHED BY SPIL GAMES" xml:space="preserve">
+		<value>SPEL UITGEGEVEN DOOR SPIL GAMES</value>
+	</data>
+	<data name="GARAGE" xml:space="preserve">
+		<value>GARAGE</value>
+	</data>
+	<data name="GATOR" xml:space="preserve">
+		<value>Gator</value>
+	</data>
+	<data name="GET ADDITIONAL BOMBS" xml:space="preserve">
+		<value>KRIJG EXTRA BOMMEN.</value>
+	</data>
+	<data name="GET ADDITIONAL TURBO" xml:space="preserve">
+		<value>KRIJG EXTRA TURBO.</value>
+	</data>
+	<data name="GET FUEL" xml:space="preserve">
+		<value>KRIJG BRANDSTOF</value>
+	</data>
+	<data name="GET RUBIES" xml:space="preserve">
+		<value>KRIJG ROBIJNEN</value>
+	</data>
+	<data name="GHOST TOWN" xml:space="preserve">
+		<value>SPOOKSTAD</value>
+	</data>
+	<data name="GOOD" xml:space="preserve">
+		<value>GOOD</value>
+	</data>
+	<data name="HARVESTER" xml:space="preserve">
+		<value>OOGSTER</value>
+	</data>
+	<data name="HAVEN'T PLAYED YET?" xml:space="preserve">
+		<value>nog niet gespeeld?</value>
+	</data>
+	<data name="HOW TO PLAY" xml:space="preserve">
+		<value>HOE TE SPELEN</value>
+	</data>
+	<data name="I AGREE" xml:space="preserve">
+		<value>IK BEN HET EENS</value>
+	</data>
+	<data name="ICE AGE" xml:space="preserve">
+		<value>IJSTIJD!</value>
+	</data>
+	<data name="INCREASES CAR'S HEALTH" xml:space="preserve">
+		<value>VERGROOT GEZONDHEID AUTO.</value>
+	</data>
+	<data name="INCREASES CAR'S TOP SPEED" xml:space="preserve">
+		<value>VERHOOGT TOPSNELHEID VAN AUTO.</value>
+	</data>
+	<data name="INCUBATOR" xml:space="preserve">
+		<value>INCUBATOR</value>
+	</data>
+	<data name="Ketchup" xml:space="preserve">
+		<value>Ketchup</value>
+	</data>
+	<data name="KILLED" xml:space="preserve">
+		<value>GEDOOD</value>
+	</data>
+	<data name="LANGUAGE" xml:space="preserve">
+		<value>TAAL</value>
+	</data>
+	<data name="LARGE FUEL TANK" xml:space="preserve">
+		<value>GROTE BRANDSTOFTANK</value>
+	</data>
+	<data name="LARGER TURBO TANK CAPACITY" xml:space="preserve">
+		<value>GROTERE CAPACITEIT TURBOTANK.</value>
+	</data>
+	<data name="Learn how CAR EATS CAR 3 and our partners collect and use data" xml:space="preserve">
+		<value>Learn how CAR EATS CAR 3 and our partners collect and use data</value>
+	</data>
+	<data name="LEAVING SO SOON" xml:space="preserve">
+		<value>ZO SNEL WEGGAAN</value>
+	</data>
+	<data name="LESS POWER!" xml:space="preserve">
+		<value>MINDER KRACHT!</value>
+	</data>
+	<data name="LET'S LEVEL UP THE SPEED" xml:space="preserve">
+		<value>LAAT JE AUTOSNELHEID UPGRADEN</value>
+	</data>
+	<data name="LET'S RETURN TO MAP" xml:space="preserve">
+		<value>LATEN WE TERUGKEREN NAAR DE KAART</value>
+	</data>
+	<data name="LEVEL" xml:space="preserve">
+		<value>Level</value>
+	</data>
+	<data name="LEVEL *" xml:space="preserve">
+		<value>LEVEL *</value>
+	</data>
+	<data name="LEVEL * COMPLETED" xml:space="preserve">
+		<value>LEVEL * VOLTOOID</value>
+	</data>
+	<data name="LEVEL * FAILED" xml:space="preserve">
+		<value>LEVEL * MISLUKT</value>
+	</data>
+	<data name="LEVEL DESIGN" xml:space="preserve">
+		<value>LEVELONTWERP</value>
+	</data>
+	<data name="LEVELS" xml:space="preserve">
+		<value>LEVELS</value>
+	</data>
+	<data name="Limited offer, left * min" xml:space="preserve">
+		<value>Beperkte aanbieding, links * min</value>
+	</data>
+	<data name="LIMITED TIME OFFER" xml:space="preserve">
+		<value>BEPERKTE TIJD GELDIGE AANBIEDING</value>
+	</data>
+	<data name="LOAD" xml:space="preserve">
+		<value>LOADEN</value>
+	</data>
+	<data name="LOAD THIS GAME?" xml:space="preserve">
+		<value>DIT SPEL LADEN</value>
+	</data>
+	<data name="LOADING" xml:space="preserve">
+		<value>LADEN</value>
+	</data>
+	<data name="LOCKED" xml:space="preserve">
+		<value>op slot</value>
+	</data>
+	<data name="LOCOMACHINE" xml:space="preserve">
+		<value>LOCOMACHINE</value>
+	</data>
+	<data name="LOGIN" xml:space="preserve">
+		<value>INLOGGEN</value>
+	</data>
+	<data name="LOGIN AND GET" xml:space="preserve">
+		<value>LOG IN EN ONTVANG</value>
+	</data>
+	<data name="LOGIN AND GET BONUSES" xml:space="preserve">
+		<value>START SESSIE EN WIN BONUSSEN!</value>
+	</data>
+	<data name="LOGOUT" xml:space="preserve">
+		<value>LOG UIT</value>
+	</data>
+	<data name="MAGNET" xml:space="preserve">
+		<value>MAGNEET</value>
+	</data>
+	<data name="Matt" xml:space="preserve">
+		<value>Matt</value>
+	</data>
+	<data name="MAX." xml:space="preserve">
+		<value>MAX.</value>
+	</data>
+	<data name="MEGA TURBO" xml:space="preserve">
+		<value>MEGATURBO</value>
+	</data>
+	<data name="METEOR SHOWER" xml:space="preserve">
+		<value>METEORENREGEN!</value>
+	</data>
+	<data name="MIN" xml:space="preserve">
+		<value>MIN</value>
+	</data>
+	<data name="MISSILE LAUNCHER" xml:space="preserve">
+		<value>RAKETWERPER</value>
+	</data>
+	<data name="MISTY FOREST" xml:space="preserve">
+		<value>NEVELWOUD</value>
+	</data>
+	<data name="MODERATE BLAST AREA AND DAMAGE" xml:space="preserve">
+		<value>GEMIDDELDE GEBIEDSSCHADE</value>
+	</data>
+	<data name="MONSTROPEDIA" xml:space="preserve">
+		<value>MONSTROPEDIA</value>
+	</data>
+	<data name="MORE GAMES" xml:space="preserve">
+		<value>MEER SPELLEN</value>
+	</data>
+	<data name="MORE POWER!" xml:space="preserve">
+		<value>MEER KRACHT!</value>
+	</data>
+	<data name="MR BOMBASTIC" xml:space="preserve">
+		<value>Mr. BOMBASTIC</value>
+	</data>
+	<data name="MUSIC &amp; SOUND" xml:space="preserve">
+		<value>MUZIEK EN GELUID</value>
+	</data>
+	<data name="NEW" xml:space="preserve">
+		<value>NEW</value>
+	</data>
+	<data name="NEXT" xml:space="preserve">
+		<value>VOLGENDE</value>
+	</data>
+	<data name="NEXT IN" xml:space="preserve">
+		<value>VOLGENDE</value>
+	</data>
+	<data name="NEXT LEVEL" xml:space="preserve">
+		<value>VOLGEND LEVEL</value>
+	</data>
+	<data name="NO" xml:space="preserve">
+		<value>NEE</value>
+	</data>
+	<data name="NO INTERNET CONNECTION WAS FOUND. PLEASE TRY AGAIN LATER" xml:space="preserve">
+		<value>GEEN INTERNETVERBINDING GEDETECTEERD. PROBEER HET LATER OPNIEUW.</value>
+	</data>
+	<data name="NO NEW VIDEOS AVAILABLE RIGHT NOW" xml:space="preserve">
+		<value>ER ZIJN GEEN NIEUWE VIDEO'S.</value>
+	</data>
+	<data name="NO THANKS" xml:space="preserve">
+		<value>NEE, BEDANKT</value>
+	</data>
+	<data name="NO VIDEO AVALIABLE" xml:space="preserve">
+		<value>ER ZIJN GEEN NIEUWE VIDEO'S.</value>
+	</data>
+	<data name="No, see ads that are less relevant" xml:space="preserve">
+		<value>No, see ads that are less relevant</value>
+	</data>
+	<data name="NOT ENOUGH" xml:space="preserve">
+		<value>NIET GENOEG</value>
+	</data>
+	<data name="NOTHING WILL STOP HIM" xml:space="preserve">
+		<value>LOCOMACHINE - NIETS ZAL HEM STOPPEN</value>
+	</data>
+	<data name="OFF" xml:space="preserve">
+		<value>korting</value>
+	</data>
+	<data name="Om-Nom-nom" xml:space="preserve">
+		<value>Om-Nom-nom</value>
+	</data>
+	<data name="OOPS!" xml:space="preserve">
+		<value>OEPS!</value>
+	</data>
+	<data name="OPEN ALL LEVELS" xml:space="preserve">
+		<value>SPEEL ALLE LEVELS VRIJ</value>
+	</data>
+	<data name="OPEN FIRST LEVEL" xml:space="preserve">
+		<value>NAAR EERSTE LEVEL</value>
+	</data>
+	<data name="OPEN LOCATION" xml:space="preserve">
+		<value>NAAR LOCATIE</value>
+	</data>
+	<data name="OPEN NEXT LEVEL" xml:space="preserve">
+		<value>NAAR VOLGEND LEVEL</value>
+	</data>
+	<data name="OR BUY NOW!" xml:space="preserve">
+		<value>KOOP NU</value>
+	</data>
+	<data name="PART */4" xml:space="preserve">
+		<value>TEIL * / 4</value>
+	</data>
+	<data name="PLAY" xml:space="preserve">
+		<value>SPELEN</value>
+	</data>
+	<data name="PLAY NOW" xml:space="preserve">
+		<value>SPEEL NU</value>
+	</data>
+	<data name="PLEASE CHOOSE" xml:space="preserve">
+		<value>GELIEVE TE KIEZEN</value>
+	</data>
+	<data name="PLEASE RATE CAR EATS CAR" xml:space="preserve">
+		<value>Car Eats Car schatten</value>
+	</data>
+	<data name="POLICE!" xml:space="preserve">
+		<value>POLITIE!</value>
+	</data>
+	<data name="POLICEPEDIA" xml:space="preserve">
+		<value>POLICEPEDIA</value>
+	</data>
+	<data name="preloader_description_arena" xml:space="preserve">
+		<value>BERSERKER - Dood al je vijanden!</value>
+	</data>
+	<data name="preloader_description_boss1" xml:space="preserve">
+		<value>WOUTENBAK - DE MEEST GEVAARLIJKE POLITIEAUTO</value>
+	</data>
+	<data name="preloader_description_boss2" xml:space="preserve">
+		<value>BRAND IS EEN LEIDER ONDER DE FEDERALS</value>
+	</data>
+	<data name="preloader_description_boss3" xml:space="preserve">
+		<value>KAPITEIN WRAK</value>
+	</data>
+	<data name="preloader_description_car1" xml:space="preserve">
+		<value>GATOR - NIEUWE GENERATIE VAN DE KWADE AUTO'S</value>
+	</data>
+	<data name="preloader_description_car2" xml:space="preserve">
+		<value>OOGSTMACHINE - ECHTE CARNIVOOR!</value>
+	</data>
+	<data name="preloader_description_car3" xml:space="preserve">
+		<value>ARCHIVER - MACHTIGE KLAUWEN</value>
+	</data>
+	<data name="preloader_description_convoy" xml:space="preserve">
+		<value>ACHTERNAZIT EN VERNIETIG HET CONVOOI OM JE VRIENDEN TE VRIJLATEN</value>
+	</data>
+	<data name="preloader_description_copter1" xml:space="preserve">
+		<value>LUCHTRUIM IS GEPATROUILLEERD</value>
+	</data>
+	<data name="preloader_description_copter2" xml:space="preserve">
+		<value>LUCHTRUIM IS GEPATROUILLEERD</value>
+	</data>
+	<data name="preloader_description_copter3" xml:space="preserve">
+		<value>LUCHTRUIM IS GEPATROUILLEERD</value>
+	</data>
+	<data name="preloader_description_drones" xml:space="preserve">
+		<value>DRONES ZIJN DE BESTE ASSISTENTEN!</value>
+	</data>
+	<data name="preloader_description_fbi" xml:space="preserve">
+		<value>FEDERALS ZIJN ALTIJD KLAAR OM JE IN DE PROBLEMEN TE BRENGEN</value>
+	</data>
+	<data name="preloader_description_fire" xml:space="preserve">
+		<value>PYROMAAN - PAS OP VOOR BRANDENDE VLAMMEN</value>
+	</data>
+	<data name="preloader_description_police1_1" xml:space="preserve">
+		<value>SMERISSEN ZULLEN ALLES DOEN OM JE TE VANGEN!</value>
+	</data>
+	<data name="preloader_description_police1_2" xml:space="preserve">
+		<value>SMERISSEN ZULLEN ALLES DOEN OM JE TE VANGEN!</value>
+	</data>
+	<data name="preloader_description_police1_3" xml:space="preserve">
+		<value>SMERISSEN ZULLEN ALLES DOEN OM JE TE VANGEN!</value>
+	</data>
+	<data name="preloader_description_police1_4" xml:space="preserve">
+		<value>SMERISSEN ZULLEN ALLES DOEN OM JE TE VANGEN!</value>
+	</data>
+	<data name="preloader_description_police2_1" xml:space="preserve">
+		<value>SMERISSEN ZULLEN ALLES DOEN OM JE TE VANGEN!</value>
+	</data>
+	<data name="preloader_description_police2_2" xml:space="preserve">
+		<value>SMERISSEN ZULLEN ALLES DOEN OM JE TE VANGEN!</value>
+	</data>
+	<data name="preloader_description_police2_3" xml:space="preserve">
+		<value>SMERISSEN ZULLEN ALLES DOEN OM JE TE VANGEN!</value>
+	</data>
+	<data name="preloader_description_police2_4" xml:space="preserve">
+		<value>SMERISSEN ZULLEN ALLES DOEN OM JE TE VANGEN!</value>
+	</data>
+	<data name="preloader_description_police3_1" xml:space="preserve">
+		<value>SMERISSEN ZULLEN ALLES DOEN OM JE TE VANGEN!</value>
+	</data>
+	<data name="preloader_description_police3_2" xml:space="preserve">
+		<value>SMERISSEN ZULLEN ALLES DOEN OM JE TE VANGEN!</value>
+	</data>
+	<data name="preloader_description_police3_3" xml:space="preserve">
+		<value>SMERISSEN ZULLEN ALLES DOEN OM JE TE VANGEN!</value>
+	</data>
+	<data name="preloader_description_police3_4" xml:space="preserve">
+		<value>SMERISSEN ZULLEN ALLES DOEN OM JE TE VANGEN!</value>
+	</data>
+	<data name="PREMIUM CONTENT" xml:space="preserve">
+		<value>PREMIUM CONTENT</value>
+	</data>
+	<data name="PRESS TO FLIP BACKWARD" xml:space="preserve">
+		<value>PRESS TO FLIP BACKWARD</value>
+	</data>
+	<data name="PRESS TO FLIP FORWARD" xml:space="preserve">
+		<value>PRESS TO FLIP FORWARD</value>
+	</data>
+	<data name="PRESS TO USE" xml:space="preserve">
+		<value>PRESS TO USE</value>
+	</data>
+	<data name="PREVIOUS GAME FOUND" xml:space="preserve">
+		<value>VORIG SPEL GEVONDEN</value>
+	</data>
+	<data name="PRIVACY DESCRIPTION" xml:space="preserve">
+		<value>Ons privacybeleid is bijgewerkt! Controleer en accepteer de wijzigingen om door te gaan met spelen.</value>
+	</data>
+	<data name="PRIVACY POLICY" xml:space="preserve">
+		<value>PRIVACYBELEID</value>
+	</data>
+	<data name="PRODUCERS" xml:space="preserve">
+		<value>PRODUCENTEN</value>
+	</data>
+	<data name="PROGRAMMING" xml:space="preserve">
+		<value>PROGRAMMERING</value>
+	</data>
+	<data name="PROTECT YOUR CAR'S BODY" xml:space="preserve">
+		<value>BESCHERM JE AUTO.</value>
+	</data>
+	<data name="PUSH" xml:space="preserve">
+		<value>DRUK</value>
+	</data>
+	<data name="RABBITSTER" xml:space="preserve">
+		<value>RABBITSTER</value>
+	</data>
+	<data name="RABBITSTER DESCRIPTION" xml:space="preserve">
+		<value>RABBITSTER - EARED AND TOOTHY</value>
+	</data>
+	<data name="RAM" xml:space="preserve">
+		<value>RAM</value>
+	</data>
+	<data name="RAM YOUR ENEMIES TILL DEATH" xml:space="preserve">
+		<value>BEUK TEGEN JE VIJANDEN OM ZE ONSCHADELIJK TE MAKEN.</value>
+	</data>
+	<data name="RATE" xml:space="preserve">
+		<value>PRIJS</value>
+	</data>
+	<data name="RATE NOW" xml:space="preserve">
+		<value>NU BEOORDELEN</value>
+	</data>
+	<data name="RATE US SHAUT 1" xml:space="preserve">
+		<value>ECHT ZO SLECHT?</value>
+	</data>
+	<data name="RATE US SHAUT 2" xml:space="preserve">
+		<value>HET IS SLECHT, MAAR WE ALTIJD LUISTEREN NAAR DE WENSEN</value>
+	</data>
+	<data name="RATE US SHAUT 3" xml:space="preserve">
+		<value>BEDANKT VOOR JE SCHATTING VRIEND!</value>
+	</data>
+	<data name="RATE US SHAUT 4" xml:space="preserve">
+		<value>WAUW! WE ZULLEN ZEKER DEFINITIEF HET SPEL BETER MAKEN!</value>
+	</data>
+	<data name="RATE US SHAUT 5" xml:space="preserve">
+		<value>BEDANKT BROER! JIJ BENT ZO GEWELDIGE SPELER!</value>
+	</data>
+	<data name="RATE YOUR EXPERIENCE!" xml:space="preserve">
+		<value>BEOORDEEL JE ERVARING!</value>
+	</data>
+	<data name="REACH * M. TO GET ANTIGRAVS" xml:space="preserve">
+		<value>REACH * M. TO GET ANTIGRAVS</value>
+	</data>
+	<data name="REACH * M. TO GET MEGA TURBO" xml:space="preserve">
+		<value>REACH * M. TO GET MEGA TURBO</value>
+	</data>
+	<data name="REACH * M. TO GET SUPER GUN" xml:space="preserve">
+		<value>REACH * M. TO GET SUPER GUN</value>
+	</data>
+	<data name="REACH * M. TO GET TANK" xml:space="preserve">
+		<value>REACH * M. TO GET TANK</value>
+	</data>
+	<data name="REACH * M. TO GET TANKOMINATOR PART */4" xml:space="preserve">
+		<value>BEREIK * M. OM TANKMINATOR DEEL * / 4 TE VERKRIJGEN</value>
+	</data>
+	<data name="RECHARGER" xml:space="preserve">
+		<value>OPLADER</value>
+	</data>
+	<data name="REGENERATOR" xml:space="preserve">
+		<value>REGENERATOR</value>
+	</data>
+	<data name="RESET GAME" xml:space="preserve">
+		<value>SPEL RESETTEN</value>
+	</data>
+	<data name="RESTART" xml:space="preserve">
+		<value>OPNIEUW</value>
+	</data>
+	<data name="RESTORE PURCHASED" xml:space="preserve">
+		<value>HERSTEL AANKOOP</value>
+	</data>
+	<data name="RESTORE PURCHASES" xml:space="preserve">
+		<value>HERSTEL AANKOPEN</value>
+	</data>
+	<data name="RESUME" xml:space="preserve">
+		<value>DOORSPELEN</value>
+	</data>
+	<data name="REVIVE YOUR HEALTH AND FINISH THE LEVEL" xml:space="preserve">
+		<value>VUL JE GEZONDHEID AAN EN VOLTOOI HET LEVEL.</value>
+	</data>
+	<data name="REVIVE?" xml:space="preserve">
+		<value>HERSTEL?</value>
+	</data>
+	<data name="REWARD" xml:space="preserve">
+		<value>Beloning</value>
+	</data>
+	<data name="RUBIES" xml:space="preserve">
+		<value>ROBIJNEN</value>
+	</data>
+	<data name="Sawcar" xml:space="preserve">
+		<value>Zaagauto</value>
+	</data>
+	<data name="School Bus" xml:space="preserve">
+		<value>Schoolbus</value>
+	</data>
+	<data name="SCORPION" xml:space="preserve">
+		<value>SCHORPIOEN</value>
+	</data>
+	<data name="SEE YOUR FRIENDS PROGRESS" xml:space="preserve">
+		<value>BEKIJK DE VOORTGANG VAN VRIENDEN</value>
+	</data>
+	<data name="SETTINGS" xml:space="preserve">
+		<value>INSTELLINGEN</value>
+	</data>
+	<data name="SHARE" xml:space="preserve">
+		<value>DELEN</value>
+	</data>
+	<data name="SHARE VIA FB AND RECEIVE REWARD" xml:space="preserve">
+		<value>DEEL MET DE VRIEND EN KRIJG BELONING</value>
+	</data>
+	<data name="SHIELD" xml:space="preserve">
+		<value>SCHILD</value>
+	</data>
+	<data name="SHOP" xml:space="preserve">
+		<value>WINKEL</value>
+	</data>
+	<data name="Show consent form" xml:space="preserve">
+		<value>Show consent form</value>
+	</data>
+	<data name="SHRINK BOMB" xml:space="preserve">
+		<value>BOM KRIMPEN</value>
+	</data>
+	<data name="SKIP" xml:space="preserve">
+		<value>OVERSPRINGEN</value>
+	</data>
+	<data name="Smarty" xml:space="preserve">
+		<value>Slimmie</value>
+	</data>
+	<data name="SPECIAL MISSION" xml:space="preserve">
+		<value>SPECIAL MISSION</value>
+	</data>
+	<data name="SPEED" xml:space="preserve">
+		<value>SNELHEID</value>
+	</data>
+	<data name="SPEED UP WITH TURBO BUTTON" xml:space="preserve">
+		<value>GA HARDER MET DE TURBOKNOP.</value>
+	</data>
+	<data name="Spike" xml:space="preserve">
+		<value>Prikker</value>
+	</data>
+	<data name="SPIN" xml:space="preserve">
+		<value>DRAAI</value>
+	</data>
+	<data name="SPIN NOW" xml:space="preserve">
+		<value>SPEEL NU!</value>
+	</data>
+	<data name="START" xml:space="preserve">
+		<value>START</value>
+	</data>
+	<data name="START MINI GAME" xml:space="preserve">
+		<value>START MINI SPEL</value>
+	</data>
+	<data name="START RACE NOW!" xml:space="preserve">
+		<value>START RACE!</value>
+	</data>
+	<data name="Stinger" xml:space="preserve">
+		<value>Steker</value>
+	</data>
+	<data name="STOP" xml:space="preserve">
+		<value>STOP</value>
+	</data>
+	<data name="STRONG HULL" xml:space="preserve">
+		<value>STRONG HULL</value>
+	</data>
+	<data name="SUPER FRICTION" xml:space="preserve">
+		<value>SUPER GRIP</value>
+	</data>
+	<data name="SUPER GUN" xml:space="preserve">
+		<value>SUPERWAPEN</value>
+	</data>
+	<data name="SWAMP" xml:space="preserve">
+		<value>MOERAS</value>
+	</data>
+	<data name="SWITCHING SUPER BONUS" xml:space="preserve">
+		<value>SWITCHING SUPER BONUS</value>
+	</data>
+	<data name="TAKE" xml:space="preserve">
+		<value>KRIJG</value>
+	</data>
+	<data name="TAKE REWARD" xml:space="preserve">
+		<value>KRIJG BELONING</value>
+	</data>
+	<data name="TANK" xml:space="preserve">
+		<value>TANK</value>
+	</data>
+	<data name="TANK FULL" xml:space="preserve">
+		<value>TANK IS VOL</value>
+	</data>
+	<data name="TANKOMINATOR" xml:space="preserve">
+		<value>TANKOMINATOR</value>
+	</data>
+	<data name="TAP" xml:space="preserve">
+		<value>TAP</value>
+	</data>
+	<data name="TAP THE SCREEN" xml:space="preserve">
+		<value>TIK OP HET SCHERM</value>
+	</data>
+	<data name="TAP TO BUY THE UPGRADE" xml:space="preserve">
+		<value>KOOP DE UPGRADE</value>
+	</data>
+	<data name="TAP TO CONTINUE…" xml:space="preserve">
+		<value>TIK OM DOOR TE GAAN...</value>
+	</data>
+	<data name="TAP TO DROP" xml:space="preserve">
+		<value>PRESS TO DROP</value>
+	</data>
+	<data name="TASTY" xml:space="preserve">
+		<value>LEKKER</value>
+	</data>
+	<data name="TERMS OF USE" xml:space="preserve">
+		<value>GEBRUIKSVOORWAARDEN</value>
+	</data>
+	<data name="TEST DRIVE" xml:space="preserve">
+		<value>TEST DRIVE</value>
+	</data>
+	<data name="TESTERS" xml:space="preserve">
+		<value>TESTERS</value>
+	</data>
+	<data name="THUNDERSTORM" xml:space="preserve">
+		<value>ONWEERSBUI!</value>
+	</data>
+	<data name="TILT" xml:space="preserve">
+		<value>KANTELING</value>
+	</data>
+	<data name="TO UNLOCK" xml:space="preserve">
+		<value>TE OPENDOEN</value>
+	</data>
+	<data name="TODAY" xml:space="preserve">
+		<value>VANDAAG</value>
+	</data>
+	<data name="TOTAL" xml:space="preserve">
+		<value>TOTAAL</value>
+	</data>
+	<data name="TRY AGAIN" xml:space="preserve">
+		<value>PROBEER HET NOG EENS</value>
+	</data>
+	<data name="TRY HARVESTER FOR FREE!" xml:space="preserve">
+		<value>TRY HARVESTER FOR FREE!</value>
+	</data>
+	<data name="TRY TANKOMINATOR FOR FREE!" xml:space="preserve">
+		<value>TRY TANKOMINATOR FOR FREE!</value>
+	</data>
+	<data name="TURBO" xml:space="preserve">
+		<value>TURBO</value>
+	</data>
+	<data name="TURTLE" xml:space="preserve">
+		<value>SCHILDPAD</value>
+	</data>
+	<data name="TUTORIAL" xml:space="preserve">
+		<value>zelfstudie</value>
+	</data>
+	<data name="UNEQUIP" xml:space="preserve">
+		<value>NIET GEBRUIKEN</value>
+	</data>
+	<data name="UNLIMITED" xml:space="preserve">
+		<value>ONBEPERKT</value>
+	</data>
+	<data name="UNLOCK" xml:space="preserve">
+		<value>ontsluiten</value>
+	</data>
+	<data name="UNLOCKED" xml:space="preserve">
+		<value>ontgrendeld</value>
+	</data>
+	<data name="UPGRADE" xml:space="preserve">
+		<value>UPGRADEN</value>
+	</data>
+	<data name="UPGRADE YOUR CAR NOW TO BEAT DIFFICULT LEVELS" xml:space="preserve">
+		<value>VERBETER JE AUTO OM MOEILIJKE LEVELS TE VOLTOOIEN.</value>
+	</data>
+	<data name="UPGRADES" xml:space="preserve">
+		<value>UPGRADES</value>
+	</data>
+	<data name="USE" xml:space="preserve">
+		<value>GEBR</value>
+	</data>
+	<data name="USE BOMBS TO DESTROY ENEMIES" xml:space="preserve">
+		<value>GEBRUIK BOMMEN OM VIJANDEN TE VERNIETIGEN.</value>
+	</data>
+	<data name="USE BOOSTERS TO MAKE THE LEVEL EASIER" xml:space="preserve">
+		<value>GEBRUIK BOOSTERS OM HET LEVEL MAKKELIJKER TE MAKEN.</value>
+	</data>
+	<data name="VALENTINE'S RUSH" xml:space="preserve">
+		<value>VALENTINE'S RUSH</value>
+	</data>
+	<data name="VIDEO" xml:space="preserve">
+		<value>VIDEO</value>
+	</data>
+	<data name="VIDEO FAILED" xml:space="preserve">
+		<value>VIDEO FAILED</value>
+	</data>
+	<data name="WARNING" xml:space="preserve">
+		<value>WAARSCHUWING</value>
+	</data>
+	<data name="We care about your privacy and data security. We keep this app free by showing ads." xml:space="preserve">
+		<value>We care about your privacy and data security. We keep this app free by showing ads.</value>
+	</data>
+	<data name="WHEEL OF FORTUNE" xml:space="preserve">
+		<value>RAD VAN FORTUIN</value>
+	</data>
+	<data name="WHEELS" xml:space="preserve">
+		<value>BANDEN</value>
+	</data>
+	<data name="Wick" xml:space="preserve">
+		<value>Lont</value>
+	</data>
+	<data name="WIN BOSS 1 TO UNLOCK" xml:space="preserve">
+		<value>WIN BOSS 1 OM TE ONTGRENDELEN</value>
+	</data>
+	<data name="WIN BOSS 2 TO UNLOCK" xml:space="preserve">
+		<value>WIN BOSS 2 OM TE ONTGRENDELEN</value>
+	</data>
+	<data name="WIN KEYS TO UNLOCK BERSERKER" xml:space="preserve">
+		<value>WIN TOETSEN OM BERSERKER TE ONTGRENDELEN</value>
+	</data>
+	<data name="WIN YOUR TANKOMINATOR ON ARENA" xml:space="preserve">
+		<value>KRIJG UW TANKMINATOR IN HET ARENA</value>
+	</data>
+	<data name="WOULD YOU LIKE TO RATE THE GAME?" xml:space="preserve">
+		<value>WIL JE DIT SPEL BEOORDELEN?</value>
+	</data>
+	<data name="WOW!" xml:space="preserve">
+		<value>WOW!</value>
+	</data>
+	<data name="YES" xml:space="preserve">
+		<value>JA</value>
+	</data>
+	<data name="Yes, continue to see relevant ads" xml:space="preserve">
+		<value>Yes, continue to see relevant ads</value>
+	</data>
+	<data name="YES/NO" xml:space="preserve">
+		<value>JA/NEE</value>
+	</data>
+	<data name="YOU ARE FIRED!!!" xml:space="preserve">
+		<value>JE BENT ONTSLAGEN!!!</value>
+	</data>
+	<data name="YOU ARE GOING TO JAIL!" xml:space="preserve">
+		<value>JE GAAT NAAR GEVANGENIS!</value>
+	</data>
+	<data name="YOU ARE OLD AND RUSTY!" xml:space="preserve">
+		<value>JE BENT OUD EN ROESTIG!</value>
+	</data>
+	<data name="YOU ARE OLD, RUSTY AND EVIL!" xml:space="preserve">
+		<value>JE BENT OUD, ROESTIG EN KWAAD!</value>
+	</data>
+	<data name="YOU BEAT YOUR FRIEND" xml:space="preserve">
+		<value>JE HEBT JE VRIEND VERSLAGEN</value>
+	</data>
+	<data name="You can change your choice anytime for CAR EATS CAR 3 in the app settings. Our partners will collect data and use a unique identifier on your device to show you ads. " xml:space="preserve">
+		<value>You can change your choice anytime for CAR EATS CAR 3 in the app settings. Our partners will collect data and use a unique identifier on your device to show you ads. </value>
+	</data>
+	<data name="YOU CANT FIGHT" xml:space="preserve">
+		<value>JE KAN NIET VECHTEN</value>
+	</data>
+	<data name="YOU DEFEATED" xml:space="preserve">
+		<value>JE HEBT GEWONNEN</value>
+	</data>
+	<data name="YOU FOUND ARMOR" xml:space="preserve">
+		<value>YOU PICKED UP ARMOR</value>
+	</data>
+	<data name="YOU FOUND BOMB" xml:space="preserve">
+		<value>YOU PICKED UP BOMB</value>
+	</data>
+	<data name="YOU FOUND TURBO" xml:space="preserve">
+		<value>YOU PICKED UP TURBO</value>
+	</data>
+	<data name="YOU FREED" xml:space="preserve">
+		<value>JE HEBT A VRIJGELATEN</value>
+	</data>
+	<data name="You gadget is successfully crafter. Let's use it!" xml:space="preserve">
+		<value>Je gadget is succesvol gemaakt. Gebruik het!</value>
+	</data>
+	<data name="YOU HAVE COLLECTED SOME BOXES. TRY YOUR LUCK AND WIN FREE BONUSES!" xml:space="preserve">
+		<value>JE HEBT WAT KISTEN VERZAMELD. BEPROEF JE GELUK EN WIN GRATIS BONUSSEN!</value>
+	</data>
+	<data name="YOU NEED" xml:space="preserve">
+		<value>JE HEBT NODIG</value>
+	</data>
+	<data name="YOU ROCK!" xml:space="preserve">
+		<value>JE ROCKT!</value>
+	</data>
+	<data name="YOU WILL LOSE YOUR CURRENT GAME PROGRESS!" xml:space="preserve">
+		<value>JE ZULT DE VOORUITGANG IN HET HUIDIGE SPEL KWIJTRAKEN!</value>
+	</data>
+	<data name="YOUR BOOSTS" xml:space="preserve">
+		<value>JE BOOSTS</value>
+	</data>
+	<data name="Your daily bonus is ready. Get it!" xml:space="preserve">
+		<value>Je dagelijkse bonus is klaar. Snap je!</value>
+	</data>
+	<data name="Your gas has refilled in Car Eats Car. Let's go race!" xml:space="preserve">
+		<value>Je gas is opnieuw gevuld in Car Eats Car. Laten we gaan racen!</value>
+	</data>
+	<data name="YOUR PREVIOUSLY PURCHASD PRODUCTS HAVE BEEN RESTORED" xml:space="preserve">
+		<value>JE AANKOPEN ZIJN HERSTELD</value>
+	</data>
+	<data name="YOUR RATING HELPS US PROVIDE UPDATES FOR THE GAME" xml:space="preserve">
+		<value>JOUW BEOORDELING HELPT ONS OM UPDATES VOOR HET SPEL TE MAKEN</value>
+	</data>
+	<data name="YOU'VE PLAYED CAR EATS CAR BEFORE!" xml:space="preserve">
+		<value>JE HEBT CAR EATS CAR EERDER GESPEELD!</value>
+	</data>
+	<data name="YUM-YUM!" xml:space="preserve">
+		<value>YUM-YUM!</value>
+	</data>
+</root>

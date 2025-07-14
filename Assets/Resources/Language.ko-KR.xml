@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="-*%  cheaper than buying parts separately" xml:space="preserve">
+		<value>X % 별도의 부품을 구입하는 것보다 쌉니다.</value>
+	</data>
+	<data name="_beatFriend_description" xml:space="preserve">
+		<value />
+	</data>
+	<data name="_rateUs_btn" xml:space="preserve">
+		<value>평가</value>
+	</data>
+	<data name="_rateUs_caption" xml:space="preserve">
+		<value>게임을 평가해 주세요!</value>
+	</data>
+	<data name="_rateUs_description" xml:space="preserve">
+		<value>여러분의 평가는 저희가 게임을 개선하는 데에 도움이 됩니다.</value>
+	</data>
+	<data name="_rateUs_remind" xml:space="preserve">
+		<value>나중에 알림</value>
+	</data>
+	<data name="+* MAX" xml:space="preserve">
+		<value>+* max.</value>
+	</data>
+	<data name="1 FREE SPIN" xml:space="preserve">
+		<value>무료 스핀 1회</value>
+	</data>
+	<data name="1 RACE COSTS * GALLONS OF FUEL" xml:space="preserve">
+		<value>경주 한 번에 5 갤론의 연료가 필요합니다.</value>
+	</data>
+	<data name="1-2-3-GO!" xml:space="preserve">
+		<value>출발!</value>
+	</data>
+	<data name="5 SEC." xml:space="preserve">
+		<value>5 초</value>
+	</data>
+	<data name="A MONSTROUS MIXTURE OF DRILL AND TANK GUN" xml:space="preserve">
+		<value>TANKOMINATOR - 드릴 및 탱크 총의 몬스터 믹스</value>
+	</data>
+	<data name="ACTIVE" xml:space="preserve">
+		<value>활성</value>
+	</data>
+	<data name="Ads allow you to play for free. We apologize if it was obsessive to you. Making any in-app purchase will disable ads forever." xml:space="preserve">
+		<value>광고를 통해 무료로 게임을 즐길 수 있습니다. 그것이 당신에게 강박 적이라면 사과드립니다. 인앱 구매를하면 광고가 영구적으로 사용 중지됩니다.</value>
+	</data>
+	<data name="ADS IN THIS GAME" xml:space="preserve">
+		<value>게임 내 광고</value>
+	</data>
+	<data name="AIRSTRIKE!" xml:space="preserve">
+		<value>공중 지원</value>
+	</data>
+	<data name="ALL PROGESS LOST" xml:space="preserve">
+		<value>모든 진행이 제거될 것입니다.</value>
+	</data>
+	<data name="ALL PROGRESS IS NOW SYNCHRONIZED WITH YOUR ACCOUNT!" xml:space="preserve">
+		<value>이제 모든 진행 사항이 계정과 동기화됐습니다!</value>
+	</data>
+	<data name="ALLIGATOR" xml:space="preserve">
+		<value>악어</value>
+	</data>
+	<data name="ANTIGRAVS" xml:space="preserve">
+		<value>반중력</value>
+	</data>
+	<data name="ANY PURCHASE REMOVES ALL ADS" xml:space="preserve">
+		<value>아무거나 구매하면 광고가 모두 사라집니다</value>
+	</data>
+	<data name="Archiver" xml:space="preserve">
+		<value>아카이버</value>
+	</data>
+	<data name="ARE YOU SHURE" xml:space="preserve">
+		<value>확실한가요?</value>
+	</data>
+	<data name="ARE YOU SHURE YOU WANT TO QUIT" xml:space="preserve">
+		<value>정말 그만두고 싶습니까?</value>
+	</data>
+	<data name="ARE YOU SURE YOU WANT TO BUY ADDITIONAL BOXES FOR * RUBIES?" xml:space="preserve">
+		<value>루비 *개로 상자를 추가 구매하시겠습니까?</value>
+	</data>
+	<data name="ARENA *" xml:space="preserve">
+		<value>경기장 *</value>
+	</data>
+	<data name="ARMOR" xml:space="preserve">
+		<value>장갑</value>
+	</data>
+	<data name="ART" xml:space="preserve">
+		<value>아트</value>
+	</data>
+	<data name="ASK ME LATER" xml:space="preserve">
+		<value>나중에</value>
+	</data>
+	<data name="ATTRACT STARS WHILE DRIVING" xml:space="preserve">
+		<value>운전하면서 별을 모으세요.</value>
+	</data>
+	<data name="AWESOME!" xml:space="preserve">
+		<value>굉장한!</value>
+	</data>
+	<data name="BAD" xml:space="preserve">
+		<value>나쁜</value>
+	</data>
+	<data name="BALANCE YOUR CAR USING TILT BUTTONS" xml:space="preserve">
+		<value>틸트 버튼으로 자동차의 균형을 유지하세요.</value>
+	</data>
+	<data name="BASIC BOMB" xml:space="preserve">
+		<value>핵</value>
+	</data>
+	<data name="BEERANHA" xml:space="preserve">
+		<value>프체라니야</value>
+	</data>
+	<data name="Beetlee" xml:space="preserve">
+		<value>BEETLEE</value>
+	</data>
+	<data name="Beetlee description" xml:space="preserve">
+		<value>BEETLEE - 그는 친절하곤했지만 지금은 악합니다.</value>
+	</data>
+	<data name="BERSERKER" xml:space="preserve">
+		<value>버서커</value>
+	</data>
+	<data name="BEST" xml:space="preserve">
+		<value>베스트</value>
+	</data>
+	<data name="BETTER TRACTION ON THE GROUND" xml:space="preserve">
+		<value>도로 마찰력 강화.</value>
+	</data>
+	<data name="Bigfoot" xml:space="preserve">
+		<value>Bigfoot</value>
+	</data>
+	<data name="BOMB REPLICATOR" xml:space="preserve">
+		<value>폭탄 복제기</value>
+	</data>
+	<data name="Bomber" xml:space="preserve">
+		<value>봄버</value>
+	</data>
+	<data name="BOMBERS!" xml:space="preserve">
+		<value>봄버</value>
+	</data>
+	<data name="BOMBS" xml:space="preserve">
+		<value>폭탄</value>
+	</data>
+	<data name="BONUS" xml:space="preserve">
+		<value>보너스</value>
+	</data>
+	<data name="BOOSTS DOUBLED" xml:space="preserve">
+		<value>보상은 두 배로 증가했습니다</value>
+	</data>
+	<data name="BOSS KILLER!" xml:space="preserve">
+		<value>보스 킬러!</value>
+	</data>
+	<data name="BOSS LEVEL" xml:space="preserve">
+		<value>보스 레벨</value>
+	</data>
+	<data name="BOSS LEVEL LOCKED" xml:space="preserve">
+		<value>보스 레벨은 불가능합니다</value>
+	</data>
+	<data name="BOSS1" xml:space="preserve">
+		<value>ROD 코드</value>
+	</data>
+	<data name="BOSS2" xml:space="preserve">
+		<value>조명</value>
+	</data>
+	<data name="BOSS3" xml:space="preserve">
+		<value>컵 버킷</value>
+	</data>
+	<data name="BOUGHT" xml:space="preserve">
+		<value>구매</value>
+	</data>
+	<data name="BUILD" xml:space="preserve">
+		<value>만들기</value>
+	</data>
+	<data name="BUY" xml:space="preserve">
+		<value>구매</value>
+	</data>
+	<data name="BUY ADDITIONAL BOXES OR CONTINUE PLAYING" xml:space="preserve">
+		<value>상자를 추가 구매하거나 계속 플레이하세요.</value>
+	</data>
+	<data name="BUY FUEL" xml:space="preserve">
+		<value>가솔린 구입</value>
+	</data>
+	<data name="BUY NOW" xml:space="preserve">
+		<value>지금 구입하십시오!</value>
+	</data>
+	<data name="BUY RUBIES" xml:space="preserve">
+		<value>루비 구입</value>
+	</data>
+	<data name="BY PROCEEDING YOU AGREE TO OUR UPDATED PRIVACY POLICY." xml:space="preserve">
+		<value>계속 진행하면 업데이트 된 개인 정보 취급 방침에 동의하게됩니다.</value>
+	</data>
+	<data name="Can we continue to use your data to tailor ads for your?" xml:space="preserve">
+		<value>Can we continue to use your data to tailor ads for your?</value>
+	</data>
+	<data name="CANCEL" xml:space="preserve">
+		<value>취소</value>
+	</data>
+	<data name="CAN'T FIND PURCHASED PRODUCTS" xml:space="preserve">
+		<value>구매한 제품을 찾을 수 없습니다.</value>
+	</data>
+	<data name="CAN'T PASS A LEVEL?" xml:space="preserve">
+		<value>레벨을 통과시킬 수 없습니까?</value>
+	</data>
+	<data name="CAN'T WAIT?" xml:space="preserve">
+		<value>기다릴 수 없나요?</value>
+	</data>
+	<data name="CAR COLLECTION" xml:space="preserve">
+		<value>자동차 수집</value>
+	</data>
+	<data name="CAR EATS CAR" xml:space="preserve">
+		<value>자동차 먹는 자동차</value>
+	</data>
+	<data name="CAR LOCKED" xml:space="preserve">
+		<value>레벨에서 자동차 잠금 해제 *</value>
+	</data>
+	<data name="CAROCOP" xml:space="preserve">
+		<value>CAROCOP</value>
+	</data>
+	<data name="CAROCOP - BUNKER ON WHEELS" xml:space="preserve">
+		<value>CAROCOP - 벙커 온 휠</value>
+	</data>
+	<data name="CHOOSE AN EGG" xml:space="preserve">
+		<value>달걀을 선택</value>
+	</data>
+	<data name="CLEARED" xml:space="preserve">
+		<value>제거</value>
+	</data>
+	<data name="CLOSE" xml:space="preserve">
+		<value>닫기</value>
+	</data>
+	<data name="CLUSTER BOMB" xml:space="preserve">
+		<value>클러스터</value>
+	</data>
+	<data name="COCKCHAFER" xml:space="preserve">
+		<value>COCKCHAFER</value>
+	</data>
+	<data name="COLLECT ALL PARTS AND GET TANKOMINATOR" xml:space="preserve">
+		<value>모든 부품을 수거하고 유류 감축기를 얻으십시오!</value>
+	</data>
+	<data name="COLLECT BOXES AND WIN PRIZES BY SPINNING A WHEEL AFTER EVERY LEVEL" xml:space="preserve">
+		<value>레벨이 끝날 때마다 경주를 하여 상자를 모으고 상품을 받으세요.</value>
+	</data>
+	<data name="COLLECT EGGS AND GEMS IN THE CAVE" xml:space="preserve">
+		<value>동굴에서 계란과 보석을 수집</value>
+	</data>
+	<data name="COLLECTED" xml:space="preserve">
+		<value>수집</value>
+	</data>
+	<data name="COMBO!" xml:space="preserve">
+		<value>콤보!</value>
+	</data>
+	<data name="COMING SOON" xml:space="preserve">
+		<value>곧 출시</value>
+	</data>
+	<data name="COMPACTOR" xml:space="preserve">
+		<value>컴팩터</value>
+	</data>
+	<data name="CONGRATULATIONS" xml:space="preserve">
+		<value>축하합니다</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU WON TANKOMINATOR" xml:space="preserve">
+		<value>축하! TANKMINATOR</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED ANTIGRAVS" xml:space="preserve">
+		<value>축하! ANTIGRAV</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED MEGA TURBO" xml:space="preserve">
+		<value>축하! MEGA TURBO</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED SUPER GUN" xml:space="preserve">
+		<value>축하! SUPER GUN</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED TANK" xml:space="preserve">
+		<value>축하! TANK</value>
+	</data>
+	<data name="CONNECTION FAILED" xml:space="preserve">
+		<value>연결 실패</value>
+	</data>
+	<data name="CONNECTION SUCCESS" xml:space="preserve">
+		<value>연결 성공</value>
+	</data>
+	<data name="CONSTRUCT IN POLICEPEDIA" xml:space="preserve">
+		<value>무료로 수신</value>
+	</data>
+	<data name="CONTINUE" xml:space="preserve">
+		<value>계속</value>
+	</data>
+	<data name="Copter" xml:space="preserve">
+		<value>콥터</value>
+	</data>
+	<data name="COPTER!" xml:space="preserve">
+		<value>콥터</value>
+	</data>
+	<data name="COPYRIGHT 2015 BY SMOKOKO SA" xml:space="preserve">
+		<value>저작권 2015-2018: SMOKOKO LTD</value>
+	</data>
+	<data name="CREDITS" xml:space="preserve">
+		<value>크레딧</value>
+	</data>
+	<data name="DAILY BONUS" xml:space="preserve">
+		<value>일일 보너스</value>
+	</data>
+	<data name="DAMAGE" xml:space="preserve">
+		<value>손실</value>
+	</data>
+	<data name="DAY *" xml:space="preserve">
+		<value>*일</value>
+	</data>
+	<data name="DEADLY BLADES" xml:space="preserve">
+		<value>선명 블레이드</value>
+	</data>
+	<data name="DEFEAT" xml:space="preserve">
+		<value>너는 체포되어 있습니다!</value>
+	</data>
+	<data name="DESCRIPTION BASIC BOMB " xml:space="preserve">
+		<value>기본 재래식 폭탄</value>
+	</data>
+	<data name="DESCRIPTION BOMB REPLICATOR" xml:space="preserve">
+		<value>조금씩 폭탄 수가 많아지고 있습니다.</value>
+	</data>
+	<data name="DESCRIPTION CLUSTER BOMB" xml:space="preserve">
+		<value>매우 폭발적인 소형 폭탄의 클러스터입니다. 피해 지역이 넓습니다</value>
+	</data>
+	<data name="DESCRIPTION EMP EMITTER" xml:space="preserve">
+		<value>주위의 모든 적을 마비시키는 전자 기적 충격을 방출합니다.</value>
+	</data>
+	<data name="DESCRIPTION FLAME BOMB" xml:space="preserve">
+		<value>소이탄과 폭탄. 패배 지역에서 모두 발사합니다.</value>
+	</data>
+	<data name="DESCRIPTION FRAG BOMB" xml:space="preserve">
+		<value>기본 조각 폭탄입니다. 조각으로 추가 피해를 입힙니다.</value>
+	</data>
+	<data name="DESCRIPTION FREEZE RAY" xml:space="preserve">
+		<value>액체 질소의 응혈을 일으켜 적을 동결시킵니다.</value>
+	</data>
+	<data name="DESCRIPTION MAGNET" xml:space="preserve">
+		<value>주위의 루비를 끌어 당기는 자기장을 생성합니다.</value>
+	</data>
+	<data name="DESCRIPTION MISSILE LAUNCHER" xml:space="preserve">
+		<value>통합 발사기. 강력한 미사일 로켓을 발사합니다.</value>
+	</data>
+	<data name="DESCRIPTION SHRINK BOMB" xml:space="preserve">
+		<value>첨단 폭탄. 적을 안전한 크기로 축소시킵니다.</value>
+	</data>
+	<data name="DISTANCE" xml:space="preserve">
+		<value>거리</value>
+	</data>
+	<data name="DRILL GUN" xml:space="preserve">
+		<value>드릴 총</value>
+	</data>
+	<data name="Driller" xml:space="preserve">
+		<value>드릴러</value>
+	</data>
+	<data name="DRON1 DESCRIPTION" xml:space="preserve">
+		<value>5일째에 무료로 받음</value>
+	</data>
+	<data name="DRON2 DESCRIPTION" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DROWNED CITY" xml:space="preserve">
+		<value>물에 잠긴 도시</value>
+	</data>
+	<data name="EASTER EGG HUNT" xml:space="preserve">
+		<value>EASTER EGG HUNT</value>
+	</data>
+	<data name="EAT POLICE AND CIVILS" xml:space="preserve">
+		<value>배트를 얻기 위해 당신의 적들을 파괴하십시오.</value>
+	</data>
+	<data name="ECO FUEL" xml:space="preserve">
+		<value>에코 가솔린</value>
+	</data>
+	<data name="EMP EMITTER" xml:space="preserve">
+		<value>전자기 충동</value>
+	</data>
+	<data name="ENDLESS STOCK OF FUEL" xml:space="preserve">
+		<value>가솔린의 무한 재고</value>
+	</data>
+	<data name="ENGINE" xml:space="preserve">
+		<value>엔진</value>
+	</data>
+	<data name="ENIGMA" xml:space="preserve">
+		<value>수수께끼</value>
+	</data>
+	<data name="EQUIP" xml:space="preserve">
+		<value>장착</value>
+	</data>
+	<data name="EQUIPED" xml:space="preserve">
+		<value>장착됨</value>
+	</data>
+	<data name="EVOLUTION COMPLETE" xml:space="preserve">
+		<value>진화가 완료되었습니다.</value>
+	</data>
+	<data name="Excavator" xml:space="preserve">
+		<value>굴착기</value>
+	</data>
+	<data name="EXCELLENT!" xml:space="preserve">
+		<value>훌륭해요!</value>
+	</data>
+	<data name="EXIT" xml:space="preserve">
+		<value>출구</value>
+	</data>
+	<data name="FIND AT ARENA" xml:space="preserve">
+		<value>경기장에서 찾기</value>
+	</data>
+	<data name="FIND AT EASTER EGG HUNT" xml:space="preserve">
+		<value>부활절 가게에서 사다.</value>
+	</data>
+	<data name="FIND IN THE CAVE" xml:space="preserve">
+		<value>지하 찾기</value>
+	</data>
+	<data name="FIREBUG" xml:space="preserve">
+		<value>FIREFLY</value>
+	</data>
+	<data name="FIRED!?!" xml:space="preserve">
+		<value>해고되었습니까?</value>
+	</data>
+	<data name="FLAME BOMB" xml:space="preserve">
+		<value>불꽃 폭탄</value>
+	</data>
+	<data name="FORTUNE" xml:space="preserve">
+		<value>부</value>
+	</data>
+	<data name="FRAG BOMB" xml:space="preserve">
+		<value>조각 폭탄</value>
+	</data>
+	<data name="FRANCOPSTEIN" xml:space="preserve">
+		<value>FRANCOPSTEIN</value>
+	</data>
+	<data name="FRANCOPSTEIN - IT'S ALIVE!" xml:space="preserve">
+		<value>FRANCOPSTEIN - 살아있어!</value>
+	</data>
+	<data name="FREE" xml:space="preserve">
+		<value>무료</value>
+	</data>
+	<data name="FREE FUEL PACK" xml:space="preserve">
+		<value>무료 가솔린</value>
+	</data>
+	<data name="FREE RUBIES PACK" xml:space="preserve">
+		<value>무료 우승!</value>
+	</data>
+	<data name="FREE SPIN" xml:space="preserve">
+		<value>무료 스핀 회</value>
+	</data>
+	<data name="FREEDOM ISLAND!!!" xml:space="preserve">
+		<value>자유 섬!!!</value>
+	</data>
+	<data name="FREEZE RAY" xml:space="preserve">
+		<value>냉동</value>
+	</data>
+	<data name="FRIENDOPEDIA" xml:space="preserve">
+		<value>FRIENDOPEDIA</value>
+	</data>
+	<data name="FUEL" xml:space="preserve">
+		<value>연료</value>
+	</data>
+	<data name="GADGETS" xml:space="preserve">
+		<value>가젯</value>
+	</data>
+	<data name="GAME DESIGN" xml:space="preserve">
+		<value>게임 디자인</value>
+	</data>
+	<data name="GAME DEVELOPED BY SMOKOKO SA" xml:space="preserve">
+		<value>게임 개발자: SMOKOKO LTD</value>
+	</data>
+	<data name="GAME PUBLISHED BY SPIL GAMES" xml:space="preserve">
+		<value>게임 발행자: SPIL GAMES</value>
+	</data>
+	<data name="GARAGE" xml:space="preserve">
+		<value>차고</value>
+	</data>
+	<data name="GATOR" xml:space="preserve">
+		<value>게이터</value>
+	</data>
+	<data name="GET ADDITIONAL BOMBS" xml:space="preserve">
+		<value>추가 폭탄을 받으세요.</value>
+	</data>
+	<data name="GET ADDITIONAL TURBO" xml:space="preserve">
+		<value>추가 터보를 받으세요.</value>
+	</data>
+	<data name="GET FUEL" xml:space="preserve">
+		<value>연료를 받으세요</value>
+	</data>
+	<data name="GET RUBIES" xml:space="preserve">
+		<value>루비를 받으세요</value>
+	</data>
+	<data name="GHOST TOWN" xml:space="preserve">
+		<value>고스트 타운</value>
+	</data>
+	<data name="GOOD" xml:space="preserve">
+		<value>좋은</value>
+	</data>
+	<data name="HARVESTER" xml:space="preserve">
+		<value>하베스터</value>
+	</data>
+	<data name="HAVEN'T PLAYED YET?" xml:space="preserve">
+		<value>아직 연주하지 않았 니?</value>
+	</data>
+	<data name="HOW TO PLAY" xml:space="preserve">
+		<value>플레이 방법</value>
+	</data>
+	<data name="I AGREE" xml:space="preserve">
+		<value>나는 동의한다</value>
+	</data>
+	<data name="ICE AGE" xml:space="preserve">
+		<value>빙하기</value>
+	</data>
+	<data name="INCREASES CAR'S HEALTH" xml:space="preserve">
+		<value>자동차의 헬스를 높입니다.</value>
+	</data>
+	<data name="INCREASES CAR'S TOP SPEED" xml:space="preserve">
+		<value>자동차의 최고 속도를 높입니다.</value>
+	</data>
+	<data name="INCUBATOR" xml:space="preserve">
+		<value>부란기</value>
+	</data>
+	<data name="Ketchup" xml:space="preserve">
+		<value>케첩</value>
+	</data>
+	<data name="KILLED" xml:space="preserve">
+		<value>파괴</value>
+	</data>
+	<data name="LANGUAGE" xml:space="preserve">
+		<value>언어</value>
+	</data>
+	<data name="LARGE FUEL TANK" xml:space="preserve">
+		<value>대형 탱크</value>
+	</data>
+	<data name="LARGER TURBO TANK CAPACITY" xml:space="preserve">
+		<value>대형 터보 탱크 용량.</value>
+	</data>
+	<data name="Learn how CAR EATS CAR 3 and our partners collect and use data" xml:space="preserve">
+		<value>Learn how (GAME NAME) and our partners collect and use data</value>
+	</data>
+	<data name="LEAVING SO SOON" xml:space="preserve">
+		<value>벌써 떠납니까?</value>
+	</data>
+	<data name="LESS POWER!" xml:space="preserve">
+		<value>취약성</value>
+	</data>
+	<data name="LET'S LEVEL UP THE SPEED" xml:space="preserve">
+		<value>속도를 향상하자.</value>
+	</data>
+	<data name="LET'S RETURN TO MAP" xml:space="preserve">
+		<value>지도로 돌아가자.</value>
+	</data>
+	<data name="LEVEL" xml:space="preserve">
+		<value>레벨</value>
+	</data>
+	<data name="LEVEL *" xml:space="preserve">
+		<value>*레벨</value>
+	</data>
+	<data name="LEVEL * COMPLETED" xml:space="preserve">
+		<value>*레벨 완료</value>
+	</data>
+	<data name="LEVEL * FAILED" xml:space="preserve">
+		<value>*레벨 실패</value>
+	</data>
+	<data name="LEVEL DESIGN" xml:space="preserve">
+		<value>레벨 디자인:</value>
+	</data>
+	<data name="LEVELS" xml:space="preserve">
+		<value>레벨</value>
+	</data>
+	<data name="Limited offer, left * min" xml:space="preserve">
+		<value>한정 제안, left * min</value>
+	</data>
+	<data name="LIMITED TIME OFFER" xml:space="preserve">
+		<value>제한적인 제안</value>
+	</data>
+	<data name="LOAD" xml:space="preserve">
+		<value>다운로드</value>
+	</data>
+	<data name="LOAD THIS GAME?" xml:space="preserve">
+		<value>이 게임을 불러올까요?</value>
+	</data>
+	<data name="LOADING" xml:space="preserve">
+		<value>로드 중</value>
+	</data>
+	<data name="LOCKED" xml:space="preserve">
+		<value>잠긴</value>
+	</data>
+	<data name="LOCOMACHINE" xml:space="preserve">
+		<value>로코머신</value>
+	</data>
+	<data name="LOGIN" xml:space="preserve">
+		<value>로그인</value>
+	</data>
+	<data name="LOGIN AND GET" xml:space="preserve">
+		<value>로그인하고 받기</value>
+	</data>
+	<data name="LOGIN AND GET BONUSES" xml:space="preserve">
+		<value>세션을 시작하고 상여를 얻으십시오!</value>
+	</data>
+	<data name="LOGOUT" xml:space="preserve">
+		<value>로그 아웃</value>
+	</data>
+	<data name="MAGNET" xml:space="preserve">
+		<value>자석</value>
+	</data>
+	<data name="Matt" xml:space="preserve">
+		<value>맷</value>
+	</data>
+	<data name="MAX." xml:space="preserve">
+		<value>최대</value>
+	</data>
+	<data name="MEGA TURBO" xml:space="preserve">
+		<value>메가 터보</value>
+	</data>
+	<data name="METEOR SHOWER" xml:space="preserve">
+		<value>유성우</value>
+	</data>
+	<data name="MIN" xml:space="preserve">
+		<value>최소</value>
+	</data>
+	<data name="MISSILE LAUNCHER" xml:space="preserve">
+		<value>미사일 발사기</value>
+	</data>
+	<data name="MISTY FOREST" xml:space="preserve">
+		<value>안개 낀 숲</value>
+	</data>
+	<data name="MODERATE BLAST AREA AND DAMAGE" xml:space="preserve">
+		<value>보통 폭풍 지역 피해</value>
+	</data>
+	<data name="MONSTROPEDIA" xml:space="preserve">
+		<value>MONSTROPEDIA</value>
+	</data>
+	<data name="MORE GAMES" xml:space="preserve">
+		<value>더 많은 게임</value>
+	</data>
+	<data name="MORE POWER!" xml:space="preserve">
+		<value>더 많은 힘!</value>
+	</data>
+	<data name="MR BOMBASTIC" xml:space="preserve">
+		<value>Mr. BOMBASTIC</value>
+	</data>
+	<data name="MUSIC &amp; SOUND" xml:space="preserve">
+		<value>음악 및 사운드</value>
+	</data>
+	<data name="NEW" xml:space="preserve">
+		<value>새로운</value>
+	</data>
+	<data name="NEXT" xml:space="preserve">
+		<value>다음</value>
+	</data>
+	<data name="NEXT IN" xml:space="preserve">
+		<value>다음</value>
+	</data>
+	<data name="NEXT LEVEL" xml:space="preserve">
+		<value>다음 레벨</value>
+	</data>
+	<data name="NO" xml:space="preserve">
+		<value>아니요</value>
+	</data>
+	<data name="NO INTERNET CONNECTION WAS FOUND. PLEASE TRY AGAIN LATER" xml:space="preserve">
+		<value>인터넷에 연결되어 있지 않습니다. 나중에 다시 시도하세요</value>
+	</data>
+	<data name="NO NEW VIDEOS AVAILABLE RIGHT NOW" xml:space="preserve">
+		<value>현재 새로운 동영상이 없습니다.</value>
+	</data>
+	<data name="NO THANKS" xml:space="preserve">
+		<value>아니요</value>
+	</data>
+	<data name="NO VIDEO AVALIABLE" xml:space="preserve">
+		<value>현재 새로운 동영상이 없습니다.</value>
+	</data>
+	<data name="No, see ads that are less relevant" xml:space="preserve">
+		<value>No, see ads that are less relevant</value>
+	</data>
+	<data name="NOT ENOUGH" xml:space="preserve">
+		<value>이 부족합니다</value>
+	</data>
+	<data name="NOTHING WILL STOP HIM" xml:space="preserve">
+		<value>로코머신 - 아무것도 그 머신을 멈추지 않을 것입니다!</value>
+	</data>
+	<data name="OFF" xml:space="preserve">
+		<value> 할인</value>
+	</data>
+	<data name="Om-Nom-nom" xml:space="preserve">
+		<value>Om-Nom-nom</value>
+	</data>
+	<data name="OOPS!" xml:space="preserve">
+		<value>이런!</value>
+	</data>
+	<data name="OPEN ALL LEVELS" xml:space="preserve">
+		<value>모든 레벨 잠금 해제</value>
+	</data>
+	<data name="OPEN FIRST LEVEL" xml:space="preserve">
+		<value>첫 번째 레벨 열기</value>
+	</data>
+	<data name="OPEN LOCATION" xml:space="preserve">
+		<value>장소 열기</value>
+	</data>
+	<data name="OPEN NEXT LEVEL" xml:space="preserve">
+		<value>다음 레벨 열기</value>
+	</data>
+	<data name="OR BUY NOW!" xml:space="preserve">
+		<value>또는 지금 구입하십시오!</value>
+	</data>
+	<data name="PART */4" xml:space="preserve">
+		<value>구성 요소 * / 4</value>
+	</data>
+	<data name="PLAY" xml:space="preserve">
+		<value>플레이</value>
+	</data>
+	<data name="PLAY NOW" xml:space="preserve">
+		<value>지금 플레이</value>
+	</data>
+	<data name="PLEASE CHOOSE" xml:space="preserve">
+		<value>선택하십시오</value>
+	</data>
+	<data name="PLEASE RATE CAR EATS CAR" xml:space="preserve">
+		<value>약탈 기계를 평가하기</value>
+	</data>
+	<data name="POLICE!" xml:space="preserve">
+		<value>경찰!</value>
+	</data>
+	<data name="POLICEPEDIA" xml:space="preserve">
+		<value>POLICEPEDIA</value>
+	</data>
+	<data name="preloader_description_arena" xml:space="preserve">
+		<value>버서커</value>
+	</data>
+	<data name="preloader_description_boss1" xml:space="preserve">
+		<value>ROD 코드 - 가장 위험적인 경찰차</value>
+	</data>
+	<data name="preloader_description_boss2" xml:space="preserve">
+		<value>번개는 연방제 중 리더입니다.</value>
+	</data>
+	<data name="preloader_description_boss3" xml:space="preserve">
+		<value>버킷 캡틴- 승리하거나 바닥으로 갈 것입니다!</value>
+	</data>
+	<data name="preloader_description_car1" xml:space="preserve">
+		<value>가토르 (GATOR)는 최신 악마차입니다!</value>
+	</data>
+	<data name="preloader_description_car2" xml:space="preserve">
+		<value>수화기는 진짜 프리드레이터입니다!</value>
+	</data>
+	<data name="preloader_description_car3" xml:space="preserve">
+		<value>아카이브는 강력한 전채입니다!</value>
+	</data>
+	<data name="preloader_description_convoy" xml:space="preserve">
+		<value>너의 친구를 풀어 놓으려고 피해자를 체포하고 파괴하십시오</value>
+	</data>
+	<data name="preloader_description_copter1" xml:space="preserve">
+		<value>공역은 순찰되어 있습니다!</value>
+	</data>
+	<data name="preloader_description_copter2" xml:space="preserve">
+		<value>공역은 순찰되어 있습니다!</value>
+	</data>
+	<data name="preloader_description_copter3" xml:space="preserve">
+		<value>공역은 순찰되어 있습니다!</value>
+	</data>
+	<data name="preloader_description_drones" xml:space="preserve">
+		<value>드론은 최고 후보자입니다!</value>
+	</data>
+	<data name="preloader_description_fbi" xml:space="preserve">
+		<value>연맹은 언제든지 문제를 끼칠 준비가 되어 있습니다.</value>
+	</data>
+	<data name="preloader_description_fire" xml:space="preserve">
+		<value>방화범- 번쩍이는 불꽃에 주의하십시오.</value>
+	</data>
+	<data name="preloader_description_police1_1" xml:space="preserve">
+		<value>경찰관은 너를 잡도록 최선을 다하겠습니다!</value>
+	</data>
+	<data name="preloader_description_police1_2" xml:space="preserve">
+		<value>경찰관은 너를 잡도록 최선을 다하겠습니다!</value>
+	</data>
+	<data name="preloader_description_police1_3" xml:space="preserve">
+		<value>경찰관은 너를 잡도록 최선을 다하겠습니다!</value>
+	</data>
+	<data name="preloader_description_police1_4" xml:space="preserve">
+		<value>경찰관은 너를 잡도록 최선을 다하겠습니다!</value>
+	</data>
+	<data name="preloader_description_police2_1" xml:space="preserve">
+		<value>경찰관은 너를 잡도록 최선을 다하겠습니다!</value>
+	</data>
+	<data name="preloader_description_police2_2" xml:space="preserve">
+		<value>경찰관은 너를 잡도록 최선을 다하겠습니다!</value>
+	</data>
+	<data name="preloader_description_police2_3" xml:space="preserve">
+		<value>경찰관은 너를 잡도록 최선을 다하겠습니다!</value>
+	</data>
+	<data name="preloader_description_police2_4" xml:space="preserve">
+		<value>경찰관은 너를 잡도록 최선을 다하겠습니다!</value>
+	</data>
+	<data name="preloader_description_police3_1" xml:space="preserve">
+		<value>경찰관은 너를 잡도록 최선을 다하겠습니다!</value>
+	</data>
+	<data name="preloader_description_police3_2" xml:space="preserve">
+		<value>경찰관은 너를 잡도록 최선을 다하겠습니다!</value>
+	</data>
+	<data name="preloader_description_police3_3" xml:space="preserve">
+		<value>경찰관은 너를 잡도록 최선을 다하겠습니다!</value>
+	</data>
+	<data name="preloader_description_police3_4" xml:space="preserve">
+		<value>경찰관은 너를 잡도록 최선을 다하겠습니다!</value>
+	</data>
+	<data name="PREMIUM CONTENT" xml:space="preserve">
+		<value>프리미엄 콘텐츠</value>
+	</data>
+	<data name="PRESS TO FLIP BACKWARD" xml:space="preserve">
+		<value>뒤로 물러서서 누르기</value>
+	</data>
+	<data name="PRESS TO FLIP FORWARD" xml:space="preserve">
+		<value>앞으로 내릴 앞으로 누르기</value>
+	</data>
+	<data name="PRESS TO USE" xml:space="preserve">
+		<value>사용을 누르십시오</value>
+	</data>
+	<data name="PREVIOUS GAME FOUND" xml:space="preserve">
+		<value>이전 게임 발견</value>
+	</data>
+	<data name="PRIVACY DESCRIPTION" xml:space="preserve">
+		<value>우리의 개인 정보 보호 정책이 업데이트되었습니다! 검토하고 변경 사항을 수락하여 계속 재생하십시오.</value>
+	</data>
+	<data name="PRIVACY POLICY" xml:space="preserve">
+		<value>개인 정보 정책</value>
+	</data>
+	<data name="PRODUCERS" xml:space="preserve">
+		<value>프로듀서</value>
+	</data>
+	<data name="PROGRAMMING" xml:space="preserve">
+		<value>프로그래밍</value>
+	</data>
+	<data name="PROTECT YOUR CAR'S BODY" xml:space="preserve">
+		<value>차체를 보호하세요.</value>
+	</data>
+	<data name="PUSH" xml:space="preserve">
+		<value>누르기</value>
+	</data>
+	<data name="RABBITSTER" xml:space="preserve">
+		<value>RABBITSTER</value>
+	</data>
+	<data name="RABBITSTER DESCRIPTION" xml:space="preserve">
+		<value>RABBITSTER - 날카로운 치아, 긴 귀</value>
+	</data>
+	<data name="RAM" xml:space="preserve">
+		<value>들이받기</value>
+	</data>
+	<data name="RAM YOUR ENEMIES TILL DEATH" xml:space="preserve">
+		<value>적이 죽을 때까지 들이받으세요.</value>
+	</data>
+	<data name="RATE" xml:space="preserve">
+		<value>지금 평가</value>
+	</data>
+	<data name="RATE NOW" xml:space="preserve">
+		<value>지금 평가</value>
+	</data>
+	<data name="RATE US SHAUT 1" xml:space="preserve">
+		<value>정말 나쁜거야?</value>
+	</data>
+	<data name="RATE US SHAUT 2" xml:space="preserve">
+		<value>슬픈 일이지만, 우리는 항상 소원을 듣습니다.</value>
+	</data>
+	<data name="RATE US SHAUT 3" xml:space="preserve">
+		<value>평가해서 감사합니다!</value>
+	</data>
+	<data name="RATE US SHAUT 4" xml:space="preserve">
+		<value>와우! 우리는 게임을 더 좋게 만들 것입니다!</value>
+	</data>
+	<data name="RATE US SHAUT 5" xml:space="preserve">
+		<value>고맙네 친구야! 너는 최고야!</value>
+	</data>
+	<data name="RATE YOUR EXPERIENCE!" xml:space="preserve">
+		<value>게임을 평가해 주세요!</value>
+	</data>
+	<data name="REACH * M. TO GET ANTIGRAVS" xml:space="preserve">
+		<value>REACH * M. TO GET ANTIGRAVS</value>
+	</data>
+	<data name="REACH * M. TO GET MEGA TURBO" xml:space="preserve">
+		<value>REACH * M. TO GET MEGA TURBO</value>
+	</data>
+	<data name="REACH * M. TO GET SUPER GUN" xml:space="preserve">
+		<value>REACH * M. TO GET SUPER GUN</value>
+	</data>
+	<data name="REACH * M. TO GET TANK" xml:space="preserve">
+		<value>REACH * M. TO GET TANK</value>
+	</data>
+	<data name="REACH * M. TO GET TANKOMINATOR PART */4" xml:space="preserve">
+		<value>유조선 부분 완성 * / 4</value>
+	</data>
+	<data name="RECHARGER" xml:space="preserve">
+		<value>충전기</value>
+	</data>
+	<data name="REGENERATOR" xml:space="preserve">
+		<value>재생기</value>
+	</data>
+	<data name="RESET GAME" xml:space="preserve">
+		<value>게임 리셋</value>
+	</data>
+	<data name="RESTART" xml:space="preserve">
+		<value>시작</value>
+	</data>
+	<data name="RESTORE PURCHASED" xml:space="preserve">
+		<value>구매 복원</value>
+	</data>
+	<data name="RESTORE PURCHASES" xml:space="preserve">
+		<value>구매 사항 복원</value>
+	</data>
+	<data name="RESUME" xml:space="preserve">
+		<value>다시 시작</value>
+	</data>
+	<data name="REVIVE YOUR HEALTH AND FINISH THE LEVEL" xml:space="preserve">
+		<value>헬스를 복원하고 레벨을 마치세요.</value>
+	</data>
+	<data name="REVIVE?" xml:space="preserve">
+		<value>부활</value>
+	</data>
+	<data name="REWARD" xml:space="preserve">
+		<value>보상</value>
+	</data>
+	<data name="RUBIES" xml:space="preserve">
+		<value>루비</value>
+	</data>
+	<data name="Sawcar" xml:space="preserve">
+		<value>쏘우카</value>
+	</data>
+	<data name="School Bus" xml:space="preserve">
+		<value>스쿨버스</value>
+	</data>
+	<data name="SCORPION" xml:space="preserve">
+		<value>SCORPION</value>
+	</data>
+	<data name="SEE YOUR FRIENDS PROGRESS" xml:space="preserve">
+		<value>친구 진행 정보 보기</value>
+	</data>
+	<data name="SETTINGS" xml:space="preserve">
+		<value>설정</value>
+	</data>
+	<data name="SHARE" xml:space="preserve">
+		<value>공유</value>
+	</data>
+	<data name="SHARE VIA FB AND RECEIVE REWARD" xml:space="preserve">
+		<value>친구와 공유하고 보상을 얻기</value>
+	</data>
+	<data name="SHIELD" xml:space="preserve">
+		<value>쉴드</value>
+	</data>
+	<data name="SHOP" xml:space="preserve">
+		<value>상점</value>
+	</data>
+	<data name="Show consent form" xml:space="preserve">
+		<value>Show consent form</value>
+	</data>
+	<data name="SHRINK BOMB" xml:space="preserve">
+		<value>수축 폭탄</value>
+	</data>
+	<data name="SKIP" xml:space="preserve">
+		<value>스킵</value>
+	</data>
+	<data name="Smarty" xml:space="preserve">
+		<value>스마티</value>
+	</data>
+	<data name="SPECIAL MISSION" xml:space="preserve">
+		<value>사명</value>
+	</data>
+	<data name="SPEED" xml:space="preserve">
+		<value>속도</value>
+	</data>
+	<data name="SPEED UP WITH TURBO BUTTON" xml:space="preserve">
+		<value>터보 버튼으로 속도를 높이세요.</value>
+	</data>
+	<data name="Spike" xml:space="preserve">
+		<value>스파이크</value>
+	</data>
+	<data name="SPIN" xml:space="preserve">
+		<value>스핀</value>
+	</data>
+	<data name="SPIN NOW" xml:space="preserve">
+		<value>지금 놀아 라!</value>
+	</data>
+	<data name="START" xml:space="preserve">
+		<value>시작</value>
+	</data>
+	<data name="START MINI GAME" xml:space="preserve">
+		<value>MINI 게임 시작</value>
+	</data>
+	<data name="START RACE NOW!" xml:space="preserve">
+		<value>지금 경주를 시작하세요!</value>
+	</data>
+	<data name="Stinger" xml:space="preserve">
+		<value>스팅어</value>
+	</data>
+	<data name="STOP" xml:space="preserve">
+		<value>정지</value>
+	</data>
+	<data name="STRONG HULL" xml:space="preserve">
+		<value>강해</value>
+	</data>
+	<data name="SUPER FRICTION" xml:space="preserve">
+		<value>슈퍼 그립</value>
+	</data>
+	<data name="SUPER GUN" xml:space="preserve">
+		<value>슈퍼 건</value>
+	</data>
+	<data name="SWAMP" xml:space="preserve">
+		<value>늪</value>
+	</data>
+	<data name="SWITCHING SUPER BONUS" xml:space="preserve">
+		<value>SWITCHING SUPER BONUS</value>
+	</data>
+	<data name="TAKE" xml:space="preserve">
+		<value>공보</value>
+	</data>
+	<data name="TAKE REWARD" xml:space="preserve">
+		<value>보상을 받기</value>
+	</data>
+	<data name="TANK" xml:space="preserve">
+		<value>탱크</value>
+	</data>
+	<data name="TANK FULL" xml:space="preserve">
+		<value>탱크가 꽉 참</value>
+	</data>
+	<data name="TANKOMINATOR" xml:space="preserve">
+		<value>TANKOMINATOR</value>
+	</data>
+	<data name="TAP" xml:space="preserve">
+		<value>TAP</value>
+	</data>
+	<data name="TAP THE SCREEN" xml:space="preserve">
+		<value>화면에 클릭하기</value>
+	</data>
+	<data name="TAP TO BUY THE UPGRADE" xml:space="preserve">
+		<value>업그레이드 구입</value>
+	</data>
+	<data name="TAP TO CONTINUE…" xml:space="preserve">
+		<value>탭하여 계속하세요...</value>
+	</data>
+	<data name="TAP TO DROP" xml:space="preserve">
+		<value>PRESS TO DROP</value>
+	</data>
+	<data name="TASTY" xml:space="preserve">
+		<value>맛있습니다!</value>
+	</data>
+	<data name="TERMS OF USE" xml:space="preserve">
+		<value>이용 약관</value>
+	</data>
+	<data name="TEST DRIVE" xml:space="preserve">
+		<value>TEST DRIVE</value>
+	</data>
+	<data name="TESTERS" xml:space="preserve">
+		<value>테스터</value>
+	</data>
+	<data name="THUNDERSTORM" xml:space="preserve">
+		<value>뇌우</value>
+	</data>
+	<data name="TILT" xml:space="preserve">
+		<value>균형 맞추기</value>
+	</data>
+	<data name="TO UNLOCK" xml:space="preserve">
+		<value>잠금을 해제하려면</value>
+	</data>
+	<data name="TODAY" xml:space="preserve">
+		<value>오늘</value>
+	</data>
+	<data name="TOTAL" xml:space="preserve">
+		<value>합계</value>
+	</data>
+	<data name="TRY AGAIN" xml:space="preserve">
+		<value>다시 시도하십시오.</value>
+	</data>
+	<data name="TRY HARVESTER FOR FREE!" xml:space="preserve">
+		<value>TRY HARVESTER FOR FREE!</value>
+	</data>
+	<data name="TRY TANKOMINATOR FOR FREE!" xml:space="preserve">
+		<value>TRY TANKOMINATOR FOR FREE!</value>
+	</data>
+	<data name="TURBO" xml:space="preserve">
+		<value>터보</value>
+	</data>
+	<data name="TURTLE" xml:space="preserve">
+		<value>터틀</value>
+	</data>
+	<data name="TUTORIAL" xml:space="preserve">
+		<value>지도 시간</value>
+	</data>
+	<data name="UNEQUIP" xml:space="preserve">
+		<value>장착 해제</value>
+	</data>
+	<data name="UNLIMITED" xml:space="preserve">
+		<value>무제한</value>
+	</data>
+	<data name="UNLOCK" xml:space="preserve">
+		<value>터놓다</value>
+	</data>
+	<data name="UNLOCKED" xml:space="preserve">
+		<value>잠겨 있지 않은</value>
+	</data>
+	<data name="UPGRADE" xml:space="preserve">
+		<value>업그레이드</value>
+	</data>
+	<data name="UPGRADE YOUR CAR NOW TO BEAT DIFFICULT LEVELS" xml:space="preserve">
+		<value>지금 자동차를 업그레이드하여 어려운 레벨을 해결하세요.</value>
+	</data>
+	<data name="UPGRADES" xml:space="preserve">
+		<value>업그레이드</value>
+	</data>
+	<data name="USE" xml:space="preserve">
+		<value>사용</value>
+	</data>
+	<data name="USE BOMBS TO DESTROY ENEMIES" xml:space="preserve">
+		<value>폭탄을 사용하여 적을 파괴하세요.</value>
+	</data>
+	<data name="USE BOOSTERS TO MAKE THE LEVEL EASIER" xml:space="preserve">
+		<value>부스터를 사용하여 레벨을 쉽게 완료하세요.</value>
+	</data>
+	<data name="VALENTINE'S RUSH" xml:space="preserve">
+		<value>발렌틴의 러쉬</value>
+	</data>
+	<data name="VIDEO" xml:space="preserve">
+		<value>동영상</value>
+	</data>
+	<data name="VIDEO FAILED" xml:space="preserve">
+		<value>VIDEO FAILED</value>
+	</data>
+	<data name="WARNING" xml:space="preserve">
+		<value>경고</value>
+	</data>
+	<data name="We care about your privacy and data security. We keep this app free by showing ads." xml:space="preserve">
+		<value>We care about your privacy and data security. We keep this app free by showing ads.</value>
+	</data>
+	<data name="WHEEL OF FORTUNE" xml:space="preserve">
+		<value>운명의 회전판</value>
+	</data>
+	<data name="WHEELS" xml:space="preserve">
+		<value>바퀴</value>
+	</data>
+	<data name="Wick" xml:space="preserve">
+		<value>윅</value>
+	</data>
+	<data name="WIN BOSS 1 TO UNLOCK" xml:space="preserve">
+		<value>보스1를 승리하십시오</value>
+	</data>
+	<data name="WIN BOSS 2 TO UNLOCK" xml:space="preserve">
+		<value>보스2를 승리하십시오</value>
+	</data>
+	<data name="WIN KEYS TO UNLOCK BERSERKER" xml:space="preserve">
+		<value>버서커의 잠금을 해제하려면 WIN 키를 누릅니다.</value>
+	</data>
+	<data name="WIN YOUR TANKOMINATOR ON ARENA" xml:space="preserve">
+		<value>경기장에서 감탄사를 찾으세요.</value>
+	</data>
+	<data name="WOULD YOU LIKE TO RATE THE GAME?" xml:space="preserve">
+		<value>게임을 평가하시겠습니까?</value>
+	</data>
+	<data name="WOW!" xml:space="preserve">
+		<value>와우!</value>
+	</data>
+	<data name="YES" xml:space="preserve">
+		<value>예</value>
+	</data>
+	<data name="Yes, continue to see relevant ads" xml:space="preserve">
+		<value>Yes, continue to see relevant ads</value>
+	</data>
+	<data name="YES/NO" xml:space="preserve">
+		<value>예/아니요</value>
+	</data>
+	<data name="YOU ARE FIRED!!!" xml:space="preserve">
+		<value>너는 해고되었습니다!!!</value>
+	</data>
+	<data name="YOU ARE GOING TO JAIL!" xml:space="preserve">
+		<value>너 감옥에 갈거야!</value>
+	</data>
+	<data name="YOU ARE OLD AND RUSTY!" xml:space="preserve">
+		<value>너는 이제 낡고 녹슬었습니다</value>
+	</data>
+	<data name="YOU ARE OLD, RUSTY AND EVIL!" xml:space="preserve">
+		<value>너는 낡고 녹슬고 화를 낸 사람입니다!</value>
+	</data>
+	<data name="YOU BEAT YOUR FRIEND" xml:space="preserve">
+		<value>친구를 이겼습니다</value>
+	</data>
+	<data name="You can change your choice anytime for CAR EATS CAR 3 in the app settings. Our partners will collect data and use a unique identifier on your device to show you ads. " xml:space="preserve">
+		<value>You can change your choice anytime for CAR EATS CAR 3 in the app settings. Our partners will collect data and use a unique identifier on your device to show you ads. </value>
+	</data>
+	<data name="YOU CANT FIGHT" xml:space="preserve">
+		<value>다음 사람과 연락할 수 없습니다</value>
+	</data>
+	<data name="YOU DEFEATED" xml:space="preserve">
+		<value>너는 이겼습니다</value>
+	</data>
+	<data name="YOU FOUND ARMOR" xml:space="preserve">
+		<value>YOU PICKED UP ARMOR</value>
+	</data>
+	<data name="YOU FOUND BOMB" xml:space="preserve">
+		<value>YOU PICKED UP BOMB</value>
+	</data>
+	<data name="YOU FOUND TURBO" xml:space="preserve">
+		<value>YOU PICKED UP TURBO</value>
+	</data>
+	<data name="YOU FREED" xml:space="preserve">
+		<value>네가 풀어준 사람</value>
+	</data>
+	<data name="You gadget is successfully crafter. Let's use it!" xml:space="preserve">
+		<value>도구 조합을 마쳤습니다. 사용해보세요!</value>
+	</data>
+	<data name="YOU HAVE COLLECTED SOME BOXES. TRY YOUR LUCK AND WIN FREE BONUSES!" xml:space="preserve">
+		<value>상자를 몇 개 모았습니다. 행운을 시험하고 무료 보너스를 받으세요!</value>
+	</data>
+	<data name="YOU NEED" xml:space="preserve">
+		<value>네가 필요한 것</value>
+	</data>
+	<data name="YOU ROCK!" xml:space="preserve">
+		<value>강력합니다!</value>
+	</data>
+	<data name="YOU WILL LOSE YOUR CURRENT GAME PROGRESS!" xml:space="preserve">
+		<value>현재 게임 진행 내용은 사라집니다!</value>
+	</data>
+	<data name="YOUR BOOSTS" xml:space="preserve">
+		<value>네 승리</value>
+	</data>
+	<data name="Your daily bonus is ready. Get it!" xml:space="preserve">
+		<value>일일 보너스가 준비되었습니다. 가져가!</value>
+	</data>
+	<data name="Your gas has refilled in Car Eats Car. Let's go race!" xml:space="preserve">
+		<value>가솔린이 복원되어 있습니다! 갈까?</value>
+	</data>
+	<data name="YOUR PREVIOUSLY PURCHASD PRODUCTS HAVE BEEN RESTORED" xml:space="preserve">
+		<value>이전에 구매한 제품이 복원됐습니다.</value>
+	</data>
+	<data name="YOUR RATING HELPS US PROVIDE UPDATES FOR THE GAME" xml:space="preserve">
+		<value>여러분의 평가는 저희가 게임을 개선하는 데에 도움이 됩니다.</value>
+	</data>
+	<data name="YOU'VE PLAYED CAR EATS CAR BEFORE!" xml:space="preserve">
+		<value>전에도 CAR EATS CAR 를 플레이했군요!</value>
+	</data>
+	<data name="YUM-YUM!" xml:space="preserve">
+		<value>냠 냠!</value>
+	</data>
+</root>

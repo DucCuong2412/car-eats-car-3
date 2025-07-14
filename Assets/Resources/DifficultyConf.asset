@@ -1,0 +1,619 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d055eea8513357db24978d6963c9f0, type: 3}
+  m_Name: "DifficultyConf"
+  m_EditorClassIdentifier: 
+  ClicksCageM:
+  - TimeToDethSec: 10
+    ClicksToWin: 40
+  - TimeToDethSec: 10
+    ClicksToWin: 40
+  - TimeToDethSec: 10
+    ClicksToWin: 40
+  - TimeToDethSec: 35
+    ClicksToWin: 15
+  - TimeToDethSec: 10
+    ClicksToWin: 40
+  - TimeToDethSec: 10
+    ClicksToWin: 40
+  - TimeToDethSec: 10
+    ClicksToWin: 40
+  - TimeToDethSec: 10
+    ClicksToWin: 40
+  - TimeToDethSec: 10
+    ClicksToWin: 40
+  - TimeToDethSec: 10
+    ClicksToWin: 40
+  - TimeToDethSec: 10
+    ClicksToWin: 40
+  - TimeToDethSec: 10
+    ClicksToWin: 40
+  - TimeToDethSec: 10
+    ClicksToWin: 55
+  - TimeToDethSec: 9
+    ClicksToWin: 55
+  - TimeToDethSec: 9
+    ClicksToWin: 55
+  - TimeToDethSec: 9
+    ClicksToWin: 55
+  - TimeToDethSec: 8
+    ClicksToWin: 60
+  - TimeToDethSec: 8
+    ClicksToWin: 60
+  - TimeToDethSec: 8
+    ClicksToWin: 60
+  - TimeToDethSec: 8
+    ClicksToWin: 61
+  - TimeToDethSec: 8
+    ClicksToWin: 62
+  - TimeToDethSec: 10
+    ClicksToWin: 73
+  - TimeToDethSec: 9
+    ClicksToWin: 75
+  - TimeToDethSec: 9
+    ClicksToWin: 75
+  - TimeToDethSec: 8
+    ClicksToWin: 70
+  - TimeToDethSec: 8
+    ClicksToWin: 70
+  - TimeToDethSec: 8
+    ClicksToWin: 70
+  - TimeToDethSec: 8
+    ClicksToWin: 70
+  - TimeToDethSec: 8
+    ClicksToWin: 70
+  - TimeToDethSec: 8
+    ClicksToWin: 70
+  - TimeToDethSec: 8
+    ClicksToWin: 70
+  - TimeToDethSec: 8
+    ClicksToWin: 70
+  - TimeToDethSec: 8
+    ClicksToWin: 70
+  - TimeToDethSec: 8
+    ClicksToWin: 70
+  - TimeToDethSec: 8
+    ClicksToWin: 70
+  - TimeToDethSec: 8
+    ClicksToWin: 70
+  - TimeToDethSec: 8
+    ClicksToWin: 70
+  ClicksCage:
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 35
+    ClicksToWin: 15
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  - TimeToDethSec: 10
+    ClicksToWin: 30
+  ColorsAll:
+  - Colored1: {x: 0.2695313, y: 0.5742188, z: 0.21875}
+    Colored2: {x: 0.6015625, y: 0.5546875, z: 0.7890625}
+  - Colored1: {x: 0.2578125, y: 0.6171875, z: 0.8046875}
+    Colored2: {x: 0.7070313, y: 0.4882813, z: 0.4140625}
+  - Colored1: {x: 0.9882813, y: 0.53125, z: 0.04296875}
+    Colored2: {x: 0.40625, y: 0.4453125, z: 0.2265625}
+  - Colored1: {x: 0.5859375, y: 0.3632813, z: 0.6484375}
+    Colored2: {x: 0.4921875, y: 0.5898438, z: 0.6289063}
+  - Colored1: {x: 0.9492188, y: 0.859375, z: 0.1367188}
+    Colored2: {x: 0.3867188, y: 0.5234375, z: 0.3671875}
+  - Colored1: {x: 0.9101563, y: 0.3945313, z: 0.9296875}
+    Colored2: {x: 0.5195313, y: 0.28125, z: 0.21875}
+  - Colored1: {x: 0.3046875, y: 0.3085938, z: 0.8046875}
+    Colored2: {x: 0.8398438, y: 0.5429688, z: 0.4296875}
+  - Colored1: {x: 0.8125, y: 0.9921875, z: 0.9960938}
+    Colored2: {x: 0.53125, y: 0.390625, z: 0.6367188}
+  BudgesBoss1: 30
+  BudgesBoss2: 63
+  BudgesBoss3: 95
+  BudgesARENA1: 15
+  BudgesARENA2: 38
+  BudgesARENA3: 72
+  MetrivForARENA1: 3000
+  MetrivForARENA2: 4000
+  MetrivForARENA3: 5000
+  RubinivForStartARENA1: 500
+  RubinivForStartARENA2: 1000
+  RubinivForStartARENA3: 2000
+  Locations:
+    PercentDmgPoliseCar: 5
+    Loc1:
+    - PercTo1: 20
+      PercTo2: 40
+      PercTo3: 70
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 40
+      PercTo3: 75
+      Power0: 5
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 40
+      PercTo3: 75
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 40
+      PercTo3: 75
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 40
+      PercTo3: 75
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 40
+      PercTo3: 75
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 40
+      PercTo3: 70
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 40
+      PercTo3: 70
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 40
+      PercTo3: 75
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 35
+      PercTo3: 75
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 40
+      PercTo3: 80
+      Power0: 0
+      Power1: 20
+      Power2: 40
+      Power3: 75
+    - PercTo1: 20
+      PercTo2: 45
+      PercTo3: 90
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    Loc2:
+    - PercTo1: 20
+      PercTo2: 50
+      PercTo3: 75
+      Power0: 10
+      Power1: 20
+      Power2: 40
+      Power3: 60
+    - PercTo1: 20
+      PercTo2: 50
+      PercTo3: 80
+      Power0: 10
+      Power1: 20
+      Power2: 40
+      Power3: 60
+    - PercTo1: 20
+      PercTo2: 50
+      PercTo3: 80
+      Power0: 10
+      Power1: 20
+      Power2: 40
+      Power3: 60
+    - PercTo1: 20
+      PercTo2: 50
+      PercTo3: 80
+      Power0: 10
+      Power1: 20
+      Power2: 40
+      Power3: 60
+    - PercTo1: 20
+      PercTo2: 55
+      PercTo3: 80
+      Power0: 10
+      Power1: 20
+      Power2: 40
+      Power3: 60
+    - PercTo1: 20
+      PercTo2: 60
+      PercTo3: 85
+      Power0: 10
+      Power1: 20
+      Power2: 40
+      Power3: 60
+    - PercTo1: 20
+      PercTo2: 60
+      PercTo3: 85
+      Power0: 15
+      Power1: 30
+      Power2: 50
+      Power3: 70
+    - PercTo1: 30
+      PercTo2: 60
+      PercTo3: 90
+      Power0: 15
+      Power1: 30
+      Power2: 50
+      Power3: 70
+    - PercTo1: 30
+      PercTo2: 60
+      PercTo3: 90
+      Power0: 15
+      Power1: 30
+      Power2: 50
+      Power3: 70
+    - PercTo1: 30
+      PercTo2: 60
+      PercTo3: 80
+      Power0: 15
+      Power1: 30
+      Power2: 50
+      Power3: 70
+    - PercTo1: 30
+      PercTo2: 60
+      PercTo3: 90
+      Power0: 15
+      Power1: 30
+      Power2: 50
+      Power3: 70
+    - PercTo1: 30
+      PercTo2: 60
+      PercTo3: 80
+      Power0: 15
+      Power1: 30
+      Power2: 50
+      Power3: 70
+    Loc3:
+    - PercTo1: 20
+      PercTo2: 40
+      PercTo3: 75
+      Power0: 10
+      Power1: 20
+      Power2: 40
+      Power3: 60
+    - PercTo1: 25
+      PercTo2: 45
+      PercTo3: 75
+      Power0: 10
+      Power1: 20
+      Power2: 40
+      Power3: 60
+    - PercTo1: 25
+      PercTo2: 45
+      PercTo3: 75
+      Power0: 10
+      Power1: 20
+      Power2: 40
+      Power3: 60
+    - PercTo1: 25
+      PercTo2: 45
+      PercTo3: 75
+      Power0: 10
+      Power1: 20
+      Power2: 40
+      Power3: 60
+    - PercTo1: 20
+      PercTo2: 40
+      PercTo3: 80
+      Power0: 15
+      Power1: 30
+      Power2: 50
+      Power3: 70
+    - PercTo1: 25
+      PercTo2: 45
+      PercTo3: 85
+      Power0: 15
+      Power1: 30
+      Power2: 50
+      Power3: 70
+    - PercTo1: 25
+      PercTo2: 45
+      PercTo3: 85
+      Power0: 15
+      Power1: 30
+      Power2: 50
+      Power3: 70
+    - PercTo1: 30
+      PercTo2: 45
+      PercTo3: 80
+      Power0: 15
+      Power1: 30
+      Power2: 50
+      Power3: 70
+    - PercTo1: 25
+      PercTo2: 45
+      PercTo3: 85
+      Power0: 15
+      Power1: 35
+      Power2: 55
+      Power3: 75
+    - PercTo1: 30
+      PercTo2: 60
+      PercTo3: 90
+      Power0: 15
+      Power1: 35
+      Power2: 55
+      Power3: 80
+    - PercTo1: 30
+      PercTo2: 60
+      PercTo3: 85
+      Power0: 15
+      Power1: 40
+      Power2: 60
+      Power3: 80
+    - PercTo1: 25
+      PercTo2: 50
+      PercTo3: 85
+      Power0: 15
+      Power1: 40
+      Power2: 60
+      Power3: 80
+    LocUnder:
+    - PercTo1: 20
+      PercTo2: 60
+      PercTo3: 90
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 60
+      PercTo3: 90
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 60
+      PercTo3: 90
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 60
+      PercTo3: 90
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 60
+      PercTo3: 90
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 60
+      PercTo3: 90
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 60
+      PercTo3: 90
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 60
+      PercTo3: 90
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 60
+      PercTo3: 90
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 60
+      PercTo3: 90
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 50
+      PercTo3: 80
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 50
+      PercTo3: 80
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    LocTut:
+    - PercTo1: 20
+      PercTo2: 60
+      PercTo3: 90
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 50
+      PercTo3: 80
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 50
+      PercTo3: 80
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 25
+      PercTo2: 60
+      PercTo3: 80
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 50
+      PercTo3: 80
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 60
+      PercTo3: 80
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 50
+      PercTo3: 80
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 50
+      PercTo3: 75
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 50
+      PercTo3: 80
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 20
+      PercTo2: 50
+      PercTo3: 80
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 25
+      PercTo2: 50
+      PercTo3: 80
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50
+    - PercTo1: 25
+      PercTo2: 60
+      PercTo3: 90
+      Power0: 0
+      Power1: 15
+      Power2: 30
+      Power3: 50

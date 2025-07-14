@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6345c04dbf317ec511a5591aa78fe806, type: 3}
+  m_Name: "ConfigMGIncubator"
+  m_EditorClassIdentifier: 
+  ForEvo:
+  - StarsToWin: 30
+    CopDmgStars: 2
+    CivilDmgStars: 1
+    StoneDmgStars: 1
+    Stages:
+    - NumToStart: 0
+      NumOnCycle: 120
+      Speed: 0.08
+      Empty: 0
+      CopCar: 0
+      CivilCar: 0
+      InterDecor: 0
+      StarBig: 100
+      MinStarNum: 3
+      MaxStarNum: 3
+      TimeBetweenStarSec: 0.2
+      MinCycle: 50
+      MaxCycle: 100
+      ChanceToGnrDecor: 100
+    - NumToStart: 1
+      NumOnCycle: 110
+      Speed: 0.1
+      Empty: 22
+      CopCar: 15
+      CivilCar: 19
+      InterDecor: 19
+      StarBig: 25
+      MinStarNum: 3
+      MaxStarNum: 5
+      TimeBetweenStarSec: 0.3
+      MinCycle: 50
+      MaxCycle: 100
+      ChanceToGnrDecor: 45
+    - NumToStart: 15
+      NumOnCycle: 95
+      Speed: 0.13
+      Empty: 25
+      CopCar: 16
+      CivilCar: 18
+      InterDecor: 16
+      StarBig: 25
+      MinStarNum: 3
+      MaxStarNum: 5
+      TimeBetweenStarSec: 0.35
+      MinCycle: 50
+      MaxCycle: 100
+      ChanceToGnrDecor: 60
+    - NumToStart: 35
+      NumOnCycle: 80
+      Speed: 0.15
+      Empty: 25
+      CopCar: 16
+      CivilCar: 18
+      InterDecor: 16
+      StarBig: 25
+      MinStarNum: 4
+      MaxStarNum: 7
+      TimeBetweenStarSec: 0.38
+      MinCycle: 50
+      MaxCycle: 100
+      ChanceToGnrDecor: 70
+  - StarsToWin: 40
+    CopDmgStars: 2
+    CivilDmgStars: 2
+    StoneDmgStars: 1
+    Stages:
+    - NumToStart: 0
+      NumOnCycle: 120
+      Speed: 0.13
+      Empty: 0
+      CopCar: 0
+      CivilCar: 0
+      InterDecor: 0
+      StarBig: 100
+      MinStarNum: 2
+      MaxStarNum: 5
+      TimeBetweenStarSec: 0.18
+      MinCycle: 60
+      MaxCycle: 200
+      ChanceToGnrDecor: 30
+    - NumToStart: 2
+      NumOnCycle: 40
+      Speed: 0.15
+      Empty: 15
+      CopCar: 25
+      CivilCar: 15
+      InterDecor: 20
+      StarBig: 25
+      MinStarNum: 3
+      MaxStarNum: 5
+      TimeBetweenStarSec: 0.2
+      MinCycle: 60
+      MaxCycle: 200
+      ChanceToGnrDecor: 50
+    - NumToStart: 20
+      NumOnCycle: 40
+      Speed: 0.17
+      Empty: 15
+      CopCar: 25
+      CivilCar: 20
+      InterDecor: 20
+      StarBig: 20
+      MinStarNum: 3
+      MaxStarNum: 5
+      TimeBetweenStarSec: 0.2
+      MinCycle: 60
+      MaxCycle: 200
+      ChanceToGnrDecor: 50
+    - NumToStart: 15
+      NumOnCycle: 40
+      Speed: 0.18
+      Empty: 18
+      CopCar: 26
+      CivilCar: 21
+      InterDecor: 20
+      StarBig: 15
+      MinStarNum: 3
+      MaxStarNum: 5
+      TimeBetweenStarSec: 0.2
+      MinCycle: 60
+      MaxCycle: 200
+      ChanceToGnrDecor: 50
+  - StarsToWin: 60
+    CopDmgStars: 2
+    CivilDmgStars: 1
+    StoneDmgStars: 1
+    Stages:
+    - NumToStart: 0
+      NumOnCycle: 120
+      Speed: 0.15
+      Empty: 0
+      CopCar: 0
+      CivilCar: 0
+      InterDecor: 0
+      StarBig: 100
+      MinStarNum: 2
+      MaxStarNum: 5
+      TimeBetweenStarSec: 0.18
+      MinCycle: 60
+      MaxCycle: 200
+      ChanceToGnrDecor: 30
+    - NumToStart: 2
+      NumOnCycle: 55
+      Speed: 0.16
+      Empty: 26
+      CopCar: 18
+      CivilCar: 18
+      InterDecor: 18
+      StarBig: 20
+      MinStarNum: 3
+      MaxStarNum: 5
+      TimeBetweenStarSec: 0.25
+      MinCycle: 60
+      MaxCycle: 200
+      ChanceToGnrDecor: 50
+    - NumToStart: 10
+      NumOnCycle: 50
+      Speed: 0.19
+      Empty: 25
+      CopCar: 20
+      CivilCar: 15
+      InterDecor: 15
+      StarBig: 25
+      MinStarNum: 3
+      MaxStarNum: 5
+      TimeBetweenStarSec: 0.25
+      MinCycle: 60
+      MaxCycle: 200
+      ChanceToGnrDecor: 50
+  - StarsToWin: 60
+    CopDmgStars: 2
+    CivilDmgStars: 1
+    StoneDmgStars: 1
+    Stages:
+    - NumToStart: 0
+      NumOnCycle: 60
+      Speed: 0.15
+      Empty: 25
+      CopCar: 20
+      CivilCar: 17
+      InterDecor: 18
+      StarBig: 20
+      MinStarNum: 3
+      MaxStarNum: 5
+      TimeBetweenStarSec: 0.25
+      MinCycle: 60
+      MaxCycle: 200
+      ChanceToGnrDecor: 50
+    - NumToStart: 15
+      NumOnCycle: 55
+      Speed: 0.17
+      Empty: 26
+      CopCar: 18
+      CivilCar: 18
+      InterDecor: 18
+      StarBig: 20
+      MinStarNum: 3
+      MaxStarNum: 5
+      TimeBetweenStarSec: 0.25
+      MinCycle: 60
+      MaxCycle: 200
+      ChanceToGnrDecor: 50
+    - NumToStart: 10
+      NumOnCycle: 50
+      Speed: 0.19
+      Empty: 25
+      CopCar: 20
+      CivilCar: 15
+      InterDecor: 15
+      StarBig: 25
+      MinStarNum: 3
+      MaxStarNum: 5
+      TimeBetweenStarSec: 0.25
+      MinCycle: 60
+      MaxCycle: 200
+      ChanceToGnrDecor: 50

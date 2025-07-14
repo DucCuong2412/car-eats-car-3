@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="-*%  cheaper than buying parts separately" xml:space="preserve">
+		<value>-*% ДЕШЕВЛЕ ЧЕМ ПОКУПАТЬ ПО ОТДЕЛЬНОСТИ</value>
+	</data>
+	<data name="_beatFriend_description" xml:space="preserve">
+		<value />
+	</data>
+	<data name="_rateUs_btn" xml:space="preserve">
+		<value>Оценить</value>
+	</data>
+	<data name="_rateUs_caption" xml:space="preserve">
+		<value>ВАМ ПОНРАВИЛАСЬ ИГРА?</value>
+	</data>
+	<data name="_rateUs_description" xml:space="preserve">
+		<value>ВАША ОЦЕНКА ПОМОЖЕТ НАМ СДЕЛАТЬ ИГРУ ЛУЧШЕ!</value>
+	</data>
+	<data name="_rateUs_remind" xml:space="preserve">
+		<value>Напомнить позже</value>
+	</data>
+	<data name="+* MAX" xml:space="preserve">
+		<value>+* макс.</value>
+	</data>
+	<data name="1 FREE SPIN" xml:space="preserve">
+		<value>1 БЕСПЛАТНЫЙ СПИН</value>
+	</data>
+	<data name="1 RACE COSTS * GALLONS OF FUEL" xml:space="preserve">
+		<value>НА КАЖДУЮ ГОНКУ РАСХОДУЕТСЯ ТОПЛИВО</value>
+	</data>
+	<data name="1-2-3-GO!" xml:space="preserve">
+		<value>ПОГНАЛИ!</value>
+	</data>
+	<data name="5 SEC." xml:space="preserve">
+		<value>5 сек.</value>
+	</data>
+	<data name="A MONSTROUS MIXTURE OF DRILL AND TANK GUN" xml:space="preserve">
+		<value>ТАНКОМИНАТОР - ЧУДОВИЩНАЯ СМЕСЬ ДРЕЛИ И ПУШКИ</value>
+	</data>
+	<data name="ACTIVE" xml:space="preserve">
+		<value>АКТИВНО</value>
+	</data>
+	<data name="Ads allow you to play for free. We apologize if it was obsessive to you. Making any in-app purchase will disable ads forever." xml:space="preserve">
+		<value>Мы показываем рекламу, чтобы вы могли играть бесплатно. Приносим извинения, если она показалась вам навязчивой. Совершив любую покупку в игровом магазине, вы отключите рекламу навсегда.</value>
+	</data>
+	<data name="ADS IN THIS GAME" xml:space="preserve">
+		<value>РЕКЛАМА В ИГРЕ</value>
+	</data>
+	<data name="AIRSTRIKE!" xml:space="preserve">
+		<value>ПОДДЕРЖКА С ВОЗДУХА!</value>
+	</data>
+	<data name="ALL PROGESS LOST" xml:space="preserve">
+		<value>ВЕСЬ ПРОГРЕСС БУДЕТ УДАЛЁН</value>
+	</data>
+	<data name="ALL PROGRESS IS NOW SYNCHRONIZED WITH YOUR ACCOUNT!" xml:space="preserve">
+		<value>ВЕСЬ ПРОГРЕСС СИНХРОНИЗИРОВАН С ВАШИМ АККАУНТОМ</value>
+	</data>
+	<data name="ALLIGATOR" xml:space="preserve">
+		<value>АЛЛИГАТОР</value>
+	</data>
+	<data name="ANTIGRAVS" xml:space="preserve">
+		<value>АНТИГРАВЫ</value>
+	</data>
+	<data name="ANY PURCHASE REMOVES ALL ADS" xml:space="preserve">
+		<value>ЛЮБАЯ ПЛАТНАЯ ПОКУПКА УБИРАЕТ ВСЮ РЕКЛАМУ</value>
+	</data>
+	<data name="Archiver" xml:space="preserve">
+		<value>Архивер</value>
+	</data>
+	<data name="ARE YOU SHURE" xml:space="preserve">
+		<value>ВЫ УВЕРЕНЫ?</value>
+	</data>
+	<data name="ARE YOU SHURE YOU WANT TO QUIT" xml:space="preserve">
+		<value>Вы действительно хотите выйти?</value>
+	</data>
+	<data name="ARE YOU SURE YOU WANT TO BUY ADDITIONAL BOXES FOR * RUBIES?" xml:space="preserve">
+		<value>ВЫ ДЕЙСТВИТЕЛЬНО ХОТИТЕ ПОТРАТИТЬ * РУБИНОВ НА ДОПОЛНИТЕЛЬНУЮ ПОПЫТКУ?</value>
+	</data>
+	<data name="ARENA *" xml:space="preserve">
+		<value>АРЕНА *</value>
+	</data>
+	<data name="ARMOR" xml:space="preserve">
+		<value>БРОНЯ</value>
+	</data>
+	<data name="ART" xml:space="preserve">
+		<value>ХУДОЖНИКИ</value>
+	</data>
+	<data name="ASK ME LATER" xml:space="preserve">
+		<value>Напомнить позже</value>
+	</data>
+	<data name="ATTRACT STARS WHILE DRIVING" xml:space="preserve">
+		<value>СОБИРАЙТЕ РУБИНЫ ВО ВРЕМЯ ЕЗДЫ</value>
+	</data>
+	<data name="AWESOME!" xml:space="preserve">
+		<value>ЗДОРОВО!</value>
+	</data>
+	<data name="BAD" xml:space="preserve">
+		<value>АНТИБОНУС</value>
+	</data>
+	<data name="BALANCE YOUR CAR USING TILT BUTTONS" xml:space="preserve">
+		<value>УПРАВЛЯЙТЕ МАШИНОЙ, ИСПОЛЬЗУЯ КНОПКИ НАКЛОНА</value>
+	</data>
+	<data name="BASIC BOMB" xml:space="preserve">
+		<value>ЯДРО</value>
+	</data>
+	<data name="BEERANHA" xml:space="preserve">
+		<value>ПЧЕРАНЬЯ</value>
+	</data>
+	<data name="Beetlee" xml:space="preserve">
+		<value>БИТЛИ</value>
+	</data>
+	<data name="Beetlee description" xml:space="preserve">
+		<value>БИТЛИ - Он был добрым, но теперь он хищный</value>
+	</data>
+	<data name="BERSERKER" xml:space="preserve">
+		<value>БЕРСЕРКЕР</value>
+	</data>
+	<data name="BEST" xml:space="preserve">
+		<value>РЕКОРД</value>
+	</data>
+	<data name="BETTER TRACTION ON THE GROUND" xml:space="preserve">
+		<value>УЛУЧШЕНИЕ СЦЕПЛЕНИЯ С ДОРОГОЙ</value>
+	</data>
+	<data name="Bigfoot" xml:space="preserve">
+		<value>Бигфут</value>
+	</data>
+	<data name="BOMB REPLICATOR" xml:space="preserve">
+		<value>РЕГЕНЕРАТОР</value>
+	</data>
+	<data name="Bomber" xml:space="preserve">
+		<value>Бомбокар</value>
+	</data>
+	<data name="BOMBERS!" xml:space="preserve">
+		<value>БОМБЕРЫ!</value>
+	</data>
+	<data name="BOMBS" xml:space="preserve">
+		<value>БОМБЫ</value>
+	</data>
+	<data name="BONUS" xml:space="preserve">
+		<value>БОНУС</value>
+	</data>
+	<data name="BOOSTS DOUBLED" xml:space="preserve">
+		<value>ВЫИГРЫШ УДВОЕНО!</value>
+	</data>
+	<data name="BOSS KILLER!" xml:space="preserve">
+		<value>ГОТОВ!</value>
+	</data>
+	<data name="BOSS LEVEL" xml:space="preserve">
+		<value>УРОВЕНЬ С БОССОМ</value>
+	</data>
+	<data name="BOSS LEVEL LOCKED" xml:space="preserve">
+		<value>Уровень с боссом недоступен!</value>
+	</data>
+	<data name="BOSS1" xml:space="preserve">
+		<value>КОП РОД</value>
+	</data>
+	<data name="BOSS2" xml:space="preserve">
+		<value>МОЛНИЯ</value>
+	</data>
+	<data name="BOSS3" xml:space="preserve">
+		<value>ЖЕСТЯНКА</value>
+	</data>
+	<data name="BOUGHT" xml:space="preserve">
+		<value>КУПЛЕНО</value>
+	</data>
+	<data name="BUILD" xml:space="preserve">
+		<value>СОЗДАТЬ</value>
+	</data>
+	<data name="BUY" xml:space="preserve">
+		<value>КУПИТЬ</value>
+	</data>
+	<data name="BUY ADDITIONAL BOXES OR CONTINUE PLAYING" xml:space="preserve">
+		<value>КУПИТЕ ДОПОЛНИТЕЛЬНЫЕ КОРОБКИ ИЛИ ПРОДОЛЖАЙТЕ ИГРУ</value>
+	</data>
+	<data name="BUY FUEL" xml:space="preserve">
+		<value>КУПИТЬ БЕНЗИН</value>
+	</data>
+	<data name="BUY NOW" xml:space="preserve">
+		<value>КУПИТЬ УЖЕ!</value>
+	</data>
+	<data name="BUY RUBIES" xml:space="preserve">
+		<value>КУПИТЬ РУБИНЫ</value>
+	</data>
+	<data name="BY PROCEEDING YOU AGREE TO OUR UPDATED PRIVACY POLICY." xml:space="preserve">
+		<value>Соглашаясь, Вы принимаете нашу обновленную политику конфиденциальности.</value>
+	</data>
+	<data name="Can we continue to use your data to tailor ads for your?" xml:space="preserve">
+		<value>Можем ли мы продолжать использовать ваши данные для адаптации объявлений?</value>
+	</data>
+	<data name="CANCEL" xml:space="preserve">
+		<value>Отмена</value>
+	</data>
+	<data name="CAN'T FIND PURCHASED PRODUCTS" xml:space="preserve">
+		<value>НЕ УДАЛОСЬ НАЙТИ ПРИОБРЕТЕННЫЕ ПРОДУКТЫ</value>
+	</data>
+	<data name="CAN'T PASS A LEVEL?" xml:space="preserve">
+		<value>НЕ МОЖЕТЕ ПРОЙТИ УРОВЕНЬ?</value>
+	</data>
+	<data name="CAN'T WAIT?" xml:space="preserve">
+		<value>ЗАБЛОКИРОВАНО</value>
+	</data>
+	<data name="CAR COLLECTION" xml:space="preserve">
+		<value>КОЛЛЕКЦИЯ ХИЩНЫХ МАШИН</value>
+	</data>
+	<data name="CAR EATS CAR" xml:space="preserve">
+		<value>ХИЩНЫЕ МАШИНЫ</value>
+	</data>
+	<data name="CAR LOCKED" xml:space="preserve">
+		<value>ПРОЙДИ УРОВЕНЬ С БОССОМ ЧТОБЫ РАЗБЛОКИРОВАТЬ</value>
+	</data>
+	<data name="CAROCOP" xml:space="preserve">
+		<value>КАРОКОП</value>
+	</data>
+	<data name="CAROCOP - BUNKER ON WHEELS" xml:space="preserve">
+		<value>КАРОКОП - БУНКЕР НА КОЛЕСАХ!</value>
+	</data>
+	<data name="CHOOSE AN EGG" xml:space="preserve">
+		<value>ВЫБЕРИ ЯЙЦО</value>
+	</data>
+	<data name="CLEARED" xml:space="preserve">
+		<value>ПРОГРЕСС ОЧИЩЕН</value>
+	</data>
+	<data name="CLOSE" xml:space="preserve">
+		<value>ЗАКРЫТЬ</value>
+	</data>
+	<data name="CLUSTER BOMB" xml:space="preserve">
+		<value>КЛАСТЕРНАЯ</value>
+	</data>
+	<data name="COCKCHAFER" xml:space="preserve">
+		<value>ХРУЩ</value>
+	</data>
+	<data name="COLLECT ALL PARTS AND GET TANKOMINATOR" xml:space="preserve">
+		<value>СОБЕРИ ВСЕ ЧАСТИ И ПОЛУЧИ ТАНКОМИНАТОР</value>
+	</data>
+	<data name="COLLECT BOXES AND WIN PRIZES BY SPINNING A WHEEL AFTER EVERY LEVEL" xml:space="preserve">
+		<value>СОБИРАЙТЕ КОРОБКИ ЧТОБЫ ВЫИГРАТЬ ПРИЗЫ НА КОЛЕСЕ ФОРТУНЫ</value>
+	</data>
+	<data name="COLLECT EGGS AND GEMS IN THE CAVE" xml:space="preserve">
+		<value>СОБИРАЙ ЯЙЦА И КРИСТАЛЛЫ В ПЕЩЕРЕ</value>
+	</data>
+	<data name="COLLECTED" xml:space="preserve">
+		<value>СОБРАНО</value>
+	</data>
+	<data name="COMBO!" xml:space="preserve">
+		<value>КОМБО!</value>
+	</data>
+	<data name="COMING SOON" xml:space="preserve">
+		<value>ПРОДОЛЖЕНИЕ СЛЕДУЕТ...</value>
+	</data>
+	<data name="COMPACTOR" xml:space="preserve">
+		<value>КАТОК</value>
+	</data>
+	<data name="CONGRATULATIONS" xml:space="preserve">
+		<value>ПОЗДРАВЛЯЕМ</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU WON TANKOMINATOR" xml:space="preserve">
+		<value>ПОЗДРАВЛЯЕМ! ВЫ СОБРАЛИ ТАНКОМИНАТОР</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED ANTIGRAVS" xml:space="preserve">
+		<value>ПОЗДРАВЛЯЕМ! ВЫ ОТКРЫЛИ АНТИГРАВЫ</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED MEGA TURBO" xml:space="preserve">
+		<value>ПОЗДРАВЛЯЕМ! ВЫ ОТКРЫЛИ МЕГА ТУРБО</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED SUPER GUN" xml:space="preserve">
+		<value>ПОЗДРАВЛЯЕМ! ВЫ ОТКРЫЛИ СУПЕР ПУШКУ</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED TANK" xml:space="preserve">
+		<value>ПОЗДРАВЛЯЕМ! ВЫ ОТКРЫЛИ ТАНК</value>
+	</data>
+	<data name="CONNECTION FAILED" xml:space="preserve">
+		<value>СОЕДИНЕНИЕ НЕ УДАЛОСЬ</value>
+	</data>
+	<data name="CONNECTION SUCCESS" xml:space="preserve">
+		<value>УСПЕШНОЕ СОЕДИНЕНИЕ</value>
+	</data>
+	<data name="CONSTRUCT IN POLICEPEDIA" xml:space="preserve">
+		<value>СОБЕРИ В ПОЛИСОПЕДИИ</value>
+	</data>
+	<data name="CONTINUE" xml:space="preserve">
+		<value>ПРОДОЛЖИТЬ</value>
+	</data>
+	<data name="Copter" xml:space="preserve">
+		<value>Коптер</value>
+	</data>
+	<data name="COPTER!" xml:space="preserve">
+		<value>КОПТЕР!</value>
+	</data>
+	<data name="COPYRIGHT 2015 BY SMOKOKO SA" xml:space="preserve">
+		<value>© SMOKOKO LTD, 2015-2018</value>
+	</data>
+	<data name="CREDITS" xml:space="preserve">
+		<value>АВТОРЫ</value>
+	</data>
+	<data name="DAILY BONUS" xml:space="preserve">
+		<value>ЕЖЕДНЕВНОЕ ВОЗНАГРАЖДЕНИЕ</value>
+	</data>
+	<data name="DAMAGE" xml:space="preserve">
+		<value>УРОН</value>
+	</data>
+	<data name="DAY *" xml:space="preserve">
+		<value>ДЕНЬ *</value>
+	</data>
+	<data name="DEADLY BLADES" xml:space="preserve">
+		<value>СМЕРТОНОСНЫЕ ЛЕЗВИЯ</value>
+	</data>
+	<data name="DEFEAT" xml:space="preserve">
+		<value>ВАС ПОЙМАЛИ!</value>
+	</data>
+	<data name="DESCRIPTION BASIC BOMB " xml:space="preserve">
+		<value>Базовая конвенционная бомба.</value>
+	</data>
+	<data name="DESCRIPTION BOMB REPLICATOR" xml:space="preserve">
+		<value>Медленно пополняет запас ваших бомб.</value>
+	</data>
+	<data name="DESCRIPTION CLUSTER BOMB" xml:space="preserve">
+		<value>Кластер высоковзрывчатых микро-бомб. Большая область поражения.</value>
+	</data>
+	<data name="DESCRIPTION EMP EMITTER" xml:space="preserve">
+		<value>Выпускает Электромагнитный Импульс парализуя всех врагов вокруг.</value>
+	</data>
+	<data name="DESCRIPTION FLAME BOMB" xml:space="preserve">
+		<value>Бомба с зажигательной смесью. Поджигает всё в зоне поражения.</value>
+	</data>
+	<data name="DESCRIPTION FRAG BOMB" xml:space="preserve">
+		<value>Базовая осколочная бомба. Наносит дополнительный урон осколками.</value>
+	</data>
+	<data name="DESCRIPTION FREEZE RAY" xml:space="preserve">
+		<value>Стреляет сгустками жидкого азота замораживая врага.</value>
+	</data>
+	<data name="DESCRIPTION MAGNET" xml:space="preserve">
+		<value>Генерырует магнитное поле притягивающее окружающие вас рубины.</value>
+	</data>
+	<data name="DESCRIPTION MISSILE LAUNCHER" xml:space="preserve">
+		<value>Интегрированая пусковая установка. Запускает мощные самонаводящиеся ракеты.</value>
+	</data>
+	<data name="DESCRIPTION SHRINK BOMB" xml:space="preserve">
+		<value>Высокотехнологическая бомба. Уменьшает ваших врагов до безопасных размеров.</value>
+	</data>
+	<data name="DISTANCE" xml:space="preserve">
+		<value>РАССТОЯНИЕ</value>
+	</data>
+	<data name="DRILL GUN" xml:space="preserve">
+		<value>ДРИЛЬ-ПУШКА</value>
+	</data>
+	<data name="Driller" xml:space="preserve">
+		<value>Дриллер</value>
+	</data>
+	<data name="DRON1 DESCRIPTION" xml:space="preserve">
+		<value>Получите бесплатно на 5-й день</value>
+	</data>
+	<data name="DRON2 DESCRIPTION" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DROWNED CITY" xml:space="preserve">
+		<value>ЗАТОПЛЕННЫЙ ГОРОД</value>
+	</data>
+	<data name="EASTER EGG HUNT" xml:space="preserve">
+		<value>ПАСХАЛЬНАЯ ОХОТА</value>
+	</data>
+	<data name="EAT POLICE AND CIVILS" xml:space="preserve">
+		<value>УНИЧТОЖАЙТЕ ВРАГОВ И ЗАРАБАТЫВАЙТЕ БЕЙДЖИ</value>
+	</data>
+	<data name="ECO FUEL" xml:space="preserve">
+		<value>ЭКО БЕНЗИН</value>
+	</data>
+	<data name="EMP EMITTER" xml:space="preserve">
+		<value>Электромагн. импульс</value>
+	</data>
+	<data name="ENDLESS STOCK OF FUEL" xml:space="preserve">
+		<value>БЕСКОНЕЧНЫЙ ЗАПАС БЕНЗИНА</value>
+	</data>
+	<data name="ENGINE" xml:space="preserve">
+		<value>ДВИГАТЕЛЬ</value>
+	</data>
+	<data name="ENIGMA" xml:space="preserve">
+		<value>СЮРПРИЗ!</value>
+	</data>
+	<data name="EQUIP" xml:space="preserve">
+		<value>ВЗЯТЬ</value>
+	</data>
+	<data name="EQUIPED" xml:space="preserve">
+		<value>ВЗЯТО</value>
+	</data>
+	<data name="EVOLUTION COMPLETE" xml:space="preserve">
+		<value>ЭВОЛЮЦИЯ ЗАВЕРШЕНА</value>
+	</data>
+	<data name="Excavator" xml:space="preserve">
+		<value>Драглайн</value>
+	</data>
+	<data name="EXCELLENT!" xml:space="preserve">
+		<value>ОТЛИЧНО!</value>
+	</data>
+	<data name="EXIT" xml:space="preserve">
+		<value>ВЫЙТИ</value>
+	</data>
+	<data name="FIND AT ARENA" xml:space="preserve">
+		<value>НАЙДИ НА АРЕНЕ</value>
+	</data>
+	<data name="FIND AT EASTER EGG HUNT" xml:space="preserve">
+		<value>КУПИ В ПАСХАЛЬНОЙ ЛАВКЕ</value>
+	</data>
+	<data name="FIND IN THE CAVE" xml:space="preserve">
+		<value>НАЙДИ В ПОДЗЕМЕЛЬЕ</value>
+	</data>
+	<data name="FIREBUG" xml:space="preserve">
+		<value>СВЕТЛЯЧОК</value>
+	</data>
+	<data name="FIRED!?!" xml:space="preserve">
+		<value>УВОЛЕН!?!</value>
+	</data>
+	<data name="FLAME BOMB" xml:space="preserve">
+		<value>ОГНЕННАЯ</value>
+	</data>
+	<data name="FORTUNE" xml:space="preserve">
+		<value>УДАЧА</value>
+	</data>
+	<data name="FRAG BOMB" xml:space="preserve">
+		<value>ОСКОЛОЧНАЯ</value>
+	</data>
+	<data name="FRANCOPSTEIN" xml:space="preserve">
+		<value>ФРАНКОПШТЕЙН</value>
+	</data>
+	<data name="FRANCOPSTEIN - IT'S ALIVE!" xml:space="preserve">
+		<value>ФРАНКОПШТЕЙН - ОН ЖИВОЙ!</value>
+	</data>
+	<data name="FREE" xml:space="preserve">
+		<value>БЕСПЛАТНО</value>
+	</data>
+	<data name="FREE FUEL PACK" xml:space="preserve">
+		<value>БЕСПЛАТНЫЙ БЕНЗИН</value>
+	</data>
+	<data name="FREE RUBIES PACK" xml:space="preserve">
+		<value>БЕСПЛАТНЫЕ РУБИНЫ</value>
+	</data>
+	<data name="FREE SPIN" xml:space="preserve">
+		<value>БЕСПЛАТНЫЙ СПИН</value>
+	</data>
+	<data name="FREEDOM ISLAND!!!" xml:space="preserve">
+		<value>ОСТРОВ СВОБОДЫ!!!</value>
+	</data>
+	<data name="FREEZE RAY" xml:space="preserve">
+		<value>ЗАМОРОЗКА</value>
+	</data>
+	<data name="FRIENDOPEDIA" xml:space="preserve">
+		<value>ФРЕНДОПЕДИЯ</value>
+	</data>
+	<data name="FUEL" xml:space="preserve">
+		<value>ТОПЛИВО</value>
+	</data>
+	<data name="GADGETS" xml:space="preserve">
+		<value>УСТРОЙСТВА</value>
+	</data>
+	<data name="GAME DESIGN" xml:space="preserve">
+		<value>ИГРОВОЙ ДИЗАЙН</value>
+	</data>
+	<data name="GAME DEVELOPED BY SMOKOKO SA" xml:space="preserve">
+		<value>ИГРА РАЗРАБОТАНА SMOKOKO LTD</value>
+	</data>
+	<data name="GAME PUBLISHED BY SPIL GAMES" xml:space="preserve">
+		<value>ИГРА ВЫПУЩЕНА SPIL GAMES</value>
+	</data>
+	<data name="GARAGE" xml:space="preserve">
+		<value>ГАРАЖ</value>
+	</data>
+	<data name="GATOR" xml:space="preserve">
+		<value>Гатор</value>
+	</data>
+	<data name="GET ADDITIONAL BOMBS" xml:space="preserve">
+		<value>КУПИТЕ ДОПОЛНИТЕЛЬНЫЕ БОМБЫ</value>
+	</data>
+	<data name="GET ADDITIONAL TURBO" xml:space="preserve">
+		<value>КУПИТЕ ДОПОЛНИТЕЛЬНОЕ ТУРБОУСКОРЕНИЕ</value>
+	</data>
+	<data name="GET FUEL" xml:space="preserve">
+		<value>КУПИТЬ ТОПЛИВО</value>
+	</data>
+	<data name="GET RUBIES" xml:space="preserve">
+		<value>КУПИТЬ РУБИНЫ</value>
+	</data>
+	<data name="GHOST TOWN" xml:space="preserve">
+		<value>ПРИЗРАЧНЫЙ ГОРОД</value>
+	</data>
+	<data name="GOOD" xml:space="preserve">
+		<value>БОНУС</value>
+	</data>
+	<data name="HARVESTER" xml:space="preserve">
+		<value>КОМБАЙН</value>
+	</data>
+	<data name="HAVEN'T PLAYED YET?" xml:space="preserve">
+		<value>ЕЩЕ НЕ ИГРАЛИ?</value>
+	</data>
+	<data name="HOW TO PLAY" xml:space="preserve">
+		<value>Управление</value>
+	</data>
+	<data name="I AGREE" xml:space="preserve">
+		<value>Согласен</value>
+	</data>
+	<data name="ICE AGE" xml:space="preserve">
+		<value>ЗАМОРОЗКА!</value>
+	</data>
+	<data name="INCREASES CAR'S HEALTH" xml:space="preserve">
+		<value>УЛУЧШАЕТ СТОЙКОСТЬ МАШИНЫ</value>
+	</data>
+	<data name="INCREASES CAR'S TOP SPEED" xml:space="preserve">
+		<value>УВЕЛИЧИВАЕТ МАКСИМАЛЬНУЮ СКОРОСТЬ</value>
+	</data>
+	<data name="INCUBATOR" xml:space="preserve">
+		<value>ИНКУБАТОР</value>
+	</data>
+	<data name="Ketchup" xml:space="preserve">
+		<value>Кетчуп</value>
+	</data>
+	<data name="KILLED" xml:space="preserve">
+		<value>УБИТО</value>
+	</data>
+	<data name="LANGUAGE" xml:space="preserve">
+		<value>ЯЗЫК</value>
+	</data>
+	<data name="LARGE FUEL TANK" xml:space="preserve">
+		<value>БОЛЬШОЙ БАК</value>
+	</data>
+	<data name="LARGER TURBO TANK CAPACITY" xml:space="preserve">
+		<value>УВЕЛИЧИВАЕТ ОБЪЕМ ТУРБО</value>
+	</data>
+	<data name="Learn how CAR EATS CAR 3 and our partners collect and use data" xml:space="preserve">
+		<value>Узнайте, как CAR EATS CAR 3 и наши партнеры собирают и используют данные.</value>
+	</data>
+	<data name="LEAVING SO SOON" xml:space="preserve">
+		<value>Уже уходите?</value>
+	</data>
+	<data name="LESS POWER!" xml:space="preserve">
+		<value>УЯЗВИМОСТЬ</value>
+	</data>
+	<data name="LET'S LEVEL UP THE SPEED" xml:space="preserve">
+		<value>ДАВАЙТЕ УЛУЧШИМ СКОРОСТЬ</value>
+	</data>
+	<data name="LET'S RETURN TO MAP" xml:space="preserve">
+		<value>ДАВАЙТЕ ВЕРНЁМСЯ НА КАРТУ</value>
+	</data>
+	<data name="LEVEL" xml:space="preserve">
+		<value>Уровень</value>
+	</data>
+	<data name="LEVEL *" xml:space="preserve">
+		<value>УРОВЕНЬ *</value>
+	</data>
+	<data name="LEVEL * COMPLETED" xml:space="preserve">
+		<value>УРОВЕНЬ * ПРОЙДЕН</value>
+	</data>
+	<data name="LEVEL * FAILED" xml:space="preserve">
+		<value>НЕ УДАЛОСЬ ПРОЙТИ УРОВЕНЬ *</value>
+	</data>
+	<data name="LEVEL DESIGN" xml:space="preserve">
+		<value>ДИЗАЙН УРОВНЕЙ</value>
+	</data>
+	<data name="LEVELS" xml:space="preserve">
+		<value>УРОВНИ</value>
+	</data>
+	<data name="Limited offer, left * min" xml:space="preserve">
+		<value>Лимитированое предложение, осталось * мин</value>
+	</data>
+	<data name="LIMITED TIME OFFER" xml:space="preserve">
+		<value>ЛИМИТИРОВАННОЕ ПРЕДЛОЖЕНИЕ</value>
+	</data>
+	<data name="LOAD" xml:space="preserve">
+		<value>Загрузить</value>
+	</data>
+	<data name="LOAD THIS GAME?" xml:space="preserve">
+		<value>ЗАГРУЗИТЬ ЭТУ ИГРУ?</value>
+	</data>
+	<data name="LOADING" xml:space="preserve">
+		<value>ЗАГРУЗКА</value>
+	</data>
+	<data name="LOCKED" xml:space="preserve">
+		<value>ЗАБЛОКИРОВАНО</value>
+	</data>
+	<data name="LOCOMACHINE" xml:space="preserve">
+		<value>ЛОКОМАШИНА</value>
+	</data>
+	<data name="LOGIN" xml:space="preserve">
+		<value>ВВОЙТИ</value>
+	</data>
+	<data name="LOGIN AND GET" xml:space="preserve">
+		<value>ВОЙДИТЕ И ПОЛУЧИТЕ</value>
+	</data>
+	<data name="LOGIN AND GET BONUSES" xml:space="preserve">
+		<value>ВОЙДИ И ПОЛУЧИ БОНУС</value>
+	</data>
+	<data name="LOGOUT" xml:space="preserve">
+		<value>ВЫЙТИ</value>
+	</data>
+	<data name="MAGNET" xml:space="preserve">
+		<value>МАГНИТ</value>
+	</data>
+	<data name="Matt" xml:space="preserve">
+		<value>Мэтт</value>
+	</data>
+	<data name="MAX." xml:space="preserve">
+		<value>МАКС.</value>
+	</data>
+	<data name="MEGA TURBO" xml:space="preserve">
+		<value>МЕГА-ТУРБО</value>
+	</data>
+	<data name="METEOR SHOWER" xml:space="preserve">
+		<value>МЕТЕОРИТНЫЙ ДОЖДЬ!</value>
+	</data>
+	<data name="MIN" xml:space="preserve">
+		<value>МИН.</value>
+	</data>
+	<data name="MISSILE LAUNCHER" xml:space="preserve">
+		<value>РАКЕТНИЦА</value>
+	</data>
+	<data name="MISTY FOREST" xml:space="preserve">
+		<value>ТУМАННЫЙ ЛЕС</value>
+	</data>
+	<data name="MODERATE BLAST AREA AND DAMAGE" xml:space="preserve">
+		<value>УВЕЛИЧИВАЕТ ЗОНУ ПОРАЖЕНИЯ И УЩЕРБ ВРАГАМ</value>
+	</data>
+	<data name="MONSTROPEDIA" xml:space="preserve">
+		<value>Монстропедия</value>
+	</data>
+	<data name="MORE GAMES" xml:space="preserve">
+		<value>ДРУГИЕ ИГРЫ</value>
+	</data>
+	<data name="MORE POWER!" xml:space="preserve">
+		<value>ОСТРЫЕ ЗУБЫ!</value>
+	</data>
+	<data name="MR BOMBASTIC" xml:space="preserve">
+		<value>Бомбастик</value>
+	</data>
+	<data name="MUSIC &amp; SOUND" xml:space="preserve">
+		<value>ЗВУК И МУЗЫКА</value>
+	</data>
+	<data name="NEW" xml:space="preserve">
+		<value>НОВОЕ</value>
+	</data>
+	<data name="NEXT" xml:space="preserve">
+		<value>ДАЛЬШЕ</value>
+	</data>
+	<data name="NEXT IN" xml:space="preserve">
+		<value>СЛ. ЧЕРЕЗ</value>
+	</data>
+	<data name="NEXT LEVEL" xml:space="preserve">
+		<value>СЛЕДУЮЩИЙ УРОВЕНЬ</value>
+	</data>
+	<data name="NO" xml:space="preserve">
+		<value>НЕТ</value>
+	</data>
+	<data name="NO INTERNET CONNECTION WAS FOUND. PLEASE TRY AGAIN LATER" xml:space="preserve">
+		<value>НЕТ ПОДКЛЮЧЕНИЯ К СЕТИ. ПОЖАЛУЙСТА ПОПРОБУЙТЕ ПОЗЖЕ</value>
+	</data>
+	<data name="NO NEW VIDEOS AVAILABLE RIGHT NOW" xml:space="preserve">
+		<value>НОВЫЕ ВИДЕО НЕДОСТУПНЫ</value>
+	</data>
+	<data name="NO THANKS" xml:space="preserve">
+		<value>Нет, спасибо</value>
+	</data>
+	<data name="NO VIDEO AVALIABLE" xml:space="preserve">
+		<value>НЕТ ДОСТУПНЫХ ВИДЕО</value>
+	</data>
+	<data name="No, see ads that are less relevant" xml:space="preserve">
+		<value>Нет, смотреть менее релевантные объявления</value>
+	</data>
+	<data name="NOT ENOUGH" xml:space="preserve">
+		<value>НЕДОСТАТОЧНО</value>
+	</data>
+	<data name="NOTHING WILL STOP HIM" xml:space="preserve">
+		<value>ЛОКОМАШИНА - НИЧТО ЕГО НЕ ОСТАНОВИТ!</value>
+	</data>
+	<data name="OFF" xml:space="preserve">
+		<value>СКИДКА</value>
+	</data>
+	<data name="Om-Nom-nom" xml:space="preserve">
+		<value>Ом-Ном-Ном</value>
+	</data>
+	<data name="OOPS!" xml:space="preserve">
+		<value>УВЫ!</value>
+	</data>
+	<data name="OPEN ALL LEVELS" xml:space="preserve">
+		<value>ОТКРЫТЬ ВСЕ УРОВНИ</value>
+	</data>
+	<data name="OPEN FIRST LEVEL" xml:space="preserve">
+		<value>ОТКРЫТЬ ПЕРВЫЙ УРОВЕНЬ</value>
+	</data>
+	<data name="OPEN LOCATION" xml:space="preserve">
+		<value>ОТКРЫТЬ ЛОКАЦИЮ</value>
+	</data>
+	<data name="OPEN NEXT LEVEL" xml:space="preserve">
+		<value>ОТКРЫТЬ СЛЕДУЮЩИЙ УРОВЕНЬ</value>
+	</data>
+	<data name="OR BUY NOW!" xml:space="preserve">
+		<value>КУПИТЬ УЖЕ</value>
+	</data>
+	<data name="PART */4" xml:space="preserve">
+		<value>ЧАСТЬ */4</value>
+	</data>
+	<data name="PLAY" xml:space="preserve">
+		<value>ИГРАТЬ</value>
+	</data>
+	<data name="PLAY NOW" xml:space="preserve">
+		<value>ИГРАТЬ</value>
+	</data>
+	<data name="PLEASE CHOOSE" xml:space="preserve">
+		<value>ПОЖАЛУЙСТА, ВЫБЕРИ</value>
+	</data>
+	<data name="PLEASE RATE CAR EATS CAR" xml:space="preserve">
+		<value>Оценить Хищные машины</value>
+	</data>
+	<data name="POLICE!" xml:space="preserve">
+		<value>ПОЛИЦИЯ!</value>
+	</data>
+	<data name="POLICEPEDIA" xml:space="preserve">
+		<value>ПОЛИСОПЕДИЯ</value>
+	</data>
+	<data name="preloader_description_arena" xml:space="preserve">
+		<value>БЕРСЕРКЕР - МОГУЧАЯ ПИЛА НЕ ЖАЛЕЕТ ВРАГА!</value>
+	</data>
+	<data name="preloader_description_boss1" xml:space="preserve">
+		<value>КОП РОД - САМАЯ ОПАСНАЯ ПОЛИЦЕЙСКАЯ МАШИНА</value>
+	</data>
+	<data name="preloader_description_boss2" xml:space="preserve">
+		<value>МОЛНИЯ - ГЛАВНЫЙ СРЕДИ ФЕДЕРАЛОВ</value>
+	</data>
+	<data name="preloader_description_boss3" xml:space="preserve">
+		<value>КАПИТАН ВЕДРО - ПОБЕДИ ЛИБО ПОЙДЕШЬ НА ДНО!</value>
+	</data>
+	<data name="preloader_description_car1" xml:space="preserve">
+		<value>ГАТОР - ХИЩНАЯ МАШИНА НОВОГО ПОКОЛЕНИЯ!</value>
+	</data>
+	<data name="preloader_description_car2" xml:space="preserve">
+		<value>КОМБАЙН - НАСТОЯЩИЙ ХИЩНИК!</value>
+	</data>
+	<data name="preloader_description_car3" xml:space="preserve">
+		<value>АРХИВЕР - МОГУЧИЕ КЛЕШНИ!</value>
+	</data>
+	<data name="preloader_description_convoy" xml:space="preserve">
+		<value>ДОГОНИ И УНИЧТОЖЬ КОНВОЙ ЧТОБЫ ОСВОБОДИТЬ ДРУГА</value>
+	</data>
+	<data name="preloader_description_copter1" xml:space="preserve">
+		<value>ВОЗДУШННОЕ ПРОСТРАНСТВО ПАТРУЛИРУЕТСЯ!</value>
+	</data>
+	<data name="preloader_description_copter2" xml:space="preserve">
+		<value>ВОЗДУШННОЕ ПРОСТРАНСТВО ПАТРУЛИРУЕТСЯ!</value>
+	</data>
+	<data name="preloader_description_copter3" xml:space="preserve">
+		<value>ВОЗДУШННОЕ ПРОСТРАНСТВО ПАТРУЛИРУЕТСЯ!</value>
+	</data>
+	<data name="preloader_description_drones" xml:space="preserve">
+		<value>ДРОНЫ - ЛУЧШИЕ ПОМОЩНИКИ!</value>
+	</data>
+	<data name="preloader_description_fbi" xml:space="preserve">
+		<value>ФЕДЕРАЛЫ ВСЕГДА ГОТОВЫ ДОСТАВИТЬ ХЛОПОТ</value>
+	</data>
+	<data name="preloader_description_fire" xml:space="preserve">
+		<value>ОГНЕСВАЛ - БОЙСЯ ЖГУЧЕГО ПЛАМЕНИ!</value>
+	</data>
+	<data name="preloader_description_police1_1" xml:space="preserve">
+		<value>КОПЫ СДЕЛАЮТ ВСЁ ЧТОБЫ ВАС ПОЙМАТЬ!</value>
+	</data>
+	<data name="preloader_description_police1_2" xml:space="preserve">
+		<value>КОПЫ СДЕЛАЮТ ВСЁ ЧТОБЫ ВАС ПОЙМАТЬ!</value>
+	</data>
+	<data name="preloader_description_police1_3" xml:space="preserve">
+		<value>КОПЫ СДЕЛАЮТ ВСЁ ЧТОБЫ ВАС ПОЙМАТЬ!</value>
+	</data>
+	<data name="preloader_description_police1_4" xml:space="preserve">
+		<value>КОПЫ СДЕЛАЮТ ВСЁ ЧТОБЫ ВАС ПОЙМАТЬ!</value>
+	</data>
+	<data name="preloader_description_police2_1" xml:space="preserve">
+		<value>КОПЫ СДЕЛАЮТ ВСЁ ЧТОБЫ ВАС ПОЙМАТЬ!</value>
+	</data>
+	<data name="preloader_description_police2_2" xml:space="preserve">
+		<value>КОПЫ СДЕЛАЮТ ВСЁ ЧТОБЫ ВАС ПОЙМАТЬ!</value>
+	</data>
+	<data name="preloader_description_police2_3" xml:space="preserve">
+		<value>КОПЫ СДЕЛАЮТ ВСЁ ЧТОБЫ ВАС ПОЙМАТЬ!</value>
+	</data>
+	<data name="preloader_description_police2_4" xml:space="preserve">
+		<value>КОПЫ СДЕЛАЮТ ВСЁ ЧТОБЫ ВАС ПОЙМАТЬ!</value>
+	</data>
+	<data name="preloader_description_police3_1" xml:space="preserve">
+		<value>КОПЫ СДЕЛАЮТ ВСЁ ЧТОБЫ ВАС ПОЙМАТЬ!</value>
+	</data>
+	<data name="preloader_description_police3_2" xml:space="preserve">
+		<value>КОПЫ СДЕЛАЮТ ВСЁ ЧТОБЫ ВАС ПОЙМАТЬ!</value>
+	</data>
+	<data name="preloader_description_police3_3" xml:space="preserve">
+		<value>КОПЫ СДЕЛАЮТ ВСЁ ЧТОБЫ ВАС ПОЙМАТЬ!</value>
+	</data>
+	<data name="preloader_description_police3_4" xml:space="preserve">
+		<value>КОПЫ СДЕЛАЮТ ВСЁ ЧТОБЫ ВАС ПОЙМАТЬ!</value>
+	</data>
+	<data name="PREMIUM CONTENT" xml:space="preserve">
+		<value>ПРЕМИУМ ТОВАРЫ</value>
+	</data>
+	<data name="PRESS TO FLIP BACKWARD" xml:space="preserve">
+		<value>Нажмите чтобы флиповать назад</value>
+	</data>
+	<data name="PRESS TO FLIP FORWARD" xml:space="preserve">
+		<value>Нажмите чтобы флиповать вперёд</value>
+	</data>
+	<data name="PRESS TO USE" xml:space="preserve">
+		<value>НАЖМИТЕ ЧТОБЫ АКТИВИРОВАТЬ</value>
+	</data>
+	<data name="PREVIOUS GAME FOUND" xml:space="preserve">
+		<value>НАЙДЕНО ПРЕДЫДУЩЕЕ СОХРАНИНИЕ</value>
+	</data>
+	<data name="PRIVACY DESCRIPTION" xml:space="preserve">
+		<value>Мы обновили нашу политику конфиденциальности. Пожалуйста прочтите и примите изменения, чтобы продолжить играть.</value>
+	</data>
+	<data name="PRIVACY POLICY" xml:space="preserve">
+		<value>ПОЛИТИКА КОНФИД.</value>
+	</data>
+	<data name="PRODUCERS" xml:space="preserve">
+		<value>ПРОДЮСЕРЫ</value>
+	</data>
+	<data name="PROGRAMMING" xml:space="preserve">
+		<value>ПРОГРАММИСТЫ</value>
+	</data>
+	<data name="PROTECT YOUR CAR'S BODY" xml:space="preserve">
+		<value>ЗАЩИТА КОРПУСА ВАШЕЙ МАШИНЫ</value>
+	</data>
+	<data name="PUSH" xml:space="preserve">
+		<value>ПУСК</value>
+	</data>
+	<data name="RABBITSTER" xml:space="preserve">
+		<value>РЭББИТСТЕР</value>
+	</data>
+	<data name="RABBITSTER DESCRIPTION" xml:space="preserve">
+		<value>РЭББИСТЕР - УШАСТЫЙ И ЗУБАСТЫЙ</value>
+	</data>
+	<data name="RAM" xml:space="preserve">
+		<value>ТАРАН</value>
+	</data>
+	<data name="RAM YOUR ENEMIES TILL DEATH" xml:space="preserve">
+		<value>ТАРАНЬТЕ АВТОМОБИЛИ ВРАГОВ ДО ИХ УНИЧТОЖЕНИЯ</value>
+	</data>
+	<data name="RATE" xml:space="preserve">
+		<value>ОЦЕНИТЬ</value>
+	</data>
+	<data name="RATE NOW" xml:space="preserve">
+		<value>Оценить</value>
+	</data>
+	<data name="RATE US SHAUT 1" xml:space="preserve">
+		<value>Неужели всё так плохо?</value>
+	</data>
+	<data name="RATE US SHAUT 2" xml:space="preserve">
+		<value>Обидно, но мы объязательно прислушаемся к пожеланиям!</value>
+	</data>
+	<data name="RATE US SHAUT 3" xml:space="preserve">
+		<value>Спасибо за вашу оценку!</value>
+	</data>
+	<data name="RATE US SHAUT 4" xml:space="preserve">
+		<value>Вау! Мы объязательно сделаем игру еще лучше!</value>
+	</data>
+	<data name="RATE US SHAUT 5" xml:space="preserve">
+		<value>Спасибо бро! Ты самы лучший в мире!</value>
+	</data>
+	<data name="RATE YOUR EXPERIENCE!" xml:space="preserve">
+		<value>ВАМ ПОНРАВИЛАСЬ ИГРА?</value>
+	</data>
+	<data name="REACH * M. TO GET ANTIGRAVS" xml:space="preserve">
+		<value>ПРОЙДИ * М. И ПОЛУЧИ АНТИГРАВЫ</value>
+	</data>
+	<data name="REACH * M. TO GET MEGA TURBO" xml:space="preserve">
+		<value>ПРОЙДИ * М. И ПОЛУЧИ МЕГА ТУРБО</value>
+	</data>
+	<data name="REACH * M. TO GET SUPER GUN" xml:space="preserve">
+		<value>ПРОЙДИ * М. И ПОЛУЧИ СУПЕР ПУШКУ</value>
+	</data>
+	<data name="REACH * M. TO GET TANK" xml:space="preserve">
+		<value>ПРОЙДИ * М. И ПОЛУЧИ ТАНК</value>
+	</data>
+	<data name="REACH * M. TO GET TANKOMINATOR PART */4" xml:space="preserve">
+		<value>ПРОЙДИ * М. И ПОЛУЧИ ЧАСТЬ ТАНКОМИНАТОРА</value>
+	</data>
+	<data name="RECHARGER" xml:space="preserve">
+		<value>ПЕРЕЗАРЯДКА</value>
+	</data>
+	<data name="REGENERATOR" xml:space="preserve">
+		<value>РЕГЕНЕРАТОР</value>
+	</data>
+	<data name="RESET GAME" xml:space="preserve">
+		<value>НАЧАТЬ ЗАНОВО</value>
+	</data>
+	<data name="RESTART" xml:space="preserve">
+		<value>СНАЧАЛА</value>
+	</data>
+	<data name="RESTORE PURCHASED" xml:space="preserve">
+		<value>ВОССТАНОВИТЬ КУПЛЕННОЕ</value>
+	</data>
+	<data name="RESTORE PURCHASES" xml:space="preserve">
+		<value>ВОССТАНОВИТЬ ПОКУПКИ</value>
+	</data>
+	<data name="RESUME" xml:space="preserve">
+		<value>ПРОДОЛЖИТЬ</value>
+	</data>
+	<data name="REVIVE YOUR HEALTH AND FINISH THE LEVEL" xml:space="preserve">
+		<value>ПОПРАВЬТЕ ЗДОРОВЬЕ И ПРОЙДИТЕ УРОВЕНЬ ДО КОНЦА</value>
+	</data>
+	<data name="REVIVE?" xml:space="preserve">
+		<value>Востановиться?</value>
+	</data>
+	<data name="REWARD" xml:space="preserve">
+		<value>НАГРАДА</value>
+	</data>
+	<data name="RUBIES" xml:space="preserve">
+		<value>РУБИНЫ</value>
+	</data>
+	<data name="Sawcar" xml:space="preserve">
+		<value>Пила</value>
+	</data>
+	<data name="School Bus" xml:space="preserve">
+		<value>Автобус</value>
+	</data>
+	<data name="SCORPION" xml:space="preserve">
+		<value>СКОРПИОН</value>
+	</data>
+	<data name="SEE YOUR FRIENDS PROGRESS" xml:space="preserve">
+		<value>СМОТРЕТЬ ПРОГРЕСС ДРУЗЕЙ</value>
+	</data>
+	<data name="SETTINGS" xml:space="preserve">
+		<value>НАСТРОЙКИ</value>
+	</data>
+	<data name="SHARE" xml:space="preserve">
+		<value>ПОДЕЛИТЬСЯ</value>
+	</data>
+	<data name="SHARE VIA FB AND RECEIVE REWARD" xml:space="preserve">
+		<value>ПОДЕЛИСЬ С ДРУГОМ И ПОЛУЧИ ПОДАРОК</value>
+	</data>
+	<data name="SHIELD" xml:space="preserve">
+		<value>ЩИТ</value>
+	</data>
+	<data name="SHOP" xml:space="preserve">
+		<value>МАГАЗИН</value>
+	</data>
+	<data name="Show consent form" xml:space="preserve">
+		<value>Показать форму согласия</value>
+	</data>
+	<data name="SHRINK BOMB" xml:space="preserve">
+		<value>УМЕНЬШИТЕЛЬНАЯ</value>
+	</data>
+	<data name="SKIP" xml:space="preserve">
+		<value>ПРОПУСТИТЬ</value>
+	</data>
+	<data name="Smarty" xml:space="preserve">
+		<value>Смарти</value>
+	</data>
+	<data name="SPECIAL MISSION" xml:space="preserve">
+		<value>СПЕЦМИССИЯ</value>
+	</data>
+	<data name="SPEED" xml:space="preserve">
+		<value>СКОРОСТЬ</value>
+	</data>
+	<data name="SPEED UP WITH TURBO BUTTON" xml:space="preserve">
+		<value>УСКОРЯЙТЕСЬ С ПОМОЩЬЮ ТУРБО-КНОПКИ</value>
+	</data>
+	<data name="Spike" xml:space="preserve">
+		<value>Шип</value>
+	</data>
+	<data name="SPIN" xml:space="preserve">
+		<value>СПИН</value>
+	</data>
+	<data name="SPIN NOW" xml:space="preserve">
+		<value>КРУТИ СЕЙЧАС</value>
+	</data>
+	<data name="START" xml:space="preserve">
+		<value>СТАРТ</value>
+	</data>
+	<data name="START MINI GAME" xml:space="preserve">
+		<value>НАЧАТЬ МИНИ ИГРУ</value>
+	</data>
+	<data name="START RACE NOW!" xml:space="preserve">
+		<value>ВЫЕЗЖАЕМ!</value>
+	</data>
+	<data name="Stinger" xml:space="preserve">
+		<value>Жало</value>
+	</data>
+	<data name="STOP" xml:space="preserve">
+		<value>СТОП</value>
+	</data>
+	<data name="STRONG HULL" xml:space="preserve">
+		<value>БРОНИРОВАННЫЙ КОРПУС</value>
+	</data>
+	<data name="SUPER FRICTION" xml:space="preserve">
+		<value>СУПЕР СЦЕПЛЕНИЕ</value>
+	</data>
+	<data name="SUPER GUN" xml:space="preserve">
+		<value>СУПЕР-ПУШКА</value>
+	</data>
+	<data name="SWAMP" xml:space="preserve">
+		<value>БОЛОТО</value>
+	</data>
+	<data name="SWITCHING SUPER BONUS" xml:space="preserve">
+		<value>СУПЕРБОНУС ПЕРЕКЛЮЧАЕТСЯ!</value>
+	</data>
+	<data name="TAKE" xml:space="preserve">
+		<value>ВЗЯТЬ</value>
+	</data>
+	<data name="TAKE REWARD" xml:space="preserve">
+		<value>ВЗЯТЬ НАГРАДУ</value>
+	</data>
+	<data name="TANK" xml:space="preserve">
+		<value>ТАНК</value>
+	</data>
+	<data name="TANK FULL" xml:space="preserve">
+		<value>ПОЛНЫЙ БАК</value>
+	</data>
+	<data name="TANKOMINATOR" xml:space="preserve">
+		<value>ТАНКОМИНАТОР</value>
+	</data>
+	<data name="TAP" xml:space="preserve">
+		<value>ТАП</value>
+	</data>
+	<data name="TAP THE SCREEN" xml:space="preserve">
+		<value>ЖМИ НА ЭКРАН!</value>
+	</data>
+	<data name="TAP TO BUY THE UPGRADE" xml:space="preserve">
+		<value>НАЖМИТЕ ЧТОБЫ КУПИТЬ</value>
+	</data>
+	<data name="TAP TO CONTINUE…" xml:space="preserve">
+		<value>КОСНИТЕСЬ ЧТОБЫ ПРОДОЛЖИТЬ...</value>
+	</data>
+	<data name="TAP TO DROP" xml:space="preserve">
+		<value>КОСНИТЕСЬ ЧТОБЫ БРОСИТЬ</value>
+	</data>
+	<data name="TASTY" xml:space="preserve">
+		<value>ВКУСНЯШКА!</value>
+	</data>
+	<data name="TERMS OF USE" xml:space="preserve">
+		<value>УСЛОВИЯ ЭКСПЛУАТАЦИИ</value>
+	</data>
+	<data name="TEST DRIVE" xml:space="preserve">
+		<value>ПРОБНЫЙ ЗАЕЗД</value>
+	</data>
+	<data name="TESTERS" xml:space="preserve">
+		<value>ТЕСТЕРЫ</value>
+	</data>
+	<data name="THUNDERSTORM" xml:space="preserve">
+		<value>ГРОЗА</value>
+	</data>
+	<data name="TILT" xml:space="preserve">
+		<value>Балансирование</value>
+	</data>
+	<data name="TO UNLOCK" xml:space="preserve">
+		<value>чтобы разблокировать</value>
+	</data>
+	<data name="TODAY" xml:space="preserve">
+		<value>СЕГОДНЯ</value>
+	</data>
+	<data name="TOTAL" xml:space="preserve">
+		<value>ВСЕГО</value>
+	</data>
+	<data name="TRY AGAIN" xml:space="preserve">
+		<value>ПОПРОБУЙ ЕЩЕ!</value>
+	</data>
+	<data name="TRY HARVESTER FOR FREE!" xml:space="preserve">
+		<value>ПОПРОБУЙ КОМБАЙН БЕСПЛАТНО!</value>
+	</data>
+	<data name="TRY TANKOMINATOR FOR FREE!" xml:space="preserve">
+		<value>ПОПРОБУЙ ТАНКОМИНАТОР БЕСПЛАТНО!</value>
+	</data>
+	<data name="TURBO" xml:space="preserve">
+		<value>ТУРБО</value>
+	</data>
+	<data name="TURTLE" xml:space="preserve">
+		<value>ЧЕРЕПАХА</value>
+	</data>
+	<data name="TUTORIAL" xml:space="preserve">
+		<value>ТУТОРИАЛ</value>
+	</data>
+	<data name="UNEQUIP" xml:space="preserve">
+		<value>СНЯТЬ</value>
+	</data>
+	<data name="UNLIMITED" xml:space="preserve">
+		<value>БЕСКОНЕЧНЫЙ</value>
+	</data>
+	<data name="UNLOCK" xml:space="preserve">
+		<value>РАЗБЛОКИРОВАТЬ</value>
+	</data>
+	<data name="UNLOCKED" xml:space="preserve">
+		<value>РАЗБЛОКИРОВАНО</value>
+	</data>
+	<data name="UPGRADE" xml:space="preserve">
+		<value>УЛУЧШИТЬ</value>
+	</data>
+	<data name="UPGRADE YOUR CAR NOW TO BEAT DIFFICULT LEVELS" xml:space="preserve">
+		<value>УСОВЕРШЕНСТВУЙТЕ МАШИНУ, ЧТОБЫ ПРОЙТИ СЛОЖНЫЕ УРОВНИ</value>
+	</data>
+	<data name="UPGRADES" xml:space="preserve">
+		<value>УЛУЧШЕНИЯ</value>
+	</data>
+	<data name="USE" xml:space="preserve">
+		<value>ВЗЯТЬ</value>
+	</data>
+	<data name="USE BOMBS TO DESTROY ENEMIES" xml:space="preserve">
+		<value>УНИЧТОЖАЙТЕ ВРАГОВ БОМБАМИ!</value>
+	</data>
+	<data name="USE BOOSTERS TO MAKE THE LEVEL EASIER" xml:space="preserve">
+		<value>ИСПОЛЬЗУЙТЕ УСИЛИТЕЛИ, ЧТОБЫ БЫСТРЕЕ ПРОЙТИ УРОВЕНЬ</value>
+	</data>
+	<data name="VALENTINE'S RUSH" xml:space="preserve">
+		<value>ВАЛЕНТИНОВА ЛИХОРАДКА</value>
+	</data>
+	<data name="VIDEO" xml:space="preserve">
+		<value>ВИДЕО</value>
+	</data>
+	<data name="VIDEO FAILED" xml:space="preserve">
+		<value />
+	</data>
+	<data name="WARNING" xml:space="preserve">
+		<value>ОСТОРОЖНО!</value>
+	</data>
+	<data name="We care about your privacy and data security. We keep this app free by showing ads." xml:space="preserve">
+		<value>Мы заботимся о конфиденциальности и безопасности ваших данных. Мы сделали это приложение бесплатным, показывая рекламу.</value>
+	</data>
+	<data name="WHEEL OF FORTUNE" xml:space="preserve">
+		<value>КОЛЕСО ФОРТУНЫ</value>
+	</data>
+	<data name="WHEELS" xml:space="preserve">
+		<value>КОЛЕСА</value>
+	</data>
+	<data name="Wick" xml:space="preserve">
+		<value>Фитиль</value>
+	</data>
+	<data name="WIN BOSS 1 TO UNLOCK" xml:space="preserve">
+		<value>ПОБЕДИ БОССА 1</value>
+	</data>
+	<data name="WIN BOSS 2 TO UNLOCK" xml:space="preserve">
+		<value>ПОБЕДИ БОССА 2</value>
+	</data>
+	<data name="WIN KEYS TO UNLOCK BERSERKER" xml:space="preserve">
+		<value>ВЫИГРАЙ КЛЮЧИ И РАЗБЛОКИРУЙ БЕРСЕРКЕРА</value>
+	</data>
+	<data name="WIN YOUR TANKOMINATOR ON ARENA" xml:space="preserve">
+		<value>ВЫИГРАЙ СВОЙ ТАНКОМИНАТОР НА АРЕНE</value>
+	</data>
+	<data name="WOULD YOU LIKE TO RATE THE GAME?" xml:space="preserve">
+		<value>Понравилась игра? Поставьте вашу оценку!</value>
+	</data>
+	<data name="WOW!" xml:space="preserve">
+		<value>УХ ТЫ!</value>
+	</data>
+	<data name="YES" xml:space="preserve">
+		<value>ДА</value>
+	</data>
+	<data name="Yes, continue to see relevant ads" xml:space="preserve">
+		<value>Да, смотреть релевантные объявления</value>
+	</data>
+	<data name="YES/NO" xml:space="preserve">
+		<value>ДА/НЕТ</value>
+	</data>
+	<data name="YOU ARE FIRED!!!" xml:space="preserve">
+		<value>ВЫ УВОЛЕНЫ!!!</value>
+	</data>
+	<data name="YOU ARE GOING TO JAIL!" xml:space="preserve">
+		<value>ВАШЕ МЕСТО ЗА РЕШЕТКОЙ!</value>
+	</data>
+	<data name="YOU ARE OLD AND RUSTY!" xml:space="preserve">
+		<value>ВЫ УЖЕ СТАРЫЕ И РЖАВЫЕ!</value>
+	</data>
+	<data name="YOU ARE OLD, RUSTY AND EVIL!" xml:space="preserve">
+		<value>ВЫ СТАРЫЕ, РЖАВЫЕ И ЗЛЫЕ!</value>
+	</data>
+	<data name="YOU BEAT YOUR FRIEND" xml:space="preserve">
+		<value>ВЫ ПОБИЛИ РЕКОРД ДРУГА</value>
+	</data>
+	<data name="You can change your choice anytime for CAR EATS CAR 3 in the app settings. Our partners will collect data and use a unique identifier on your device to show you ads. " xml:space="preserve">
+		<value>Вы можете изменить свой выбор в любое время для CAR EATS CAR 3 в настройках приложения. Наши партнеры собирают данные и используют уникальный идентификатор вашего устройства для показа объявлений. </value>
+	</data>
+	<data name="YOU CANT FIGHT" xml:space="preserve">
+		<value>Вы не можете схватиться с</value>
+	</data>
+	<data name="YOU DEFEATED" xml:space="preserve">
+		<value>ВЫ ПОБЕДИЛИ</value>
+	</data>
+	<data name="YOU FOUND ARMOR" xml:space="preserve">
+		<value>ВЫ ПОДОБРАЛИ БРОНЮ</value>
+	</data>
+	<data name="YOU FOUND BOMB" xml:space="preserve">
+		<value>ВЫ ПОДОБРАЛИ БОМБУ</value>
+	</data>
+	<data name="YOU FOUND TURBO" xml:space="preserve">
+		<value>ВЫ ПОДОБРАЛИ ТУРБО</value>
+	</data>
+	<data name="YOU FREED" xml:space="preserve">
+		<value>ВЫ ОСВОБОДИЛИ</value>
+	</data>
+	<data name="You gadget is successfully crafter. Let's use it!" xml:space="preserve">
+		<value>Твой гаджет успешно создан. Используй его!</value>
+	</data>
+	<data name="YOU HAVE COLLECTED SOME BOXES. TRY YOUR LUCK AND WIN FREE BONUSES!" xml:space="preserve">
+		<value>ВАМ УДАЛОСЬ СОБРАТЬ НЕСКОЛЬКО КОРОБОК. ПОПЫТАЙТЕ УДАЧУ НА КОЛЕСЕ ФОРТУНЫ!</value>
+	</data>
+	<data name="YOU NEED" xml:space="preserve">
+		<value>Необходимо</value>
+	</data>
+	<data name="YOU ROCK!" xml:space="preserve">
+		<value>МОЩНО!</value>
+	</data>
+	<data name="YOU WILL LOSE YOUR CURRENT GAME PROGRESS!" xml:space="preserve">
+		<value>ВЫ ПОТЕРЯЕТЕ ТЕКУЩИЙ ПРОГРЕСС!</value>
+	</data>
+	<data name="YOUR BOOSTS" xml:space="preserve">
+		<value>ВАШ ВЫИГРЫШ</value>
+	</data>
+	<data name="Your daily bonus is ready. Get it!" xml:space="preserve">
+		<value>Твой ежедневный бонус готов. Возьми его!</value>
+	</data>
+	<data name="Your gas has refilled in Car Eats Car. Let's go race!" xml:space="preserve">
+		<value>Ваш бензин восстановлен! Поехали?!</value>
+	</data>
+	<data name="YOUR PREVIOUSLY PURCHASD PRODUCTS HAVE BEEN RESTORED" xml:space="preserve">
+		<value>ПРЕДЫДУЩИЕ ПОКУПКИ ВОССТАНОВЛЕНЫ</value>
+	</data>
+	<data name="YOUR RATING HELPS US PROVIDE UPDATES FOR THE GAME" xml:space="preserve">
+		<value>ВАШ РЕЙТИНГ ПОМОГАЕТ НАМ ДЕЛАТЬ ХОРОШИЕ ОБНОВЛЕНИЯ!</value>
+	</data>
+	<data name="YOU'VE PLAYED CAR EATS CAR BEFORE!" xml:space="preserve">
+		<value>ВЫ УЖЕ ИГРАЛИ В ХИЩНЫЕ МАШИНЫ РАНЬШЕ!</value>
+	</data>
+	<data name="YUM-YUM!" xml:space="preserve">
+		<value>НЯМ НЯМ!</value>
+	</data>
+</root>

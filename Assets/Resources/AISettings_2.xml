@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<StartData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <_health>
+    <BaseValue>300</BaseValue>
+  </_health>
+  <_turbo>
+    <Power>0</Power>
+    <Angle>2</Angle>
+    <MaxValue>0</MaxValue>
+    <Value>0</Value>
+    <UsageValue>5</UsageValue>
+  </_turbo>
+  <_engine>
+    <MaxSpeed>2600</MaxSpeed>
+    <Torque>300</Torque>
+  </_engine>
+  <_suspansion>
+    <BodyMass>200</BodyMass>
+    <WheelMass>100</WheelMass>
+    <SpringMass>25</SpringMass>
+    <Distance>0.05</Distance>
+    <Frequency>20</Frequency>
+    <Damping>1</Damping>
+    <WheelsFriction>2</WheelsFriction>
+    <RotationAcceleration>500</RotationAcceleration>
+  </_suspansion>
+  <_rockets>
+    <StartPower>10</StartPower>
+    <PauseTime>1</PauseTime>
+  </_rockets>
+    <_ai>
+    <EatDamage>5</EatDamage>
+    <eat_delay>0.3</eat_delay>
+	<InvisibleSpeed>60</InvisibleSpeed>
+      <Reward>30</Reward>
+  </_ai>
+</StartData>

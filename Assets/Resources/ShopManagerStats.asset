@@ -1,0 +1,491 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c43af3352f2e2e5e10a5603e4d7aaa98, type: 3}
+  m_Name: "ShopManagerStats"
+  m_EditorClassIdentifier: 
+  Price:
+    Car:
+    - CarNum: "GATOR"
+      Stock:
+        ArmorStats: 5
+        SpeedStats: 110
+        TurboStats: 230
+        WeaponStats: 20
+      Armor:
+      - NumberArmor: "1"
+        price: 10
+      - NumberArmor: "2"
+        price: 20
+      - NumberArmor: "3"
+        price: 30
+      Speed:
+      - NumberSpeed: "1"
+        price: 115
+      - NumberSpeed: "2"
+        price: 117
+      - NumberSpeed: "3"
+        price: 120
+      Turbo:
+      - NumberTurbo: "1"
+        price: 260
+      - NumberTurbo: "2"
+        price: 280
+      - NumberTurbo: "3"
+        price: 300
+      Weapon:
+      - NumberWeapon: "1"
+        price: 30
+      - NumberWeapon: "2"
+        price: 40
+      - NumberWeapon: "3"
+        price: 50
+    - CarNum: "KOMBAIN"
+      Stock:
+        ArmorStats: 50
+        SpeedStats: 110
+        TurboStats: 190
+        WeaponStats: 60
+      Armor:
+      - NumberArmor: "1"
+        price: 60
+      - NumberArmor: "2"
+        price: 70
+      - NumberArmor: "3"
+        price: 80
+      Speed:
+      - NumberSpeed: "1"
+        price: 115
+      - NumberSpeed: "2"
+        price: 120
+      - NumberSpeed: "3"
+        price: 125
+      Turbo:
+      - NumberTurbo: "1"
+        price: 200
+      - NumberTurbo: "2"
+        price: 220
+      - NumberTurbo: "3"
+        price: 250
+      Weapon:
+      - NumberWeapon: "1"
+        price: 70
+      - NumberWeapon: "2"
+        price: 90
+      - NumberWeapon: "3"
+        price: 120
+    - CarNum: "KUSACHKA"
+      Stock:
+        ArmorStats: 80
+        SpeedStats: 130
+        TurboStats: 190
+        WeaponStats: 80
+      Armor:
+      - NumberArmor: "1"
+        price: 90
+      - NumberArmor: "2"
+        price: 110
+      - NumberArmor: "3"
+        price: 130
+      Speed:
+      - NumberSpeed: "1"
+        price: 135
+      - NumberSpeed: "2"
+        price: 140
+      - NumberSpeed: "3"
+        price: 145
+      Turbo:
+      - NumberTurbo: "1"
+        price: 200
+      - NumberTurbo: "2"
+        price: 205
+      - NumberTurbo: "3"
+        price: 210
+      Weapon:
+      - NumberWeapon: "1"
+        price: 90
+      - NumberWeapon: "2"
+        price: 110
+      - NumberWeapon: "3"
+        price: 140
+    - CarNum: "LOCOMASHINE"
+      Stock:
+        ArmorStats: 140
+        SpeedStats: 160
+        TurboStats: 190
+        WeaponStats: 160
+      Armor:
+      - NumberArmor: "1"
+        price: 0
+      - NumberArmor: "2"
+        price: 0
+      - NumberArmor: "3"
+        price: 140
+      Speed:
+      - NumberSpeed: "1"
+        price: 0
+      - NumberSpeed: "2"
+        price: 0
+      - NumberSpeed: "3"
+        price: 160
+      Turbo:
+      - NumberTurbo: "1"
+        price: 0
+      - NumberTurbo: "2"
+        price: 0
+      - NumberTurbo: "3"
+        price: 190
+      Weapon:
+      - NumberWeapon: "1"
+        price: 0
+      - NumberWeapon: "2"
+        price: 0
+      - NumberWeapon: "3"
+        price: 160
+    - CarNum: "NEWCARS"
+      Stock:
+        ArmorStats: 120
+        SpeedStats: 120
+        TurboStats: 180
+        WeaponStats: 160
+      Armor:
+      - NumberArmor: "1"
+        price: 0
+      - NumberArmor: "2"
+        price: 0
+      - NumberArmor: "3"
+        price: 120
+      Speed:
+      - NumberSpeed: "1"
+        price: 0
+      - NumberSpeed: "2"
+        price: 0
+      - NumberSpeed: "3"
+        price: 120
+      Turbo:
+      - NumberTurbo: "1"
+        price: 0
+      - NumberTurbo: "2"
+        price: 0
+      - NumberTurbo: "3"
+        price: 180
+      Weapon:
+      - NumberWeapon: "1"
+        price: 0
+      - NumberWeapon: "2"
+        price: 0
+      - NumberWeapon: "3"
+        price: 160
+    - CarNum: "NEWCARSBEATLY"
+      Stock:
+        ArmorStats: 140
+        SpeedStats: 150
+        TurboStats: 300
+        WeaponStats: 220
+      Armor:
+      - NumberArmor: "1"
+        price: 0
+      - NumberArmor: "2"
+        price: 0
+      - NumberArmor: "3"
+        price: 140
+      Speed:
+      - NumberSpeed: "1"
+        price: 0
+      - NumberSpeed: "2"
+        price: 0
+      - NumberSpeed: "3"
+        price: 150
+      Turbo:
+      - NumberTurbo: "1"
+        price: 0
+      - NumberTurbo: "2"
+        price: 0
+      - NumberTurbo: "3"
+        price: 300
+      Weapon:
+      - NumberWeapon: "1"
+        price: 0
+      - NumberWeapon: "2"
+        price: 0
+      - NumberWeapon: "3"
+        price: 220
+    - CarNum: "NewPoliceEvilCar"
+      Stock:
+        ArmorStats: 50
+        SpeedStats: 110
+        TurboStats: 230
+        WeaponStats: 50
+      Armor:
+      - NumberArmor: "1"
+        price: 60
+      - NumberArmor: "2"
+        price: 70
+      - NumberArmor: "3"
+        price: 80
+      Speed:
+      - NumberSpeed: "1"
+        price: 115
+      - NumberSpeed: "2"
+        price: 120
+      - NumberSpeed: "3"
+        price: 125
+      Turbo:
+      - NumberTurbo: "1"
+        price: 240
+      - NumberTurbo: "2"
+        price: 250
+      - NumberTurbo: "3"
+        price: 260
+      Weapon:
+      - NumberWeapon: "1"
+        price: 70
+      - NumberWeapon: "2"
+        price: 90
+      - NumberWeapon: "3"
+        price: 120
+    - CarNum: "NewPoliceEvilCar2"
+      Stock:
+        ArmorStats: 70
+        SpeedStats: 125
+        TurboStats: 230
+        WeaponStats: 70
+      Armor:
+      - NumberArmor: "1"
+        price: 80
+      - NumberArmor: "2"
+        price: 90
+      - NumberArmor: "3"
+        price: 100
+      Speed:
+      - NumberSpeed: "1"
+        price: 130
+      - NumberSpeed: "2"
+        price: 135
+      - NumberSpeed: "3"
+        price: 145
+      Turbo:
+      - NumberTurbo: "1"
+        price: 240
+      - NumberTurbo: "2"
+        price: 250
+      - NumberTurbo: "3"
+        price: 260
+      Weapon:
+      - NumberWeapon: "1"
+        price: 80
+      - NumberWeapon: "2"
+        price: 90
+      - NumberWeapon: "3"
+        price: 110
+    - CarNum: "KROLL"
+      Stock:
+        ArmorStats: 110
+        SpeedStats: 125
+        TurboStats: 300
+        WeaponStats: 70
+      Armor:
+      - NumberArmor: "1"
+        price: 120
+      - NumberArmor: "2"
+        price: 130
+      - NumberArmor: "3"
+        price: 140
+      Speed:
+      - NumberSpeed: "1"
+        price: 130
+      - NumberSpeed: "2"
+        price: 135
+      - NumberSpeed: "3"
+        price: 145
+      Turbo:
+      - NumberTurbo: "1"
+        price: 310
+      - NumberTurbo: "2"
+        price: 320
+      - NumberTurbo: "3"
+        price: 330
+      Weapon:
+      - NumberWeapon: "1"
+        price: 80
+      - NumberWeapon: "2"
+        price: 90
+      - NumberWeapon: "3"
+        price: 110
+    - CarNum: "BUG1"
+      Stock:
+        ArmorStats: 50
+        SpeedStats: 125
+        TurboStats: 190
+        WeaponStats: 60
+      Armor:
+      - NumberArmor: "1"
+        price: 60
+      - NumberArmor: "2"
+        price: 80
+      - NumberArmor: "3"
+        price: 100
+      Speed:
+      - NumberSpeed: "1"
+        price: 130
+      - NumberSpeed: "2"
+        price: 135
+      - NumberSpeed: "3"
+        price: 145
+      Turbo:
+      - NumberTurbo: "1"
+        price: 200
+      - NumberTurbo: "2"
+        price: 150
+      - NumberTurbo: "3"
+        price: 240
+      Weapon:
+      - NumberWeapon: "1"
+        price: 75
+      - NumberWeapon: "2"
+        price: 85
+      - NumberWeapon: "3"
+        price: 110
+    - CarNum: "BUG2"
+      Stock:
+        ArmorStats: 90
+        SpeedStats: 110
+        TurboStats: 250
+        WeaponStats: 100
+      Armor:
+      - NumberArmor: "1"
+        price: 110
+      - NumberArmor: "2"
+        price: 130
+      - NumberArmor: "3"
+        price: 150
+      Speed:
+      - NumberSpeed: "1"
+        price: 120
+      - NumberSpeed: "2"
+        price: 130
+      - NumberSpeed: "3"
+        price: 150
+      Turbo:
+      - NumberTurbo: "1"
+        price: 260
+      - NumberTurbo: "2"
+        price: 270
+      - NumberTurbo: "3"
+        price: 285
+      Weapon:
+      - NumberWeapon: "1"
+        price: 120
+      - NumberWeapon: "2"
+        price: 130
+      - NumberWeapon: "3"
+        price: 150
+    - CarNum: "NewPoliceEvilCar3"
+      Stock:
+        ArmorStats: 110
+        SpeedStats: 110
+        TurboStats: 250
+        WeaponStats: 120
+      Armor:
+      - NumberArmor: "1"
+        price: 120
+      - NumberArmor: "2"
+        price: 140
+      - NumberArmor: "3"
+        price: 160
+      Speed:
+      - NumberSpeed: "1"
+        price: 120
+      - NumberSpeed: "2"
+        price: 130
+      - NumberSpeed: "3"
+        price: 150
+      Turbo:
+      - NumberTurbo: "1"
+        price: 260
+      - NumberTurbo: "2"
+        price: 270
+      - NumberTurbo: "3"
+        price: 285
+      Weapon:
+      - NumberWeapon: "1"
+        price: 130
+      - NumberWeapon: "2"
+        price: 150
+      - NumberWeapon: "3"
+        price: 180
+    - CarNum: "Croco"
+      Stock:
+        ArmorStats: 75
+        SpeedStats: 110
+        TurboStats: 170
+        WeaponStats: 90
+      Armor:
+      - NumberArmor: "1"
+        price: 85
+      - NumberArmor: "2"
+        price: 100
+      - NumberArmor: "3"
+        price: 110
+      Speed:
+      - NumberSpeed: "1"
+        price: 120
+      - NumberSpeed: "2"
+        price: 125
+      - NumberSpeed: "3"
+        price: 135
+      Turbo:
+      - NumberTurbo: "1"
+        price: 180
+      - NumberTurbo: "2"
+        price: 190
+      - NumberTurbo: "3"
+        price: 200
+      Weapon:
+      - NumberWeapon: "1"
+        price: 95
+      - NumberWeapon: "2"
+        price: 100
+      - NumberWeapon: "3"
+        price: 110
+    - CarNum: "turtle"
+      Stock:
+        ArmorStats: 90
+        SpeedStats: 90
+        TurboStats: 250
+        WeaponStats: 120
+      Armor:
+      - NumberArmor: "1"
+        price: 100
+      - NumberArmor: "2"
+        price: 110
+      - NumberArmor: "3"
+        price: 130
+      Speed:
+      - NumberSpeed: "1"
+        price: 100
+      - NumberSpeed: "2"
+        price: 110
+      - NumberSpeed: "3"
+        price: 120
+      Turbo:
+      - NumberTurbo: "1"
+        price: 260
+      - NumberTurbo: "2"
+        price: 270
+      - NumberTurbo: "3"
+        price: 285
+      Weapon:
+      - NumberWeapon: "1"
+        price: 130
+      - NumberWeapon: "2"
+        price: 150
+      - NumberWeapon: "3"
+        price: 180

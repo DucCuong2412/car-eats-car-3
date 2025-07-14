@@ -1,0 +1,450 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70977461d1530878ef6989351f627d1, type: 3}
+  m_Name: "ShopManager"
+  m_EditorClassIdentifier: 
+  Price:
+    Bomb:
+    - NumberBomb: "standart"
+      price: 700
+    - NumberBomb: "oskolochna"
+      price: 1600
+    - NumberBomb: "vognyana"
+      price: 4500
+    - NumberBomb: "clasterna"
+      price: 8000
+    - NumberBomb: "reduser"
+      price: 12000
+    Gadget:
+    - NumberGadget: "magnet"
+      price: 5000
+    - NumberGadget: "Emp"
+      price: 12000
+    - NumberGadget: "ledoluch"
+      price: 2500
+    - NumberGadget: "missle"
+      price: 800
+    - NumberGadget: "recharger"
+      price: 7000
+    Car:
+    - CarNum: "Car1"
+      Armor:
+      - NumberArmor: "1"
+        price: 350
+      - NumberArmor: "2"
+        price: 900
+      - NumberArmor: "3"
+        price: 1300
+      Speed:
+      - NumberSpeed: "1"
+        price: 250
+      - NumberSpeed: "2"
+        price: 600
+      - NumberSpeed: "3"
+        price: 900
+      Turbo:
+      - NumberTurbo: "1"
+        price: 350
+      - NumberTurbo: "2"
+        price: 700
+      - NumberTurbo: "3"
+        price: 1100
+      Weapon:
+      - NumberWeapon: "1"
+        price: 400
+      - NumberWeapon: "2"
+        price: 800
+      - NumberWeapon: "3"
+        price: 1200
+    - CarNum: "Car2"
+      Armor:
+      - NumberArmor: "1"
+        price: 1300
+      - NumberArmor: "2"
+        price: 2800
+      - NumberArmor: "3"
+        price: 4900
+      Speed:
+      - NumberSpeed: "1"
+        price: 1200
+      - NumberSpeed: "2"
+        price: 2600
+      - NumberSpeed: "3"
+        price: 4800
+      Turbo:
+      - NumberTurbo: "1"
+        price: 1200
+      - NumberTurbo: "2"
+        price: 2500
+      - NumberTurbo: "3"
+        price: 4800
+      Weapon:
+      - NumberWeapon: "1"
+        price: 1400
+      - NumberWeapon: "2"
+        price: 2900
+      - NumberWeapon: "3"
+        price: 5000
+    - CarNum: "Car3"
+      Armor:
+      - NumberArmor: "1"
+        price: 4900
+      - NumberArmor: "2"
+        price: 8200
+      - NumberArmor: "3"
+        price: 15000
+      Speed:
+      - NumberSpeed: "1"
+        price: 5000
+      - NumberSpeed: "2"
+        price: 8500
+      - NumberSpeed: "3"
+        price: 15500
+      Turbo:
+      - NumberTurbo: "1"
+        price: 4800
+      - NumberTurbo: "2"
+        price: 8000
+      - NumberTurbo: "3"
+        price: 14000
+      Weapon:
+      - NumberWeapon: "1"
+        price: 4800
+      - NumberWeapon: "2"
+        price: 8000
+      - NumberWeapon: "3"
+        price: 14000
+    - CarNum: "Car4"
+      Armor:
+      - NumberArmor: "1"
+        price: 0
+      - NumberArmor: "2"
+        price: 0
+      - NumberArmor: "3"
+        price: 0
+      Speed:
+      - NumberSpeed: "1"
+        price: 0
+      - NumberSpeed: "2"
+        price: 0
+      - NumberSpeed: "3"
+        price: 0
+      Turbo:
+      - NumberTurbo: "1"
+        price: 0
+      - NumberTurbo: "2"
+        price: 0
+      - NumberTurbo: "3"
+        price: 0
+      Weapon:
+      - NumberWeapon: "1"
+        price: 0
+      - NumberWeapon: "2"
+        price: 0
+      - NumberWeapon: "3"
+        price: 0
+    - CarNum: "Car5"
+      Armor:
+      - NumberArmor: "1"
+        price: 0
+      - NumberArmor: "2"
+        price: 0
+      - NumberArmor: "3"
+        price: 0
+      Speed:
+      - NumberSpeed: "1"
+        price: 0
+      - NumberSpeed: "2"
+        price: 0
+      - NumberSpeed: "3"
+        price: 0
+      Turbo:
+      - NumberTurbo: "1"
+        price: 0
+      - NumberTurbo: "2"
+        price: 0
+      - NumberTurbo: "3"
+        price: 0
+      Weapon:
+      - NumberWeapon: "1"
+        price: 0
+      - NumberWeapon: "2"
+        price: 0
+      - NumberWeapon: "3"
+        price: 0
+    - CarNum: "Car6"
+      Armor:
+      - NumberArmor: "1"
+        price: 0
+      - NumberArmor: "2"
+        price: 0
+      - NumberArmor: "3"
+        price: 0
+      Speed:
+      - NumberSpeed: "1"
+        price: 0
+      - NumberSpeed: "2"
+        price: 0
+      - NumberSpeed: "3"
+        price: 0
+      Turbo:
+      - NumberTurbo: "1"
+        price: 0
+      - NumberTurbo: "2"
+        price: 0
+      - NumberTurbo: "3"
+        price: 0
+      Weapon:
+      - NumberWeapon: "1"
+        price: 0
+      - NumberWeapon: "2"
+        price: 0
+      - NumberWeapon: "3"
+        price: 0
+    - CarNum: "Car7"
+      Armor:
+      - NumberArmor: "1"
+        price: 1200
+      - NumberArmor: "2"
+        price: 2800
+      - NumberArmor: "3"
+        price: 4800
+      Speed:
+      - NumberSpeed: "1"
+        price: 1100
+      - NumberSpeed: "2"
+        price: 2500
+      - NumberSpeed: "3"
+        price: 4700
+      Turbo:
+      - NumberTurbo: "1"
+        price: 1100
+      - NumberTurbo: "2"
+        price: 2400
+      - NumberTurbo: "3"
+        price: 4700
+      Weapon:
+      - NumberWeapon: "1"
+        price: 1300
+      - NumberWeapon: "2"
+        price: 2800
+      - NumberWeapon: "3"
+        price: 4900
+    - CarNum: "Car8"
+      Armor:
+      - NumberArmor: "1"
+        price: 4500
+      - NumberArmor: "2"
+        price: 8000
+      - NumberArmor: "3"
+        price: 15000
+      Speed:
+      - NumberSpeed: "1"
+        price: 4800
+      - NumberSpeed: "2"
+        price: 9000
+      - NumberSpeed: "3"
+        price: 16000
+      Turbo:
+      - NumberTurbo: "1"
+        price: 4900
+      - NumberTurbo: "2"
+        price: 9000
+      - NumberTurbo: "3"
+        price: 15000
+      Weapon:
+      - NumberWeapon: "1"
+        price: 4300
+      - NumberWeapon: "2"
+        price: 8000
+      - NumberWeapon: "3"
+        price: 15000
+    - CarNum: "Car9"
+      Armor:
+      - NumberArmor: "1"
+        price: 5500
+      - NumberArmor: "2"
+        price: 9000
+      - NumberArmor: "3"
+        price: 16000
+      Speed:
+      - NumberSpeed: "1"
+        price: 5800
+      - NumberSpeed: "2"
+        price: 10000
+      - NumberSpeed: "3"
+        price: 17000
+      Turbo:
+      - NumberTurbo: "1"
+        price: 5900
+      - NumberTurbo: "2"
+        price: 10000
+      - NumberTurbo: "3"
+        price: 16000
+      Weapon:
+      - NumberWeapon: "1"
+        price: 5300
+      - NumberWeapon: "2"
+        price: 9000
+      - NumberWeapon: "3"
+        price: 16000
+    - CarNum: "Car10"
+      Armor:
+      - NumberArmor: "1"
+        price: 1400
+      - NumberArmor: "2"
+        price: 2800
+      - NumberArmor: "3"
+        price: 5000
+      Speed:
+      - NumberSpeed: "1"
+        price: 1300
+      - NumberSpeed: "2"
+        price: 2600
+      - NumberSpeed: "3"
+        price: 5100
+      Turbo:
+      - NumberTurbo: "1"
+        price: 1200
+      - NumberTurbo: "2"
+        price: 2400
+      - NumberTurbo: "3"
+        price: 4900
+      Weapon:
+      - NumberWeapon: "1"
+        price: 1300
+      - NumberWeapon: "2"
+        price: 2700
+      - NumberWeapon: "3"
+        price: 5300
+    - CarNum: "Car11"
+      Armor:
+      - NumberArmor: "1"
+        price: 4800
+      - NumberArmor: "2"
+        price: 8300
+      - NumberArmor: "3"
+        price: 15000
+      Speed:
+      - NumberSpeed: "1"
+        price: 5200
+      - NumberSpeed: "2"
+        price: 8400
+      - NumberSpeed: "3"
+        price: 16000
+      Turbo:
+      - NumberTurbo: "1"
+        price: 4900
+      - NumberTurbo: "2"
+        price: 8500
+      - NumberTurbo: "3"
+        price: 15000
+      Weapon:
+      - NumberWeapon: "1"
+        price: 5300
+      - NumberWeapon: "2"
+        price: 9000
+      - NumberWeapon: "3"
+        price: 16000
+    - CarNum: "Car11"
+      Armor:
+      - NumberArmor: "1"
+        price: 4500
+      - NumberArmor: "2"
+        price: 9000
+      - NumberArmor: "3"
+        price: 14000
+      Speed:
+      - NumberSpeed: "1"
+        price: 5100
+      - NumberSpeed: "2"
+        price: 8400
+      - NumberSpeed: "3"
+        price: 15000
+      Turbo:
+      - NumberTurbo: "1"
+        price: 4900
+      - NumberTurbo: "2"
+        price: 8500
+      - NumberTurbo: "3"
+        price: 14000
+      Weapon:
+      - NumberWeapon: "1"
+        price: 5500
+      - NumberWeapon: "2"
+        price: 9000
+      - NumberWeapon: "3"
+        price: 16000
+    - CarNum: "Car12"
+      Armor:
+      - NumberArmor: "1"
+        price: 4500
+      - NumberArmor: "2"
+        price: 9000
+      - NumberArmor: "3"
+        price: 14000
+      Speed:
+      - NumberSpeed: "1"
+        price: 5100
+      - NumberSpeed: "2"
+        price: 8400
+      - NumberSpeed: "3"
+        price: 15000
+      Turbo:
+      - NumberTurbo: "1"
+        price: 4900
+      - NumberTurbo: "2"
+        price: 8500
+      - NumberTurbo: "3"
+        price: 14000
+      Weapon:
+      - NumberWeapon: "1"
+        price: 5500
+      - NumberWeapon: "2"
+        price: 9000
+      - NumberWeapon: "3"
+        price: 16000
+    - CarNum: "Car13"
+      Armor:
+      - NumberArmor: "1"
+        price: 4500
+      - NumberArmor: "2"
+        price: 9000
+      - NumberArmor: "3"
+        price: 14000
+      Speed:
+      - NumberSpeed: "1"
+        price: 5100
+      - NumberSpeed: "2"
+        price: 8400
+      - NumberSpeed: "3"
+        price: 15000
+      Turbo:
+      - NumberTurbo: "1"
+        price: 4900
+      - NumberTurbo: "2"
+        price: 8500
+      - NumberTurbo: "3"
+        price: 14000
+      Weapon:
+      - NumberWeapon: "1"
+        price: 5500
+      - NumberWeapon: "2"
+        price: 9000
+      - NumberWeapon: "3"
+        price: 16000
+    CarByu1: 5000
+    CarByu2: 10000
+    CarByu3: "$8.99"
+    CarByu4: "$6.99"
+    CarByu5: "$6.99"
+    CarByu9: "$6.99"
+    CarByu10: "$6.99"

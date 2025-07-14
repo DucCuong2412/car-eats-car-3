@@ -1,0 +1,499 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791802360899688059}
+  m_IsPrefabParent: 1
+--- !u!4 &1791802360950019708
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791802360899688059}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -495.3418, y: 74.25526, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791802360899688059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791802360950019708}
+  - component: {fileID: 1791802362795513469}
+  m_Layer: 18
+  m_Name: "EndlessLevInfo"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791802362795513469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791802360899688059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cf8515b8a6f4b7d471f4f6bb2b97517, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carTypesScrapsUnder:
+  - carTupe: 1
+    callScrNum: 2
+    Scrap1: "igor_enemyCar_underground_01_hull_prt01_dmg2"
+    Scrap2: "igor_enemyCar_underground_01_hull_prt04_dmg1"
+    Scrap3: "igor_enemyCar_underground_01_hull_prt06_dmg1"
+    Scrap4: "igor_enemyCar_underground_01_hull_prt05_dmg1"
+    Scrap5: "igor_enemyCar_underground_01_hull_prt03_dmg2"
+    Scrap1y: "igor_enemyCar_underground_01_hull_prt01_dmg2"
+    Scrap2y: "igor_enemyCar_underground_01_hull_prt04_dmg1"
+    Scrap3y: "igor_enemyCar_underground_01_hull_prt06_dmg1"
+    Scrap4y: "igor_enemyCar_underground_01_hull_prt05_dmg1"
+    Scrap5y: "igor_enemyCar_underground_01_hull_prt03_dmg2"
+  - carTupe: 2
+    callScrNum: 2
+    Scrap1: "igor_enemyCar_underground_01_hull_prt01_dmg2"
+    Scrap2: "igor_enemyCar_underground_01_hull_prt04_dmg1"
+    Scrap3: "igor_enemyCar_underground_01_hull_prt06_dmg1"
+    Scrap4: "igor_enemyCar_underground_01_hull_prt05_dmg1"
+    Scrap5: "igor_enemyCar_underground_01_hull_prt03_dmg2"
+    Scrap1y: "igor_enemyCar_underground_01_hull_prt01_dmg2"
+    Scrap2y: "igor_enemyCar_underground_01_hull_prt04_dmg1"
+    Scrap3y: "igor_enemyCar_underground_01_hull_prt06_dmg1"
+    Scrap4y: "igor_enemyCar_underground_01_hull_prt05_dmg1"
+    Scrap5y: "igor_enemyCar_underground_01_hull_prt03_dmg2"
+  - carTupe: 3
+    callScrNum: 3
+    Scrap1: "igor_enemyCar_underground_03_hull_prt01_dmg2"
+    Scrap2: "igor_enemyCar_underground_03_hull_prt02_dmg2"
+    Scrap3: "igor_enemyCar_underground_03_hull_prt05_dmg2"
+    Scrap4: "igor_enemyCar_underground_03_hull_prt07_dmg2"
+    Scrap5: "igor_enemyCar_underground_03_wheel"
+    Scrap1y: "igor_enemyCar_underground_03_hull_prt01_dmg2"
+    Scrap2y: "igor_enemyCar_underground_03_hull_prt02_dmg2"
+    Scrap3y: "igor_enemyCar_underground_03_hull_prt05_dmg2"
+    Scrap4y: "igor_enemyCar_underground_03_hull_prt07_dmg2"
+    Scrap5y: "igor_enemyCar_underground_03_hull_prt07_dmg2"
+  - carTupe: 4
+    callScrNum: 4
+    Scrap1: "igor_enemyCar_underground_04_hull_prt01_dmg2"
+    Scrap2: "igor_enemyCar_underground_04_hull_prt02_dmg2"
+    Scrap3: "igor_enemyCar_underground_04_hull_prt07_dmg2"
+    Scrap4: "igor_enemyCar_underground_04_hull_prt06_dmg1"
+    Scrap5: "igor_enemyCar_underground_04_wheel"
+    Scrap1y: "igor_enemyCar_underground_04_hull_prt01_dmg2"
+    Scrap2y: "igor_enemyCar_underground_04_hull_prt02_dmg2"
+    Scrap3y: "igor_enemyCar_underground_04_hull_prt07_dmg2"
+    Scrap4y: "igor_enemyCar_underground_04_hull_prt06_dmg1"
+    Scrap5y: "igor_enemyCar_underground_04_hull_prt03_dmg2"
+  chengDateIntervalUnder: 0A000000F4010000E8030000DC050000
+  intervalsUnder: 2C010000FA000000E6000000C8000000
+  carTypesUnder:
+  - tcarTupe: 01000000
+  - tcarTupe: 0100000002000000
+  - tcarTupe: 010000000200000003000000
+  - tcarTupe: 01000000020000000300000004000000
+  carTypesScraps:
+  - carTupe: 1
+    callScrNum: 2
+    Scrap1: "enemy_bodov_sherif_car00_wheel01"
+    Scrap2: "enemy_bodov_sherif_car00_pupil"
+    Scrap3: "enemy_bodov_sherif_car00_scp02"
+    Scrap4: "enemy_bodov_sherif_car00_scp03"
+    Scrap5: "enemy_bodov_sherif_car00_scp04"
+    Scrap1y: "enemy_bodov_sherif_car00_wheel01"
+    Scrap2y: "enemy_bodov_sherif_car00_pupil"
+    Scrap3y: "enemy_bodov_sherif_car00_scp02"
+    Scrap4y: "enemy_bodov_sherif_car00_scp03"
+    Scrap5y: "enemy_bodov_sherif_car00_scp04"
+  - carTupe: 2
+    callScrNum: 2
+    Scrap1: "enemy_bodov_sherif_car01_pupil"
+    Scrap2: "enemy_bodov_sherif_car01_scp01"
+    Scrap3: "enemy_bodov_sherif_car01_scp02"
+    Scrap4: "enemy_bodov_sherif_car01_scp03"
+    Scrap5: "enemy_bodov_sherif_car01_wheel_01"
+    Scrap1y: "enemy_bodov_sherif_car01_pupil"
+    Scrap2y: "enemy_bodov_sherif_car01_scp01"
+    Scrap3y: "enemy_bodov_sherif_car01_scp02"
+    Scrap4y: "enemy_bodov_sherif_car01_scp03"
+    Scrap5y: "enemy_bodov_sherif_car01_wheel_01"
+  - carTupe: 3
+    callScrNum: 3
+    Scrap1: "enemy_bodov_sherif_car02_scp01"
+    Scrap2: "enemy_bodov_sherif_car02_scp02"
+    Scrap3: "enemy_bodov_sherif_car02_scp03"
+    Scrap4: "enemy_bodov_sherif_car02_scp04"
+    Scrap5: "enemy_bodov_sherif_car02_scp05"
+    Scrap1y: "enemy_bodov_sherif_car02_scp01"
+    Scrap2y: "enemy_bodov_sherif_car02_scp02"
+    Scrap3y: "enemy_bodov_sherif_car02_scp03"
+    Scrap4y: "enemy_bodov_sherif_car02_scp04"
+    Scrap5y: "enemy_bodov_sherif_car02_scp05"
+  - carTupe: 4
+    callScrNum: 4
+    Scrap1: "enemy_bodov_sherif_car03_scp01"
+    Scrap2: "enemy_bodov_sherif_car03_scp02"
+    Scrap3: "enemy_bodov_sherif_car03_scp03"
+    Scrap4: "enemy_bodov_sherif_car03_scp04"
+    Scrap5: "enemy_bodov_sherif_car03_scp05"
+    Scrap1y: "enemy_bodov_sherif_car03_scp01"
+    Scrap2y: "enemy_bodov_sherif_car03_scp02"
+    Scrap3y: "enemy_bodov_sherif_car03_scp03"
+    Scrap4y: "enemy_bodov_sherif_car03_scp04"
+    Scrap5y: "enemy_bodov_sherif_car03_scp05"
+  chengDateInterval: 0A000000F4010000E8030000DC050000
+  intervals: 2C010000FA000000E6000000C8000000
+  carTypes:
+  - tcarTupe: 01000000
+  - tcarTupe: 0100000002000000
+  - tcarTupe: 010000000200000003000000
+  - tcarTupe: 01000000020000000300000004000000
+  carTypesScraps2:
+  - carTupe: 1
+    callScrNum: 2
+    Scrap1: "enemy_igor_police_car03_scp01"
+    Scrap2: "enemy_igor_police_car03_scp02"
+    Scrap3: "enemy_igor_police_car03_scp03"
+    Scrap4: "enemy_igor_police_car03_scp04"
+    Scrap5: "enemy_igor_police_car03_wheel_01"
+    Scrap1y: "enemy_igor_police_car03_scp01"
+    Scrap2y: "enemy_igor_police_car03_scp02"
+    Scrap3y: "enemy_igor_police_car03_scp03"
+    Scrap4y: "enemy_igor_police_car03_scp04"
+    Scrap5y: "enemy_igor_police_car03_wheel_01"
+  - carTupe: 2
+    callScrNum: 2
+    Scrap1: "enemy_igor_police_car01_scp01"
+    Scrap2: "enemy_igor_police_car01_scp02"
+    Scrap3: "enemy_igor_police_car01_scp03"
+    Scrap4: "enemy_igor_police_car01_scp04"
+    Scrap5: "enemy_igor_police_car01_wheel_01"
+    Scrap1y: "enemy_igor_police_car01_scp01"
+    Scrap2y: "enemy_igor_police_car01_scp02"
+    Scrap3y: "enemy_igor_police_car01_scp03"
+    Scrap4y: "enemy_igor_police_car01_scp04"
+    Scrap5y: "enemy_igor_police_car01_wheel_01"
+  - carTupe: 3
+    callScrNum: 3
+    Scrap1: "enemy_igor_police_car02_scp01"
+    Scrap2: "enemy_igor_police_car02_scp02"
+    Scrap3: "enemy_igor_police_car02_scp03"
+    Scrap4: "enemy_igor_police_car02_scp04"
+    Scrap5: "enemy_igor_police_car02_wheel_01"
+    Scrap1y: "enemy_igor_police_car02_scp01"
+    Scrap2y: "enemy_igor_police_car02_scp02"
+    Scrap3y: "enemy_igor_police_car02_scp03"
+    Scrap4y: "enemy_igor_police_car02_scp04"
+    Scrap5y: "enemy_igor_police_car02_wheel_01"
+  - carTupe: 4
+    callScrNum: 4
+    Scrap1: "enemy_igor_police_car04_scp01"
+    Scrap2: "enemy_igor_police_car04_scp02"
+    Scrap3: "enemy_igor_police_car04_scp03"
+    Scrap4: "enemy_igor_police_car04_scp04"
+    Scrap5: "enemy_igor_police_car02_wheel_01"
+    Scrap1y: "enemy_igor_police_car04_scp01"
+    Scrap2y: "enemy_igor_police_car04_scp02"
+    Scrap3y: "enemy_igor_police_car04_scp03"
+    Scrap4y: "enemy_igor_police_car04_scp04"
+    Scrap5y: "enemy_igor_police_car02_wheel_01"
+  chengDateInterval2: E8030000D0070000B80B0000
+  intervals2: 640000005000000046000000
+  carTypes2:
+  - tcarTupe: 01000000
+  - tcarTupe: 0100000002000000
+  - tcarTupe: 01000000020000000300000004000000
+  carTypesScraps3:
+  - carTupe: 1
+    callScrNum: 2
+    Scrap1: "enemy_igor_military_car02_scp01"
+    Scrap2: "enemy_igor_military_car02_scp02"
+    Scrap3: "enemy_igor_military_car02_scp03"
+    Scrap4: "enemy_igor_military_car02_scp04"
+    Scrap5: "enemy_igor_military_car02_scp04"
+    Scrap1y: "enemy_igor_military_car02_scp01"
+    Scrap2y: "enemy_igor_military_car02_scp02"
+    Scrap3y: "enemy_igor_military_car02_scp03"
+    Scrap4y: "enemy_igor_military_car02_scp04"
+    Scrap5y: "enemy_igor_military_car02_scp04"
+  - carTupe: 2
+    callScrNum: 2
+    Scrap1: "enemy_igor_military_car03_scp01"
+    Scrap2: "enemy_igor_military_car03_scp02"
+    Scrap3: "enemy_igor_military_car03_scp03"
+    Scrap4: "enemy_igor_military_car03_scp04"
+    Scrap5: "enemy_igor_military_car03_scp04"
+    Scrap1y: "enemy_igor_military_car03_scp01"
+    Scrap2y: "enemy_igor_military_car03_scp02"
+    Scrap3y: "enemy_igor_military_car03_scp03"
+    Scrap4y: "enemy_igor_military_car03_scp04"
+    Scrap5y: "enemy_igor_military_car03_scp04"
+  - carTupe: 3
+    callScrNum: 3
+    Scrap1: "enemy_igor_military_car01_scp01"
+    Scrap2: "enemy_igor_military_car01_scp02"
+    Scrap3: "enemy_igor_military_car01_scp03"
+    Scrap4: "enemy_igor_military_car01_scp04"
+    Scrap5: "enemy_igor_military_car01_scp05"
+    Scrap1y: "enemy_igor_military_car01_scp01"
+    Scrap2y: "enemy_igor_military_car01_scp02"
+    Scrap3y: "enemy_igor_military_car01_scp03"
+    Scrap4y: "enemy_igor_military_car01_scp04"
+    Scrap5y: "enemy_igor_military_car01_scp05"
+  - carTupe: 4
+    callScrNum: 4
+    Scrap1: "enemy_igor_military_tank_scp01"
+    Scrap2: "enemy_igor_military_tank_scp02"
+    Scrap3: "enemy_igor_military_tank_scp03"
+    Scrap4: "enemy_igor_military_tank_scp04"
+    Scrap5: "enemy_igor_military_tank_scp05"
+    Scrap1y: "enemy_igor_military_tank_scp01"
+    Scrap2y: "enemy_igor_military_tank_scp02"
+    Scrap3y: "enemy_igor_military_tank_scp03"
+    Scrap4y: "enemy_igor_military_tank_scp04"
+    Scrap5y: "enemy_igor_military_tank_scp05"
+  chengDateInterval3: E8030000DC050000280A0000
+  intervals3: C80000007800000064000000
+  carTypes3:
+  - tcarTupe: 01000000
+  - tcarTupe: 0100000003000000
+  - tcarTupe: 0100000001000000020000000200000004000000
+  ArenaCarTypesScraps:
+  - carTupe: 1
+    callScrNum: 2
+    Scrap1: "enemy_bodov_sherif_car00_wheel01"
+    Scrap2: "enemy_bodov_sherif_car00_pupil"
+    Scrap3: "enemy_bodov_sherif_car00_scp02"
+    Scrap4: "enemy_bodov_sherif_car00_scp03"
+    Scrap5: "enemy_bodov_sherif_car00_scp04"
+    Scrap1y: "enemy_bodov_sherif_car00_wheel01"
+    Scrap2y: "enemy_bodov_sherif_car00_pupil"
+    Scrap3y: "enemy_bodov_sherif_car00_scp02"
+    Scrap4y: "enemy_bodov_sherif_car00_scp03"
+    Scrap5y: "enemy_bodov_sherif_car00_scp04"
+  - carTupe: 2
+    callScrNum: 2
+    Scrap1: "enemy_bodov_sherif_car01_pupil"
+    Scrap2: "enemy_bodov_sherif_car01_scp01"
+    Scrap3: "enemy_bodov_sherif_car01_scp02"
+    Scrap4: "enemy_bodov_sherif_car01_scp03"
+    Scrap5: "enemy_bodov_sherif_car01_wheel_01"
+    Scrap1y: "enemy_bodov_sherif_car01_pupil"
+    Scrap2y: "enemy_bodov_sherif_car01_scp01"
+    Scrap3y: "enemy_bodov_sherif_car01_scp02"
+    Scrap4y: "enemy_bodov_sherif_car01_scp03"
+    Scrap5y: "enemy_bodov_sherif_car01_wheel_01"
+  - carTupe: 3
+    callScrNum: 3
+    Scrap1: "enemy_bodov_sherif_car02_scp01"
+    Scrap2: "enemy_bodov_sherif_car02_scp02"
+    Scrap3: "enemy_bodov_sherif_car02_scp03"
+    Scrap4: "enemy_bodov_sherif_car02_scp04"
+    Scrap5: "enemy_bodov_sherif_car02_scp05"
+    Scrap1y: "enemy_bodov_sherif_car02_scp01"
+    Scrap2y: "enemy_bodov_sherif_car02_scp02"
+    Scrap3y: "enemy_bodov_sherif_car02_scp03"
+    Scrap4y: "enemy_bodov_sherif_car02_scp04"
+    Scrap5y: "enemy_bodov_sherif_car02_scp05"
+  - carTupe: 4
+    callScrNum: 4
+    Scrap1: "enemy_bodov_sherif_car03_scp01"
+    Scrap2: "enemy_bodov_sherif_car03_scp02"
+    Scrap3: "enemy_bodov_sherif_car03_scp03"
+    Scrap4: "enemy_bodov_sherif_car03_scp04"
+    Scrap5: "enemy_bodov_sherif_car03_scp05"
+    Scrap1y: "enemy_bodov_sherif_car03_scp01"
+    Scrap2y: "enemy_bodov_sherif_car03_scp02"
+    Scrap3y: "enemy_bodov_sherif_car03_scp03"
+    Scrap4y: "enemy_bodov_sherif_car03_scp04"
+    Scrap5y: "enemy_bodov_sherif_car03_scp05"
+  ArenaChengDateInterval: AA00000040010000A8020000B6030000
+  ArenaIntervals: 3C0000005A0000006400000082000000
+  ArenaCarTypes:
+  - tcarTupe: 010000000100000002000000
+  - tcarTupe: 010000000200000002000000
+  - tcarTupe: 02000000020000000200000003000000
+  - tcarTupe: 02000000020000000300000004000000
+  ArenaCarTypesScraps2:
+  - carTupe: 1
+    callScrNum: 2
+    Scrap1: "enemy_igor_police_car03_scp01"
+    Scrap2: "enemy_igor_police_car03_scp02"
+    Scrap3: "enemy_igor_police_car03_scp03"
+    Scrap4: "enemy_igor_police_car03_scp04"
+    Scrap5: "enemy_igor_police_car03_wheel_01"
+    Scrap1y: "enemy_igor_police_car03_scp01"
+    Scrap2y: "enemy_igor_police_car03_scp02"
+    Scrap3y: "enemy_igor_police_car03_scp03"
+    Scrap4y: "enemy_igor_police_car03_scp04"
+    Scrap5y: "enemy_igor_police_car03_wheel_01"
+  - carTupe: 2
+    callScrNum: 2
+    Scrap1: "enemy_igor_police_car01_scp01"
+    Scrap2: "enemy_igor_police_car01_scp02"
+    Scrap3: "enemy_igor_police_car01_scp03"
+    Scrap4: "enemy_igor_police_car01_scp04"
+    Scrap5: "enemy_igor_police_car01_wheel_01"
+    Scrap1y: "enemy_igor_police_car01_scp01"
+    Scrap2y: "enemy_igor_police_car01_scp02"
+    Scrap3y: "enemy_igor_police_car01_scp03"
+    Scrap4y: "enemy_igor_police_car01_scp04"
+    Scrap5y: "enemy_igor_police_car01_wheel_01"
+  - carTupe: 3
+    callScrNum: 3
+    Scrap1: "enemy_igor_police_car02_scp01"
+    Scrap2: "enemy_igor_police_car02_scp02"
+    Scrap3: "enemy_igor_police_car02_scp03"
+    Scrap4: "enemy_igor_police_car02_scp04"
+    Scrap5: "enemy_igor_police_car02_wheel_01"
+    Scrap1y: "enemy_igor_police_car02_scp01"
+    Scrap2y: "enemy_igor_police_car02_scp02"
+    Scrap3y: "enemy_igor_police_car02_scp03"
+    Scrap4y: "enemy_igor_police_car02_scp04"
+    Scrap5y: "enemy_igor_police_car02_wheel_01"
+  - carTupe: 4
+    callScrNum: 4
+    Scrap1: "enemy_igor_police_car04_scp01"
+    Scrap2: "enemy_igor_police_car04_scp02"
+    Scrap3: "enemy_igor_police_car04_scp03"
+    Scrap4: "enemy_igor_police_car04_scp04"
+    Scrap5: "enemy_igor_police_car02_wheel_01"
+    Scrap1y: "enemy_igor_police_car04_scp01"
+    Scrap2y: "enemy_igor_police_car04_scp02"
+    Scrap3y: "enemy_igor_police_car04_scp03"
+    Scrap4y: "enemy_igor_police_car04_scp04"
+    Scrap5y: "enemy_igor_police_car02_wheel_01"
+  ArenaChengDateInterval2: AA00000040010000A8020000
+  ArenaIntervals2: 3C0000006400000078000000
+  ArenaCarTypes2:
+  - tcarTupe: 010000000100000002000000
+  - tcarTupe: 01000000020000000200000003000000
+  - tcarTupe: 0100000002000000030000000300000004000000
+  ArenaCarTypesScraps3:
+  - carTupe: 1
+    callScrNum: 2
+    Scrap1: "enemy_igor_military_car02_scp01"
+    Scrap2: "enemy_igor_military_car02_scp02"
+    Scrap3: "enemy_igor_military_car02_scp03"
+    Scrap4: "enemy_igor_military_car02_scp04"
+    Scrap5: "enemy_igor_military_car02_scp04"
+    Scrap1y: "enemy_igor_military_car02_scp01"
+    Scrap2y: "enemy_igor_military_car02_scp02"
+    Scrap3y: "enemy_igor_military_car02_scp03"
+    Scrap4y: "enemy_igor_military_car02_scp04"
+    Scrap5y: "enemy_igor_military_car02_scp04"
+  - carTupe: 2
+    callScrNum: 2
+    Scrap1: "enemy_igor_military_car03_scp01"
+    Scrap2: "enemy_igor_military_car03_scp02"
+    Scrap3: "enemy_igor_military_car03_scp03"
+    Scrap4: "enemy_igor_military_car03_scp04"
+    Scrap5: "enemy_igor_military_car03_scp03"
+    Scrap1y: "enemy_igor_military_car03_scp01"
+    Scrap2y: "enemy_igor_military_car03_scp02"
+    Scrap3y: "enemy_igor_military_car03_scp03"
+    Scrap4y: "enemy_igor_military_car03_scp04"
+    Scrap5y: "enemy_igor_military_car03_scp03"
+  - carTupe: 3
+    callScrNum: 3
+    Scrap1: "enemy_igor_military_car01_scp01"
+    Scrap2: "enemy_igor_military_car01_scp02"
+    Scrap3: "enemy_igor_military_car01_scp03"
+    Scrap4: "enemy_igor_military_car01_scp04"
+    Scrap5: "enemy_igor_military_car01_scp05"
+    Scrap1y: "enemy_igor_military_car01_scp02"
+    Scrap2y: "enemy_igor_military_car01_scp02"
+    Scrap3y: "enemy_igor_military_car01_scp03"
+    Scrap4y: "enemy_igor_military_car01_scp04"
+    Scrap5y: "enemy_igor_military_car01_scp05"
+  - carTupe: 4
+    callScrNum: 4
+    Scrap1: "enemy_igor_military_tank_scp01"
+    Scrap2: "enemy_igor_military_tank_scp02"
+    Scrap3: "enemy_igor_military_tank_scp03"
+    Scrap4: "enemy_igor_military_tank_scp04"
+    Scrap5: "enemy_igor_military_tank_scp05"
+    Scrap1y: "enemy_igor_military_tank_scp01"
+    Scrap2y: "enemy_igor_military_tank_scp02"
+    Scrap3y: "enemy_igor_military_tank_scp03"
+    Scrap4y: "enemy_igor_military_tank_scp04"
+    Scrap5y: "enemy_igor_military_tank_scp05"
+  ArenaChengDateInterval3: A00000007C01000052030000
+  ArenaIntervals3: 5A000000B400000004010000
+  ArenaCarTypes3:
+  - tcarTupe: 010000000100000001000000
+  - tcarTupe: 01000000010000000100000002000000
+  - tcarTupe: 0100000002000000020000000300000004000000
+  EventCarTypesScraps:
+  - carTupe: 1
+    callScrNum: 2
+    Scrap1: 
+    Scrap2: 
+    Scrap3: 
+    Scrap4: 
+    Scrap5: 
+    Scrap1y: 
+    Scrap2y: 
+    Scrap3y: 
+    Scrap4y: 
+    Scrap5y: 
+  - carTupe: 2
+    callScrNum: 2
+    Scrap1: 
+    Scrap2: 
+    Scrap3: 
+    Scrap4: 
+    Scrap5: 
+    Scrap1y: 
+    Scrap2y: 
+    Scrap3y: 
+    Scrap4y: 
+    Scrap5y: 
+  - carTupe: 3
+    callScrNum: 3
+    Scrap1: 
+    Scrap2: 
+    Scrap3: 
+    Scrap4: 
+    Scrap5: 
+    Scrap1y: 
+    Scrap2y: 
+    Scrap3y: 
+    Scrap4y: 
+    Scrap5y: 
+  - carTupe: 4
+    callScrNum: 4
+    Scrap1: 
+    Scrap2: 
+    Scrap3: 
+    Scrap4: 
+    Scrap5: 
+    Scrap1y: 
+    Scrap2y: 
+    Scrap3y: 
+    Scrap4y: 
+    Scrap5y: 
+  EventChengDateInterval: AA00000040010000A8020000
+  EventIntervals: 3C0000006400000078000000
+  EventIntervals_forCivil: 280000005000000096000000
+  EventCarTypes:
+  - tcarTupe: 010000000100000002000000
+  - tcarTupe: 01000000020000000200000003000000
+  - tcarTupe: 0100000002000000030000000300000004000000
+  Arena1: 3000
+  Arena2: 4000
+  Arena3: 5000

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19f0465b529d6795495989225009bb9d, type: 3}
+  m_Name: "SpecialConf"
+  m_EditorClassIdentifier: 
+  TimeBetweenMissions: 8
+  timeMissions: 030000000300000003000000020000000200000003000000020000000300000002000000040000000100000003000000030000000300000003000000
+  Cars:
+  - carNum: 1
+    packForOpen: 1
+    lavelForOpen: 5
+  - carNum: 2
+    packForOpen: 1
+    lavelForOpen: 7
+  - carNum: 3
+    packForOpen: 1
+    lavelForOpen: 10
+  - carNum: 4
+    packForOpen: 1
+    lavelForOpen: 11
+  - carNum: 5
+    packForOpen: 2
+    lavelForOpen: 1
+  - carNum: 6
+    packForOpen: 2
+    lavelForOpen: 2
+  - carNum: 7
+    packForOpen: 2
+    lavelForOpen: 5
+  - carNum: 8
+    packForOpen: 2
+    lavelForOpen: 9
+  - carNum: 9
+    packForOpen: 2
+    lavelForOpen: 12
+  - carNum: 10
+    packForOpen: 2
+    lavelForOpen: 10
+  - carNum: 11
+    packForOpen: 3
+    lavelForOpen: 2
+  - carNum: 12
+    packForOpen: 3
+    lavelForOpen: 3
+  - carNum: 13
+    packForOpen: 3
+    lavelForOpen: 5
+  - carNum: 14
+    packForOpen: 3
+    lavelForOpen: 6
+  - carNum: 15
+    packForOpen: 3
+    lavelForOpen: 8

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0674c7aba55fcbe0c6b4e90d4598ddb, type: 3}
+  m_Name: "ConfigForEster"
+  m_EditorClassIdentifier: 
+  Config:
+    TimeToOpensVideoX2Mins: 60
+    TimeToNextPlayMins: 15
+    price1: 5000
+    price2: 8000
+    price3: 12000
+    price4: 15000
+    priceForVideo: 400
+    TimeToOpensVideoFreeRubiesMins: 60
+    DAMAGE_BOMBER: 30
+  CARS:
+    Cars:
+    - CarNumber: "1"
+      CarPercent: 5
+    - CarNumber: "2"
+      CarPercent: 30
+    - CarNumber: "3"
+      CarPercent: 70
+    - CarNumber: "4"
+      CarPercent: 70
+    - CarNumber: "5"
+      CarPercent: 70
+    - CarNumber: "6"
+      CarPercent: 70
+    - CarNumber: "7"
+      CarPercent: 50
+    - CarNumber: "8"
+      CarPercent: 50
+    - CarNumber: "8"
+      CarPercent: 70

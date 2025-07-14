@@ -1,0 +1,178 @@
+using System.Collections;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class NewUnderMapControllerSwap2 : MonoBehaviour
+{
+	public bool InUnderFlag;
+
+	public GameObject ComixToUnderObj;
+
+	public Button GotoUnderFromComix;
+
+	public LevelGalleryCanvasView LGCV;
+
+	public Button goUnder;
+
+	public Animator animBtnGoUnder;
+
+	public Animator AnimForPlayBtn;
+
+	public GameObject ActiveRotate;
+
+	private bool inUnder;
+
+	public Animator ForGate;
+
+	public Transform scroll;
+
+	public GameObject PositionForCar;
+
+	private void OnEnable()
+	{
+		if (ComixToUnderObj != null)
+		{
+			ComixToUnderObj.SetActive(value: false);
+		}
+		if (Progress.levels._pack[2]._level[7].isOpen)
+		{
+			Progress.levels.Pack(2, createUndeground: true).Level(1).isOpen = true;
+		}
+		if (ForGate != null)
+		{
+			ForGate.SetBool("is_CLOSED", value: false);
+		}
+		if (Progress.levels._pack[2]._level[7].isOpen)
+		{
+			animBtnGoUnder.SetBool("isLocked", value: false);
+			if (!Progress.levels.InUndegroundComixShowed2)
+			{
+				StartCoroutine(DelayForComix());
+			}
+			else if (ForGate != null)
+			{
+				ForGate.SetBool("is_CLOSED", value: true);
+			}
+		}
+		else
+		{
+			animBtnGoUnder.SetBool("isLocked", value: true);
+		}
+		goUnder.onClick.AddListener(GoToUnder);
+		if (GotoUnderFromComix != null)
+		{
+			GotoUnderFromComix.onClick.AddListener(GoToPress);
+		}
+	}
+
+	private IEnumerator DelayForComix()
+	{
+		yield return new WaitForSeconds(1f);
+		if (scroll != null)
+		{
+			scroll.localPosition = new Vector3(-90f, -200f);
+		}
+		GoToUnder();
+		yield return new WaitForSeconds(1f);
+		if (ComixToUnderObj != null)
+		{
+			ComixToUnderObj.SetActive(value: true);
+		}
+		Progress.levels.InUndegroundComixShowed2 = true;
+	}
+
+	private void GoToUnder()
+	{
+		if (inUnder)
+		{
+			return;
+		}
+		inUnder = true;
+		int count = LGCV.CarsForLevel.Count;
+		if (!Progress.levels._pack[2]._level[7].isOpen)
+		{
+			return;
+		}
+		ActiveRotate.transform.position = goUnder.gameObject.transform.position;
+		AnimForPlayBtn.SetBool("isOn", value: false);
+		for (int i = 0; i < count; i++)
+		{
+			if (Progress.shop.activeCar == i)
+			{
+				LGCV.CarsForLevel[Progress.shop.activeCar].SetActive(value: true);
+				LGCV.CarsForLevel[Progress.shop.activeCar].transform.parent = PositionForCar.transform;
+				LGCV.CarsForLevel[Progress.shop.activeCar].transform.localPosition = Vector3.zero;
+				LGCV.CarsForLevel[Progress.shop.activeCar].transform.localScale = new Vector3(0.65f, 0.65f, 0.65f);
+			}
+			else
+			{
+				LGCV.CarsForLevel[i].SetActive(value: false);
+			}
+		}
+		foreach (CellContainer item in LGCV.LGCL)
+		{
+			if (item.state != 0)
+			{
+				item.SetState(CellContainer.State.Available, Progress.levels.Pack(item.Pack).Level(item.Level).oldticket);
+			}
+		}
+		animBtnGoUnder.SetBool("isActive", value: true);
+		Progress.levels.InUndegroundComixShowed2 = true;
+		if (Progress.levels.InUndegroundComixShowed2)
+		{
+			StartCoroutine(Delay());
+		}
+	}
+
+	private IEnumerator Delay()
+	{
+		yield return new WaitForSeconds(1f);
+		if (ForGate != null)
+		{
+			ForGate.SetBool("is_CLOSED", value: true);
+		}
+		yield return new WaitForSeconds(2f);
+		GoToPress();
+	}
+
+	public void GoToPress()
+	{
+		Progress.levels.InUndegroundIn_OutPreloader = true;
+		if (!InUnderFlag)
+		{
+			int num = 2;
+			int num2 = 1;
+			for (int i = 0; i < 13; i++)
+			{
+				if (Progress.levels._packUnderground[2]._level[i] != null && Progress.levels._packUnderground[2]._level[i].isOpen)
+				{
+					num2 = i;
+				}
+			}
+			Progress.levels.active_pack_last_openned_under = num;
+			Progress.levels.active_level_last_openned_under = num2;
+			Progress.levels.Max_Active_Pack_under = (byte)num;
+			Progress.levels.Max_Active_Level_under = (byte)num2;
+			Progress.shop.Undeground2 = true;
+			Progress.levels.InUndeground = true;
+			Progress.shop.TestFor9 = true;
+			Game.LoadLevel("scene_underground_map_new");
+		}
+		else
+		{
+			Game.LoadLevel("map_new");
+			Progress.levels.InUndeground = false;
+			Progress.shop.TestFor9 = false;
+			Progress.shop.Undeground2 = false;
+		}
+	}
+
+	private void OnDisable()
+	{
+		goUnder.onClick.RemoveAllListeners();
+		if (GotoUnderFromComix != null)
+		{
+			GotoUnderFromComix.onClick.RemoveAllListeners();
+		}
+	}
+}

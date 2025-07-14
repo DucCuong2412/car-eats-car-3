@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="-*%  cheaper than buying parts separately" xml:space="preserve">
+		<value>X% lebih murah daripada membeli bagian yang terpisah</value>
+	</data>
+	<data name="_beatFriend_description" xml:space="preserve">
+		<value />
+	</data>
+	<data name="_rateUs_btn" xml:space="preserve">
+		<value>NILAI</value>
+	</data>
+	<data name="_rateUs_caption" xml:space="preserve">
+		<value>NILAI PENGALAMANMU!</value>
+	</data>
+	<data name="_rateUs_description" xml:space="preserve">
+		<value>PENILAIANMU MEMBANTU KAMI MEMPERBARUI GAME INI</value>
+	</data>
+	<data name="_rateUs_remind" xml:space="preserve">
+		<value>INGATKAN AKU NANTI</value>
+	</data>
+	<data name="+* MAX" xml:space="preserve">
+		<value>+* max.</value>
+	</data>
+	<data name="1 FREE SPIN" xml:space="preserve">
+		<value>GRATIS SEKALI PUTAR</value>
+	</data>
+	<data name="1 RACE COSTS * GALLONS OF FUEL" xml:space="preserve">
+		<value>1 BALAPAN MEMERLUKAN 5 GALON BAHAN BAKAR.</value>
+	</data>
+	<data name="1-2-3-GO!" xml:space="preserve">
+		<value>AYO!</value>
+	</data>
+	<data name="5 SEC." xml:space="preserve">
+		<value>5 detik</value>
+	</data>
+	<data name="A MONSTROUS MIXTURE OF DRILL AND TANK GUN" xml:space="preserve">
+		<value>TANKOMINATOR - MIXTURE MONSTROUS DRILL DAN TANK GUN</value>
+	</data>
+	<data name="ACTIVE" xml:space="preserve">
+		<value>AKTIF</value>
+	</data>
+	<data name="Ads allow you to play for free. We apologize if it was obsessive to you. Making any in-app purchase will disable ads forever." xml:space="preserve">
+		<value>Iklan memungkinkan Anda bermain secara gratis. Kami mohon maaf jika itu obsesif untuk Anda. Membuat pembelian dalam aplikasi akan menonaktifkan iklan selamanya.</value>
+	</data>
+	<data name="ADS IN THIS GAME" xml:space="preserve">
+		<value>IKLAN DALAM PERMAINAN INI</value>
+	</data>
+	<data name="AIRSTRIKE!" xml:space="preserve">
+		<value>SERANGAN UDARA!</value>
+	</data>
+	<data name="ALL PROGESS LOST" xml:space="preserve">
+		<value>SEMUA KEMAJUAN AKAN HILANG</value>
+	</data>
+	<data name="ALL PROGRESS IS NOW SYNCHRONIZED WITH YOUR ACCOUNT!" xml:space="preserve">
+		<value>SEMUA PROGRES KINI DISINKRONKAN DENGAN AKUNMU!</value>
+	</data>
+	<data name="ALLIGATOR" xml:space="preserve">
+		<value>BUAYA</value>
+	</data>
+	<data name="ANTIGRAVS" xml:space="preserve">
+		<value>ANTI-GRAV</value>
+	</data>
+	<data name="ANY PURCHASE REMOVES ALL ADS" xml:space="preserve">
+		<value>PEMBELIAN APA PUN AKAN MENGHILANGKAN SEMUA IKLAN</value>
+	</data>
+	<data name="Archiver" xml:space="preserve">
+		<value>Pengarsip</value>
+	</data>
+	<data name="ARE YOU SHURE" xml:space="preserve">
+		<value>Apakah Anda yakin?</value>
+	</data>
+	<data name="ARE YOU SHURE YOU WANT TO QUIT" xml:space="preserve">
+		<value>APAKAH ANDA YAKIN MAU KELUAR?</value>
+	</data>
+	<data name="ARE YOU SURE YOU WANT TO BUY ADDITIONAL BOXES FOR * RUBIES?" xml:space="preserve">
+		<value>KAMU YAKIN INGIN MEMBELI KOTAK TAMBAHAN SEHARGA * RUBI?</value>
+	</data>
+	<data name="ARENA *" xml:space="preserve">
+		<value>STADIUM *</value>
+	</data>
+	<data name="ARMOR" xml:space="preserve">
+		<value>ZIRAH</value>
+	</data>
+	<data name="ART" xml:space="preserve">
+		<value>SENI</value>
+	</data>
+	<data name="ASK ME LATER" xml:space="preserve">
+		<value>TANYA SAYA NANTI</value>
+	</data>
+	<data name="ATTRACT STARS WHILE DRIVING" xml:space="preserve">
+		<value>MENARIK BINTANG SAAT MENGEMUDI.</value>
+	</data>
+	<data name="AWESOME!" xml:space="preserve">
+		<value>KEREN!</value>
+	</data>
+	<data name="BAD" xml:space="preserve">
+		<value>BURUK</value>
+	</data>
+	<data name="BALANCE YOUR CAR USING TILT BUTTONS" xml:space="preserve">
+		<value>SEIMBANGKAN MOBILMU DENGAN TOMBOL MIRING.</value>
+	</data>
+	<data name="BASIC BOMB" xml:space="preserve">
+		<value>BOMBANG DASAR</value>
+	</data>
+	<data name="BEERANHA" xml:space="preserve">
+		<value>BEERANHA</value>
+	</data>
+	<data name="Beetlee" xml:space="preserve">
+		<value>BEETLEE</value>
+	</data>
+	<data name="Beetlee description" xml:space="preserve">
+		<value>BEETLEE - Dulu dia baik tapi sekarang dia jahat</value>
+	</data>
+	<data name="BERSERKER" xml:space="preserve">
+		<value>BERSERKER</value>
+	</data>
+	<data name="BEST" xml:space="preserve">
+		<value>TERBAIK</value>
+	</data>
+	<data name="BETTER TRACTION ON THE GROUND" xml:space="preserve">
+		<value>TRAKSI YANG LEBIH BAIK DI TANAH.</value>
+	</data>
+	<data name="Bigfoot" xml:space="preserve">
+		<value>Bigfoot</value>
+	</data>
+	<data name="BOMB REPLICATOR" xml:space="preserve">
+		<value>REPLIKATOR BOMB</value>
+	</data>
+	<data name="Bomber" xml:space="preserve">
+		<value>Pengebom</value>
+	</data>
+	<data name="BOMBERS!" xml:space="preserve">
+		<value>Pengebom!</value>
+	</data>
+	<data name="BOMBS" xml:space="preserve">
+		<value>BOM</value>
+	</data>
+	<data name="BONUS" xml:space="preserve">
+		<value>BONUS</value>
+	</data>
+	<data name="BOOSTS DOUBLED" xml:space="preserve">
+		<value>HADIAH ANDA AKAN BERLIPAT GANDA</value>
+	</data>
+	<data name="BOSS KILLER!" xml:space="preserve">
+		<value>BOSS KILLER!</value>
+	</data>
+	<data name="BOSS LEVEL" xml:space="preserve">
+		<value>TINGKAT BOSS</value>
+	</data>
+	<data name="BOSS LEVEL LOCKED" xml:space="preserve">
+		<value>TINGKAT BOS TIDAK TERSEDIA</value>
+	</data>
+	<data name="BOSS1" xml:space="preserve">
+		<value>COP ROD</value>
+	</data>
+	<data name="BOSS2" xml:space="preserve">
+		<value>API</value>
+	</data>
+	<data name="BOSS3" xml:space="preserve">
+		<value>CAP BUCKET</value>
+	</data>
+	<data name="BOUGHT" xml:space="preserve">
+		<value>DIBELI</value>
+	</data>
+	<data name="BUILD" xml:space="preserve">
+		<value>BUAT</value>
+	</data>
+	<data name="BUY" xml:space="preserve">
+		<value>BELI</value>
+	</data>
+	<data name="BUY ADDITIONAL BOXES OR CONTINUE PLAYING" xml:space="preserve">
+		<value>BELI KOTAK TAMBAHAN ATAU TERUS BERMAIN.</value>
+	</data>
+	<data name="BUY FUEL" xml:space="preserve">
+		<value>BELI BAHAN BAKAR</value>
+	</data>
+	<data name="BUY NOW" xml:space="preserve">
+		<value>BELI SEKARANG!</value>
+	</data>
+	<data name="BUY RUBIES" xml:space="preserve">
+		<value>BELI RUBI</value>
+	</data>
+	<data name="BY PROCEEDING YOU AGREE TO OUR UPDATED PRIVACY POLICY." xml:space="preserve">
+		<value>Dengan melanjutkan, anda setuju dengan kebijakan privasi kami yang diperbarui.</value>
+	</data>
+	<data name="Can we continue to use your data to tailor ads for your?" xml:space="preserve">
+		<value>Can we continue to use your data to tailor ads for your?</value>
+	</data>
+	<data name="CANCEL" xml:space="preserve">
+		<value>membatalkan</value>
+	</data>
+	<data name="CAN'T FIND PURCHASED PRODUCTS" xml:space="preserve">
+		<value>TIDAK DAPAT MENEMUKAN PRODUK YANG DIBELI.</value>
+	</data>
+	<data name="CAN'T PASS A LEVEL?" xml:space="preserve">
+		<value>TIDAK BISA MENYELESAIKAN TINGKAT INI?</value>
+	</data>
+	<data name="CAN'T WAIT?" xml:space="preserve">
+		<value>TIDAK SABAR?</value>
+	</data>
+	<data name="CAR COLLECTION" xml:space="preserve">
+		<value>KOLEKSI MOBIL</value>
+	</data>
+	<data name="CAR EATS CAR" xml:space="preserve">
+		<value>MOBIL MAKAN MOBIL</value>
+	</data>
+	<data name="CAR LOCKED" xml:space="preserve">
+		<value>UNLOCK CAR ON LEVEL *</value>
+	</data>
+	<data name="CAROCOP" xml:space="preserve">
+		<value>CAROCOP</value>
+	</data>
+	<data name="CAROCOP - BUNKER ON WHEELS" xml:space="preserve">
+		<value>CAROCOP - BUNKER ON WHEELS</value>
+	</data>
+	<data name="CHOOSE AN EGG" xml:space="preserve">
+		<value>MEMILIH SEBUAH TELUR</value>
+	</data>
+	<data name="CLEARED" xml:space="preserve">
+		<value>TUNTAS</value>
+	</data>
+	<data name="CLOSE" xml:space="preserve">
+		<value>TUTUP</value>
+	</data>
+	<data name="CLUSTER BOMB" xml:space="preserve">
+		<value>BOM CLUSTER</value>
+	</data>
+	<data name="COCKCHAFER" xml:space="preserve">
+		<value>COCKCHAFER</value>
+	</data>
+	<data name="COLLECT ALL PARTS AND GET TANKOMINATOR" xml:space="preserve">
+		<value>Kumpulkan SEMUA BAGIAN DAN MENDAPATKAN TANKMINATOR!</value>
+	</data>
+	<data name="COLLECT BOXES AND WIN PRIZES BY SPINNING A WHEEL AFTER EVERY LEVEL" xml:space="preserve">
+		<value>KUMPULKAN KOTAK DAN MENANGI HADIAH DENGAN MEMUTAR RODA SETELAH SETIAP LEVEL.</value>
+	</data>
+	<data name="COLLECT EGGS AND GEMS IN THE CAVE" xml:space="preserve">
+		<value>KUMPULKAN TELUR DAN GEMS DI CAVE</value>
+	</data>
+	<data name="COLLECTED" xml:space="preserve">
+		<value>TERKUMPUL</value>
+	</data>
+	<data name="COMBO!" xml:space="preserve">
+		<value>KOMBO!</value>
+	</data>
+	<data name="COMING SOON" xml:space="preserve">
+		<value>SEGERA HADIR</value>
+	</data>
+	<data name="COMPACTOR" xml:space="preserve">
+		<value>Pemadat</value>
+	</data>
+	<data name="CONGRATULATIONS" xml:space="preserve">
+		<value>SELAMAT</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU WON TANKOMINATOR" xml:space="preserve">
+		<value>SELAMAT! MEMBUAT TANKMINATOR TERBUKA</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED ANTIGRAVS" xml:space="preserve">
+		<value>SELAMAT! MEMBUAT ANTIGRAV TERBUKA</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED MEGA TURBO" xml:space="preserve">
+		<value>SELAMAT! MEMBUAT BUKA MEGA TURBO</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED SUPER GUN" xml:space="preserve">
+		<value>SELAMAT! MEMBUAT OPEN SUPER GUN</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED TANK" xml:space="preserve">
+		<value>SELAMAT! MEMBUAT TANK TERBUKA</value>
+	</data>
+	<data name="CONNECTION FAILED" xml:space="preserve">
+		<value>SAMBUNGAN GAGAL</value>
+	</data>
+	<data name="CONNECTION SUCCESS" xml:space="preserve">
+		<value>SAMBUNGAN BERHASIL</value>
+	</data>
+	<data name="CONSTRUCT IN POLICEPEDIA" xml:space="preserve">
+		<value>CONSTRUCT DI POLICEPEDIA</value>
+	</data>
+	<data name="CONTINUE" xml:space="preserve">
+		<value>LANJUTKAN</value>
+	</data>
+	<data name="Copter" xml:space="preserve">
+		<value>Kopter</value>
+	</data>
+	<data name="COPTER!" xml:space="preserve">
+		<value>Kopter!</value>
+	</data>
+	<data name="COPYRIGHT 2015 BY SMOKOKO SA" xml:space="preserve">
+		<value>HAK CIPTA 2015-2018 OLEH SMOKOKO LTD</value>
+	</data>
+	<data name="CREDITS" xml:space="preserve">
+		<value>KREDIT</value>
+	</data>
+	<data name="DAILY BONUS" xml:space="preserve">
+		<value>BONUS HARIAN</value>
+	</data>
+	<data name="DAMAGE" xml:space="preserve">
+		<value>KERUSAKAN</value>
+	</data>
+	<data name="DAY *" xml:space="preserve">
+		<value>HARI *</value>
+	</data>
+	<data name="DEADLY BLADES" xml:space="preserve">
+		<value>Merajut</value>
+	</data>
+	<data name="DEFEAT" xml:space="preserve">
+		<value>Anda telah ditangkap</value>
+	</data>
+	<data name="DESCRIPTION BASIC BOMB " xml:space="preserve">
+		<value>Bom konvensional dasar.</value>
+	</data>
+	<data name="DESCRIPTION BOMB REPLICATOR" xml:space="preserve">
+		<value>Pelan-pelan merusakkan simpanan bom Anda.</value>
+	</data>
+	<data name="DESCRIPTION CLUSTER BOMB" xml:space="preserve">
+		<value>Klaster bom HE mikro. Daerah kerusakan yang besar.</value>
+	</data>
+	<data name="DESCRIPTION EMP EMITTER" xml:space="preserve">
+		<value>Emits pulsa elektromagnetik yang melumpuhkan musuh di sekitar Anda.</value>
+	</data>
+	<data name="DESCRIPTION FLAME BOMB" xml:space="preserve">
+		<value>Bom peledak tinggi. Area ledakan yang diperluas dan kerusakan.</value>
+	</data>
+	<data name="DESCRIPTION FRAG BOMB" xml:space="preserve">
+		<value>Bom dasar dengan fragmen. Memberikan tambahan kerusakan pada fragmen.</value>
+	</data>
+	<data name="DESCRIPTION FREEZE RAY" xml:space="preserve">
+		<value>Tembakan sinar nitrogen cair. Beku musuhmu</value>
+	</data>
+	<data name="DESCRIPTION MAGNET" xml:space="preserve">
+		<value>Menghasilkan medan magnet yang menarik batu rubi.</value>
+	</data>
+	<data name="DESCRIPTION MISSILE LAUNCHER" xml:space="preserve">
+		<value>Peluncur roket terpadu. Kebakaran menghancurkan rudal homing.</value>
+	</data>
+	<data name="DESCRIPTION SHRINK BOMB" xml:space="preserve">
+		<value>Bom HI-TECH. Kecilkan musuh Anda ke mikroorganisme lucu.</value>
+	</data>
+	<data name="DISTANCE" xml:space="preserve">
+		<value>JARAK</value>
+	</data>
+	<data name="DRILL GUN" xml:space="preserve">
+		<value>DRILL</value>
+	</data>
+	<data name="Driller" xml:space="preserve">
+		<value>Pengebor</value>
+	</data>
+	<data name="DRON1 DESCRIPTION" xml:space="preserve">
+		<value>Dapatkan gratis di hari ke 5</value>
+	</data>
+	<data name="DRON2 DESCRIPTION" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DROWNED CITY" xml:space="preserve">
+		<value>KOTA TENGGELAM</value>
+	</data>
+	<data name="EASTER EGG HUNT" xml:space="preserve">
+		<value>EASTER EGG HUNT</value>
+	</data>
+	<data name="EAT POLICE AND CIVILS" xml:space="preserve">
+		<value>MENGHANCURKAN MUSUH ANDA UNTUK MENGHADAPI BADGES</value>
+	</data>
+	<data name="ECO FUEL" xml:space="preserve">
+		<value>BAHAN BAKAR EKO</value>
+	</data>
+	<data name="EMP EMITTER" xml:space="preserve">
+		<value>EMP EMITTER</value>
+	</data>
+	<data name="ENDLESS STOCK OF FUEL" xml:space="preserve">
+		<value>SAHAM BAHAN BAKAR TAK BERUJUNG</value>
+	</data>
+	<data name="ENGINE" xml:space="preserve">
+		<value>MESIN</value>
+	</data>
+	<data name="ENIGMA" xml:space="preserve">
+		<value>ENIGMA!</value>
+	</data>
+	<data name="EQUIP" xml:space="preserve">
+		<value>PAKAI</value>
+	</data>
+	<data name="EQUIPED" xml:space="preserve">
+		<value>DIAMBIL</value>
+	</data>
+	<data name="EVOLUTION COMPLETE" xml:space="preserve">
+		<value>EVOLUTION LENGKAP</value>
+	</data>
+	<data name="Excavator" xml:space="preserve">
+		<value>Ekskavator</value>
+	</data>
+	<data name="EXCELLENT!" xml:space="preserve">
+		<value>MANTAP!</value>
+	</data>
+	<data name="EXIT" xml:space="preserve">
+		<value>KELUAR</value>
+	</data>
+	<data name="FIND AT ARENA" xml:space="preserve">
+		<value>TEMUKAN DI ARENA</value>
+	</data>
+	<data name="FIND AT EASTER EGG HUNT" xml:space="preserve">
+		<value>TEMUKAN DI EASTER EGG HUNT</value>
+	</data>
+	<data name="FIND IN THE CAVE" xml:space="preserve">
+		<value>TEMUKAN DI BAWAH TANAH</value>
+	</data>
+	<data name="FIREBUG" xml:space="preserve">
+		<value>FIREFLY</value>
+	</data>
+	<data name="FIRED!?!" xml:space="preserve">
+		<value>DIPECAT!?!</value>
+	</data>
+	<data name="FLAME BOMB" xml:space="preserve">
+		<value>BOM KEBAKARAN</value>
+	</data>
+	<data name="FORTUNE" xml:space="preserve">
+		<value>HARTA</value>
+	</data>
+	<data name="FRAG BOMB" xml:space="preserve">
+		<value>BOM FRAG</value>
+	</data>
+	<data name="FRANCOPSTEIN" xml:space="preserve">
+		<value>FRANCOPSTEIN</value>
+	</data>
+	<data name="FRANCOPSTEIN - IT'S ALIVE!" xml:space="preserve">
+		<value>FRANCOPSTEIN - INI HIDUP!</value>
+	</data>
+	<data name="FREE" xml:space="preserve">
+		<value>GRATIS</value>
+	</data>
+	<data name="FREE FUEL PACK" xml:space="preserve">
+		<value>GASOLINE GRATIS</value>
+	</data>
+	<data name="FREE RUBIES PACK" xml:space="preserve">
+		<value>RUBIES GRATIS!</value>
+	</data>
+	<data name="FREE SPIN" xml:space="preserve">
+		<value>GRATIS SEKALI PUTAR</value>
+	</data>
+	<data name="FREEDOM ISLAND!!!" xml:space="preserve">
+		<value>PULAU KEBEBASAN!</value>
+	</data>
+	<data name="FREEZE RAY" xml:space="preserve">
+		<value>KEBEKUAN</value>
+	</data>
+	<data name="FRIENDOPEDIA" xml:space="preserve">
+		<value>FRIENDOPEDIA</value>
+	</data>
+	<data name="FUEL" xml:space="preserve">
+		<value>BENSIN</value>
+	</data>
+	<data name="GADGETS" xml:space="preserve">
+		<value>ALAT</value>
+	</data>
+	<data name="GAME DESIGN" xml:space="preserve">
+		<value>DESAIN PERMAINAN</value>
+	</data>
+	<data name="GAME DEVELOPED BY SMOKOKO SA" xml:space="preserve">
+		<value>GAME DIKEMBANGKAN OLEH SMOKOKO LTD</value>
+	</data>
+	<data name="GAME PUBLISHED BY SPIL GAMES" xml:space="preserve">
+		<value>GAME DITERBITKAN OLEH SPIL GAMES</value>
+	</data>
+	<data name="GARAGE" xml:space="preserve">
+		<value>GARASI</value>
+	</data>
+	<data name="GATOR" xml:space="preserve">
+		<value>Gator</value>
+	</data>
+	<data name="GET ADDITIONAL BOMBS" xml:space="preserve">
+		<value>DAPATKAN BOM TAMBAHAN.</value>
+	</data>
+	<data name="GET ADDITIONAL TURBO" xml:space="preserve">
+		<value>DAPATKAN TURBO TAMBAHAN.</value>
+	</data>
+	<data name="GET FUEL" xml:space="preserve">
+		<value>DAPATKAN BAHAN BAKAR</value>
+	</data>
+	<data name="GET RUBIES" xml:space="preserve">
+		<value>DAPATKAN RUBI</value>
+	</data>
+	<data name="GHOST TOWN" xml:space="preserve">
+		<value>KOTA HANTU</value>
+	</data>
+	<data name="GOOD" xml:space="preserve">
+		<value>baik</value>
+	</data>
+	<data name="HARVESTER" xml:space="preserve">
+		<value>Penuai</value>
+	</data>
+	<data name="HAVEN'T PLAYED YET?" xml:space="preserve">
+		<value>belum bermain?</value>
+	</data>
+	<data name="HOW TO PLAY" xml:space="preserve">
+		<value>CARA BERMAIN</value>
+	</data>
+	<data name="I AGREE" xml:space="preserve">
+		<value>SAYA SETUJU</value>
+	</data>
+	<data name="ICE AGE" xml:space="preserve">
+		<value>ZAMAN ES!</value>
+	</data>
+	<data name="INCREASES CAR'S HEALTH" xml:space="preserve">
+		<value>MENINGKATKAN KESEHATAN MOBIL.</value>
+	</data>
+	<data name="INCREASES CAR'S TOP SPEED" xml:space="preserve">
+		<value>MENINGKATKAN KECEPATAN PUNCAK MOBIL.</value>
+	</data>
+	<data name="INCUBATOR" xml:space="preserve">
+		<value>INKUBATOR</value>
+	</data>
+	<data name="Ketchup" xml:space="preserve">
+		<value>Saus Tomat</value>
+	</data>
+	<data name="KILLED" xml:space="preserve">
+		<value>DIBUNUH</value>
+	</data>
+	<data name="LANGUAGE" xml:space="preserve">
+		<value>BAHASA</value>
+	</data>
+	<data name="LARGE FUEL TANK" xml:space="preserve">
+		<value>BAHAN BAKAR BESAR</value>
+	</data>
+	<data name="LARGER TURBO TANK CAPACITY" xml:space="preserve">
+		<value>KAPASITAS TANGKI TURBO LEBIH BESAR.</value>
+	</data>
+	<data name="Learn how CAR EATS CAR 3 and our partners collect and use data" xml:space="preserve">
+		<value>Learn how CAR EATS CAR 3 and our partners collect and use data</value>
+	</data>
+	<data name="LEAVING SO SOON" xml:space="preserve">
+		<value>Sudah mau pulang?</value>
+	</data>
+	<data name="LESS POWER!" xml:space="preserve">
+		<value>KURANG DAYA!</value>
+	</data>
+	<data name="LET'S LEVEL UP THE SPEED" xml:space="preserve">
+		<value>MARI PERBAIKI KECEPATAN MOBIL ANDA</value>
+	</data>
+	<data name="LET'S RETURN TO MAP" xml:space="preserve">
+		<value>MARI KEMBALI KE PETA</value>
+	</data>
+	<data name="LEVEL" xml:space="preserve">
+		<value>LEVEL</value>
+	</data>
+	<data name="LEVEL *" xml:space="preserve">
+		<value>LEVEL *</value>
+	</data>
+	<data name="LEVEL * COMPLETED" xml:space="preserve">
+		<value>LEVEL * SELESAI</value>
+	</data>
+	<data name="LEVEL * FAILED" xml:space="preserve">
+		<value>LEVEL * GAGAL</value>
+	</data>
+	<data name="LEVEL DESIGN" xml:space="preserve">
+		<value>DESAIN LEVEL</value>
+	</data>
+	<data name="LEVELS" xml:space="preserve">
+		<value>LEVEL</value>
+	</data>
+	<data name="Limited offer, left * min" xml:space="preserve">
+		<value>Penawaran terbatas, kiri * mnt</value>
+	</data>
+	<data name="LIMITED TIME OFFER" xml:space="preserve">
+		<value>PENAWARAN TERBATAS</value>
+	</data>
+	<data name="LOAD" xml:space="preserve">
+		<value>BEBAN</value>
+	</data>
+	<data name="LOAD THIS GAME?" xml:space="preserve">
+		<value>MUAT GAME INI?</value>
+	</data>
+	<data name="LOADING" xml:space="preserve">
+		<value>MEMUATKAN</value>
+	</data>
+	<data name="LOCKED" xml:space="preserve">
+		<value>terkunci</value>
+	</data>
+	<data name="LOCOMACHINE" xml:space="preserve">
+		<value>LOCOMACHINE</value>
+	</data>
+	<data name="LOGIN" xml:space="preserve">
+		<value>MASUK</value>
+	</data>
+	<data name="LOGIN AND GET" xml:space="preserve">
+		<value>MASUK DAN DAPATKAN</value>
+	</data>
+	<data name="LOGIN AND GET BONUSES" xml:space="preserve">
+		<value>MULAI SESI DAN MENANG BONUS!</value>
+	</data>
+	<data name="LOGOUT" xml:space="preserve">
+		<value>KELUAR</value>
+	</data>
+	<data name="MAGNET" xml:space="preserve">
+		<value>MAGNET</value>
+	</data>
+	<data name="Matt" xml:space="preserve">
+		<value>Matt</value>
+	</data>
+	<data name="MAX." xml:space="preserve">
+		<value>MAKS.</value>
+	</data>
+	<data name="MEGA TURBO" xml:space="preserve">
+		<value>MEGA-TURBO</value>
+	</data>
+	<data name="METEOR SHOWER" xml:space="preserve">
+		<value>HUJAN METEOR!</value>
+	</data>
+	<data name="MIN" xml:space="preserve">
+		<value>MIN</value>
+	</data>
+	<data name="MISSILE LAUNCHER" xml:space="preserve">
+		<value>PELUNCUR MISIL</value>
+	</data>
+	<data name="MISTY FOREST" xml:space="preserve">
+		<value>HUTAN BERKABUT</value>
+	</data>
+	<data name="MODERATE BLAST AREA AND DAMAGE" xml:space="preserve">
+		<value>KERUSAKAN AREA LEDAKAN SEDANG</value>
+	</data>
+	<data name="MONSTROPEDIA" xml:space="preserve">
+		<value>MONSTROPEDIA</value>
+	</data>
+	<data name="MORE GAMES" xml:space="preserve">
+		<value>GAME LAIN</value>
+	</data>
+	<data name="MORE POWER!" xml:space="preserve">
+		<value>LEBIH DAYA!</value>
+	</data>
+	<data name="MR BOMBASTIC" xml:space="preserve">
+		<value>Mr. BOMBASTIC</value>
+	</data>
+	<data name="MUSIC &amp; SOUND" xml:space="preserve">
+		<value>MUSIK &amp; SUARA</value>
+	</data>
+	<data name="NEW" xml:space="preserve">
+		<value>NEW</value>
+	</data>
+	<data name="NEXT" xml:space="preserve">
+		<value>SELANJUTNYA</value>
+	</data>
+	<data name="NEXT IN" xml:space="preserve">
+		<value>SELANJUTNYA</value>
+	</data>
+	<data name="NEXT LEVEL" xml:space="preserve">
+		<value>LEVEL BERIKUTNYA</value>
+	</data>
+	<data name="NO" xml:space="preserve">
+		<value>TIDAK</value>
+	</data>
+	<data name="NO INTERNET CONNECTION WAS FOUND. PLEASE TRY AGAIN LATER" xml:space="preserve">
+		<value>KONEKSI INTERNET TIDAK DITEMUKAN. COBA LAGI NANTI</value>
+	</data>
+	<data name="NO NEW VIDEOS AVAILABLE RIGHT NOW" xml:space="preserve">
+		<value>TIDAK ADA VIDEO BARU YANG TERSEDIA SEKARANG.</value>
+	</data>
+	<data name="NO THANKS" xml:space="preserve">
+		<value>TIDAK, TERIMA KASIH</value>
+	</data>
+	<data name="NO VIDEO AVALIABLE" xml:space="preserve">
+		<value>TIDAK ADA VIDEO BARU YANG TERSEDIA SEKARANG.</value>
+	</data>
+	<data name="No, see ads that are less relevant" xml:space="preserve">
+		<value>No, see ads that are less relevant</value>
+	</data>
+	<data name="NOT ENOUGH" xml:space="preserve">
+		<value>TIDAK CUKUP</value>
+	</data>
+	<data name="NOTHING WILL STOP HIM" xml:space="preserve">
+		<value>LOCOMACHINE - TIDAK ADA YANG DAPAT BERHENTINYA</value>
+	</data>
+	<data name="OFF" xml:space="preserve">
+		<value>Diskon</value>
+	</data>
+	<data name="Om-Nom-nom" xml:space="preserve">
+		<value>Nyam-nyam</value>
+	</data>
+	<data name="OOPS!" xml:space="preserve">
+		<value>UPS!</value>
+	</data>
+	<data name="OPEN ALL LEVELS" xml:space="preserve">
+		<value>BUKA SEMUA LEVEL</value>
+	</data>
+	<data name="OPEN FIRST LEVEL" xml:space="preserve">
+		<value>BUKA LEVEL PERTAMA</value>
+	</data>
+	<data name="OPEN LOCATION" xml:space="preserve">
+		<value>BUKA LOKASI</value>
+	</data>
+	<data name="OPEN NEXT LEVEL" xml:space="preserve">
+		<value>BUKA LEVEL BERIKUTNYA</value>
+	</data>
+	<data name="OR BUY NOW!" xml:space="preserve">
+		<value>BELI SEKARANG</value>
+	</data>
+	<data name="PART */4" xml:space="preserve">
+		<value>BAGIAN * / 4</value>
+	</data>
+	<data name="PLAY" xml:space="preserve">
+		<value>MAIN</value>
+	</data>
+	<data name="PLAY NOW" xml:space="preserve">
+		<value>BERMAIN SEKARANG</value>
+	</data>
+	<data name="PLEASE CHOOSE" xml:space="preserve">
+		<value>TOLONG PILIH</value>
+	</data>
+	<data name="PLEASE RATE CAR EATS CAR" xml:space="preserve">
+		<value>Nilaikan Car Eats Car 3</value>
+	</data>
+	<data name="POLICE!" xml:space="preserve">
+		<value>POLISI!</value>
+	</data>
+	<data name="POLICEPEDIA" xml:space="preserve">
+		<value>POLICEPEDIA</value>
+	</data>
+	<data name="preloader_description_arena" xml:space="preserve">
+		<value>BERSERKER - bunuh semua musuhmu</value>
+	</data>
+	<data name="preloader_description_boss1" xml:space="preserve">
+		<value>COP ROD - MOBIL POLISI PALING BERBAHAYA</value>
+	</data>
+	<data name="preloader_description_boss2" xml:space="preserve">
+		<value>BLAZE ADALAH PEMIMPIN DI ANTARA FEDERALS</value>
+	</data>
+	<data name="preloader_description_boss3" xml:space="preserve">
+		<value>EMBER KAPTEN</value>
+	</data>
+	<data name="preloader_description_car1" xml:space="preserve">
+		<value>GATOR - GENERASI BARU MOBIL LIAR</value>
+	</data>
+	<data name="preloader_description_car2" xml:space="preserve">
+		<value>HARVESTER - PREDATOR NYATA!</value>
+	</data>
+	<data name="preloader_description_car3" xml:space="preserve">
+		<value>ARCHIVER - MIGHTY CLAWS</value>
+	</data>
+	<data name="preloader_description_convoy" xml:space="preserve">
+		<value>KASUS DAN MENGHANCURKAN KONVOY UNTUK MEMBEBASKAN TEMAN ANDA</value>
+	</data>
+	<data name="preloader_description_copter1" xml:space="preserve">
+		<value>DIPERLAKUKAN RUANG UDARA</value>
+	</data>
+	<data name="preloader_description_copter2" xml:space="preserve">
+		<value>DIPERLAKUKAN RUANG UDARA</value>
+	</data>
+	<data name="preloader_description_copter3" xml:space="preserve">
+		<value>DIPERLAKUKAN RUANG UDARA</value>
+	</data>
+	<data name="preloader_description_drones" xml:space="preserve">
+		<value>DRONE ADALAH ASSISTANT TERBAIK!</value>
+	</data>
+	<data name="preloader_description_fbi" xml:space="preserve">
+		<value>FEDERAL SELALU SIAP MEMBAWA MASALAH</value>
+	</data>
+	<data name="preloader_description_fire" xml:space="preserve">
+		<value>FIREBUG - WASPADALAH TERHADAP KEBAKARAN</value>
+	</data>
+	<data name="preloader_description_police1_1" xml:space="preserve">
+		<value>COPS AKAN MELAKUKAN SEGALA SESUATU UNTUK MENANGKAP ANDA!</value>
+	</data>
+	<data name="preloader_description_police1_2" xml:space="preserve">
+		<value>COPS AKAN MELAKUKAN SEGALA SESUATU UNTUK MENANGKAP ANDA!</value>
+	</data>
+	<data name="preloader_description_police1_3" xml:space="preserve">
+		<value>COPS AKAN MELAKUKAN SEGALA SESUATU UNTUK MENANGKAP ANDA!</value>
+	</data>
+	<data name="preloader_description_police1_4" xml:space="preserve">
+		<value>COPS AKAN MELAKUKAN SEGALA SESUATU UNTUK MENANGKAP ANDA!</value>
+	</data>
+	<data name="preloader_description_police2_1" xml:space="preserve">
+		<value>COPS AKAN MELAKUKAN SEGALA SESUATU UNTUK MENANGKAP ANDA!</value>
+	</data>
+	<data name="preloader_description_police2_2" xml:space="preserve">
+		<value>COPS AKAN MELAKUKAN SEGALA SESUATU UNTUK MENANGKAP ANDA!</value>
+	</data>
+	<data name="preloader_description_police2_3" xml:space="preserve">
+		<value>COPS AKAN MELAKUKAN SEGALA SESUATU UNTUK MENANGKAP ANDA!</value>
+	</data>
+	<data name="preloader_description_police2_4" xml:space="preserve">
+		<value>COPS AKAN MELAKUKAN SEGALA SESUATU UNTUK MENANGKAP ANDA!</value>
+	</data>
+	<data name="preloader_description_police3_1" xml:space="preserve">
+		<value>COPS AKAN MELAKUKAN SEGALA SESUATU UNTUK MENANGKAP ANDA!</value>
+	</data>
+	<data name="preloader_description_police3_2" xml:space="preserve">
+		<value>COPS AKAN MELAKUKAN SEGALA SESUATU UNTUK MENANGKAP ANDA!</value>
+	</data>
+	<data name="preloader_description_police3_3" xml:space="preserve">
+		<value>COPS AKAN MELAKUKAN SEGALA SESUATU UNTUK MENANGKAP ANDA!</value>
+	</data>
+	<data name="preloader_description_police3_4" xml:space="preserve">
+		<value>COPS AKAN MELAKUKAN SEGALA SESUATU UNTUK MENANGKAP ANDA!</value>
+	</data>
+	<data name="PREMIUM CONTENT" xml:space="preserve">
+		<value>KONTEN PREMIUM</value>
+	</data>
+	<data name="PRESS TO FLIP BACKWARD" xml:space="preserve">
+		<value>PRESS TO FLIP BACKWARD</value>
+	</data>
+	<data name="PRESS TO FLIP FORWARD" xml:space="preserve">
+		<value>PRESS TO FLIP FORWARD</value>
+	</data>
+	<data name="PRESS TO USE" xml:space="preserve">
+		<value>PRESS TO USE</value>
+	</data>
+	<data name="PREVIOUS GAME FOUND" xml:space="preserve">
+		<value>DITEMUKAN GAME LALU</value>
+	</data>
+	<data name="PRIVACY DESCRIPTION" xml:space="preserve">
+		<value>Kebijakan privasi kami telah diperbarui! Harap tinjau dan setujui perubahan untuk terus bermain.</value>
+	</data>
+	<data name="PRIVACY POLICY" xml:space="preserve">
+		<value>KEBIJAKAN PRIBADI</value>
+	</data>
+	<data name="PRODUCERS" xml:space="preserve">
+		<value>PRODUSER</value>
+	</data>
+	<data name="PROGRAMMING" xml:space="preserve">
+		<value>PEMROGRAMAN</value>
+	</data>
+	<data name="PROTECT YOUR CAR'S BODY" xml:space="preserve">
+		<value>LINDUNGI BADAN MOBILMU.</value>
+	</data>
+	<data name="PUSH" xml:space="preserve">
+		<value>DORONG</value>
+	</data>
+	<data name="RABBITSTER" xml:space="preserve">
+		<value>RABBITSTER</value>
+	</data>
+	<data name="RABBITSTER DESCRIPTION" xml:space="preserve">
+		<value>RABBITSTER - gigi tajam, telinga panjang</value>
+	</data>
+	<data name="RAM" xml:space="preserve">
+		<value>PENUBRUK</value>
+	</data>
+	<data name="RAM YOUR ENEMIES TILL DEATH" xml:space="preserve">
+		<value>TUBRUK MUSUHMU SAMPAI MEREKA MATI.</value>
+	</data>
+	<data name="RATE" xml:space="preserve">
+		<value>BERI NILAI SEKARANG</value>
+	</data>
+	<data name="RATE NOW" xml:space="preserve">
+		<value>BERI NILAI SEKARANG</value>
+	</data>
+	<data name="RATE US SHAUT 1" xml:space="preserve">
+		<value>BENAR-BENAR BURUK?</value>
+	</data>
+	<data name="RATE US SHAUT 2" xml:space="preserve">
+		<value>SAYANG SEKALI, TETAPI KITA SELALU MEMPERHITUNGKAN KEINGINAN</value>
+	</data>
+	<data name="RATE US SHAUT 3" xml:space="preserve">
+		<value>TERIMA KASIH ATAS NILAI ANDA!</value>
+	</data>
+	<data name="RATE US SHAUT 4" xml:space="preserve">
+		<value>WOW! KITA PASTI AKAN MEMBUAT PERMAINAN LEBIH BAIK!</value>
+	</data>
+	<data name="RATE US SHAUT 5" xml:space="preserve">
+		<value>TERIMA KASIH BRO! ANDA ADALAH PEMAIN TERBAIK!</value>
+	</data>
+	<data name="RATE YOUR EXPERIENCE!" xml:space="preserve">
+		<value>NILAI PENGALAMANMU</value>
+	</data>
+	<data name="REACH * M. TO GET ANTIGRAVS" xml:space="preserve">
+		<value>REACH * M. TO GET ANTIGRAVS</value>
+	</data>
+	<data name="REACH * M. TO GET MEGA TURBO" xml:space="preserve">
+		<value>REACH * M. TO GET MEGA TURBO</value>
+	</data>
+	<data name="REACH * M. TO GET SUPER GUN" xml:space="preserve">
+		<value>REACH * M. TO GET SUPER GUN</value>
+	</data>
+	<data name="REACH * M. TO GET TANK" xml:space="preserve">
+		<value>REACH * M. TO GET TANK</value>
+	</data>
+	<data name="REACH * M. TO GET TANKOMINATOR PART */4" xml:space="preserve">
+		<value>REACH * M. UNTUK MEMUJI TANKMINATOR BAGIAN * / 4</value>
+	</data>
+	<data name="RECHARGER" xml:space="preserve">
+		<value>PENGISI ULANG</value>
+	</data>
+	<data name="REGENERATOR" xml:space="preserve">
+		<value>REGENERATOR</value>
+	</data>
+	<data name="RESET GAME" xml:space="preserve">
+		<value>RESET GAME</value>
+	</data>
+	<data name="RESTART" xml:space="preserve">
+		<value>ULANGI</value>
+	</data>
+	<data name="RESTORE PURCHASED" xml:space="preserve">
+		<value>PULIHKAN YANG DIBELI</value>
+	</data>
+	<data name="RESTORE PURCHASES" xml:space="preserve">
+		<value>PULIHKAN PEMBELIAN</value>
+	</data>
+	<data name="RESUME" xml:space="preserve">
+		<value>LANJUTKAN</value>
+	</data>
+	<data name="REVIVE YOUR HEALTH AND FINISH THE LEVEL" xml:space="preserve">
+		<value>PULIHKAN KESEHATANMU DAN SELESAIKAN LEVEL.</value>
+	</data>
+	<data name="REVIVE?" xml:space="preserve">
+		<value>PULIHKAN?</value>
+	</data>
+	<data name="REWARD" xml:space="preserve">
+		<value>Penghargaan</value>
+	</data>
+	<data name="RUBIES" xml:space="preserve">
+		<value>PERMATA</value>
+	</data>
+	<data name="Sawcar" xml:space="preserve">
+		<value>Sawcar</value>
+	</data>
+	<data name="School Bus" xml:space="preserve">
+		<value>Bus Sekolah</value>
+	</data>
+	<data name="SCORPION" xml:space="preserve">
+		<value>KALAJENGKING</value>
+	</data>
+	<data name="SEE YOUR FRIENDS PROGRESS" xml:space="preserve">
+		<value>LIHAT PROGRES TEMAN</value>
+	</data>
+	<data name="SETTINGS" xml:space="preserve">
+		<value>SETELAN</value>
+	</data>
+	<data name="SHARE" xml:space="preserve">
+		<value>BAGIKAN</value>
+	</data>
+	<data name="SHARE VIA FB AND RECEIVE REWARD" xml:space="preserve">
+		<value>BERBAGI DENGAN TEMAN DAN DAPATKAN PENGHARGAAN</value>
+	</data>
+	<data name="SHIELD" xml:space="preserve">
+		<value>PERISAI</value>
+	</data>
+	<data name="SHOP" xml:space="preserve">
+		<value>TOKO</value>
+	</data>
+	<data name="Show consent form" xml:space="preserve">
+		<value>Show consent form</value>
+	</data>
+	<data name="SHRINK BOMB" xml:space="preserve">
+		<value>SHRINK BOMB</value>
+	</data>
+	<data name="SKIP" xml:space="preserve">
+		<value>LEWATKAN</value>
+	</data>
+	<data name="Smarty" xml:space="preserve">
+		<value>Sok Tahu</value>
+	</data>
+	<data name="SPECIAL MISSION" xml:space="preserve">
+		<value>misi</value>
+	</data>
+	<data name="SPEED" xml:space="preserve">
+		<value>KECEPATAN</value>
+	</data>
+	<data name="SPEED UP WITH TURBO BUTTON" xml:space="preserve">
+		<value>PERCEPAT DENGAN TOMBOL TURBO.</value>
+	</data>
+	<data name="Spike" xml:space="preserve">
+		<value>paku</value>
+	</data>
+	<data name="SPIN" xml:space="preserve">
+		<value>PUTAR</value>
+	</data>
+	<data name="SPIN NOW" xml:space="preserve">
+		<value>BERMAIN SEKARANG!</value>
+	</data>
+	<data name="START" xml:space="preserve">
+		<value>MULAI</value>
+	</data>
+	<data name="START MINI GAME" xml:space="preserve">
+		<value>MULAI GAME MINI</value>
+	</data>
+	<data name="START RACE NOW!" xml:space="preserve">
+		<value>MULAI BALAPAN SEKARANG!</value>
+	</data>
+	<data name="Stinger" xml:space="preserve">
+		<value>Duri</value>
+	</data>
+	<data name="STOP" xml:space="preserve">
+		<value>STOP</value>
+	</data>
+	<data name="STRONG HULL" xml:space="preserve">
+		<value>KUAT HULL</value>
+	</data>
+	<data name="SUPER FRICTION" xml:space="preserve">
+		<value>SUPER GRIP</value>
+	</data>
+	<data name="SUPER GUN" xml:space="preserve">
+		<value>PISTOL SUPER</value>
+	</data>
+	<data name="SWAMP" xml:space="preserve">
+		<value>RAWA</value>
+	</data>
+	<data name="SWITCHING SUPER BONUS" xml:space="preserve">
+		<value>SWITCHING SUPER BONUS</value>
+	</data>
+	<data name="TAKE" xml:space="preserve">
+		<value>AGARRATE</value>
+	</data>
+	<data name="TAKE REWARD" xml:space="preserve">
+		<value>DAPAT PENGHRAGAAN</value>
+	</data>
+	<data name="TANK" xml:space="preserve">
+		<value>TANGKI</value>
+	</data>
+	<data name="TANK FULL" xml:space="preserve">
+		<value>TANGKI PENUH</value>
+	</data>
+	<data name="TANKOMINATOR" xml:space="preserve">
+		<value>TANKOMINATOR</value>
+	</data>
+	<data name="TAP" xml:space="preserve">
+		<value>TAP</value>
+	</data>
+	<data name="TAP THE SCREEN" xml:space="preserve">
+		<value>TEKAN PADA LAYAR</value>
+	</data>
+	<data name="TAP TO BUY THE UPGRADE" xml:space="preserve">
+		<value>BELI PEMBARUAN</value>
+	</data>
+	<data name="TAP TO CONTINUE…" xml:space="preserve">
+		<value>KETUK UNTUK MELANJUTKAN...</value>
+	</data>
+	<data name="TAP TO DROP" xml:space="preserve">
+		<value>PRESS TO DROP</value>
+	</data>
+	<data name="TASTY" xml:space="preserve">
+		<value>LEZAT</value>
+	</data>
+	<data name="TERMS OF USE" xml:space="preserve">
+		<value>SYARAT PENGGUNAAN</value>
+	</data>
+	<data name="TEST DRIVE" xml:space="preserve">
+		<value>TEST DRIVE</value>
+	</data>
+	<data name="TESTERS" xml:space="preserve">
+		<value>PENGUJI</value>
+	</data>
+	<data name="THUNDERSTORM" xml:space="preserve">
+		<value>HUJAN BADAI!</value>
+	</data>
+	<data name="TILT" xml:space="preserve">
+		<value>Keseimbangan</value>
+	</data>
+	<data name="TO UNLOCK" xml:space="preserve">
+		<value>UNTUK MEMBUKA</value>
+	</data>
+	<data name="TODAY" xml:space="preserve">
+		<value>HARI INI</value>
+	</data>
+	<data name="TOTAL" xml:space="preserve">
+		<value>TOTAL</value>
+	</data>
+	<data name="TRY AGAIN" xml:space="preserve">
+		<value>COBA LAGI</value>
+	</data>
+	<data name="TRY HARVESTER FOR FREE!" xml:space="preserve">
+		<value>TRY HARVESTER FOR FREE!</value>
+	</data>
+	<data name="TRY TANKOMINATOR FOR FREE!" xml:space="preserve">
+		<value>TRY TANKOMINATOR FOR FREE!</value>
+	</data>
+	<data name="TURBO" xml:space="preserve">
+		<value>TURBO</value>
+	</data>
+	<data name="TURTLE" xml:space="preserve">
+		<value>PENYU</value>
+	</data>
+	<data name="TUTORIAL" xml:space="preserve">
+		<value>TUTORIAL</value>
+	</data>
+	<data name="UNEQUIP" xml:space="preserve">
+		<value>LEPAS</value>
+	</data>
+	<data name="UNLIMITED" xml:space="preserve">
+		<value>TAK TERBATAS</value>
+	</data>
+	<data name="UNLOCK" xml:space="preserve">
+		<value>membuka kunci</value>
+	</data>
+	<data name="UNLOCKED" xml:space="preserve">
+		<value>tidak terkunci</value>
+	</data>
+	<data name="UPGRADE" xml:space="preserve">
+		<value>PENINGKATAN</value>
+	</data>
+	<data name="UPGRADE YOUR CAR NOW TO BEAT DIFFICULT LEVELS" xml:space="preserve">
+		<value>TINGKATKAN MOBILMU SEKARANG UNTUK MENAKLUKKAN LEVEL SULIT.</value>
+	</data>
+	<data name="UPGRADES" xml:space="preserve">
+		<value>PENINGKATAN</value>
+	</data>
+	<data name="USE" xml:space="preserve">
+		<value>PAKAI</value>
+	</data>
+	<data name="USE BOMBS TO DESTROY ENEMIES" xml:space="preserve">
+		<value>GUNAKAN BOM UNTUK MENGHANCURKAN MUSUH.</value>
+	</data>
+	<data name="USE BOOSTERS TO MAKE THE LEVEL EASIER" xml:space="preserve">
+		<value>GUNAKAN PENINGKAT UNTUK MEMPERMUDAH LEVEL.</value>
+	</data>
+	<data name="VALENTINE'S RUSH" xml:space="preserve">
+		<value>RUSH VALENTINE</value>
+	</data>
+	<data name="VIDEO" xml:space="preserve">
+		<value>VIDEO</value>
+	</data>
+	<data name="VIDEO FAILED" xml:space="preserve">
+		<value>VIDEO FAILED</value>
+	</data>
+	<data name="WARNING" xml:space="preserve">
+		<value>PERINGATAN</value>
+	</data>
+	<data name="We care about your privacy and data security. We keep this app free by showing ads." xml:space="preserve">
+		<value>We care about your privacy and data security. We keep this app free by showing ads.</value>
+	</data>
+	<data name="WHEEL OF FORTUNE" xml:space="preserve">
+		<value>RODA KEBERUNTUNGAN</value>
+	</data>
+	<data name="WHEELS" xml:space="preserve">
+		<value>RODA</value>
+	</data>
+	<data name="Wick" xml:space="preserve">
+		<value>Sumbu</value>
+	</data>
+	<data name="WIN BOSS 1 TO UNLOCK" xml:space="preserve">
+		<value>WIN BOSS 1 UNTUK MEMBUKA</value>
+	</data>
+	<data name="WIN BOSS 2 TO UNLOCK" xml:space="preserve">
+		<value>WIN BOSS 2 UNTUK MEMBUKA</value>
+	</data>
+	<data name="WIN KEYS TO UNLOCK BERSERKER" xml:space="preserve">
+		<value>WIN KUNCI KE UNLOCK BERSERKER</value>
+	</data>
+	<data name="WIN YOUR TANKOMINATOR ON ARENA" xml:space="preserve">
+		<value>MENDAPATKAN TANKMINATOR ANDA DI STADIUM</value>
+	</data>
+	<data name="WOULD YOU LIKE TO RATE THE GAME?" xml:space="preserve">
+		<value>KAMU INGIN MEMBERI NILAI GAME?</value>
+	</data>
+	<data name="WOW!" xml:space="preserve">
+		<value>WOW!</value>
+	</data>
+	<data name="YES" xml:space="preserve">
+		<value>YA</value>
+	</data>
+	<data name="Yes, continue to see relevant ads" xml:space="preserve">
+		<value>Yes, continue to see relevant ads</value>
+	</data>
+	<data name="YES/NO" xml:space="preserve">
+		<value>YA/TIDAK</value>
+	</data>
+	<data name="YOU ARE FIRED!!!" xml:space="preserve">
+		<value>ANDA DIPECAT!!!</value>
+	</data>
+	<data name="YOU ARE GOING TO JAIL!" xml:space="preserve">
+		<value>ANDA AKAN DIPENJARA!</value>
+	</data>
+	<data name="YOU ARE OLD AND RUSTY!" xml:space="preserve">
+		<value>ANDA SUDAH TUA DAN BERKARAT!</value>
+	</data>
+	<data name="YOU ARE OLD, RUSTY AND EVIL!" xml:space="preserve">
+		<value>ANDA SUDAH TUA, BERKARAT DAN LIAR!</value>
+	</data>
+	<data name="YOU BEAT YOUR FRIEND" xml:space="preserve">
+		<value>KAMU MENGALAHKAN TEMAN</value>
+	</data>
+	<data name="You can change your choice anytime for CAR EATS CAR 3 in the app settings. Our partners will collect data and use a unique identifier on your device to show you ads. " xml:space="preserve">
+		<value>You can change your choice anytime for CAR EATS CAR 3 in the app settings. Our partners will collect data and use a unique identifier on your device to show you ads. </value>
+	</data>
+	<data name="YOU CANT FIGHT" xml:space="preserve">
+		<value>ANDA TIDAK BISA BERJUANG</value>
+	</data>
+	<data name="YOU DEFEATED" xml:space="preserve">
+		<value>Anda menang</value>
+	</data>
+	<data name="YOU FOUND ARMOR" xml:space="preserve">
+		<value>YOU PICKED UP ARMOR</value>
+	</data>
+	<data name="YOU FOUND BOMB" xml:space="preserve">
+		<value>YOU PICKED UP BOMB</value>
+	</data>
+	<data name="YOU FOUND TURBO" xml:space="preserve">
+		<value>YOU PICKED UP TURBO</value>
+	</data>
+	<data name="YOU FREED" xml:space="preserve">
+		<value>ANDA DIBEBASKAN</value>
+	</data>
+	<data name="You gadget is successfully crafter. Let's use it!" xml:space="preserve">
+		<value>Gadgetmu berhasil dibuat. Ayo, gunakan!</value>
+	</data>
+	<data name="YOU HAVE COLLECTED SOME BOXES. TRY YOUR LUCK AND WIN FREE BONUSES!" xml:space="preserve">
+		<value>KAMU TELAH MENGUMPULKAN BEBERAPA KOTAK. UJI KEBERUNTUNGANMU DAN MENANGI BONUS GRATIS!</value>
+	</data>
+	<data name="YOU NEED" xml:space="preserve">
+		<value>DIBUTUHKAN</value>
+	</data>
+	<data name="YOU ROCK!" xml:space="preserve">
+		<value>LUAR BIASA!</value>
+	</data>
+	<data name="YOU WILL LOSE YOUR CURRENT GAME PROGRESS!" xml:space="preserve">
+		<value>PROGRES GAME-MU SAAT INI AKAN HILANG!</value>
+	</data>
+	<data name="YOUR BOOSTS" xml:space="preserve">
+		<value>PENDAPATAN ANDA</value>
+	</data>
+	<data name="Your daily bonus is ready. Get it!" xml:space="preserve">
+		<value>Bonus harian Anda sudah siap. Dapatkannya!</value>
+	</data>
+	<data name="Your gas has refilled in Car Eats Car. Let's go race!" xml:space="preserve">
+		<value>Gas Anda telah diisi ulang di Car Eats Car. Berangkat yuk!</value>
+	</data>
+	<data name="YOUR PREVIOUSLY PURCHASD PRODUCTS HAVE BEEN RESTORED" xml:space="preserve">
+		<value>PRODUK YANG DIBELI SEBELUMNYA TELAH DIPULIHKAN.</value>
+	</data>
+	<data name="YOUR RATING HELPS US PROVIDE UPDATES FOR THE GAME" xml:space="preserve">
+		<value>PENILAIANMU MEMBANTU KITA MEMPERBARUI GAME INI</value>
+	</data>
+	<data name="YOU'VE PLAYED CAR EATS CAR BEFORE!" xml:space="preserve">
+		<value>KAMU SDH PERNAH MAIN CAR EATS CAR!</value>
+	</data>
+	<data name="YUM-YUM!" xml:space="preserve">
+		<value>YUM-YUM!</value>
+	</data>
+</root>

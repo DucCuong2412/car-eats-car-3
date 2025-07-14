@@ -1,0 +1,1087 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791802360899688059}
+  m_IsPrefabParent: 1
+--- !u!4 &1791802360950019708
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791802360899688059}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791802360899688059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791802360950019708}
+  - component: {fileID: 1791802362795513469}
+  m_Layer: 0
+  m_Name: "World_3_ParallaxSpriteCollection"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791802362795513469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791802360899688059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "bg1_tania_world3_city_0008"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.5, y: 0.5, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.5, y: 0.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.25, y: -0.25, z: 0}
+    - {x: 0.25, y: -0.25, z: 0}
+    - {x: -0.25, y: 0.25, z: 0}
+    - {x: 0.25, y: 0.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2236338, y: 0.7207041}
+    - {x: 0.27246, y: 0.7207041}
+    - {x: 0.2236338, y: 0.7695303}
+    - {x: 0.27246, y: 0.7695303}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "d95be5102bf4b4a4d9dad0abf17fe80a"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0026"
+    boundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.54, y: 2.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.54, y: 2.29, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.27, y: -1.15, z: 0}
+    - {x: 0.27, y: -1.15, z: 0}
+    - {x: -0.27, y: 1.14, z: 0}
+    - {x: 0.27, y: 1.14, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2226572, y: 0.4101572}
+    - {x: 0.2226572, y: 0.4628896}
+    - {x: 0.4462881, y: 0.4101572}
+    - {x: 0.4462881, y: 0.4628896}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "a0a172110e76adc47aaa51f45deb60f8"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0012"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.96, y: 1.7, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.96, y: 1.7, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.98, y: -0.85, z: 0}
+    - {x: 0.98, y: -0.85, z: 0}
+    - {x: -0.98, y: 0.85, z: 0}
+    - {x: 0.98, y: 0.85, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.8183603}
+    - {x: 0.1933584, y: 0.8183603}
+    - {x: 0.001954101, y: 0.984374}
+    - {x: 0.1933584, y: 0.984374}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "52e6ca71fd916704f812e41520c4120c"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0033"
+    boundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.46, y: 0.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.46, y: 0.25, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.23, y: -0.13, z: 0}
+    - {x: 0.23, y: -0.13, z: 0}
+    - {x: -0.23, y: 0.12, z: 0}
+    - {x: 0.23, y: 0.12, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3320322, y: 0.9589853}
+    - {x: 0.3769521, y: 0.9589853}
+    - {x: 0.3320322, y: 0.9833975}
+    - {x: 0.3769521, y: 0.9833975}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "8ea0dbd1b615b10429f7337b1130c8ea"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0029"
+    boundsData:
+    - {x: -0.009999998, y: 0.015, z: 0}
+    - {x: 0.4, y: 0.43, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.43, y: 0.46, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.21, y: -0.2, z: 0}
+    - {x: 0.19, y: -0.2, z: 0}
+    - {x: -0.21, y: 0.23, z: 0}
+    - {x: 0.19, y: 0.23, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1972666, y: 0.9589853}
+    - {x: 0.1972666, y: 0.9980459}
+    - {x: 0.2392568, y: 0.9589853}
+    - {x: 0.2392568, y: 0.9980459}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "1bb7bbe1a5665ae4ea56c7d6bf4ef5bf"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0002"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.65, y: 0.45, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.65, y: 0.45, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.82, y: -0.23, z: 0}
+    - {x: 0.83, y: -0.23, z: 0}
+    - {x: -0.82, y: 0.22, z: 0}
+    - {x: 0.83, y: 0.22, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.5234385}
+    - {x: 0.163085, y: 0.5234385}
+    - {x: 0.001954101, y: 0.5673819}
+    - {x: 0.163085, y: 0.5673819}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "5336f943fe82ac449adaaa4a8638409b"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0007"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1, y: 1, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1, y: 1, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.5, y: -0.5, z: 0}
+    - {x: 0.5, y: -0.5, z: 0}
+    - {x: -0.5, y: 0.5, z: 0}
+    - {x: 0.5, y: 0.5, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1972666, y: 0.8164072}
+    - {x: 0.2949209, y: 0.8164072}
+    - {x: 0.1972666, y: 0.9140615}
+    - {x: 0.2949209, y: 0.9140615}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "5ef560346a4f9c64ab4930d89afd6b2f"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0031"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.64, y: 0.3, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.64, y: 0.3, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.32, y: -0.15, z: 0}
+    - {x: 0.32, y: -0.15, z: 0}
+    - {x: -0.32, y: 0.15, z: 0}
+    - {x: 0.32, y: 0.15, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.961915, y: 0.5126963}
+    - {x: 0.961915, y: 0.5751944}
+    - {x: 0.99121, y: 0.5126963}
+    - {x: 0.99121, y: 0.5751944}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "658a2f84c44dee745ac8957d21eeb43d"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0028"
+    boundsData:
+    - {x: 0.00500001, y: 0, z: 0}
+    - {x: 0.41, y: 0.4, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.00500001, y: 0, z: 0}
+    - {x: 0.41, y: 0.4, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.2, y: -0.2, z: 0}
+    - {x: 0.21, y: -0.2, z: 0}
+    - {x: -0.2, y: 0.2, z: 0}
+    - {x: 0.21, y: 0.2, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.243165, y: 0.9589853}
+    - {x: 0.2832021, y: 0.9589853}
+    - {x: 0.243165, y: 0.9980459}
+    - {x: 0.2832021, y: 0.9980459}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "45660fb4c1e39d94cb029e7bee494496"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0001"
+    boundsData:
+    - {x: 0, y: -0.00999999, z: 0}
+    - {x: 8.22, y: 4.14, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 8.22, y: 4.16, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -4.11, y: -2.08, z: 0}
+    - {x: 4.11, y: -2.08, z: 0}
+    - {x: -4.11, y: 2.06, z: 0}
+    - {x: 4.11, y: 2.06, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.001954101}
+    - {x: 0.8046865, y: 0.001954101}
+    - {x: 0.001954101, y: 0.406249}
+    - {x: 0.8046865, y: 0.406249}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "f4c994151a7dffc41a0969a1bf0432f8"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0027"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.46, y: 0.54, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.46, y: 0.54, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.23, y: -0.27, z: 0}
+    - {x: 0.23, y: -0.27, z: 0}
+    - {x: -0.23, y: 0.27, z: 0}
+    - {x: 0.23, y: 0.27, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2636729, y: 0.5791025}
+    - {x: 0.3085928, y: 0.5791025}
+    - {x: 0.2636729, y: 0.631835}
+    - {x: 0.3085928, y: 0.631835}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "8f0f2085f9255ec42be389ee69164918"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0021"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.74, y: 0.94, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.74, y: 0.94, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.37, y: -0.47, z: 0}
+    - {x: 0.37, y: -0.47, z: 0}
+    - {x: -0.37, y: 0.47, z: 0}
+    - {x: 0.37, y: 0.47, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1474619, y: 0.7207041}
+    - {x: 0.2197256, y: 0.7207041}
+    - {x: 0.1474619, y: 0.812499}
+    - {x: 0.2197256, y: 0.812499}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "c9849e06cb83cfa4a9d08a47ce8c5a35"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0030"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.38, y: 0.42, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.38, y: 0.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.19, y: -0.21, z: 0}
+    - {x: 0.19, y: -0.21, z: 0}
+    - {x: -0.19, y: 0.21, z: 0}
+    - {x: 0.19, y: 0.21, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2871104, y: 0.9589853}
+    - {x: 0.2871104, y: 0.9960928}
+    - {x: 0.328124, y: 0.9589853}
+    - {x: 0.328124, y: 0.9960928}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "9146feb8d39e89d4bbd6e60c5f2dc81e"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0014"
+    boundsData:
+    - {x: 0.004999995, y: 0.01999998, z: 0}
+    - {x: 1.53, y: 2.46, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.53, y: 2.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.76, y: -1.21, z: 0}
+    - {x: 0.77, y: -1.21, z: 0}
+    - {x: -0.76, y: 1.25, z: 0}
+    - {x: 0.77, y: 1.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8085947, y: 0.2792979}
+    - {x: 0.9580069, y: 0.2792979}
+    - {x: 0.8085947, y: 0.5195303}
+    - {x: 0.9580069, y: 0.5195303}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "9d24fc89732422542a211486ec2d857d"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0005"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.59, y: 0.38, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.59, y: 0.38, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.79, y: -0.19, z: 0}
+    - {x: 0.8, y: -0.19, z: 0}
+    - {x: -0.79, y: 0.19, z: 0}
+    - {x: 0.8, y: 0.19, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1972666, y: 0.9179697}
+    - {x: 0.3525381, y: 0.9179697}
+    - {x: 0.1972666, y: 0.9550772}
+    - {x: 0.3525381, y: 0.9550772}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "259743b9672bc2349be4bf38f099bce3"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0003"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.22, y: 0.28, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.22, y: 0.28, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.61, y: -0.14, z: 0}
+    - {x: 0.61, y: -0.14, z: 0}
+    - {x: -0.61, y: 0.14, z: 0}
+    - {x: 0.61, y: 0.14, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.961915, y: 0.2792979}
+    - {x: 0.961915, y: 0.3984365}
+    - {x: 0.9892569, y: 0.2792979}
+    - {x: 0.9892569, y: 0.3984365}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "1964422ac903681488b60af95a2bb1af"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0006"
+    boundsData:
+    - {x: 0.005000055, y: 0, z: 0}
+    - {x: 1.09, y: 0.2, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.005000055, y: 0, z: 0}
+    - {x: 1.09, y: 0.2, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.54, y: -0.09999999, z: 0}
+    - {x: 0.5500001, y: -0.09999999, z: 0}
+    - {x: -0.54, y: 0.09999999, z: 0}
+    - {x: 0.5500001, y: 0.09999999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.961915, y: 0.4023447}
+    - {x: 0.961915, y: 0.5087881}
+    - {x: 0.9814444, y: 0.4023447}
+    - {x: 0.9814444, y: 0.5087881}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "ff1b1f4a367e3a34cb086f848ca30448"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0034"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.7, y: 0.38, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.7, y: 0.38, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.85, y: -0.19, z: 0}
+    - {x: 0.85, y: -0.19, z: 0}
+    - {x: -0.85, y: 0.19, z: 0}
+    - {x: 0.85, y: 0.19, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2226572, y: 0.4667979}
+    - {x: 0.3886709, y: 0.4667979}
+    - {x: 0.2226572, y: 0.5039053}
+    - {x: 0.3886709, y: 0.5039053}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "d8ef067b7e7bf1c4096bc73747ddc043"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0032"
+    boundsData:
+    - {x: 0.00500001, y: 0, z: 0}
+    - {x: 0.37, y: 0.24, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.00500001, y: 0, z: 0}
+    - {x: 0.37, y: 0.24, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.18, y: -0.12, z: 0}
+    - {x: 0.19, y: -0.12, z: 0}
+    - {x: -0.18, y: 0.12, z: 0}
+    - {x: 0.19, y: 0.12, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2236338, y: 0.7734385}
+    - {x: 0.2236338, y: 0.8095694}
+    - {x: 0.2470693, y: 0.7734385}
+    - {x: 0.2470693, y: 0.8095694}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "e8cac09b9d900894ca14bf7dba45c550"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0010"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.89, y: 2.22, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.89, y: 2.22, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.44, y: -1.11, z: 0}
+    - {x: 0.45, y: -1.11, z: 0}
+    - {x: -0.44, y: 1.11, z: 0}
+    - {x: 0.45, y: 1.11, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.4101572}
+    - {x: 0.001954101, y: 0.4970693}
+    - {x: 0.218749, y: 0.4101572}
+    - {x: 0.218749, y: 0.4970693}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "5c99a95d82f9658479cd35f5709a4f49"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0011"
+    boundsData:
+    - {x: -0.01499999, y: 0.00999999, z: 0}
+    - {x: 1.87, y: 2.8, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.91, y: 2.83, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.95, y: -1.39, z: 0}
+    - {x: 0.92, y: -1.39, z: 0}
+    - {x: -0.95, y: 1.41, z: 0}
+    - {x: 0.92, y: 1.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8085947, y: 0.001954101}
+    - {x: 0.99121, y: 0.001954101}
+    - {x: 0.8085947, y: 0.2753896}
+    - {x: 0.99121, y: 0.2753896}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "d063cdad367767040ba3244bd6608d01"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0013"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.45, y: 2.41, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.45, y: 2.41, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.72, y: -1.21, z: 0}
+    - {x: 0.73, y: -1.21, z: 0}
+    - {x: -0.72, y: 1.2, z: 0}
+    - {x: 0.73, y: 1.2, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.5791025}
+    - {x: 0.1435537, y: 0.5791025}
+    - {x: 0.001954101, y: 0.8144522}
+    - {x: 0.1435537, y: 0.8144522}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "5f4025bda5cd4a04395019ff506e6705"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0004"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.67, y: 0.42, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.67, y: 0.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.83, y: -0.21, z: 0}
+    - {x: 0.84, y: -0.21, z: 0}
+    - {x: -0.83, y: 0.21, z: 0}
+    - {x: 0.84, y: 0.21, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1669932, y: 0.5234385}
+    - {x: 0.3300771, y: 0.5234385}
+    - {x: 0.1669932, y: 0.5644522}
+    - {x: 0.3300771, y: 0.5644522}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "0cfb178e219668047b6f54721eca8430"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "bg1_tania_world3_city_0009"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.49, y: 1.15, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.49, y: 1.15, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.74, y: -0.58, z: 0}
+    - {x: 0.75, y: -0.58, z: 0}
+    - {x: -0.74, y: 0.57, z: 0}
+    - {x: 0.75, y: 0.57, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1474619, y: 0.57129}
+    - {x: 0.1474619, y: 0.7167959}
+    - {x: 0.2597646, y: 0.57129}
+    - {x: 0.2597646, y: 0.7167959}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+    materialId: 0
+    sourceTextureGUID: "88f68f2f7b520c04db9d872fed7eea90"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: b8ef6e1a9c7a4dba90189a6769fff3f9, type: 2}
+  textures:
+  - {fileID: 2800000, guid: a09acc7dedd242b7947c491c8e12c23c, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "42d35259e8b9bd54583953bc00961088"
+  spriteCollectionName: "World_3_ParallaxSpriteCollection"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 50
+  buildKey: 1099330712
+  dataGuid: "3d6fcf690cb2fa54e9d989a6f6148039"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

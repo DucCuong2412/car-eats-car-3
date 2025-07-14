@@ -1,0 +1,5245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791802360899688059}
+  m_IsPrefabParent: 1
+--- !u!4 &1791802360950019708
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791802360899688059}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791802360899688059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791802360950019708}
+  - component: {fileID: 1791802362795513469}
+  m_Layer: 0
+  m_Name: "world_5_objects"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791802362795513469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791802360899688059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "obj_igor_cave_tramplin_stone_003"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 2.85, y: 1.42, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 2.87, y: 1.44, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.42, y: -0.71, z: 0}
+    - {x: 1.43, y: -0.71, z: 0}
+    - {x: -1.42, y: 0.71, z: 0}
+    - {x: 1.43, y: 0.71, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1499028, y: 0.4626467}
+    - {x: 0.1499028, y: 0.5322263}
+    - {x: 0.2192378, y: 0.4626467}
+    - {x: 0.2192378, y: 0.5322263}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "5e8d8d6e6ad46c94ca66c8ca3246f3a7"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_platform_cave_012_15"
+    boundsData:
+    - {x: 0.00999999, y: 0, z: 0}
+    - {x: 1.92, y: 0.8, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.93, y: 0.82, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.95, y: -0.4, z: 0}
+    - {x: 0.97, y: -0.4, z: 0}
+    - {x: -0.95, y: 0.4, z: 0}
+    - {x: 0.97, y: 0.4, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6801763, y: 0.4294436}
+    - {x: 0.6801763, y: 0.4763181}
+    - {x: 0.7192378, y: 0.4294436}
+    - {x: 0.7192378, y: 0.4763181}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "d5c3a9d720776414f948e2a987caf9b4"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_platform_cave_007_30"
+    boundsData:
+    - {x: -1.490116E-08, y: -1.490116E-08, z: 0}
+    - {x: 0.74, y: 0.6799999, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.76, y: 0.7, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.37, y: -0.34, z: 0}
+    - {x: 0.37, y: -0.34, z: 0}
+    - {x: -0.37, y: 0.34, z: 0}
+    - {x: 0.37, y: 0.34, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7739263, y: 0.4619143}
+    - {x: 0.7739263, y: 0.4799802}
+    - {x: 0.8071284, y: 0.4619143}
+    - {x: 0.8071284, y: 0.4799802}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "a8f01d3ad9ec46f4ebd9de8999b96c4b"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_platform_cave_002"
+    boundsData:
+    - {x: -2.980232E-08, y: -1.490116E-08, z: 0}
+    - {x: 1.86, y: 0.66, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.88, y: 0.68, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.93, y: -0.33, z: 0}
+    - {x: 0.9299999, y: -0.33, z: 0}
+    - {x: -0.93, y: 0.33, z: 0}
+    - {x: 0.9299999, y: 0.33, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.07910205, y: 0.5187991}
+    - {x: 0.07910205, y: 0.5642087}
+    - {x: 0.1113276, y: 0.5187991}
+    - {x: 0.1113276, y: 0.5642087}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "0d98d908da40f6b4cb2455997b092399"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_platform_cave_001"
+    boundsData:
+    - {x: 0, y: -1.490116E-08, z: 0}
+    - {x: 1.62, y: 0.66, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.64, y: 0.68, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.81, y: -0.33, z: 0}
+    - {x: 0.81, y: -0.33, z: 0}
+    - {x: -0.81, y: 0.33, z: 0}
+    - {x: 0.81, y: 0.33, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7846684, y: 0.3542483}
+    - {x: 0.7846684, y: 0.3937986}
+    - {x: 0.8168941, y: 0.3542483}
+    - {x: 0.8168941, y: 0.3937986}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "d2dcebb6717bc244ebbe2c66337c22ba"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_stone_05"
+    boundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 1.3, y: 0.75, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 1.32, y: 0.77, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.65, y: -0.38, z: 0}
+    - {x: 0.65, y: -0.38, z: 0}
+    - {x: -0.65, y: 0.37, z: 0}
+    - {x: 0.65, y: 0.37, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8745122, y: 0.3637698}
+    - {x: 0.8745122, y: 0.3955076}
+    - {x: 0.9111323, y: 0.3637698}
+    - {x: 0.9111323, y: 0.3955076}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "d0c37f4c2c77c9547b56f273ca671282"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_stone_03"
+    boundsData:
+    - {x: -2.980232E-08, y: -1.490116E-08, z: 0}
+    - {x: 1.04, y: 0.8199999, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.06, y: 0.84, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.52, y: -0.41, z: 0}
+    - {x: 0.5199999, y: -0.41, z: 0}
+    - {x: -0.52, y: 0.41, z: 0}
+    - {x: 0.5199999, y: 0.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4321294, y: 0.4865725}
+    - {x: 0.4829097, y: 0.4865725}
+    - {x: 0.4321294, y: 0.5065916}
+    - {x: 0.4829097, y: 0.5065916}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "a2fd0469e459c034a81c1df3ef9e1bb3"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_tramplin_stone_002"
+    boundsData:
+    - {x: 5.960464E-08, y: -2.980232E-08, z: 0}
+    - {x: 2.88, y: 1.28, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.9, y: 1.3, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.44, y: -0.64, z: 0}
+    - {x: 1.44, y: -0.64, z: 0}
+    - {x: -1.44, y: 0.6399999, z: 0}
+    - {x: 1.44, y: 0.6399999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.5415041}
+    - {x: 0.0009770507, y: 0.6118162}
+    - {x: 0.06347607, y: 0.5415041}
+    - {x: 0.06347607, y: 0.6118162}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "7ce137ac2e9a99647ac372aeb2b2bc98"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_stone_08"
+    boundsData:
+    - {x: -1.490116E-08, y: -1.490116E-08, z: 0}
+    - {x: 0.8199999, y: 0.66, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.84, y: 0.68, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.41, y: -0.33, z: 0}
+    - {x: 0.41, y: -0.33, z: 0}
+    - {x: -0.41, y: 0.33, z: 0}
+    - {x: 0.41, y: 0.33, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7211919, y: 0.4294436}
+    - {x: 0.7211919, y: 0.4494627}
+    - {x: 0.7534175, y: 0.4294436}
+    - {x: 0.7534175, y: 0.4494627}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "14fb8a6a9ceab8e4195626f7160ff14c"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_stone_04"
+    boundsData:
+    - {x: 0.004999995, y: -1.490116E-08, z: 0}
+    - {x: 0.95, y: 1, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.97, y: 1.02, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.47, y: -0.5, z: 0}
+    - {x: 0.48, y: -0.5, z: 0}
+    - {x: -0.47, y: 0.5, z: 0}
+    - {x: 0.48, y: 0.5, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3930669, y: 0.4414065}
+    - {x: 0.3930669, y: 0.4645994}
+    - {x: 0.4418941, y: 0.4414065}
+    - {x: 0.4418941, y: 0.4645994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "ce6b670a3e99d024781317c28b00d6c5"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_stone_06"
+    boundsData:
+    - {x: -2.980232E-08, y: 0, z: 0}
+    - {x: 1.06, y: 0.84, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.08, y: 0.86, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.53, y: -0.42, z: 0}
+    - {x: 0.5299999, y: -0.42, z: 0}
+    - {x: -0.53, y: 0.42, z: 0}
+    - {x: 0.5299999, y: 0.42, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3784184, y: 0.4655764}
+    - {x: 0.4301753, y: 0.4655764}
+    - {x: 0.3784184, y: 0.4860837}
+    - {x: 0.4301753, y: 0.4860837}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "b0f6b092a36ef2c4ab8571da6e93a1d7"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_stone_02"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.89, y: 0.83, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.91, y: 0.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.44, y: -0.42, z: 0}
+    - {x: 0.45, y: -0.42, z: 0}
+    - {x: -0.44, y: 0.41, z: 0}
+    - {x: 0.45, y: 0.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6503911, y: 0.5187991}
+    - {x: 0.6938472, y: 0.5187991}
+    - {x: 0.6503911, y: 0.5390623}
+    - {x: 0.6938472, y: 0.5390623}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "b63e18f3ee51b5248a57255dbf37541d"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_stone_01"
+    boundsData:
+    - {x: 0.005000025, y: 0, z: 0}
+    - {x: 0.91, y: 0.84, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.005000025, y: 0, z: 0}
+    - {x: 0.93, y: 0.86, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.45, y: -0.42, z: 0}
+    - {x: 0.46, y: -0.42, z: 0}
+    - {x: -0.45, y: 0.42, z: 0}
+    - {x: 0.46, y: 0.42, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5537114, y: 0.5185549}
+    - {x: 0.5981441, y: 0.5185549}
+    - {x: 0.5537114, y: 0.5390623}
+    - {x: 0.5981441, y: 0.5390623}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "a16a38dfb641a2b418b78ff507b45cde"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_platform_cave_004"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.55, y: 0.64, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.57, y: 0.66, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.27, y: -0.32, z: 0}
+    - {x: 0.28, y: -0.32, z: 0}
+    - {x: -0.27, y: 0.32, z: 0}
+    - {x: 0.28, y: 0.32, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8652349, y: 0.5500491}
+    - {x: 0.8920894, y: 0.5500491}
+    - {x: 0.8652349, y: 0.5656736}
+    - {x: 0.8920894, y: 0.5656736}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "161b4e4bd673d2544a7ab5e27be9e7aa"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_stone_07"
+    boundsData:
+    - {x: -1.490116E-08, y: -0.00500001, z: 0}
+    - {x: 1, y: 0.85, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 1.02, y: 0.87, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.5, y: -0.43, z: 0}
+    - {x: 0.5, y: -0.43, z: 0}
+    - {x: -0.5, y: 0.42, z: 0}
+    - {x: 0.5, y: 0.42, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.36377, y: 0.4870608}
+    - {x: 0.4125972, y: 0.4870608}
+    - {x: 0.36377, y: 0.5078123}
+    - {x: 0.4125972, y: 0.5078123}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "5ecd2494131cec14dbad32046fcef56d"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_platform_cave_010_45"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999999, z: 0}
+    - {x: 0.89, y: 0.19, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.91, y: 0.22, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.44, y: -0.1, z: 0}
+    - {x: 0.45, y: -0.1, z: 0}
+    - {x: -0.44, y: 0.09, z: 0}
+    - {x: 0.45, y: 0.09, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5307622, y: 0.2863772}
+    - {x: 0.5307622, y: 0.3081052}
+    - {x: 0.5400386, y: 0.2863772}
+    - {x: 0.5400386, y: 0.3081052}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "4f46af2c72458c647bfdd8f124f3d79b"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_platform_cave_003"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.5, y: 0.64, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.52, y: 0.66, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.25, y: -0.32, z: 0}
+    - {x: 0.25, y: -0.32, z: 0}
+    - {x: -0.25, y: 0.32, z: 0}
+    - {x: 0.25, y: 0.32, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.973145, y: 0.5036623}
+    - {x: 0.9975581, y: 0.5036623}
+    - {x: 0.973145, y: 0.5192869}
+    - {x: 0.9975581, y: 0.5192869}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "c235c556fad6fa34ea84ffd90c9831c4"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_platform_cave_013_15"
+    boundsData:
+    - {x: 0, y: -1.490116E-08, z: 0}
+    - {x: 0.78, y: 0.66, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.8, y: 0.68, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.39, y: -0.33, z: 0}
+    - {x: 0.39, y: -0.33, z: 0}
+    - {x: -0.39, y: 0.33, z: 0}
+    - {x: 0.39, y: 0.33, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7211919, y: 0.4504397}
+    - {x: 0.7211919, y: 0.4694822}
+    - {x: 0.7534175, y: 0.4504397}
+    - {x: 0.7534175, y: 0.4694822}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "b91c10e7e5f586c4b9646d7cf08fc65a"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_platform_cave_005_30"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.16, y: 0.36, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.18, y: 0.38, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.08, y: -0.18, z: 0}
+    - {x: 1.08, y: -0.18, z: 0}
+    - {x: -1.08, y: 0.18, z: 0}
+    - {x: 1.08, y: 0.18, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9814458, y: 0.3688967}
+    - {x: 0.9814458, y: 0.4216306}
+    - {x: 0.999023, y: 0.3688967}
+    - {x: 0.999023, y: 0.4216306}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "fabc89085ca243c4aa2833d4215e58df"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_platform_cave_006_30"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.66, y: 0.78, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.68, y: 0.8, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.83, y: -0.39, z: 0}
+    - {x: 0.83, y: -0.39, z: 0}
+    - {x: -0.83, y: 0.39, z: 0}
+    - {x: 0.83, y: 0.39, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6752934, y: 0.4772952}
+    - {x: 0.6752934, y: 0.517822}
+    - {x: 0.7133784, y: 0.4772952}
+    - {x: 0.7133784, y: 0.517822}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "e8a394214a617de41880d85d098244f4"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_platform_cave_009_45"
+    boundsData:
+    - {x: 0, y: -0.00500001, z: 0}
+    - {x: 1.5, y: 0.85, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 1.52, y: 0.87, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.75, y: -0.43, z: 0}
+    - {x: 0.75, y: -0.43, z: 0}
+    - {x: -0.75, y: 0.42, z: 0}
+    - {x: 0.75, y: 0.42, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8979497, y: 0.5024416}
+    - {x: 0.9711909, y: 0.5024416}
+    - {x: 0.8979497, y: 0.5231931}
+    - {x: 0.9711909, y: 0.5231931}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "8d929bf960158e04682069bcbeafaa1f"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_platform_cave_008_45"
+    boundsData:
+    - {x: 0, y: -3.72529E-09, z: 0}
+    - {x: 2.16, y: 0.22, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.18, y: 0.24, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.08, y: -0.11, z: 0}
+    - {x: 1.08, y: -0.11, z: 0}
+    - {x: -1.08, y: 0.11, z: 0}
+    - {x: 1.08, y: 0.11, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1474614, y: 0.3498538}
+    - {x: 0.1474614, y: 0.4025877}
+    - {x: 0.1582026, y: 0.3498538}
+    - {x: 0.1582026, y: 0.4025877}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "4dc690afa094ef04e8633ff105af99be"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_platform_cave_011_15"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.38, y: 0.54, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.4, y: 0.56, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.19, y: -0.27, z: 0}
+    - {x: 1.19, y: -0.27, z: 0}
+    - {x: -1.19, y: 0.27, z: 0}
+    - {x: 1.19, y: 0.27, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1147466, y: 0.4826663}
+    - {x: 0.1147466, y: 0.5407712}
+    - {x: 0.1411128, y: 0.4826663}
+    - {x: 0.1411128, y: 0.5407712}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "68a7bdadbd790e64386cd7ee483a7955"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_tramplin_stone_001"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.64, y: 1.26, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.66, y: 1.28, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.32, y: -0.63, z: 0}
+    - {x: 1.32, y: -0.63, z: 0}
+    - {x: -1.32, y: 0.63, z: 0}
+    - {x: 1.32, y: 0.63, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1601567, y: 0.397217}
+    - {x: 0.1601567, y: 0.4616697}
+    - {x: 0.2216792, y: 0.397217}
+    - {x: 0.2216792, y: 0.4616697}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "6b56e8862024c4b49a72bd64e3bff0e1"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_trap1_03"
+    boundsData:
+    - {x: 7.450581E-09, y: -0.005000025, z: 0}
+    - {x: 0.48, y: 1.85, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.5, y: 1.89, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.24, y: -0.93, z: 0}
+    - {x: 0.24, y: -0.93, z: 0}
+    - {x: -0.24, y: 0.92, z: 0}
+    - {x: 0.24, y: 0.92, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8745122, y: 0.3964846}
+    - {x: 0.8979487, y: 0.3964846}
+    - {x: 0.8745122, y: 0.4416502}
+    - {x: 0.8979487, y: 0.4416502}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "b93ae40df8129f0489dfe021480e6b42"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_trap1_01"
+    boundsData:
+    - {x: 0.01000002, y: -0.004999995, z: 0}
+    - {x: 1.76, y: 0.33, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.79, y: 0.35, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.87, y: -0.17, z: 0}
+    - {x: 0.89, y: -0.17, z: 0}
+    - {x: -0.87, y: 0.16, z: 0}
+    - {x: 0.89, y: 0.16, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7563481, y: 0.3967288}
+    - {x: 0.7563481, y: 0.439697}
+    - {x: 0.7724605, y: 0.3967288}
+    - {x: 0.7724605, y: 0.439697}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "bb5c2a314577bd0409e03bb06af8e68e"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_trap1_02"
+    boundsData:
+    - {x: 0, y: 0.004999995, z: 0}
+    - {x: 2.38, y: 2.35, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.4, y: 2.36, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.19, y: -1.17, z: 0}
+    - {x: 1.19, y: -1.17, z: 0}
+    - {x: -1.19, y: 1.18, z: 0}
+    - {x: 1.19, y: 1.18, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2236333, y: 0.3969729}
+    - {x: 0.3398433, y: 0.3969729}
+    - {x: 0.2236333, y: 0.4543455}
+    - {x: 0.3398433, y: 0.4543455}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "a830f2e13187b1d4989230fb64698774"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_trap2_07"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.96, y: 0.96, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.98, y: 0.98, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.48, y: -0.48, z: 0}
+    - {x: 0.48, y: -0.48, z: 0}
+    - {x: -0.48, y: 0.48, z: 0}
+    - {x: 0.48, y: 0.48, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4438481, y: 0.4621584}
+    - {x: 0.4907222, y: 0.4621584}
+    - {x: 0.4438481, y: 0.4855955}
+    - {x: 0.4907222, y: 0.4855955}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "55f91caa7003232418954953b8fb6675"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_trap2_03"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.23, y: 0.5, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.25, y: 0.52, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.61, y: -0.25, z: 0}
+    - {x: 0.62, y: -0.25, z: 0}
+    - {x: -0.61, y: 0.25, z: 0}
+    - {x: 0.62, y: 0.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8725591, y: 0.4426272}
+    - {x: 0.8725591, y: 0.472656}
+    - {x: 0.8969722, y: 0.4426272}
+    - {x: 0.8969722, y: 0.472656}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "f32bec154ca8f5744be89910aa6a2705"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_trap2_02"
+    boundsData:
+    - {x: -1.490116E-08, y: -3.72529E-09, z: 0}
+    - {x: 0.88, y: 0.24, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.9, y: 0.26, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.44, y: -0.12, z: 0}
+    - {x: 0.44, y: -0.12, z: 0}
+    - {x: -0.44, y: 0.12, z: 0}
+    - {x: 0.44, y: 0.12, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.06543018, y: 0.5415041}
+    - {x: 0.06543018, y: 0.562988}
+    - {x: 0.07714795, y: 0.5415041}
+    - {x: 0.07714795, y: 0.562988}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "21a87c37276b9654099284938db033a7"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_trap2_04"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.38, y: 1.22, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.4, y: 1.24, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.69, y: -0.61, z: 0}
+    - {x: 0.69, y: -0.61, z: 0}
+    - {x: -0.69, y: 0.61, z: 0}
+    - {x: 0.69, y: 0.61, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5556645, y: 0.4450686}
+    - {x: 0.6230464, y: 0.4450686}
+    - {x: 0.5556645, y: 0.4748533}
+    - {x: 0.6230464, y: 0.4748533}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "4c25fd0da3b0cf64a8e3cb0042104891"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_trap2_05"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.86, y: 1.34, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.88, y: 1.36, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.43, y: -0.67, z: 0}
+    - {x: 0.43, y: -0.67, z: 0}
+    - {x: -0.43, y: 0.67, z: 0}
+    - {x: 0.43, y: 0.67, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8964849, y: 0.5241702}
+    - {x: 0.8964849, y: 0.5451658}
+    - {x: 0.9619136, y: 0.5241702}
+    - {x: 0.9619136, y: 0.5451658}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "d7fec6c719825cb469ec8d77edf22c9c"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_trap2_06"
+    boundsData:
+    - {x: 0.00999999, y: -0.004999995, z: 0}
+    - {x: 1.08, y: 1.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.11, y: 1.27, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.53, y: -0.63, z: 0}
+    - {x: 0.55, y: -0.63, z: 0}
+    - {x: -0.53, y: 0.62, z: 0}
+    - {x: 0.55, y: 0.62, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8090825, y: 0.4709475}
+    - {x: 0.8090825, y: 0.4973142}
+    - {x: 0.8701167, y: 0.4709475}
+    - {x: 0.8701167, y: 0.4973142}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "28a351c966b29444da1357ec9ae8e83b"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_trap2_01"
+    boundsData:
+    - {x: 0.004999965, y: -0.004999995, z: 0}
+    - {x: 1.01, y: 0.45, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.03, y: 0.47, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.5, y: -0.23, z: 0}
+    - {x: 0.5099999, y: -0.23, z: 0}
+    - {x: -0.5, y: 0.22, z: 0}
+    - {x: 0.5099999, y: 0.22, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7446294, y: 0.47876}
+    - {x: 0.7446294, y: 0.5034177}
+    - {x: 0.7666011, y: 0.47876}
+    - {x: 0.7666011, y: 0.5034177}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "f2192fbaf177c6d4fb178b98fe7b1fc3"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_olya_cave_trap3_01"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.75, y: 1.7, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.75, y: 1.7, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.87, y: -0.85, z: 0}
+    - {x: 0.88, y: -0.85, z: 0}
+    - {x: -0.87, y: 0.85, z: 0}
+    - {x: 0.88, y: 0.85, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6972661, y: 0.3542483}
+    - {x: 0.7827144, y: 0.3542483}
+    - {x: 0.6972661, y: 0.3957517}
+    - {x: 0.7827144, y: 0.3957517}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "f80bd68daf130474e835729cd8883ace"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_olya_cave_trap3_02"
+    boundsData:
+    - {x: 0.005000003, y: -0.005000025, z: 0}
+    - {x: 0.11, y: 0.73, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.005000003, y: -0.005000025, z: 0}
+    - {x: 0.11, y: 0.73, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.05, y: -0.37, z: 0}
+    - {x: 0.06, y: -0.37, z: 0}
+    - {x: -0.05, y: 0.36, z: 0}
+    - {x: 0.06, y: 0.36, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9907231, y: 0.1816409}
+    - {x: 0.9960933, y: 0.1816409}
+    - {x: 0.9907231, y: 0.1994627}
+    - {x: 0.9960933, y: 0.1994627}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "9924da38f15feed4a9d3e1e84c5c274c"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_obj_geysir"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 2.51, y: 0.65, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 2.51, y: 0.65, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.25, y: -0.33, z: 0}
+    - {x: 1.26, y: -0.33, z: 0}
+    - {x: -1.25, y: 0.32, z: 0}
+    - {x: 1.26, y: 0.32, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1162114, y: 0.4204104}
+    - {x: 0.1162114, y: 0.4816892}
+    - {x: 0.1479487, y: 0.4204104}
+    - {x: 0.1479487, y: 0.4816892}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "1015069d8e9eb854e995360db9d43f7f"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "spiderweb_3"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 8.8, y: 7.38, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 8.8, y: 7.38, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -4.4, y: -3.69, z: 0}
+    - {x: 4.4, y: -3.69, z: 0}
+    - {x: -4.4, y: 3.69, z: 0}
+    - {x: 4.4, y: 3.69, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5664067, y: 0.0004885254}
+    - {x: 0.9960933, y: 0.0004885254}
+    - {x: 0.5664067, y: 0.1806638}
+    - {x: 0.9960933, y: 0.1806638}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "43928a5850bc215469fe67d97c8b83bb"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "spiderweb_5"
+    boundsData:
+    - {x: 0, y: -0.005000114, z: 0}
+    - {x: 2.74, y: 4.09, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.005000114, z: 0}
+    - {x: 2.74, y: 4.09, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.37, y: -2.05, z: 0}
+    - {x: 1.37, y: -2.05, z: 0}
+    - {x: -1.37, y: 2.04, z: 0}
+    - {x: 1.37, y: 2.04, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4067388, y: 0.1855471}
+    - {x: 0.5405269, y: 0.1855471}
+    - {x: 0.4067388, y: 0.2854002}
+    - {x: 0.5405269, y: 0.2854002}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "8995f27aebe056145bee9e0f281af901"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "spiderweb_4"
+    boundsData:
+    - {x: 0.005000114, y: -0.005000114, z: 0}
+    - {x: 5.65, y: 8.65, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.005000114, y: -0.005000114, z: 0}
+    - {x: 5.65, y: 8.65, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -2.82, y: -4.33, z: 0}
+    - {x: 2.83, y: -4.33, z: 0}
+    - {x: -2.82, y: 4.32, z: 0}
+    - {x: 2.83, y: 4.32, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5664067, y: 0.1816409}
+    - {x: 0.5664067, y: 0.3195798}
+    - {x: 0.9887691, y: 0.1816409}
+    - {x: 0.9887691, y: 0.3195798}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "8299377c6eb893241be0fe9740806472"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "spiderweb_1"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 7.54, y: 11.54, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 7.54, y: 11.54, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.77, y: -5.77, z: 0}
+    - {x: 3.77, y: -5.77, z: 0}
+    - {x: -3.77, y: 5.77, z: 0}
+    - {x: 3.77, y: 5.77, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.0004885254}
+    - {x: 0.0009770507, y: 0.1845701}
+    - {x: 0.5644526, y: 0.0004885254}
+    - {x: 0.5644526, y: 0.1845701}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "2adb18562e34e944bb7170ea56d4708e"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "dcr_igor_cave_mushroom_03"
+    boundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.14, y: 0.43, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.16, y: 0.45, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.07, y: -0.22, z: 0}
+    - {x: 0.07, y: -0.22, z: 0}
+    - {x: -0.07, y: 0.21, z: 0}
+    - {x: 0.07, y: 0.21, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9907231, y: 0.2004397}
+    - {x: 0.9975581, y: 0.2004397}
+    - {x: 0.9907231, y: 0.2109373}
+    - {x: 0.9975581, y: 0.2109373}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "915f8882516b31748ba8a028f7f0c311"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "dcr_igor_cave_mushroom_02"
+    boundsData:
+    - {x: -1.862645E-09, y: 0, z: 0}
+    - {x: 0.12, y: 0.34, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.14, y: 0.36, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.06, y: -0.17, z: 0}
+    - {x: 0.05999999, y: -0.17, z: 0}
+    - {x: -0.06, y: 0.17, z: 0}
+    - {x: 0.05999999, y: 0.17, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9907231, y: 0.2397463}
+    - {x: 0.9965816, y: 0.2397463}
+    - {x: 0.9907231, y: 0.2480466}
+    - {x: 0.9965816, y: 0.2480466}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "8fb787107065fe8488bebc67f2cb562d"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "dcr_igor_cave_ground_txtr_03"
+    boundsData:
+    - {x: -2.980232E-08, y: -0.004999965, z: 0}
+    - {x: 1.24, y: 1.67, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 1.26, y: 1.69, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.62, y: -0.84, z: 0}
+    - {x: 0.6199999, y: -0.84, z: 0}
+    - {x: -0.62, y: 0.83, z: 0}
+    - {x: 0.6199999, y: 0.83, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8100591, y: 0.4291995}
+    - {x: 0.870605, y: 0.4291995}
+    - {x: 0.8100591, y: 0.4699705}
+    - {x: 0.870605, y: 0.4699705}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "ba5459015fa5ca749b1d74976a4636d1"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "dcr_igor_cave_mushroom_04"
+    boundsData:
+    - {x: 0.005000018, y: 0, z: 0}
+    - {x: 0.39, y: 0.34, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.00500001, y: 0, z: 0}
+    - {x: 0.41, y: 0.36, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.19, y: -0.17, z: 0}
+    - {x: 0.2, y: -0.17, z: 0}
+    - {x: -0.19, y: 0.17, z: 0}
+    - {x: 0.2, y: 0.17, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3398442, y: 0.4956057}
+    - {x: 0.3588862, y: 0.4956057}
+    - {x: 0.3398442, y: 0.503906}
+    - {x: 0.3588862, y: 0.503906}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "2eff79671e090144aa20cd50d12736df"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "dcr_igor_cave_mushroom_06"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.15, y: 1.13, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.17, y: 1.15, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.57, y: -0.57, z: 0}
+    - {x: 0.58, y: -0.57, z: 0}
+    - {x: -0.57, y: 0.56, z: 0}
+    - {x: 0.58, y: 0.56, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8081059, y: 0.4982913}
+    - {x: 0.8642573, y: 0.4982913}
+    - {x: 0.8081059, y: 0.5258787}
+    - {x: 0.8642573, y: 0.5258787}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "26025b19a4cc7cc47a25724788f7c05f"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "dcr_igor_cave_mushroom_08"
+    boundsData:
+    - {x: 0.004999965, y: -0.004999995, z: 0}
+    - {x: 1.83, y: 1.73, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.85, y: 1.75, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.91, y: -0.87, z: 0}
+    - {x: 0.9199999, y: -0.87, z: 0}
+    - {x: -0.91, y: 0.86, z: 0}
+    - {x: 0.9199999, y: 0.86, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8222661, y: 0.3205569}
+    - {x: 0.9116206, y: 0.3205569}
+    - {x: 0.8222661, y: 0.3627927}
+    - {x: 0.9116206, y: 0.3627927}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "9cbc9869cc4944f458e9fc5dded309e1"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "dcr_igor_cave_mushroom_01"
+    boundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.14, y: 0.33, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.16, y: 0.35, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.07, y: -0.17, z: 0}
+    - {x: 0.07, y: -0.17, z: 0}
+    - {x: -0.07, y: 0.16, z: 0}
+    - {x: 0.07, y: 0.16, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9907231, y: 0.2233889}
+    - {x: 0.9975581, y: 0.2233889}
+    - {x: 0.9907231, y: 0.2314451}
+    - {x: 0.9975581, y: 0.2314451}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "58ca2cd509699b9468fbf4c0a5b2fc51"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "igor_cave_stalactite_03"
+    boundsData:
+    - {x: -0.01000001, y: 0.02, z: 0}
+    - {x: 0.98, y: 0.78, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.01, y: 0.82, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.5, y: -0.37, z: 0}
+    - {x: 0.48, y: -0.37, z: 0}
+    - {x: -0.5, y: 0.41, z: 0}
+    - {x: 0.48, y: 0.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6005864, y: 0.513428}
+    - {x: 0.648437, y: 0.513428}
+    - {x: 0.6005864, y: 0.5324705}
+    - {x: 0.648437, y: 0.5324705}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "bd4bbd5d26c42d54b81ca135e7c6d984"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "dcr_igor_cave_crystal_04"
+    boundsData:
+    - {x: -5.960464E-08, y: -0.009999961, z: 0}
+    - {x: 2.32, y: 1.98, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 2.34, y: 2.01, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.16, y: -1, z: 0}
+    - {x: 1.16, y: -1, z: 0}
+    - {x: -1.16, y: 0.9800001, z: 0}
+    - {x: 1.16, y: 0.9800001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.4204104}
+    - {x: 0.1142573, y: 0.4204104}
+    - {x: 0.0009770507, y: 0.4687498}
+    - {x: 0.1142573, y: 0.4687498}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "22f0224dbdc1e00488b77b1c8549352f"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "dcr_igor_cave_crystal_01"
+    boundsData:
+    - {x: -2.980232E-08, y: -0.005000025, z: 0}
+    - {x: 1.28, y: 1.47, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.3, y: 1.48, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.64, y: -0.74, z: 0}
+    - {x: 0.6399999, y: -0.74, z: 0}
+    - {x: -0.64, y: 0.73, z: 0}
+    - {x: 0.6399999, y: 0.73, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5581059, y: 0.3796389}
+    - {x: 0.5581059, y: 0.4108884}
+    - {x: 0.6298823, y: 0.3796389}
+    - {x: 0.6298823, y: 0.4108884}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "3bda76134081033408893cb746de6056"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "dcr_igor_cave_crystal_02"
+    boundsData:
+    - {x: 0.00999999, y: 0, z: 0}
+    - {x: 2.08, y: 2.34, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 2.09, y: 2.36, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.03, y: -1.17, z: 0}
+    - {x: 1.05, y: -1.17, z: 0}
+    - {x: -1.03, y: 1.17, z: 0}
+    - {x: 1.05, y: 1.17, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2236333, y: 0.4553225}
+    - {x: 0.2236333, y: 0.5061033}
+    - {x: 0.3378901, y: 0.4553225}
+    - {x: 0.3378901, y: 0.5061033}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "714b278964d2f924b99a6bfc261dd929"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "dcr_igor_cave_ground_txtr_02"
+    boundsData:
+    - {x: -2.980232E-08, y: 0, z: 0}
+    - {x: 1.06, y: 1.48, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.08, y: 1.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.53, y: -0.74, z: 0}
+    - {x: 0.5299999, y: -0.74, z: 0}
+    - {x: -0.53, y: 0.74, z: 0}
+    - {x: 0.5299999, y: 0.74, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6264653, y: 0.4211428}
+    - {x: 0.6782222, y: 0.4211428}
+    - {x: 0.6264653, y: 0.4572752}
+    - {x: 0.6782222, y: 0.4572752}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "622badea6f5ea5f4dba7099d34f48c8a"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "dcr_igor_cave_crystal_03"
+    boundsData:
+    - {x: 0.004999995, y: -0.005000055, z: 0}
+    - {x: 2.53, y: 2.31, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 2.55, y: 2.32, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.26, y: -1.16, z: 0}
+    - {x: 1.27, y: -1.16, z: 0}
+    - {x: -1.26, y: 1.15, z: 0}
+    - {x: 1.27, y: 1.15, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.39502, y: 0.3840334}
+    - {x: 0.5185542, y: 0.3840334}
+    - {x: 0.39502, y: 0.4404294}
+    - {x: 0.5185542, y: 0.4404294}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "1b007e8076a3789468c49723b114b592"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "dcr_igor_cave_mushroom_05"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.81, y: 1.03, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.83, y: 1.05, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.4, y: -0.52, z: 0}
+    - {x: 0.41, y: -0.52, z: 0}
+    - {x: -0.4, y: 0.51, z: 0}
+    - {x: 0.41, y: 0.51, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5122075, y: 0.4948733}
+    - {x: 0.5517573, y: 0.4948733}
+    - {x: 0.5122075, y: 0.5200193}
+    - {x: 0.5517573, y: 0.5200193}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "2d471c21bf84e6440b4fd9a7b4b1154e"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "igor_cave_godray_02"
+    boundsData:
+    - {x: 0.005000003, y: -0.004999876, z: 0}
+    - {x: 0.43, y: 4.75, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999876, z: 0}
+    - {x: 0.44, y: 4.75, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.21, y: -2.38, z: 0}
+    - {x: 0.22, y: -2.38, z: 0}
+    - {x: -0.21, y: 2.37, z: 0}
+    - {x: 0.22, y: 2.37, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5424809, y: 0.1855471}
+    - {x: 0.5634761, y: 0.1855471}
+    - {x: 0.5424809, y: 0.3015134}
+    - {x: 0.5634761, y: 0.3015134}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "4d7d23a9af7524b4daabfacee42170dd"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "igor_cave_godray_01"
+    boundsData:
+    - {x: 0.01499999, y: 0, z: 0}
+    - {x: 1.25, y: 4.62, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.27, y: 4.62, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.61, y: -2.31, z: 0}
+    - {x: 0.64, y: -2.31, z: 0}
+    - {x: -0.61, y: 2.31, z: 0}
+    - {x: 0.64, y: 2.31, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.160645, y: 0.2834475}
+    - {x: 0.2216792, y: 0.2834475}
+    - {x: 0.160645, y: 0.39624}
+    - {x: 0.2216792, y: 0.39624}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "3196c6fe90a6c9b4dadd1f1b7e50c886"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "dcr_igor_cave_road_03"
+    boundsData:
+    - {x: -0.02, y: 0.015, z: 0}
+    - {x: 0.58, y: 0.79, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.62, y: 0.83, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.31, y: -0.38, z: 0}
+    - {x: 0.27, y: -0.38, z: 0}
+    - {x: -0.31, y: 0.41, z: 0}
+    - {x: 0.27, y: 0.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8662114, y: 0.5112307}
+    - {x: 0.8945308, y: 0.5112307}
+    - {x: 0.8662114, y: 0.5305173}
+    - {x: 0.8945308, y: 0.5305173}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "8a83fbfb0f6935c47a290c1cd5d182ed"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_stone_011"
+    boundsData:
+    - {x: 7.450581E-09, y: 0, z: 0}
+    - {x: 0.46, y: 0.28, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.48, y: 0.3, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.23, y: -0.14, z: 0}
+    - {x: 0.23, y: -0.14, z: 0}
+    - {x: -0.23, y: 0.14, z: 0}
+    - {x: 0.23, y: 0.14, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4145513, y: 0.4870608}
+    - {x: 0.4145513, y: 0.4982908}
+    - {x: 0.4282222, y: 0.4870608}
+    - {x: 0.4282222, y: 0.4982908}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "93ae0d47ef469654da857071a91a82db"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "igor_cave_stalactite_02"
+    boundsData:
+    - {x: -0.02000001, y: 0.01000001, z: 0}
+    - {x: 0.84, y: 0.92, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.88, y: 0.95, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.44, y: -0.45, z: 0}
+    - {x: 0.4, y: -0.45, z: 0}
+    - {x: -0.44, y: 0.47, z: 0}
+    - {x: 0.4, y: 0.47, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5537114, y: 0.4970706}
+    - {x: 0.5537114, y: 0.5175779}
+    - {x: 0.5986323, y: 0.4970706}
+    - {x: 0.5986323, y: 0.5175779}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "2cb267252eca3a14ca1b40050c51ed0d"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_stone_012"
+    boundsData:
+    - {x: 0.00500001, y: -3.72529E-09, z: 0}
+    - {x: 0.29, y: 0.18, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.00500001, y: 0, z: 0}
+    - {x: 0.31, y: 0.2, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.14, y: -0.09, z: 0}
+    - {x: 0.15, y: -0.09, z: 0}
+    - {x: -0.14, y: 0.08999999, z: 0}
+    - {x: 0.15, y: 0.08999999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5307622, y: 0.3090823}
+    - {x: 0.5307622, y: 0.3161619}
+    - {x: 0.5395503, y: 0.3090823}
+    - {x: 0.5395503, y: 0.3161619}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "a637832cca161184d806cba3c84e52be"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "igor_cave_stalactite_05"
+    boundsData:
+    - {x: -0.00999999, y: 0.02000001, z: 0}
+    - {x: 1.36, y: 2, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.39, y: 2.04, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.69, y: -0.98, z: 0}
+    - {x: 0.67, y: -0.98, z: 0}
+    - {x: -0.69, y: 1.02, z: 0}
+    - {x: 0.67, y: 1.02, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9130864, y: 0.3688967}
+    - {x: 0.9794917, y: 0.3688967}
+    - {x: 0.9130864, y: 0.4177244}
+    - {x: 0.9794917, y: 0.4177244}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "f96f74c74bb703b43b3d294638ea9c32"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "dcr_igor_cave_mushroom_07"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.53, y: 1.63, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.55, y: 1.65, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.76, y: -0.82, z: 0}
+    - {x: 0.77, y: -0.82, z: 0}
+    - {x: -0.76, y: 0.81, z: 0}
+    - {x: 0.77, y: 0.81, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8989263, y: 0.4616702}
+    - {x: 0.9736323, y: 0.4616702}
+    - {x: 0.8989263, y: 0.5014646}
+    - {x: 0.9736323, y: 0.5014646}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "aa51f45e4f4344644832a297149f6e19"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "igor_cave_stalactite_04"
+    boundsData:
+    - {x: -0.01999998, y: 0.01999998, z: 0}
+    - {x: 1.1, y: 2.64, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.14, y: 2.68, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.57, y: -1.3, z: 0}
+    - {x: 0.53, y: -1.3, z: 0}
+    - {x: -0.57, y: 1.34, z: 0}
+    - {x: 0.53, y: 1.34, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8188481, y: 0.3637698}
+    - {x: 0.8725581, y: 0.3637698}
+    - {x: 0.8188481, y: 0.4282224}
+    - {x: 0.8725581, y: 0.4282224}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "918966b06b8be9340aad54362b316d5e"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_stone_013"
+    boundsData:
+    - {x: 7.450581E-09, y: -0.004999995, z: 0}
+    - {x: 0.26, y: 0.17, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.28, y: 0.19, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.13, y: -0.09, z: 0}
+    - {x: 0.13, y: -0.09, z: 0}
+    - {x: -0.13, y: 0.08000001, z: 0}
+    - {x: 0.13, y: 0.08000001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9907231, y: 0.2324221}
+    - {x: 0.9907231, y: 0.2387693}
+    - {x: 0.999023, y: 0.2324221}
+    - {x: 0.999023, y: 0.2387693}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "7e205aa36da07384a952f991528d257a"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "igor_cave_stalactite_01"
+    boundsData:
+    - {x: -0.01499999, y: 0.02000001, z: 0}
+    - {x: 0.99, y: 1.42, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.03, y: 1.46, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.51, y: -0.6899999, z: 0}
+    - {x: 0.48, y: -0.6899999, z: 0}
+    - {x: -0.51, y: 0.73, z: 0}
+    - {x: 0.48, y: 0.73, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6250005, y: 0.4582522}
+    - {x: 0.6733394, y: 0.4582522}
+    - {x: 0.6250005, y: 0.4929197}
+    - {x: 0.6733394, y: 0.4929197}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "63e218561b298a2429b950cde1966d0a"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_stone_09"
+    boundsData:
+    - {x: -1.490116E-08, y: -0.004999995, z: 0}
+    - {x: 0.6799999, y: 0.37, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.7, y: 0.39, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.34, y: -0.19, z: 0}
+    - {x: 0.34, y: -0.19, z: 0}
+    - {x: -0.34, y: 0.18, z: 0}
+    - {x: 0.34, y: 0.18, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7446294, y: 0.5249026}
+    - {x: 0.7446294, y: 0.5415037}
+    - {x: 0.7626948, y: 0.5249026}
+    - {x: 0.7626948, y: 0.5415037}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "dd0f48f990c5a964995265c7cf4461ac"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "igor_cave_stalactite_06"
+    boundsData:
+    - {x: -0.009999931, y: 0.02000001, z: 0}
+    - {x: 1.32, y: 1.36, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.005000055, y: 0, z: 0}
+    - {x: 1.35, y: 1.4, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.67, y: -0.66, z: 0}
+    - {x: 0.6500001, y: -0.66, z: 0}
+    - {x: -0.67, y: 0.7, z: 0}
+    - {x: 0.6500001, y: 0.7, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5581059, y: 0.4118655}
+    - {x: 0.5581059, y: 0.4440916}
+    - {x: 0.6245112, y: 0.4118655}
+    - {x: 0.6245112, y: 0.4440916}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "cd67d1b17c2824843a813790578cf7bf"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_igor_cave_stone_010"
+    boundsData:
+    - {x: 0.00500001, y: 0, z: 0}
+    - {x: 0.45, y: 0.32, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.00500001, y: 0, z: 0}
+    - {x: 0.47, y: 0.34, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.22, y: -0.16, z: 0}
+    - {x: 0.23, y: -0.16, z: 0}
+    - {x: -0.22, y: 0.16, z: 0}
+    - {x: 0.23, y: 0.16, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3398442, y: 0.4868166}
+    - {x: 0.3618159, y: 0.4868166}
+    - {x: 0.3398442, y: 0.4946287}
+    - {x: 0.3618159, y: 0.4946287}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "6506c91b66bba7d489430d4e76a3ad24"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "dcr_igor_cave_road_02"
+    boundsData:
+    - {x: -0.02, y: 0.015, z: 0}
+    - {x: 0.5599999, y: 0.75, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.6, y: 0.79, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.3, y: -0.36, z: 0}
+    - {x: 0.26, y: -0.36, z: 0}
+    - {x: -0.3, y: 0.39, z: 0}
+    - {x: 0.26, y: 0.39, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7153325, y: 0.4968264}
+    - {x: 0.7426753, y: 0.4968264}
+    - {x: 0.7153325, y: 0.5151365}
+    - {x: 0.7426753, y: 0.5151365}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "295cd1b7989f04042a17d6ebd5ffa29c"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_bones_001"
+    boundsData:
+    - {x: 7.450581E-09, y: 0, z: 0}
+    - {x: 0.42, y: 0.8, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.44, y: 0.82, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.21, y: -0.4, z: 0}
+    - {x: 0.21, y: -0.4, z: 0}
+    - {x: -0.21, y: 0.4, z: 0}
+    - {x: 0.21, y: 0.4, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7446294, y: 0.5043948}
+    - {x: 0.7651362, y: 0.5043948}
+    - {x: 0.7446294, y: 0.5239255}
+    - {x: 0.7651362, y: 0.5239255}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "9adc39558df54ba4983e53996da96106"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_spiderWeb_001"
+    boundsData:
+    - {x: 7.450581E-09, y: 2.980232E-08, z: 0}
+    - {x: 0.48, y: 1.92, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.5, y: 1.94, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.24, y: -0.96, z: 0}
+    - {x: 0.24, y: -0.96, z: 0}
+    - {x: -0.24, y: 0.96, z: 0}
+    - {x: 0.24, y: 0.96, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7846684, y: 0.3947756}
+    - {x: 0.808105, y: 0.3947756}
+    - {x: 0.7846684, y: 0.4416502}
+    - {x: 0.808105, y: 0.4416502}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "91ad6d9c605381344978a62ddca7490f"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_spiderWeb_scrp_001"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.33, y: 0.58, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.35, y: 0.6, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.16, y: -0.29, z: 0}
+    - {x: 0.17, y: -0.29, z: 0}
+    - {x: -0.16, y: 0.29, z: 0}
+    - {x: 0.17, y: 0.29, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5024419, y: 0.4414065}
+    - {x: 0.5185542, y: 0.4414065}
+    - {x: 0.5024419, y: 0.4555662}
+    - {x: 0.5185542, y: 0.4555662}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "619e10f2d918ff0458620746f78d1458"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_bones_004_40"
+    boundsData:
+    - {x: 0, y: -3.72529E-09, z: 0}
+    - {x: 0.62, y: 0.24, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.64, y: 0.26, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.31, y: -0.12, z: 0}
+    - {x: 0.31, y: -0.12, z: 0}
+    - {x: -0.31, y: 0.12, z: 0}
+    - {x: 0.31, y: 0.12, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.06543018, y: 0.5639651}
+    - {x: 0.06543018, y: 0.5791013}
+    - {x: 0.07714795, y: 0.5639651}
+    - {x: 0.07714795, y: 0.5791013}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "ae7c8d3a5fccd1a4bae7acc40d7debee"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_spiderWeb_002"
+    boundsData:
+    - {x: 0.00499998, y: -0.005000025, z: 0}
+    - {x: 0.6899999, y: 1.97, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.71, y: 1.99, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.34, y: -0.99, z: 0}
+    - {x: 0.35, y: -0.99, z: 0}
+    - {x: -0.34, y: 0.98, z: 0}
+    - {x: 0.35, y: 0.98, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.07910205, y: 0.4697268}
+    - {x: 0.1127925, y: 0.4697268}
+    - {x: 0.07910205, y: 0.517822}
+    - {x: 0.1127925, y: 0.517822}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "ecb5bcd584f4192458186de55ea6f31e"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_bones_005"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.75, y: 0.5, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.77, y: 0.52, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.37, y: -0.25, z: 0}
+    - {x: 0.38, y: -0.25, z: 0}
+    - {x: -0.37, y: 0.25, z: 0}
+    - {x: 0.38, y: 0.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8720708, y: 0.4736331}
+    - {x: 0.8720708, y: 0.4919431}
+    - {x: 0.8964839, y: 0.4736331}
+    - {x: 0.8964839, y: 0.4919431}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "97df2f3c5f07ed94281056d7c458532e"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_stalactite_002"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.38, y: 2.72, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.4, y: 2.74, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.19, y: -1.36, z: 0}
+    - {x: 1.19, y: -1.36, z: 0}
+    - {x: -1.19, y: 1.36, z: 0}
+    - {x: 1.19, y: 1.36, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5625005, y: 0.3205569}
+    - {x: 0.5625005, y: 0.3786619}
+    - {x: 0.695312, y: 0.3205569}
+    - {x: 0.695312, y: 0.3786619}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "e651fdb8dbdc7df408471e8b914d9ab0"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_stalactite_001"
+    boundsData:
+    - {x: -2.980232E-08, y: 0, z: 0}
+    - {x: 1.72, y: 1.52, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.74, y: 1.54, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.86, y: -0.76, z: 0}
+    - {x: 0.86, y: -0.76, z: 0}
+    - {x: -0.86, y: 0.76, z: 0}
+    - {x: 0.86, y: 0.76, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8999028, y: 0.4187014}
+    - {x: 0.8999028, y: 0.4606931}
+    - {x: 0.9741206, y: 0.4187014}
+    - {x: 0.9741206, y: 0.4606931}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "328dbe4d32202e5479640d496e56e496"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_bones_003"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.72, y: 0.58, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.74, y: 0.6, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.36, y: -0.29, z: 0}
+    - {x: 0.36, y: -0.29, z: 0}
+    - {x: -0.36, y: 0.29, z: 0}
+    - {x: 0.36, y: 0.29, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8652349, y: 0.5314944}
+    - {x: 0.8652349, y: 0.549072}
+    - {x: 0.8935542, y: 0.5314944}
+    - {x: 0.8935542, y: 0.549072}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "7b1dcebe6fd64ec4eb5172b5d38ea9d8"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_bones_006"
+    boundsData:
+    - {x: 0, y: -0.005000025, z: 0}
+    - {x: 0.56, y: 0.65, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.005000025, z: 0}
+    - {x: 0.58, y: 0.67, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.28, y: -0.33, z: 0}
+    - {x: 0.28, y: -0.33, z: 0}
+    - {x: -0.28, y: 0.32, z: 0}
+    - {x: 0.28, y: 0.32, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7153325, y: 0.5161135}
+    - {x: 0.7426753, y: 0.5161135}
+    - {x: 0.7153325, y: 0.5319822}
+    - {x: 0.7426753, y: 0.5319822}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "cd785375b40e06a45a62ea0b4cc779c5"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_bones_007_35"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.43, y: 0.14, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.45, y: 0.16, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.21, y: -0.07, z: 0}
+    - {x: 0.22, y: -0.07, z: 0}
+    - {x: -0.21, y: 0.07, z: 0}
+    - {x: 0.22, y: 0.07, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9907231, y: 0.2119143}
+    - {x: 0.9907231, y: 0.2224119}
+    - {x: 0.9975581, y: 0.2119143}
+    - {x: 0.9975581, y: 0.2224119}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "38a750a511df4144c9f4a294541e7f45"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_cocon_scrp_002"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.67, y: 0.59, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.69, y: 0.61, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.33, y: -0.3, z: 0}
+    - {x: 0.34, y: -0.3, z: 0}
+    - {x: -0.33, y: 0.29, z: 0}
+    - {x: 0.34, y: 0.29, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5205083, y: 0.4506838}
+    - {x: 0.5532222, y: 0.4506838}
+    - {x: 0.5205083, y: 0.4650877}
+    - {x: 0.5532222, y: 0.4650877}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "d4bd2e786dcf4504192089eaa868d355"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_bones_002"
+    boundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 1.16, y: 0.81, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 1.18, y: 0.83, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.58, y: -0.41, z: 0}
+    - {x: 0.58, y: -0.41, z: 0}
+    - {x: -0.58, y: 0.4, z: 0}
+    - {x: 0.58, y: 0.4, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4438481, y: 0.4414065}
+    - {x: 0.5004878, y: 0.4414065}
+    - {x: 0.4438481, y: 0.4611814}
+    - {x: 0.5004878, y: 0.4611814}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "7792d9f6ae7b7924f93256fc5f112e55"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_stalactite_003"
+    boundsData:
+    - {x: 0, y: -0.00500001, z: 0}
+    - {x: 1.02, y: 0.8299999, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.04, y: 0.84, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.51, y: -0.42, z: 0}
+    - {x: 0.51, y: -0.42, z: 0}
+    - {x: -0.51, y: 0.41, z: 0}
+    - {x: 0.51, y: 0.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.554688, y: 0.4758303}
+    - {x: 0.6044917, y: 0.4758303}
+    - {x: 0.554688, y: 0.4960935}
+    - {x: 0.6044917, y: 0.4960935}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "265c0693fedf3a340ba34c9649172cca"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_cocon_001"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.38, y: 1.3, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.4, y: 1.32, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.69, y: -0.65, z: 0}
+    - {x: 0.69, y: -0.65, z: 0}
+    - {x: -0.69, y: 0.65, z: 0}
+    - {x: 0.69, y: 0.65, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6870122, y: 0.3967288}
+    - {x: 0.7543941, y: 0.3967288}
+    - {x: 0.6870122, y: 0.4284666}
+    - {x: 0.7543941, y: 0.4284666}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "bb07b609e122e6c4fbafa2a5f74f5af7"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_spiderWeb_004"
+    boundsData:
+    - {x: 7.450581E-09, y: 7.450581E-09, z: 0}
+    - {x: 0.44, y: 0.46, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.46, y: 0.48, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.22, y: -0.23, z: 0}
+    - {x: 0.22, y: -0.23, z: 0}
+    - {x: -0.22, y: 0.23, z: 0}
+    - {x: 0.22, y: 0.23, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4926763, y: 0.4709475}
+    - {x: 0.4926763, y: 0.4816892}
+    - {x: 0.5151362, y: 0.4709475}
+    - {x: 0.5151362, y: 0.4816892}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "8e0411d4bf713074b974a0edcd50522a"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_bones_008"
+    boundsData:
+    - {x: -2.980232E-08, y: 7.450581E-09, z: 0}
+    - {x: 1.04, y: 0.44, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.06, y: 0.46, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.52, y: -0.22, z: 0}
+    - {x: 0.5199999, y: -0.22, z: 0}
+    - {x: -0.52, y: 0.22, z: 0}
+    - {x: 0.5199999, y: 0.22, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7211919, y: 0.4704592}
+    - {x: 0.7211919, y: 0.4958494}
+    - {x: 0.7426753, y: 0.4704592}
+    - {x: 0.7426753, y: 0.4958494}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "33a568d4e21bfbc41982003c7ae7b1ce"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_spiderWeb_003"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.34, y: 1.52, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.36, y: 1.54, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.17, y: -0.76, z: 0}
+    - {x: 0.17, y: -0.76, z: 0}
+    - {x: -0.17, y: 0.76, z: 0}
+    - {x: 0.17, y: 0.76, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7553716, y: 0.4406741}
+    - {x: 0.7719722, y: 0.4406741}
+    - {x: 0.7553716, y: 0.477783}
+    - {x: 0.7719722, y: 0.477783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "3c67034513f150f4394ad0388c52a83c"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_cocon_002"
+    boundsData:
+    - {x: -1.490116E-08, y: -0.00500001, z: 0}
+    - {x: 0.74, y: 0.67, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.76, y: 0.68, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.37, y: -0.34, z: 0}
+    - {x: 0.37, y: -0.34, z: 0}
+    - {x: -0.37, y: 0.33, z: 0}
+    - {x: 0.37, y: 0.33, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9638677, y: 0.5400393}
+    - {x: 0.9638677, y: 0.5581052}
+    - {x: 0.9965816, y: 0.5400393}
+    - {x: 0.9965816, y: 0.5581052}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "f3a78c99223788343b884499c3a5a144"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_cocon_scrp_001"
+    boundsData:
+    - {x: 0.009999998, y: -0.00999999, z: 0}
+    - {x: 0.32, y: 0.52, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.33, y: 0.53, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.15, y: -0.27, z: 0}
+    - {x: 0.17, y: -0.27, z: 0}
+    - {x: -0.15, y: 0.25, z: 0}
+    - {x: 0.17, y: 0.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3398442, y: 0.4780276}
+    - {x: 0.3398442, y: 0.4858396}
+    - {x: 0.3652339, y: 0.4780276}
+    - {x: 0.3652339, y: 0.4858396}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "a6019cc172d4efc419a0abdeaecb3e2c"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_cocon_scrp_003"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.71, y: 0.49, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.73, y: 0.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.35, y: -0.25, z: 0}
+    - {x: 0.36, y: -0.25, z: 0}
+    - {x: -0.35, y: 0.24, z: 0}
+    - {x: 0.36, y: 0.24, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8720708, y: 0.4929202}
+    - {x: 0.8720708, y: 0.5102537}
+    - {x: 0.8959956, y: 0.4929202}
+    - {x: 0.8959956, y: 0.5102537}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "d7f55c2c4aebaa64ca37c47f029a9cff"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_stalactite_scrp_001"
+    boundsData:
+    - {x: -1.490116E-08, y: -0.004999995, z: 0}
+    - {x: 0.6799999, y: 0.89, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.7, y: 0.91, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.34, y: -0.45, z: 0}
+    - {x: 0.34, y: -0.45, z: 0}
+    - {x: -0.34, y: 0.44, z: 0}
+    - {x: 0.34, y: 0.44, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5205083, y: 0.4279788}
+    - {x: 0.5537105, y: 0.4279788}
+    - {x: 0.5205083, y: 0.4497068}
+    - {x: 0.5537105, y: 0.4497068}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "9dda10547c14ef846b19ff3dacd7929c"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_stalactite_scrp_002"
+    boundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.36, y: 0.53, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.38, y: 0.55, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.18, y: -0.27, z: 0}
+    - {x: 0.18, y: -0.27, z: 0}
+    - {x: -0.18, y: 0.26, z: 0}
+    - {x: 0.18, y: 0.26, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4926763, y: 0.4826663}
+    - {x: 0.5102534, y: 0.4826663}
+    - {x: 0.4926763, y: 0.4956052}
+    - {x: 0.5102534, y: 0.4956052}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "b1a0f364bfcc7314f8c35ba1bfcaca17"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_dcr_stalactite_scrp_003"
+    boundsData:
+    - {x: 0.01000001, y: -0.004999995, z: 0}
+    - {x: 0.76, y: 0.73, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.78, y: 0.75, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.37, y: -0.37, z: 0}
+    - {x: 0.39, y: -0.37, z: 0}
+    - {x: -0.37, y: 0.36, z: 0}
+    - {x: 0.39, y: 0.36, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5170903, y: 0.475342}
+    - {x: 0.5170903, y: 0.4938962}
+    - {x: 0.5527339, y: 0.475342}
+    - {x: 0.5527339, y: 0.4938962}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "a2c4236c0f3b26342841ab375d26f4a8"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_ground_top_002"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 3.45, y: 3.34, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 3.45, y: 3.34, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.72, y: -1.67, z: 0}
+    - {x: 1.73, y: -1.67, z: 0}
+    - {x: -1.72, y: 1.67, z: 0}
+    - {x: 1.73, y: 1.67, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2304692, y: 0.2666018}
+    - {x: 0.3989253, y: 0.2666018}
+    - {x: 0.2304692, y: 0.3481443}
+    - {x: 0.3989253, y: 0.3481443}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "df7ec76f216d3334085580dfbc9f23fc"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_ground_top_003"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 3.57, y: 3.28, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 3.57, y: 3.28, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.78, y: -1.64, z: 0}
+    - {x: 1.79, y: -1.64, z: 0}
+    - {x: -1.78, y: 1.64, z: 0}
+    - {x: 1.79, y: 1.64, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2304692, y: 0.1855471}
+    - {x: 0.4047847, y: 0.1855471}
+    - {x: 0.2304692, y: 0.2656248}
+    - {x: 0.4047847, y: 0.2656248}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "d4a4c32b72bf62f42b80a359427003ca"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_cave_olya_scrap_004"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.03, y: 0.26, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.03, y: 0.26, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.51, y: -0.13, z: 0}
+    - {x: 0.52, y: -0.13, z: 0}
+    - {x: -0.51, y: 0.13, z: 0}
+    - {x: 0.52, y: 0.13, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3784184, y: 0.3969729}
+    - {x: 0.3784184, y: 0.4221189}
+    - {x: 0.3911128, y: 0.3969729}
+    - {x: 0.3911128, y: 0.4221189}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "5a6302c1524530b45842ac00fc66ba4b"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_cave_olya_rib_001"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.71, y: 3.28, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.71, y: 3.28, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.35, y: -1.64, z: 0}
+    - {x: 0.36, y: -1.64, z: 0}
+    - {x: -0.35, y: 1.64, z: 0}
+    - {x: 0.36, y: 1.64, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3417974, y: 0.3969729}
+    - {x: 0.3764644, y: 0.3969729}
+    - {x: 0.3417974, y: 0.4770505}
+    - {x: 0.3764644, y: 0.4770505}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "fa9826657040a134bbff52c8cf6faaf0"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_cave_olya_rib_002"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.52, y: 2.86, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.52, y: 2.86, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.26, y: -1.43, z: 0}
+    - {x: 0.26, y: -1.43, z: 0}
+    - {x: -0.26, y: 1.43, z: 0}
+    - {x: 0.26, y: 1.43, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5307622, y: 0.357178}
+    - {x: 0.5561519, y: 0.357178}
+    - {x: 0.5307622, y: 0.4270017}
+    - {x: 0.5561519, y: 0.4270017}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "1138f67085967bc40b5348c4aca2f336"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_cave_olya_serpent_001"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.9, y: 1.56, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.9, y: 1.56, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.45, y: -0.78, z: 0}
+    - {x: 1.45, y: -0.78, z: 0}
+    - {x: -1.45, y: 0.78, z: 0}
+    - {x: 1.45, y: 0.78, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.4697268}
+    - {x: 0.0009770507, y: 0.5405271}
+    - {x: 0.07714795, y: 0.4697268}
+    - {x: 0.07714795, y: 0.5405271}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "41463c475c606a64f94767e21e971f0d"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_cave_olya_scrap_005"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.2, y: 0.38, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.2, y: 0.38, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.1, y: -0.19, z: 0}
+    - {x: 1.1, y: -0.19, z: 0}
+    - {x: -1.1, y: 0.19, z: 0}
+    - {x: 1.1, y: 0.19, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5419927, y: 0.3024905}
+    - {x: 0.5419927, y: 0.3562009}
+    - {x: 0.5605464, y: 0.3024905}
+    - {x: 0.5605464, y: 0.3562009}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "8f5c1e556fa610e43be996f4cb9ee8cd"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_cave_olya_scrap_002"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.58, y: 0.38, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.58, y: 0.38, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.79, y: -0.19, z: 0}
+    - {x: 0.79, y: -0.19, z: 0}
+    - {x: -0.79, y: 0.19, z: 0}
+    - {x: 0.79, y: 0.19, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9755864, y: 0.4641116}
+    - {x: 0.9755864, y: 0.5026853}
+    - {x: 0.9941401, y: 0.4641116}
+    - {x: 0.9941401, y: 0.5026853}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "9f03e4f0da7704b48b3c056a69208471"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_cave_olya_serpent_002"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.59, y: 1.94, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.59, y: 1.94, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.79, y: -0.97, z: 0}
+    - {x: 0.8, y: -0.97, z: 0}
+    - {x: -0.79, y: 0.97, z: 0}
+    - {x: 0.8, y: 0.97, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9135747, y: 0.3205569}
+    - {x: 0.9912105, y: 0.3205569}
+    - {x: 0.9135747, y: 0.3679197}
+    - {x: 0.9912105, y: 0.3679197}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "03c1c73b98430f04ca06f783ac0cdabc"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_cave_olya_scrap_001"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.34, y: 0.62, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.34, y: 0.62, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.17, y: -0.31, z: 0}
+    - {x: 0.17, y: -0.31, z: 0}
+    - {x: -0.17, y: 0.31, z: 0}
+    - {x: 0.17, y: 0.31, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5195317, y: 0.4660647}
+    - {x: 0.5195317, y: 0.474365}
+    - {x: 0.5498042, y: 0.4660647}
+    - {x: 0.5498042, y: 0.474365}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "704a6bf7b1bc6d742bfb3df132d13513"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_cave_olya_scrap_003"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.88, y: 0.26, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.88, y: 0.26, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.44, y: -0.13, z: 0}
+    - {x: 0.44, y: -0.13, z: 0}
+    - {x: -0.44, y: 0.13, z: 0}
+    - {x: 0.44, y: 0.13, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3784184, y: 0.4230959}
+    - {x: 0.3784184, y: 0.4445798}
+    - {x: 0.3911128, y: 0.4230959}
+    - {x: 0.3911128, y: 0.4445798}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "30268da26b2c6e14d8eac238ae3661bf"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_cave_olya_serpent_003"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.52, y: 1.34, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.52, y: 1.34, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.26, y: -0.67, z: 0}
+    - {x: 1.26, y: -0.67, z: 0}
+    - {x: -1.26, y: 0.67, z: 0}
+    - {x: 1.26, y: 0.67, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6972661, y: 0.3205569}
+    - {x: 0.820312, y: 0.3205569}
+    - {x: 0.6972661, y: 0.3532712}
+    - {x: 0.820312, y: 0.3532712}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "e1bf45733dbd6f247936adae0a0044c8"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_cave_olya_scrap_006"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.85, y: 0.85, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.85, y: 0.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.42, y: -0.43, z: 0}
+    - {x: 0.43, y: -0.43, z: 0}
+    - {x: -0.42, y: 0.42, z: 0}
+    - {x: 0.43, y: 0.42, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6958013, y: 0.5329592}
+    - {x: 0.7373042, y: 0.5329592}
+    - {x: 0.6958013, y: 0.5537107}
+    - {x: 0.7373042, y: 0.5537107}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "a1231bc5e0621ca4499bca98154a58e5"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "obj_cave_olya_scrap_007"
+    boundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.92, y: 1.15, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.92, y: 1.15, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.46, y: -0.58, z: 0}
+    - {x: 0.46, y: -0.58, z: 0}
+    - {x: -0.46, y: 0.57, z: 0}
+    - {x: 0.46, y: 0.57, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9506841, y: 0.5590823}
+    - {x: 0.995605, y: 0.5590823}
+    - {x: 0.9506841, y: 0.587158}
+    - {x: 0.995605, y: 0.587158}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "56d7183cfafc02f4da220af8682fedd9"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_spiderweb_scrp_02"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 2.85, y: 2.96, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 2.85, y: 2.96, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.42, y: -1.48, z: 0}
+    - {x: 1.43, y: -1.48, z: 0}
+    - {x: -1.42, y: 1.48, z: 0}
+    - {x: 1.43, y: 1.48, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.3498538}
+    - {x: 0.0009770507, y: 0.4194334}
+    - {x: 0.1455073, y: 0.3498538}
+    - {x: 0.1455073, y: 0.4194334}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "c48bf3867d7edce47997ea4da06c7be1"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_spiderweb_scrp_01"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 3.23, y: 2.68, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 3.23, y: 2.68, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.61, y: -1.34, z: 0}
+    - {x: 1.62, y: -1.34, z: 0}
+    - {x: -1.61, y: 1.34, z: 0}
+    - {x: 1.62, y: 1.34, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.2834475}
+    - {x: 0.1586909, y: 0.2834475}
+    - {x: 0.0009770507, y: 0.3488767}
+    - {x: 0.1586909, y: 0.3488767}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "280543fbfa38882419eecace8943c0f0"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "tania_spiderweb_scrp_03"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 3.47, y: 1.92, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 3.47, y: 1.92, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.73, y: -0.96, z: 0}
+    - {x: 1.74, y: -0.96, z: 0}
+    - {x: -1.73, y: 0.96, z: 0}
+    - {x: 1.74, y: 0.96, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2236333, y: 0.3491213}
+    - {x: 0.3930659, y: 0.3491213}
+    - {x: 0.2236333, y: 0.3959959}
+    - {x: 0.3930659, y: 0.3959959}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "b76b7b287c4051047bb4be052ecbb648"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olga_underground_finish_prt01"
+    boundsData:
+    - {x: 0.00999999, y: -0.00999999, z: 0}
+    - {x: 2.62, y: 3.96, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 2.63, y: 3.97, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.3, y: -1.99, z: 0}
+    - {x: 1.32, y: -1.99, z: 0}
+    - {x: -1.3, y: 1.97, z: 0}
+    - {x: 1.32, y: 1.97, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4008794, y: 0.2863772}
+    - {x: 0.5288081, y: 0.2863772}
+    - {x: 0.4008794, y: 0.3830564}
+    - {x: 0.5288081, y: 0.3830564}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "24d72108aa4b5554188c4abcead6502f"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olga_underground_finish_prt03"
+    boundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.7, y: 0.75, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.7, y: 0.75, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.35, y: -0.38, z: 0}
+    - {x: 0.35, y: -0.38, z: 0}
+    - {x: -0.35, y: 0.37, z: 0}
+    - {x: 0.35, y: 0.37, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7739263, y: 0.4426272}
+    - {x: 0.808105, y: 0.4426272}
+    - {x: 0.7739263, y: 0.4609373}
+    - {x: 0.808105, y: 0.4609373}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "f52170b7c0ed89a4c933801ede8aafb4"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olga_underground_finish_prt02"
+    boundsData:
+    - {x: 0.005000114, y: 0, z: 0}
+    - {x: 3.97, y: 4.66, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.005000114, y: 0, z: 0}
+    - {x: 3.97, y: 4.66, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.98, y: -2.33, z: 0}
+    - {x: 1.99, y: -2.33, z: 0}
+    - {x: -1.98, y: 2.33, z: 0}
+    - {x: 1.99, y: 2.33, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.1855471}
+    - {x: 0.0009770507, y: 0.2824705}
+    - {x: 0.2285151, y: 0.1855471}
+    - {x: 0.2285151, y: 0.2824705}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "82f7dbd1d5e57b9448599ce02ea03941"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_undgr_dcr_lava_008"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.66, y: 0.38, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.66, y: 0.38, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.83, y: -0.19, z: 0}
+    - {x: 0.83, y: -0.19, z: 0}
+    - {x: -0.83, y: 0.19, z: 0}
+    - {x: 0.83, y: 0.19, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9760747, y: 0.4226077}
+    - {x: 0.9760747, y: 0.4631345}
+    - {x: 0.9946284, y: 0.4226077}
+    - {x: 0.9946284, y: 0.4631345}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "a9be6e77fc6d9524cb85620c066efc83"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_undgr_dcr_lava_005"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.12, y: 0.76, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.12, y: 0.76, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.56, y: -0.38, z: 0}
+    - {x: 0.56, y: -0.38, z: 0}
+    - {x: -0.56, y: 0.38, z: 0}
+    - {x: 0.56, y: 0.38, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7670903, y: 0.522217}
+    - {x: 0.7670903, y: 0.5495603}
+    - {x: 0.8041987, y: 0.522217}
+    - {x: 0.8041987, y: 0.5495603}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "7913af4ebc287ab419b26ebbc9d5e8f6"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_undgr_dcr_lava_003"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.17, y: 1.09, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.17, y: 1.09, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.58, y: -0.55, z: 0}
+    - {x: 0.59, y: -0.55, z: 0}
+    - {x: -0.58, y: 0.54, z: 0}
+    - {x: 0.59, y: 0.54, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8061528, y: 0.5268557}
+    - {x: 0.8632808, y: 0.5268557}
+    - {x: 0.8061528, y: 0.5534666}
+    - {x: 0.8632808, y: 0.5534666}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "9652943206ecefa49ba68c757779bfe4"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_undgr_dcr_lava_002"
+    boundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.98, y: 1.09, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.98, y: 1.09, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.49, y: -0.55, z: 0}
+    - {x: 0.49, y: -0.55, z: 0}
+    - {x: -0.49, y: 0.54, z: 0}
+    - {x: 0.49, y: 0.54, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8955083, y: 0.5461428}
+    - {x: 0.8955083, y: 0.5700681}
+    - {x: 0.94873, y: 0.5461428}
+    - {x: 0.94873, y: 0.5700681}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "cbac4b697eeb67d438d0ee4d7cf55ce2"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_undgr_dcr_lava_007"
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.77, y: 0.28, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.77, y: 0.28, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.38, y: -0.14, z: 0}
+    - {x: 0.39, y: -0.14, z: 0}
+    - {x: -0.38, y: 0.14, z: 0}
+    - {x: 0.39, y: 0.14, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.973145, y: 0.5202639}
+    - {x: 0.973145, y: 0.5390623}
+    - {x: 0.9868159, y: 0.5202639}
+    - {x: 0.9868159, y: 0.5390623}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "2535c52b04fd42b409d9540efba2ec2d"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_undgr_dcr_lava_006"
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 1.65, y: 0.77, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 1.66, y: 0.77, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.82, y: -0.39, z: 0}
+    - {x: 0.83, y: -0.39, z: 0}
+    - {x: -0.82, y: 0.38, z: 0}
+    - {x: 0.83, y: 0.38, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7685552, y: 0.4809573}
+    - {x: 0.7685552, y: 0.52124}
+    - {x: 0.8061519, y: 0.4809573}
+    - {x: 0.8061519, y: 0.52124}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "819bb9edab8c43947ad7138b5849a899"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_undgr_dcr_lava_009"
+    boundsData:
+    - {x: 0.005000025, y: -0.004999995, z: 0}
+    - {x: 0.55, y: 0.31, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.005000025, y: -0.004999995, z: 0}
+    - {x: 0.55, y: 0.31, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.27, y: -0.16, z: 0}
+    - {x: 0.28, y: -0.16, z: 0}
+    - {x: -0.27, y: 0.15, z: 0}
+    - {x: 0.28, y: 0.15, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5024419, y: 0.4565432}
+    - {x: 0.5024419, y: 0.4699705}
+    - {x: 0.5175776, y: 0.4565432}
+    - {x: 0.5175776, y: 0.4699705}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "d15d5dbbb0bd4964d8c271ea02147d2c"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_undgr_dcr_lava_001"
+    boundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 1.66, y: 1.09, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 1.66, y: 1.09, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.83, y: -0.55, z: 0}
+    - {x: 0.83, y: -0.55, z: 0}
+    - {x: -0.83, y: 0.54, z: 0}
+    - {x: 0.83, y: 0.54, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6318364, y: 0.3796389}
+    - {x: 0.6318364, y: 0.4201658}
+    - {x: 0.6850581, y: 0.3796389}
+    - {x: 0.6850581, y: 0.4201658}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "09fb670a7d68ff14bb2f0be001b7073d"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "olya_cave_undgr_dcr_lava_004"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.08, y: 0.76, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.08, y: 0.76, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.54, y: -0.38, z: 0}
+    - {x: 0.54, y: -0.38, z: 0}
+    - {x: -0.54, y: 0.38, z: 0}
+    - {x: 0.54, y: 0.38, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6064458, y: 0.4938967}
+    - {x: 0.6591792, y: 0.4938967}
+    - {x: 0.6064458, y: 0.5124509}
+    - {x: 0.6591792, y: 0.5124509}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+    materialId: 0
+    sourceTextureGUID: "56eba5a09089bbd4d93766dbb4db2f3b"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: a946d3336ac449118bf927e20b191d21, type: 2}
+  textures:
+  - {fileID: 2800000, guid: cfad99b457df4127aef8ad331de95b74, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "585d7753d7e0cf24a8c69c1161cdf892"
+  spriteCollectionName: "world_5_objects"
+  assetName: "world_5_objects"
+  loadable: 1
+  invOrthoSize: 2
+  halfTargetHeight: 50
+  buildKey: 605965732
+  dataGuid: "71f6eae143e9bda439533d2f2d61b4c1"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

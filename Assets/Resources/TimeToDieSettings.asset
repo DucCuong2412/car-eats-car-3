@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff2c11b7e14d5e087fe62c13ae8e5de, type: 3}
+  m_Name: "TimeToDieSettings"
+  m_EditorClassIdentifier: 
+  timeToDie:
+    TimeToDie:
+    - MissionNumber: "1"
+      TimeDie: 90
+      HPConvoi: 400
+      SpeedConvoi: 350
+      TorqueConvoi: 120
+    - MissionNumber: "2"
+      TimeDie: 80
+      HPConvoi: 600
+      SpeedConvoi: 400
+      TorqueConvoi: 120
+    - MissionNumber: "3"
+      TimeDie: 80
+      HPConvoi: 800
+      SpeedConvoi: 450
+      TorqueConvoi: 120
+    - MissionNumber: "4"
+      TimeDie: 80
+      HPConvoi: 900
+      SpeedConvoi: 500
+      TorqueConvoi: 130
+    - MissionNumber: "5"
+      TimeDie: 70
+      HPConvoi: 1000
+      SpeedConvoi: 500
+      TorqueConvoi: 140
+    - MissionNumber: "6"
+      TimeDie: 70
+      HPConvoi: 1000
+      SpeedConvoi: 550
+      TorqueConvoi: 150
+    - MissionNumber: "7"
+      TimeDie: 70
+      HPConvoi: 1000
+      SpeedConvoi: 550
+      TorqueConvoi: 150
+    - MissionNumber: "8"
+      TimeDie: 70
+      HPConvoi: 1000
+      SpeedConvoi: 550
+      TorqueConvoi: 150
+    - MissionNumber: "9"
+      TimeDie: 70
+      HPConvoi: 1100
+      SpeedConvoi: 600
+      TorqueConvoi: 150
+    - MissionNumber: "10"
+      TimeDie: 65
+      HPConvoi: 1100
+      SpeedConvoi: 600
+      TorqueConvoi: 150
+    - MissionNumber: "11"
+      TimeDie: 65
+      HPConvoi: 1200
+      SpeedConvoi: 600
+      TorqueConvoi: 160
+    - MissionNumber: "12"
+      TimeDie: 65
+      HPConvoi: 1200
+      SpeedConvoi: 650
+      TorqueConvoi: 160
+    - MissionNumber: "13"
+      TimeDie: 65
+      HPConvoi: 1300
+      SpeedConvoi: 650
+      TorqueConvoi: 160
+    - MissionNumber: "14"
+      TimeDie: 65
+      HPConvoi: 1400
+      SpeedConvoi: 650
+      TorqueConvoi: 170
+    - MissionNumber: "15"
+      TimeDie: 60
+      HPConvoi: 1500
+      SpeedConvoi: 700
+      TorqueConvoi: 170

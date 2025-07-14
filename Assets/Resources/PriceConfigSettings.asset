@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d34ae58897a79f2bded55f797325a1a5, type: 3}
+  m_Name: "PriceConfigSettings"
+  m_EditorClassIdentifier: 
+  currency:
+    coinsPack1: 300
+    coinsPack2: 10000
+    coinsPack3: 25000
+    coinsPack4: 60000
+    coinsPack5: 150000
+    coinsPack2DefaultPrice: "$0.99"
+    coinsPack3DefaultPrice: "$1.99"
+    coinsPack4DefaultPrice: "$3.99"
+    coinsPack5DefaultPrice: "$7.99"
+    coinsPack3Benefit: "+50%"
+    coinsPack4Benefit: "+75%"
+    coinsPack5Benefit: "+100%"
+    timeForRuby: 3600
+    timeForFuel: 3600
+    timeForFortune: 300
+    priceDroneFly: 10000
+  energy:
+    fuelPack1: 5
+    fuelPack2: 20
+    fuelPack3: 200
+    fuelPack4: 45
+    fuelPack5Unlimit: Infinity
+    fuelPack1Price: 100
+    fuelPack2Price: 500
+    fuelPack3Price: 1000
+    fuelPack4Price: 5000
+    fuelPack5DefaultPrice: "$7\x10.99"
+    fuelPackToMaxPrice: "$1\x10.99"
+    fuelPack100Price: "$3.99"
+    eachStart: 5
+    restoreTime: 4
+    maxValue: 40
+  premiumConten:
+    tankominatorDefaultPrice: "$15.99"
+    tankDefaultPrice: "$7.99"
+    supergunDefaultPrice: "$5.99"
+    antigravsDefaultPrice: "$3.99"
+    megaturboDefaultPrice: "$2.99"
+    harvesterDefaultPrice: "$4.99"
+    tankominatorBenefit: "30"
+    DronBee: "$4.99"
+    DronBomber: "$2.99"
+  levelsGallery:
+    unlockNextLevelDefaultPrice: "$0.99"
+    unlockWorld1DefaultPrice: "$2.99"
+    unlockWorld2DefaultPrice: "$2.99"
+    unlockWorld3DefaultPrice: "$2.99"
+    unlockWorld4DefaultPrice: "$2.99"
+  fortuneWheel:
+    rubiesForOneAddictionalSpin: 250
+  PrivasyPolicy:
+    TempOfUse: "https:\x2f\x2fsmokoko.com\x2fterms-of-service\x2f"
+    PrivacyPolicy: "https:\x2f\x2fsmokoko.com\x2fprivacy-policy\x2f"

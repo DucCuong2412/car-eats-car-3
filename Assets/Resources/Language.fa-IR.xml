@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="-*%  cheaper than buying parts separately" xml:space="preserve">
+		<value>*% ارزانتر از خريد جداگانه قسمت ها,</value>
+	</data>
+	<data name="_beatFriend_description" xml:space="preserve">
+		<value>,</value>
+	</data>
+	<data name="_rateUs_btn" xml:space="preserve">
+		<value>امتياز,</value>
+	</data>
+	<data name="_rateUs_caption" xml:space="preserve">
+		<value>به تجربه خود امتياز دهيد,</value>
+	</data>
+	<data name="_rateUs_description" xml:space="preserve">
+		<value>امتياز شما به ما کمک مي کند به‌روز‌رسانيهاي بازي را تهيه کنيم.,</value>
+	</data>
+	<data name="_rateUs_remind" xml:space="preserve">
+		<value>بعدا به من يادآوري کن,</value>
+	</data>
+	<data name="+* MAX" xml:space="preserve">
+		<value>* بيشينه,</value>
+	</data>
+	<data name="1 FREE SPIN" xml:space="preserve">
+		<value>يک چرخش رايگان,</value>
+	</data>
+	<data name="1 RACE COSTS * GALLONS OF FUEL" xml:space="preserve">
+		<value>يک مسابقه، 5 گالون سوخت نياز دارد.,</value>
+	</data>
+	<data name="1-2-3-GO!" xml:space="preserve">
+		<value>برو!,</value>
+	</data>
+	<data name="5 SEC." xml:space="preserve">
+		<value>5 ثانيه,</value>
+	</data>
+	<data name="A MONSTROUS MIXTURE OF DRILL AND TANK GUN" xml:space="preserve">
+		<value>TANKOMINATOR - A MONSTROUS MIXTURE OF DRILL AND TANK GUN,</value>
+	</data>
+	<data name="ACTIVE" xml:space="preserve">
+		<value>فعال,</value>
+	</data>
+	<data name="Ads allow you to play for free. We apologize if it was obsessive to you. Making any in-app purchase will disable ads forever." xml:space="preserve">
+		<value>تبليغات به شما اجازه ميدهد رايگان بازي کنيد. شما مي توانيد با خريد هر بسته درون برنامه اي، تبليغات را براي هميشه حذف کنيد.,</value>
+	</data>
+	<data name="ADS IN THIS GAME" xml:space="preserve">
+		<value>تبليغات در اين بازي,</value>
+	</data>
+	<data name="AIRSTRIKE!" xml:space="preserve">
+		<value>حمله هوايي!,</value>
+	</data>
+	<data name="ALL PROGESS LOST" xml:space="preserve">
+		<value>پيشرفت شما از دست خواهد رفت.,</value>
+	</data>
+	<data name="ALL PROGRESS IS NOW SYNCHRONIZED WITH YOUR ACCOUNT!" xml:space="preserve">
+		<value>تمام پيشرفت هاي شما در بازي به اکانت شما متصل شده است.,</value>
+	</data>
+	<data name="ALLIGATOR" xml:space="preserve">
+		<value>ALLIGATOR,</value>
+	</data>
+	<data name="ANTIGRAVS" xml:space="preserve">
+		<value>ضد جاذبه,</value>
+	</data>
+	<data name="ANY PURCHASE REMOVES ALL ADS" xml:space="preserve">
+		<value>هر خريدي، تبليغات را حذف خواهد کرد.,</value>
+	</data>
+	<data name="Archiver" xml:space="preserve">
+		<value>آرشيور,</value>
+	</data>
+	<data name="ARE YOU SHURE" xml:space="preserve">
+		<value>آيا مطمئن هستيد؟,</value>
+	</data>
+	<data name="ARE YOU SHURE YOU WANT TO QUIT" xml:space="preserve">
+		<value>آيا مطمئن هستيد ميخواهيد خارج شويد؟,</value>
+	</data>
+	<data name="ARE YOU SURE YOU WANT TO BUY ADDITIONAL BOXES FOR * RUBIES?" xml:space="preserve">
+		<value>آيا مطمئن هستيد ميخواهيد بسته هاي * ياقوت را خريداري کنيد؟,</value>
+	</data>
+	<data name="ARENA *" xml:space="preserve">
+		<value>آرنا *,</value>
+	</data>
+	<data name="ARMOR" xml:space="preserve">
+		<value>زره,</value>
+	</data>
+	<data name="ART" xml:space="preserve">
+		<value>هنر,</value>
+	</data>
+	<data name="ASK ME LATER" xml:space="preserve">
+		<value>بعدا از من بپرس,</value>
+	</data>
+	<data name="ATTRACT STARS WHILE DRIVING" xml:space="preserve">
+		<value>هنگام رانندگي، ستاره ها را جذب کن.,</value>
+	</data>
+	<data name="AWESOME!" xml:space="preserve">
+		<value>عالي!,</value>
+	</data>
+	<data name="BAD" xml:space="preserve">
+		<value>بد,</value>
+	</data>
+	<data name="BALANCE YOUR CAR USING TILT BUTTONS" xml:space="preserve">
+		<value>ماشين خودت را با استفاده از دکمه هاي کج کردن متعادل کن.,</value>
+	</data>
+	<data name="BASIC BOMB" xml:space="preserve">
+		<value>بمب پايه,</value>
+	</data>
+	<data name="BEERANHA" xml:space="preserve">
+		<value>پنجه بکس,</value>
+	</data>
+	<data name="Beetlee" xml:space="preserve">
+		<value>بيتلي,</value>
+	</data>
+	<data name="Beetlee description" xml:space="preserve">
+		<value>بيتلي - او قبلا مهربان بود اما اکنون شيطاني ست.,</value>
+	</data>
+	<data name="BERSERKER" xml:space="preserve">
+		<value>برسرکر,</value>
+	</data>
+	<data name="BEST" xml:space="preserve">
+		<value>بهترين,</value>
+	</data>
+	<data name="BETTER TRACTION ON THE GROUND" xml:space="preserve">
+		<value>کشش بهتر روي زمين,</value>
+	</data>
+	<data name="Bigfoot" xml:space="preserve">
+		<value>پابزرگ,</value>
+	</data>
+	<data name="BOMB REPLICATOR" xml:space="preserve">
+		<value>تکرارکننده بمب,</value>
+	</data>
+	<data name="Bomber" xml:space="preserve">
+		<value>بمب افکن,</value>
+	</data>
+	<data name="BOMBERS!" xml:space="preserve">
+		<value>بمب افکن!,</value>
+	</data>
+	<data name="BOMBS" xml:space="preserve">
+		<value>بمب ها,</value>
+	</data>
+	<data name="BONUS" xml:space="preserve">
+		<value>اضافه,</value>
+	</data>
+	<data name="BOOSTS DOUBLED" xml:space="preserve">
+		<value>جايزه شما دو برابر شد!,</value>
+	</data>
+	<data name="BOSS KILLER!" xml:space="preserve">
+		<value>کشنده غول!,</value>
+	</data>
+	<data name="BOSS LEVEL" xml:space="preserve">
+		<value>مرحله غول,</value>
+	</data>
+	<data name="BOSS LEVEL LOCKED" xml:space="preserve">
+		<value>مرحله غول قفل شده است,</value>
+	</data>
+	<data name="BOSS1" xml:space="preserve">
+		<value>ميله داغ,</value>
+	</data>
+	<data name="BOSS2" xml:space="preserve">
+		<value>درخشندگي,</value>
+	</data>
+	<data name="BOSS3" xml:space="preserve">
+		<value>کلاه سطلي,</value>
+	</data>
+	<data name="BOUGHT" xml:space="preserve">
+		<value>خريده شد,</value>
+	</data>
+	<data name="BUILD" xml:space="preserve">
+		<value>ساختن,</value>
+	</data>
+	<data name="BUY" xml:space="preserve">
+		<value>خريد,</value>
+	</data>
+	<data name="BUY ADDITIONAL BOXES OR CONTINUE PLAYING" xml:space="preserve">
+		<value>جعبه هاي بيشتر بخريد يا به بازي کردن ادامه دهيد.,</value>
+	</data>
+	<data name="BUY FUEL" xml:space="preserve">
+		<value>خريد سوخت,</value>
+	</data>
+	<data name="BUY NOW" xml:space="preserve">
+		<value>BUY NOW!,</value>
+	</data>
+	<data name="BUY RUBIES" xml:space="preserve">
+		<value>خريد ياقوت,</value>
+	</data>
+	<data name="BY PROCEEDING YOU AGREE TO OUR UPDATED PRIVACY POLICY." xml:space="preserve">
+		<value>By proceeding you agree to our updated privacy policy.,</value>
+	</data>
+	<data name="Can we continue to use your data to tailor ads for your?" xml:space="preserve">
+		<value>Can we continue to use your data to tailor ads for your?,</value>
+	</data>
+	<data name="CANCEL" xml:space="preserve">
+		<value>لغو,</value>
+	</data>
+	<data name="CAN'T FIND PURCHASED PRODUCTS" xml:space="preserve">
+		<value>محصولات خريداري شده پيدا نميشوند.,</value>
+	</data>
+	<data name="CAN'T PASS A LEVEL?" xml:space="preserve">
+		<value>نميتوانيد از مرحله اي عبور کنيد؟,</value>
+	</data>
+	<data name="CAN'T WAIT?" xml:space="preserve">
+		<value>نمي توانيد صبر کنيد؟,</value>
+	</data>
+	<data name="CAR COLLECTION" xml:space="preserve">
+		<value>CAR COLLECTION,</value>
+	</data>
+	<data name="CAR EATS CAR" xml:space="preserve">
+		<value>ماشين، ماشين ميخورد.,</value>
+	</data>
+	<data name="CAR LOCKED" xml:space="preserve">
+		<value>ماشين را در مرحله * باز کنيد.,</value>
+	</data>
+	<data name="CAROCOP" xml:space="preserve">
+		<value>CAROCOP,</value>
+	</data>
+	<data name="CAROCOP - BUNKER ON WHEELS" xml:space="preserve">
+		<value>CAROCOP - دوچرخه بر روی چرخ,</value>
+	</data>
+	<data name="CHOOSE AN EGG" xml:space="preserve">
+		<value>CHOOSE AN EGG,</value>
+	</data>
+	<data name="CLEARED" xml:space="preserve">
+		<value>پاک شد.,</value>
+	</data>
+	<data name="CLOSE" xml:space="preserve">
+		<value>بستن,</value>
+	</data>
+	<data name="CLUSTER BOMB" xml:space="preserve">
+		<value>خوشه بمب,</value>
+	</data>
+	<data name="COCKCHAFER" xml:space="preserve">
+		<value>COCKCHAFER,</value>
+	</data>
+	<data name="COLLECT ALL PARTS AND GET TANKOMINATOR" xml:space="preserve">
+		<value>تمام قطعات را جمع کن تا تانکوميناتور را بگيري.,</value>
+	</data>
+	<data name="COLLECT BOXES AND WIN PRIZES BY SPINNING A WHEEL AFTER EVERY LEVEL" xml:space="preserve">
+		<value>جعبه ها را جمع کن و با چرخاندن گردانه بعد از هر مرحله، جايزه ببر.,</value>
+	</data>
+	<data name="COLLECT EGGS AND GEMS IN THE CAVE" xml:space="preserve">
+		<value>COLLECT EGGS AND GEMS IN THE CAVE,</value>
+	</data>
+	<data name="COLLECTED" xml:space="preserve">
+		<value>جمع شد.,</value>
+	</data>
+	<data name="COMBO!" xml:space="preserve">
+		<value>کمبو!,</value>
+	</data>
+	<data name="COMING SOON" xml:space="preserve">
+		<value>به زودي مي آيد ...,</value>
+	</data>
+	<data name="COMPACTOR" xml:space="preserve">
+		<value>متراکم کننده,</value>
+	</data>
+	<data name="CONGRATULATIONS" xml:space="preserve">
+		<value>تبريک!,</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU WON TANKOMINATOR" xml:space="preserve">
+		<value>تبريک! شما تانکوميناتور را برنده شديد.,</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED ANTIGRAVS" xml:space="preserve">
+		<value>تبريک! شما ضد جاذبه ها را باز کرده ايد.,</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED MEGA TURBO" xml:space="preserve">
+		<value>تبريک! شما مگا توربو را باز کرده ايد.,</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED SUPER GUN" xml:space="preserve">
+		<value>تبريک! شما تفنگ عظيم را باز کرده ايد.,</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED TANK" xml:space="preserve">
+		<value>تبريک! شما تانک را باز کرده ايد!,</value>
+	</data>
+	<data name="CONNECTION FAILED" xml:space="preserve">
+		<value>اتصال موفقيت آميز نبود.,</value>
+	</data>
+	<data name="CONNECTION SUCCESS" xml:space="preserve">
+		<value>اتصال موفقيت آميز بود.,</value>
+	</data>
+	<data name="CONSTRUCT IN POLICEPEDIA" xml:space="preserve">
+		<value>ساخت پلی اتیلن,</value>
+	</data>
+	<data name="CONTINUE" xml:space="preserve">
+		<value>ادامه دادن,</value>
+	</data>
+	<data name="Copter" xml:space="preserve">
+		<value>هلي کوپتر,</value>
+	</data>
+	<data name="COPTER!" xml:space="preserve">
+		<value>هلي کوپتر!,</value>
+	</data>
+	<data name="COPYRIGHT 2015 BY SMOKOKO SA" xml:space="preserve">
+		<value>حقوق معنوي اثر براي شرکت SMOKOKO LTD محفوظ است.,</value>
+	</data>
+	<data name="CREDITS" xml:space="preserve">
+		<value>اعتبارات,</value>
+	</data>
+	<data name="DAILY BONUS" xml:space="preserve">
+		<value>جايزه روزانه,</value>
+	</data>
+	<data name="DAMAGE" xml:space="preserve">
+		<value>صدمه,</value>
+	</data>
+	<data name="DAY *" xml:space="preserve">
+		<value>روز *,</value>
+	</data>
+	<data name="DEADLY BLADES" xml:space="preserve">
+		<value>شمشيرهاي کشنده,</value>
+	</data>
+	<data name="DEFEAT" xml:space="preserve">
+		<value>شما شکسته شديد!,</value>
+	</data>
+	<data name="DESCRIPTION BASIC BOMB " xml:space="preserve">
+		<value />
+	</data>
+	<data name="DESCRIPTION BOMB REPLICATOR" xml:space="preserve">
+		<value>به آرامي بمب ها را در موجودي ذخيره مي کند.,</value>
+	</data>
+	<data name="DESCRIPTION CLUSTER BOMB" xml:space="preserve">
+		<value>يک خوشه بمب هاي کوچک انفجار بالا. منطقه انفجار را با بمب مي پوشاند.,</value>
+	</data>
+	<data name="DESCRIPTION EMP EMITTER" xml:space="preserve">
+		<value>پالس الکترومغناطيسي ساطع ميکند که دشمنان اطراف شما را فلج ميکند.,</value>
+	</data>
+	<data name="DESCRIPTION FLAME BOMB" xml:space="preserve">
+		<value>بمب انفجار بالا. صدمه و مساحت انفجار بيشتر.,</value>
+	</data>
+	<data name="DESCRIPTION FRAG BOMB" xml:space="preserve">
+		<value>بمب پايه با نارنجک. صدمه بيشتري با نارنجک وارد ميکند.,</value>
+	</data>
+	<data name="DESCRIPTION FREEZE RAY" xml:space="preserve">
+		<value>يک اشعه نيتروژن مايع شليک ميکند. دشمنانت را يخ ميکند.,</value>
+	</data>
+	<data name="DESCRIPTION MAGNET" xml:space="preserve">
+		<value>يک ميدان الکترومغناطيسي توليد ميکند که ياقوت ها را جذب ميکند.,</value>
+	</data>
+	<data name="DESCRIPTION MISSILE LAUNCHER" xml:space="preserve">
+		<value>شليک کننده موشک مجتمع. موشک هاي هدايت شونده ويرانگر شليک ميکند.,</value>
+	</data>
+	<data name="DESCRIPTION SHRINK BOMB" xml:space="preserve">
+		<value>بمب تکنولوژي بالا. دشمنان شما را به ويروس هاي خنده دار تبديل ميکند!,</value>
+	</data>
+	<data name="DISTANCE" xml:space="preserve">
+		<value>فاصله,</value>
+	</data>
+	<data name="DRILL GUN" xml:space="preserve">
+		<value>تفنگ دريلي,</value>
+	</data>
+	<data name="Driller" xml:space="preserve">
+		<value>دريل,</value>
+	</data>
+	<data name="DRON1 DESCRIPTION" xml:space="preserve">
+		<value>در روز پنجم به رايگان آنرا بگير.,</value>
+	</data>
+	<data name="DRON2 DESCRIPTION" xml:space="preserve">
+		<value>شهر غرق شده.,</value>
+	</data>
+	<data name="DROWNED CITY" xml:space="preserve">
+		<value>,</value>
+	</data>
+	<data name="EASTER EGG HUNT" xml:space="preserve">
+		<value>EASTER EGG HUNT,</value>
+	</data>
+	<data name="EAT POLICE AND CIVILS" xml:space="preserve">
+		<value>دشمنان خود را نابود کنيد تا نشان دريافت کنيد.,</value>
+	</data>
+	<data name="ECO FUEL" xml:space="preserve">
+		<value>سوخت اکو,</value>
+	</data>
+	<data name="EMP EMITTER" xml:space="preserve">
+		<value>ساطع کننده EMP,</value>
+	</data>
+	<data name="ENDLESS STOCK OF FUEL" xml:space="preserve">
+		<value>منبع سوخت ناتمام,</value>
+	</data>
+	<data name="ENGINE" xml:space="preserve">
+		<value>موتور,</value>
+	</data>
+	<data name="ENIGMA" xml:space="preserve">
+		<value>معما,</value>
+	</data>
+	<data name="EQUIP" xml:space="preserve">
+		<value>پوشيدن,</value>
+	</data>
+	<data name="EQUIPED" xml:space="preserve">
+		<value>پوشيده شد,</value>
+	</data>
+	<data name="EVOLUTION COMPLETE" xml:space="preserve">
+		<value>EVOLUTION COMPLETE,</value>
+	</data>
+	<data name="Excavator" xml:space="preserve">
+		<value>کاوشگر,</value>
+	</data>
+	<data name="EXCELLENT!" xml:space="preserve">
+		<value>بي نظير!,</value>
+	</data>
+	<data name="EXIT" xml:space="preserve">
+		<value>EXIT,</value>
+	</data>
+	<data name="FIND AT ARENA" xml:space="preserve">
+		<value>در آرنا پيدا کنيد</value>
+	</data>
+	<data name="FIND AT EASTER EGG HUNT" xml:space="preserve">
+		<value>FIND AT EASTER EGG HUNT,</value>
+	</data>
+	<data name="FIND IN THE CAVE" xml:space="preserve">
+		<value>زیر زمین پیدا کنید,</value>
+	</data>
+	<data name="FIREBUG" xml:space="preserve">
+		<value>FIREFLY,</value>
+	</data>
+	<data name="FIRED!?!" xml:space="preserve">
+		<value>آتش زده شد !؟!,</value>
+	</data>
+	<data name="FLAME BOMB" xml:space="preserve">
+		<value>بمب آتش زن,</value>
+	</data>
+	<data name="FORTUNE" xml:space="preserve">
+		<value>بخت,</value>
+	</data>
+	<data name="FRAG BOMB" xml:space="preserve">
+		<value>نارنجک,</value>
+	</data>
+	<data name="FRANCOPSTEIN" xml:space="preserve">
+		<value>FRANCOPSTEIN,</value>
+	</data>
+	<data name="FRANCOPSTEIN - IT'S ALIVE!" xml:space="preserve">
+		<value>FRANCOPSTEIN - آن را زنده!,</value>
+	</data>
+	<data name="FREE" xml:space="preserve">
+		<value>رايگان,</value>
+	</data>
+	<data name="FREE FUEL PACK" xml:space="preserve">
+		<value>بسته سوخت رايگان,</value>
+	</data>
+	<data name="FREE RUBIES PACK" xml:space="preserve">
+		<value>بسته ياقوت رايگان,</value>
+	</data>
+	<data name="FREE SPIN" xml:space="preserve">
+		<value>چرخش رايگان,</value>
+	</data>
+	<data name="FREEDOM ISLAND!!!" xml:space="preserve">
+		<value>جزيره آزادي,</value>
+	</data>
+	<data name="FREEZE RAY" xml:space="preserve">
+		<value>اشعه يخي,</value>
+	</data>
+	<data name="FRIENDOPEDIA" xml:space="preserve">
+		<value>FRIENDOPEDIA,</value>
+	</data>
+	<data name="FUEL" xml:space="preserve">
+		<value>سوخت,</value>
+	</data>
+	<data name="GADGETS" xml:space="preserve">
+		<value>ابزار,</value>
+	</data>
+	<data name="GAME DESIGN" xml:space="preserve">
+		<value>طراحي بازي,</value>
+	</data>
+	<data name="GAME DEVELOPED BY SMOKOKO SA" xml:space="preserve">
+		<value>بازي توسط SMOKOKO توسعه داده شده است.,</value>
+	</data>
+	<data name="GAME PUBLISHED BY SPIL GAMES" xml:space="preserve">
+		<value>بازي توسط ابر استوديو منتشر شده است.,</value>
+	</data>
+	<data name="GARAGE" xml:space="preserve">
+		<value>گاراژ,</value>
+	</data>
+	<data name="GATOR" xml:space="preserve">
+		<value>تمساح,</value>
+	</data>
+	<data name="GET ADDITIONAL BOMBS" xml:space="preserve">
+		<value>بمب اضافي بگيريد.,</value>
+	</data>
+	<data name="GET ADDITIONAL TURBO" xml:space="preserve">
+		<value>توربو اضافي بگيريد.,</value>
+	</data>
+	<data name="GET FUEL" xml:space="preserve">
+		<value>سوخت بگيريد.,</value>
+	</data>
+	<data name="GET RUBIES" xml:space="preserve">
+		<value>ياقوت بگيريد.,</value>
+	</data>
+	<data name="GHOST TOWN" xml:space="preserve">
+		<value>شهر ارواح,</value>
+	</data>
+	<data name="GOOD" xml:space="preserve">
+		<value>خوب,</value>
+	</data>
+	<data name="HARVESTER" xml:space="preserve">
+		<value>هاروست,</value>
+	</data>
+	<data name="HAVEN'T PLAYED YET?" xml:space="preserve">
+		<value>هنوز بازی نکرده اید؟</value>
+	</data>
+	<data name="HOW TO PLAY" xml:space="preserve">
+		<value>چگونه بازي کنم,</value>
+	</data>
+	<data name="I AGREE" xml:space="preserve">
+		<value>I AGREE,</value>
+	</data>
+	<data name="ICE AGE" xml:space="preserve">
+		<value>عصر يخبندان,</value>
+	</data>
+	<data name="INCREASES CAR'S HEALTH" xml:space="preserve">
+		<value>افزايش سلامتي ماشين,</value>
+	</data>
+	<data name="INCREASES CAR'S TOP SPEED" xml:space="preserve">
+		<value>افزايش سرعت بيشينه ماشين,</value>
+	</data>
+	<data name="INCUBATOR" xml:space="preserve">
+		<value>INCUBATOR,</value>
+	</data>
+	<data name="Ketchup" xml:space="preserve">
+		<value>کچاپ,</value>
+	</data>
+	<data name="KILLED" xml:space="preserve">
+		<value>کشته شده,</value>
+	</data>
+	<data name="LANGUAGE" xml:space="preserve">
+		<value>زبان,</value>
+	</data>
+	<data name="LARGE FUEL TANK" xml:space="preserve">
+		<value>تانکر سوخت بزرگ,</value>
+	</data>
+	<data name="LARGER TURBO TANK CAPACITY" xml:space="preserve">
+		<value>ظرفيت توربو تانک بزرگتر,</value>
+	</data>
+	<data name="Learn how CAR EATS CAR 3 and our partners collect and use data" xml:space="preserve">
+		<value>Learn how CAR EATS CAR 3 and our partners collect and use data</value>
+	</data>
+	<data name="LEAVING SO SOON" xml:space="preserve">
+		<value>به زودي خواهيم رفت,</value>
+	</data>
+	<data name="LESS POWER!" xml:space="preserve">
+		<value>قدرت کمتر!,</value>
+	</data>
+	<data name="LET'S LEVEL UP THE SPEED" xml:space="preserve">
+		<value>بيا تا بيشينه سرعت ماشينتو ارتقا بديم!,</value>
+	</data>
+	<data name="LET'S RETURN TO MAP" xml:space="preserve">
+		<value>بيا به نقشه برگرديم,</value>
+	</data>
+	<data name="LEVEL" xml:space="preserve">
+		<value>سطح,</value>
+	</data>
+	<data name="LEVEL *" xml:space="preserve">
+		<value>سطح *,</value>
+	</data>
+	<data name="LEVEL * COMPLETED" xml:space="preserve">
+		<value>سطح * تکميل شد.,</value>
+	</data>
+	<data name="LEVEL * FAILED" xml:space="preserve">
+		<value>سطح * شکست خورد.,</value>
+	</data>
+	<data name="LEVEL DESIGN" xml:space="preserve">
+		<value>طراحي مراحل,</value>
+	</data>
+	<data name="LEVELS" xml:space="preserve">
+		<value>مراحل,</value>
+	</data>
+	<data name="Limited offer, left * min" xml:space="preserve">
+		<value>Limited offer, left * min</value>
+	</data>
+	<data name="LIMITED TIME OFFER" xml:space="preserve">
+		<value>پيشنهاد محدود,</value>
+	</data>
+	<data name="LOAD" xml:space="preserve">
+		<value>بارگذاري,</value>
+	</data>
+	<data name="LOAD THIS GAME?" xml:space="preserve">
+		<value>بازي را بارگذاري کنيم؟,</value>
+	</data>
+	<data name="LOADING" xml:space="preserve">
+		<value>در حال بارگذاري,</value>
+	</data>
+	<data name="LOCKED" xml:space="preserve">
+		<value>قفل شده,</value>
+	</data>
+	<data name="LOCOMACHINE" xml:space="preserve">
+		<value>لوکوماشين,</value>
+	</data>
+	<data name="LOGIN" xml:space="preserve">
+		<value>وارد شدن,</value>
+	</data>
+	<data name="LOGIN AND GET" xml:space="preserve">
+		<value>وارد شويد و بگيريد,</value>
+	</data>
+	<data name="LOGIN AND GET BONUSES" xml:space="preserve">
+		<value>وارد شويد و جايزه بگيريد,</value>
+	</data>
+	<data name="LOGOUT" xml:space="preserve">
+		<value>خروج,</value>
+	</data>
+	<data name="MAGNET" xml:space="preserve">
+		<value>آهنربا,</value>
+	</data>
+	<data name="Matt" xml:space="preserve">
+		<value>صاف,</value>
+	</data>
+	<data name="MAX." xml:space="preserve">
+		<value>بيشينه,</value>
+	</data>
+	<data name="MEGA TURBO" xml:space="preserve">
+		<value>مگا توربو,</value>
+	</data>
+	<data name="METEOR SHOWER" xml:space="preserve">
+		<value>باران شهاب,</value>
+	</data>
+	<data name="MIN" xml:space="preserve">
+		<value>کمينه,</value>
+	</data>
+	<data name="MISSILE LAUNCHER" xml:space="preserve">
+		<value>شليک کننده موشک,</value>
+	</data>
+	<data name="MISTY FOREST" xml:space="preserve">
+		<value>جنگل مبهم,</value>
+	</data>
+	<data name="MODERATE BLAST AREA AND DAMAGE" xml:space="preserve">
+		<value>صدمه منطقه اي متوسط انفجار,</value>
+	</data>
+	<data name="MONSTROPEDIA" xml:space="preserve">
+		<value>مانتسرو پديا,</value>
+	</data>
+	<data name="MORE GAMES" xml:space="preserve">
+		<value>بازيهاي بيشتر,</value>
+	</data>
+	<data name="MORE POWER!" xml:space="preserve">
+		<value>قدرت بيشتر!,</value>
+	</data>
+	<data name="MR BOMBASTIC" xml:space="preserve">
+		<value>آقاي بمباستيک,</value>
+	</data>
+	<data name="MUSIC &amp; SOUND" xml:space="preserve">
+		<value>آهنگ و صدا,</value>
+	</data>
+	<data name="NEW" xml:space="preserve">
+		<value>جديد,</value>
+	</data>
+	<data name="NEXT" xml:space="preserve">
+		<value>بعدي,</value>
+	</data>
+	<data name="NEXT IN" xml:space="preserve">
+		<value>,</value>
+	</data>
+	<data name="NEXT LEVEL" xml:space="preserve">
+		<value>مرحله بعدي,</value>
+	</data>
+	<data name="NO" xml:space="preserve">
+		<value>نه,</value>
+	</data>
+	<data name="NO INTERNET CONNECTION WAS FOUND. PLEASE TRY AGAIN LATER" xml:space="preserve">
+		<value>اتصال اينترنت برقرار نيست. بعدا دوباره تلاش کنيد.,</value>
+	</data>
+	<data name="NO NEW VIDEOS AVAILABLE RIGHT NOW" xml:space="preserve">
+		<value>در حال حاضر ويديو جديدي آماده نيست.,</value>
+	</data>
+	<data name="NO THANKS" xml:space="preserve">
+		<value>نه، ممنونم,</value>
+	</data>
+	<data name="NO VIDEO AVALIABLE" xml:space="preserve">
+		<value>ويديوي جديدي آماده نيست.,</value>
+	</data>
+	<data name="No, see ads that are less relevant" xml:space="preserve">
+		<value>No, see ads that are less relevant</value>
+	</data>
+	<data name="NOT ENOUGH" xml:space="preserve">
+		<value>کافي نيست,</value>
+	</data>
+	<data name="NOTHING WILL STOP HIM" xml:space="preserve">
+		<value>لوکوماشين - هيچ چيزي نميتواند او را متوقف کند!,</value>
+	</data>
+	<data name="OFF" xml:space="preserve">
+		<value> تخفیف,</value>
+	</data>
+	<data name="Om-Nom-nom" xml:space="preserve">
+		<value>اوم-نام-نام,</value>
+	</data>
+	<data name="OOPS!" xml:space="preserve">
+		<value>اوه اوه!,</value>
+	</data>
+	<data name="OPEN ALL LEVELS" xml:space="preserve">
+		<value>باز کردن تمام مراحل,</value>
+	</data>
+	<data name="OPEN FIRST LEVEL" xml:space="preserve">
+		<value>باز کردن مرحله اول,</value>
+	</data>
+	<data name="OPEN LOCATION" xml:space="preserve">
+		<value>باز کردن موقعيت,</value>
+	</data>
+	<data name="OPEN NEXT LEVEL" xml:space="preserve">
+		<value>باز کردن مرحله بعد,</value>
+	</data>
+	<data name="OR BUY NOW!" xml:space="preserve">
+		<value>يا الان بخريد!</value>
+	</data>
+	<data name="PART */4" xml:space="preserve">
+		<value>قسمت */4,</value>
+	</data>
+	<data name="PLAY" xml:space="preserve">
+		<value>بازي کردن,</value>
+	</data>
+	<data name="PLAY NOW" xml:space="preserve">
+		<value>الان بازي کنيد,</value>
+	</data>
+	<data name="PLEASE CHOOSE" xml:space="preserve">
+		<value>لطفا انتخاب کنید,</value>
+	</data>
+	<data name="PLEASE RATE CAR EATS CAR" xml:space="preserve">
+		<value>به ماشين خوار امتياز دهيد!,</value>
+	</data>
+	<data name="POLICE!" xml:space="preserve">
+		<value>پليس!,</value>
+	</data>
+	<data name="POLICEPEDIA" xml:space="preserve">
+		<value>POLICEPEDIA,</value>
+	</data>
+	<data name="preloader_description_arena" xml:space="preserve">
+		<value>برسرکر - دشمن خود را زنده رها نکنيد!,</value>
+	</data>
+	<data name="preloader_description_boss1" xml:space="preserve">
+		<value>راد پليس - خطرناک ترين ماشين پليس,</value>
+	</data>
+	<data name="preloader_description_boss2" xml:space="preserve">
+		<value>درخشندگي در بين فدرال ها، پيشتاز است.,</value>
+	</data>
+	<data name="preloader_description_boss3" xml:space="preserve">
+		<value>کلاه کاپيتان,</value>
+	</data>
+	<data name="preloader_description_car1" xml:space="preserve">
+		<value>تمساح - نسل جديد ماشين هاي شيطاني,</value>
+	</data>
+	<data name="preloader_description_car2" xml:space="preserve">
+		<value>هاروست - يک وحشي واقعي!,</value>
+	</data>
+	<data name="preloader_description_car3" xml:space="preserve">
+		<value>آرشيور - پنجه هاي قدرتمند,</value>
+	</data>
+	<data name="preloader_description_convoy" xml:space="preserve">
+		<value>کاروان را دنبال و نابود کنيد تا دوستانتان را آزاد کنيد.,</value>
+	</data>
+	<data name="preloader_description_copter1" xml:space="preserve">
+		<value>فضاي هوايي پاسباني مي شود.,</value>
+	</data>
+	<data name="preloader_description_copter2" xml:space="preserve">
+		<value>فضاي هوايي پاسباني مي شود.,</value>
+	</data>
+	<data name="preloader_description_copter3" xml:space="preserve">
+		<value>فضاي هوايي پاسباني مي شود.,</value>
+	</data>
+	<data name="preloader_description_drones" xml:space="preserve">
+		<value>پهبادها بهترين دستيارها هستند!,</value>
+	</data>
+	<data name="preloader_description_fbi" xml:space="preserve">
+		<value>فدرال ها هميشه آماده هستند تا مشکل ايجاد کنند,</value>
+	</data>
+	<data name="preloader_description_fire" xml:space="preserve">
+		<value>فايرباگ - مواظب شعله هاي سوزنده باشيد,</value>
+	</data>
+	<data name="preloader_description_police1_1" xml:space="preserve">
+		<value>پليس ها هرکاري ميکنند تا شما را بگيرند!,</value>
+	</data>
+	<data name="preloader_description_police1_2" xml:space="preserve">
+		<value>پليس ها هرکاري ميکنند تا شما را بگيرند!,</value>
+	</data>
+	<data name="preloader_description_police1_3" xml:space="preserve">
+		<value>پليس ها هرکاري ميکنند تا شما را بگيرند!,</value>
+	</data>
+	<data name="preloader_description_police1_4" xml:space="preserve">
+		<value>پليس ها هرکاري ميکنند تا شما را بگيرند!,</value>
+	</data>
+	<data name="preloader_description_police2_1" xml:space="preserve">
+		<value>پليس ها هرکاري ميکنند تا شما را بگيرند!,</value>
+	</data>
+	<data name="preloader_description_police2_2" xml:space="preserve">
+		<value>پليس ها هرکاري ميکنند تا شما را بگيرند!,</value>
+	</data>
+	<data name="preloader_description_police2_3" xml:space="preserve">
+		<value>پليس ها هرکاري ميکنند تا شما را بگيرند!,</value>
+	</data>
+	<data name="preloader_description_police2_4" xml:space="preserve">
+		<value>پليس ها هرکاري ميکنند تا شما را بگيرند!,</value>
+	</data>
+	<data name="preloader_description_police3_1" xml:space="preserve">
+		<value>پليس ها هرکاري ميکنند تا شما را بگيرند!,</value>
+	</data>
+	<data name="preloader_description_police3_2" xml:space="preserve">
+		<value>پليس ها هرکاري ميکنند تا شما را بگيرند!,</value>
+	</data>
+	<data name="preloader_description_police3_3" xml:space="preserve">
+		<value>پليس ها هرکاري ميکنند تا شما را بگيرند!,</value>
+	</data>
+	<data name="preloader_description_police3_4" xml:space="preserve">
+		<value>پليس ها هرکاري ميکنند تا شما را بگيرند!,</value>
+	</data>
+	<data name="PREMIUM CONTENT" xml:space="preserve">
+		<value>محتواي برتر,</value>
+	</data>
+	<data name="PRESS TO FLIP BACKWARD" xml:space="preserve">
+		<value>کليک کنيد تا به عقب پشتک بزنيد.,</value>
+	</data>
+	<data name="PRESS TO FLIP FORWARD" xml:space="preserve">
+		<value>کليک کنيد تا به جلو پشتک بزنيد.,</value>
+	</data>
+	<data name="PRESS TO USE" xml:space="preserve">
+		<value>کليک کنيد تا استفاده کنيد,</value>
+	</data>
+	<data name="PREVIOUS GAME FOUND" xml:space="preserve">
+		<value>بازي قبلي پيدا شد,</value>
+	</data>
+	<data name="PRIVACY DESCRIPTION" xml:space="preserve">
+		<value>Our privacy policy has been updated! Please review and accept the changes to continue playing.,</value>
+	</data>
+	<data name="PRIVACY POLICY" xml:space="preserve">
+		<value>سياست حفظ حريم خصوصي,</value>
+	</data>
+	<data name="PRODUCERS" xml:space="preserve">
+		<value>محصولات,</value>
+	</data>
+	<data name="PROGRAMMING" xml:space="preserve">
+		<value>برنامه نويسي,</value>
+	</data>
+	<data name="PROTECT YOUR CAR'S BODY" xml:space="preserve">
+		<value>بدنه ماشين خود را محافظت کنيد.,</value>
+	</data>
+	<data name="PUSH" xml:space="preserve">
+		<value>فشار دادن,</value>
+	</data>
+	<data name="RABBITSTER" xml:space="preserve">
+		<value>RABBITSTER,</value>
+	</data>
+	<data name="RABBITSTER DESCRIPTION" xml:space="preserve">
+		<value>RABBITSTER - EARED AND TOOTHY,</value>
+	</data>
+	<data name="RAM" xml:space="preserve">
+		<value>کوبيدن,</value>
+	</data>
+	<data name="RAM YOUR ENEMIES TILL DEATH" xml:space="preserve">
+		<value>دشمنانتان را بکوبيد تا وقتي که بميرند!,</value>
+	</data>
+	<data name="RATE" xml:space="preserve">
+		<value>امتياز,</value>
+	</data>
+	<data name="RATE NOW" xml:space="preserve">
+		<value>الان امتياز دهيد!,</value>
+	</data>
+	<data name="RATE US SHAUT 1" xml:space="preserve">
+		<value>واقعا انقدر بد است !؟,</value>
+	</data>
+	<data name="RATE US SHAUT 2" xml:space="preserve">
+		<value>ناراحت کننده است. ولي ما هميشه به خواسته ها توجه ميکنيم.,</value>
+	</data>
+	<data name="RATE US SHAUT 3" xml:space="preserve">
+		<value>از امتياز شما ممنونيم دوست عزيز!,</value>
+	</data>
+	<data name="RATE US SHAUT 4" xml:space="preserve">
+		<value>ما حتما بازي را بهتر خواهيم کرد!,</value>
+	</data>
+	<data name="RATE US SHAUT 5" xml:space="preserve">
+		<value>ممنونيم رفيق! شما بازيکن فوق العاده اي هستيد.,</value>
+	</data>
+	<data name="RATE YOUR EXPERIENCE!" xml:space="preserve">
+		<value>به تجربه خود امتياز دهيد,</value>
+	</data>
+	<data name="REACH * M. TO GET ANTIGRAVS" xml:space="preserve">
+		<value>به *M. برسيد تا ضد جاذبه بگيريد!,</value>
+	</data>
+	<data name="REACH * M. TO GET MEGA TURBO" xml:space="preserve">
+		<value>به *M. برسيد تا مگا توربو بگيريد!,</value>
+	</data>
+	<data name="REACH * M. TO GET SUPER GUN" xml:space="preserve">
+		<value>به *M. برسيد تا تفنگ عظيم بگيريد!,</value>
+	</data>
+	<data name="REACH * M. TO GET TANK" xml:space="preserve">
+		<value>به *M. برسيد تا تانک بگيريد!,</value>
+	</data>
+	<data name="REACH * M. TO GET TANKOMINATOR PART */4" xml:space="preserve">
+		<value>به *M. برسيد تا تکه تانکوميناتور بگيريد!,</value>
+	</data>
+	<data name="RECHARGER" xml:space="preserve">
+		<value>شارژر,</value>
+	</data>
+	<data name="REGENERATOR" xml:space="preserve">
+		<value>توليد کننده,</value>
+	</data>
+	<data name="RESET GAME" xml:space="preserve">
+		<value>ريست کردن بازي,</value>
+	</data>
+	<data name="RESTART" xml:space="preserve">
+		<value>ري استارت,</value>
+	</data>
+	<data name="RESTORE PURCHASED" xml:space="preserve">
+		<value>بازيابي خريداري شده,</value>
+	</data>
+	<data name="RESTORE PURCHASES" xml:space="preserve">
+		<value>بازيابي خريدها,</value>
+	</data>
+	<data name="RESUME" xml:space="preserve">
+		<value>ادامه,</value>
+	</data>
+	<data name="REVIVE YOUR HEALTH AND FINISH THE LEVEL" xml:space="preserve">
+		<value>خود را زنده کنيد و مرحله را تمام کنيد.,</value>
+	</data>
+	<data name="REVIVE?" xml:space="preserve">
+		<value>زنده ميکنيد؟,</value>
+	</data>
+	<data name="REWARD" xml:space="preserve">
+		<value>جايزه,</value>
+	</data>
+	<data name="RUBIES" xml:space="preserve">
+		<value>ياقوت,</value>
+	</data>
+	<data name="Sawcar" xml:space="preserve">
+		<value>ماشين اره اي,</value>
+	</data>
+	<data name="School Bus" xml:space="preserve">
+		<value>اتوبوس مدرسه,</value>
+	</data>
+	<data name="SCORPION" xml:space="preserve">
+		<value>SCORPION,</value>
+	</data>
+	<data name="SEE YOUR FRIENDS PROGRESS" xml:space="preserve">
+		<value>پيشرفت دوستانت رو ببين,</value>
+	</data>
+	<data name="SETTINGS" xml:space="preserve">
+		<value>تنظيمات,</value>
+	</data>
+	<data name="SHARE" xml:space="preserve">
+		<value>اشتراک,</value>
+	</data>
+	<data name="SHARE VIA FB AND RECEIVE REWARD" xml:space="preserve">
+		<value>به دوستانت به اشتراک بذار و جايزه بگير,</value>
+	</data>
+	<data name="SHIELD" xml:space="preserve">
+		<value>سپر,</value>
+	</data>
+	<data name="SHOP" xml:space="preserve">
+		<value>فروشگاه,</value>
+	</data>
+	<data name="Show consent form" xml:space="preserve">
+		<value>Show consent form,</value>
+	</data>
+	<data name="SHRINK BOMB" xml:space="preserve">
+		<value>بمب کوچک کننده,</value>
+	</data>
+	<data name="SKIP" xml:space="preserve">
+		<value>رد کردن,</value>
+	</data>
+	<data name="Smarty" xml:space="preserve">
+		<value>باهوش!,</value>
+	</data>
+	<data name="SPECIAL MISSION" xml:space="preserve">
+		<value>ماموريت ويژه,</value>
+	</data>
+	<data name="SPEED" xml:space="preserve">
+		<value>سرعت,</value>
+	</data>
+	<data name="SPEED UP WITH TURBO BUTTON" xml:space="preserve">
+		<value>با دکمه توربو، سرعت را زياد کن,</value>
+	</data>
+	<data name="Spike" xml:space="preserve">
+		<value>خار,</value>
+	</data>
+	<data name="SPIN" xml:space="preserve">
+		<value>بچرحان,</value>
+	</data>
+	<data name="SPIN NOW" xml:space="preserve">
+		<value>الان بچرخان,</value>
+	</data>
+	<data name="START" xml:space="preserve">
+		<value>شروع,</value>
+	</data>
+	<data name="START MINI GAME" xml:space="preserve">
+		<value>START MINI GAME,</value>
+	</data>
+	<data name="START RACE NOW!" xml:space="preserve">
+		<value>مسابقه را حالا شروع کن,</value>
+	</data>
+	<data name="Stinger" xml:space="preserve">
+		<value>نيش,</value>
+	</data>
+	<data name="STOP" xml:space="preserve">
+		<value>توقف,</value>
+	</data>
+	<data name="STRONG HULL" xml:space="preserve">
+		<value>تنه قوي,</value>
+	</data>
+	<data name="SUPER FRICTION" xml:space="preserve">
+		<value>گرفتن فوق العاده,</value>
+	</data>
+	<data name="SUPER GUN" xml:space="preserve">
+		<value>اسلحه فوق العاده,</value>
+	</data>
+	<data name="SWAMP" xml:space="preserve">
+		<value>باتلاق,</value>
+	</data>
+	<data name="SWITCHING SUPER BONUS" xml:space="preserve">
+		<value>جايزه فوق العاده تعويض,</value>
+	</data>
+	<data name="TAKE" xml:space="preserve">
+		<value>گرفتن,</value>
+	</data>
+	<data name="TAKE REWARD" xml:space="preserve">
+		<value>گرفتن جايزه,</value>
+	</data>
+	<data name="TANK" xml:space="preserve">
+		<value>تانک,</value>
+	</data>
+	<data name="TANK FULL" xml:space="preserve">
+		<value>تانک پر است,</value>
+	</data>
+	<data name="TANKOMINATOR" xml:space="preserve">
+		<value>تانکوميناتور,</value>
+	</data>
+	<data name="TAP" xml:space="preserve">
+		<value>TAP,</value>
+	</data>
+	<data name="TAP THE SCREEN" xml:space="preserve">
+		<value>روي صفحه ضربه بزنيد,</value>
+	</data>
+	<data name="TAP TO BUY THE UPGRADE" xml:space="preserve">
+		<value>ارتقا را خريداري کنيد,</value>
+	</data>
+	<data name="TAP TO CONTINUE…" xml:space="preserve">
+		<value>کليک کنيد تا ادامه دهيد,</value>
+	</data>
+	<data name="TAP TO DROP" xml:space="preserve">
+		<value>کليک کنيد تا بيندازيد,</value>
+	</data>
+	<data name="TASTY" xml:space="preserve">
+		<value>خوشمزه!,</value>
+	</data>
+	<data name="TERMS OF USE" xml:space="preserve">
+		<value>شرايط استفاده,</value>
+	</data>
+	<data name="TEST DRIVE" xml:space="preserve">
+		<value>رانندگي امتحاني,</value>
+	</data>
+	<data name="TESTERS" xml:space="preserve">
+		<value>تست کننده ها,</value>
+	</data>
+	<data name="THUNDERSTORM" xml:space="preserve">
+		<value>رعد و برق,</value>
+	</data>
+	<data name="TILT" xml:space="preserve">
+		<value>شيب,</value>
+	</data>
+	<data name="TO UNLOCK" xml:space="preserve">
+		<value>تا باز کنيد,</value>
+	</data>
+	<data name="TODAY" xml:space="preserve">
+		<value>امروز,</value>
+	</data>
+	<data name="TOTAL" xml:space="preserve">
+		<value>مجموع,</value>
+	</data>
+	<data name="TRY AGAIN" xml:space="preserve">
+		<value>TRY AGAIN,</value>
+	</data>
+	<data name="TRY HARVESTER FOR FREE!" xml:space="preserve">
+		<value>هاروست را رايگان امتحان کن,</value>
+	</data>
+	<data name="TRY TANKOMINATOR FOR FREE!" xml:space="preserve">
+		<value>تانکوميناتور را رايگان امتحان کن,</value>
+	</data>
+	<data name="TURBO" xml:space="preserve">
+		<value>توربو,</value>
+	</data>
+	<data name="TURTLE" xml:space="preserve">
+		<value>TURTLE,</value>
+	</data>
+	<data name="TUTORIAL" xml:space="preserve">
+		<value>آموزشي,</value>
+	</data>
+	<data name="UNEQUIP" xml:space="preserve">
+		<value>لغو پوشيدن,</value>
+	</data>
+	<data name="UNLIMITED" xml:space="preserve">
+		<value>نامحدود,</value>
+	</data>
+	<data name="UNLOCK" xml:space="preserve">
+		<value>باز کردن,</value>
+	</data>
+	<data name="UNLOCKED" xml:space="preserve">
+		<value>باز شده,</value>
+	</data>
+	<data name="UPGRADE" xml:space="preserve">
+		<value>ارتقا,</value>
+	</data>
+	<data name="UPGRADE YOUR CAR NOW TO BEAT DIFFICULT LEVELS" xml:space="preserve">
+		<value>ماشينت را ارتقا بده تا مراحل سخت را رد کني,</value>
+	</data>
+	<data name="UPGRADES" xml:space="preserve">
+		<value>ارتقاها,</value>
+	</data>
+	<data name="USE" xml:space="preserve">
+		<value>استفاده,</value>
+	</data>
+	<data name="USE BOMBS TO DESTROY ENEMIES" xml:space="preserve">
+		<value>از بمب ها استفاده کنيد تا دشمنان را نابود کنيد.,</value>
+	</data>
+	<data name="USE BOOSTERS TO MAKE THE LEVEL EASIER" xml:space="preserve">
+		<value>از شتاب دهنده ها استفاده کنيد تا مرحله را راحت تر کنيد.,</value>
+	</data>
+	<data name="VALENTINE'S RUSH" xml:space="preserve">
+		<value>شلوغي ولنتاين,</value>
+	</data>
+	<data name="VIDEO" xml:space="preserve">
+		<value>ويديو,</value>
+	</data>
+	<data name="VIDEO FAILED" xml:space="preserve">
+		<value>ويديو موفقيت آميز نبود,</value>
+	</data>
+	<data name="WARNING" xml:space="preserve">
+		<value>اخطار,</value>
+	</data>
+	<data name="We care about your privacy and data security. We keep this app free by showing ads." xml:space="preserve">
+		<value>We care about your privacy and data security. We keep this app free by showing ads.,</value>
+	</data>
+	<data name="WHEEL OF FORTUNE" xml:space="preserve">
+		<value>چرخ بخت و اقبال,</value>
+	</data>
+	<data name="WHEELS" xml:space="preserve">
+		<value>چرخ ها,</value>
+	</data>
+	<data name="Wick" xml:space="preserve">
+		<value>فتيله,</value>
+	</data>
+	<data name="WIN BOSS 1 TO UNLOCK" xml:space="preserve">
+		<value>غول 1 را شکست دهيد تا باز شود.,</value>
+	</data>
+	<data name="WIN BOSS 2 TO UNLOCK" xml:space="preserve">
+		<value>غول 2 را شکست دهيد تا باز شود.,</value>
+	</data>
+	<data name="WIN KEYS TO UNLOCK BERSERKER" xml:space="preserve">
+		<value>کليد برنده شويد تا برسرکر را آزاد کنيد,</value>
+	</data>
+	<data name="WIN YOUR TANKOMINATOR ON ARENA" xml:space="preserve">
+		<value>تانکوميناتور خود را در آرنا برنده شويد.,</value>
+	</data>
+	<data name="WOULD YOU LIKE TO RATE THE GAME?" xml:space="preserve">
+		<value>آيا مي خواهيد به اين بازي امتياز دهيد؟,</value>
+	</data>
+	<data name="WOW!" xml:space="preserve">
+		<value>واي!,</value>
+	</data>
+	<data name="YES" xml:space="preserve">
+		<value>بله,</value>
+	</data>
+	<data name="Yes, continue to see relevant ads" xml:space="preserve">
+		<value>Yes, continue to see relevant ads</value>
+	</data>
+	<data name="YES/NO" xml:space="preserve">
+		<value>بله/نه,</value>
+	</data>
+	<data name="YOU ARE FIRED!!!" xml:space="preserve">
+		<value>تو اخراجي,</value>
+	</data>
+	<data name="YOU ARE GOING TO JAIL!" xml:space="preserve">
+		<value>تو به زندان ميروي!,</value>
+	</data>
+	<data name="YOU ARE OLD AND RUSTY!" xml:space="preserve">
+		<value>تو قديمي و زنگ زده هستي!,</value>
+	</data>
+	<data name="YOU ARE OLD, RUSTY AND EVIL!" xml:space="preserve">
+		<value>تو قديمي، زنگ زده و شيطاني هستي!,</value>
+	</data>
+	<data name="YOU BEAT YOUR FRIEND" xml:space="preserve">
+		<value>تو دوستت را شکست دادي,</value>
+	</data>
+	<data name="You can change your choice anytime for CAR EATS CAR 3 in the app settings. Our partners will collect data and use a unique identifier on your device to show you ads. " xml:space="preserve">
+		<value>You can change your choice anytime for CAR EATS CAR 3 in the app settings. Our partners will collect data and use a unique identifier on your device to show you ads. </value>
+	</data>
+	<data name="YOU CANT FIGHT" xml:space="preserve">
+		<value>تو نميتواني بجنگي,</value>
+	</data>
+	<data name="YOU DEFEATED" xml:space="preserve">
+		<value>تو بردي,</value>
+	</data>
+	<data name="YOU FOUND ARMOR" xml:space="preserve">
+		<value>تو زره را برداشتي,</value>
+	</data>
+	<data name="YOU FOUND BOMB" xml:space="preserve">
+		<value>تو بمب را برداشتي,</value>
+	</data>
+	<data name="YOU FOUND TURBO" xml:space="preserve">
+		<value>تو توربور را برداشتي,</value>
+	</data>
+	<data name="YOU FREED" xml:space="preserve">
+		<value>تو A را آزاد کردي,</value>
+	</data>
+	<data name="You gadget is successfully crafter. Let's use it!" xml:space="preserve">
+		<value>ابزار تو با موفقيت ساخته شد. بيا ازش استفاده کنيم!,</value>
+	</data>
+	<data name="YOU HAVE COLLECTED SOME BOXES. TRY YOUR LUCK AND WIN FREE BONUSES!" xml:space="preserve">
+		<value>شما چند جعبه جمع کرده ايد! شانستان را امتحان کنيد و جوايز رايگان برنده شويد.,</value>
+	</data>
+	<data name="YOU NEED" xml:space="preserve">
+		<value>شما لازم داريد,</value>
+	</data>
+	<data name="YOU ROCK!" xml:space="preserve">
+		<value>تو عالي هستي!,</value>
+	</data>
+	<data name="YOU WILL LOSE YOUR CURRENT GAME PROGRESS!" xml:space="preserve">
+		<value>شما پيشرفت بازي کنوني خود را از دست خواهيد داد.,</value>
+	</data>
+	<data name="YOUR BOOSTS" xml:space="preserve">
+		<value>شتاب دهنده هايتان,</value>
+	</data>
+	<data name="Your daily bonus is ready. Get it!" xml:space="preserve">
+		<value>جايزه روزانه شما آماده است. آن را دريافت کنيد.,</value>
+	</data>
+	<data name="Your gas has refilled in Car Eats Car. Let's go race!" xml:space="preserve">
+		<value>گاز شما در ماشين خوار پر شده است. بريم مسابقه بديم!,</value>
+	</data>
+	<data name="YOUR PREVIOUSLY PURCHASD PRODUCTS HAVE BEEN RESTORED" xml:space="preserve">
+		<value>محصول خريداري شده ي گذشته ي شما ذخيره شده است.,</value>
+	</data>
+	<data name="YOUR RATING HELPS US PROVIDE UPDATES FOR THE GAME" xml:space="preserve">
+		<value>امتياز شما به ما کمک مي کند به‌روز‌رسانيهاي بازي را تهيه کنيم.,</value>
+	</data>
+	<data name="YOU'VE PLAYED CAR EATS CAR BEFORE!" xml:space="preserve">
+		<value>شما ماشين خوار را قبلا بازي کرده ايد!,</value>
+	</data>
+	<data name="YUM-YUM!" xml:space="preserve">
+		<value>به به!,</value>
+	</data>
+</root>

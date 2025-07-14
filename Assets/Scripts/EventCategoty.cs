@@ -1,0 +1,23 @@
+public enum EventCategoty
+{
+	premium_shop,
+	video,
+	facebook,
+	bombs,
+	gadgets,
+	upgrades,
+	purchase_cars,
+	result_level,
+	result_tutorial,
+	result_boss,
+	result_special_mission,
+	result_valentine,
+	retention,
+	daily_bonus,
+	monstropedia,
+	rate,
+	results_arena,
+	crosspromo,
+	policopedia,
+	incubator
+}

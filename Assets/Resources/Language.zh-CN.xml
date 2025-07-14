@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="-*%  cheaper than buying parts separately" xml:space="preserve">
+		<value>比购买单独零件便宜X％</value>
+	</data>
+	<data name="_beatFriend_description" xml:space="preserve">
+		<value />
+	</data>
+	<data name="_rateUs_btn" xml:space="preserve">
+		<value>评分</value>
+	</data>
+	<data name="_rateUs_caption" xml:space="preserve">
+		<value>为游戏体验打分！</value>
+	</data>
+	<data name="_rateUs_description" xml:space="preserve">
+		<value>您的打分将有助于我们改进游戏体验</value>
+	</data>
+	<data name="_rateUs_remind" xml:space="preserve">
+		<value>稍后提醒</value>
+	</data>
+	<data name="+* MAX" xml:space="preserve">
+		<value>+* max.</value>
+	</data>
+	<data name="1 FREE SPIN" xml:space="preserve">
+		<value>1 次免费转盘</value>
+	</data>
+	<data name="1 RACE COSTS * GALLONS OF FUEL" xml:space="preserve">
+		<value>一次比赛需用掉五加仑汽油。</value>
+	</data>
+	<data name="1-2-3-GO!" xml:space="preserve">
+		<value>开始！</value>
+	</data>
+	<data name="5 SEC." xml:space="preserve">
+		<value>5秒</value>
+	</data>
+	<data name="A MONSTROUS MIXTURE OF DRILL AND TANK GUN" xml:space="preserve">
+		<value>TANKOMINATOR - 钻井和坦克枪的混合物</value>
+	</data>
+	<data name="ACTIVE" xml:space="preserve">
+		<value>启用</value>
+	</data>
+	<data name="Ads allow you to play for free. We apologize if it was obsessive to you. Making any in-app purchase will disable ads forever." xml:space="preserve">
+		<value>广告可以让你免费游戏。我们为强制推送表示抱歉。你可以在应用内购买则可以永远移除广告。</value>
+	</data>
+	<data name="ADS IN THIS GAME" xml:space="preserve">
+		<value>广告在游戏中</value>
+	</data>
+	<data name="AIRSTRIKE!" xml:space="preserve">
+		<value>空气支持！</value>
+	</data>
+	<data name="ALL PROGESS LOST" xml:space="preserve">
+		<value>所有进步将被删除</value>
+	</data>
+	<data name="ALL PROGRESS IS NOW SYNCHRONIZED WITH YOUR ACCOUNT!" xml:space="preserve">
+		<value>所有游戏进度皆已经和您的帐户同步！</value>
+	</data>
+	<data name="ALLIGATOR" xml:space="preserve">
+		<value>鳄鱼</value>
+	</data>
+	<data name="ANTIGRAVS" xml:space="preserve">
+		<value>反重力</value>
+	</data>
+	<data name="ANY PURCHASE REMOVES ALL ADS" xml:space="preserve">
+		<value>进行购买即可移除所有广告</value>
+	</data>
+	<data name="Archiver" xml:space="preserve">
+		<value>粉碎机</value>
+	</data>
+	<data name="ARE YOU SHURE" xml:space="preserve">
+		<value>您确定吗？</value>
+	</data>
+	<data name="ARE YOU SHURE YOU WANT TO QUIT" xml:space="preserve">
+		<value>你确定要退出？</value>
+	</data>
+	<data name="ARE YOU SURE YOU WANT TO BUY ADDITIONAL BOXES FOR * RUBIES?" xml:space="preserve">
+		<value>你确定要用 * 颗钻石来购买额外的箱子吗？</value>
+	</data>
+	<data name="ARENA *" xml:space="preserve">
+		<value>STADIUM *</value>
+	</data>
+	<data name="ARMOR" xml:space="preserve">
+		<value>装甲</value>
+	</data>
+	<data name="ART" xml:space="preserve">
+		<value>藝術</value>
+	</data>
+	<data name="ASK ME LATER" xml:space="preserve">
+		<value>之后再问我</value>
+	</data>
+	<data name="ATTRACT STARS WHILE DRIVING" xml:space="preserve">
+		<value>在开车的同时吸引星星。</value>
+	</data>
+	<data name="AWESOME!" xml:space="preserve">
+		<value>真棒！</value>
+	</data>
+	<data name="BAD" xml:space="preserve">
+		<value>BAD</value>
+	</data>
+	<data name="BALANCE YOUR CAR USING TILT BUTTONS" xml:space="preserve">
+		<value>使用倾斜按钮平衡你的车。</value>
+	</data>
+	<data name="BASIC BOMB" xml:space="preserve">
+		<value>炸弹</value>
+	</data>
+	<data name="BEERANHA" xml:space="preserve">
+		<value>普切拉尼亚 （BEERANHA）</value>
+	</data>
+	<data name="Beetlee" xml:space="preserve">
+		<value>BEETLEE</value>
+	</data>
+	<data name="Beetlee description" xml:space="preserve">
+		<value>BEETLEE - 他曾经是善良的，但现在他是邪恶的</value>
+	</data>
+	<data name="BERSERKER" xml:space="preserve">
+		<value>狂战士</value>
+	</data>
+	<data name="BEST" xml:space="preserve">
+		<value>最好</value>
+	</data>
+	<data name="BETTER TRACTION ON THE GROUND" xml:space="preserve">
+		<value>更好的抓地力。</value>
+	</data>
+	<data name="Bigfoot" xml:space="preserve">
+		<value>大脚</value>
+	</data>
+	<data name="BOMB REPLICATOR" xml:space="preserve">
+		<value>再生器</value>
+	</data>
+	<data name="Bomber" xml:space="preserve">
+		<value>轰炸机</value>
+	</data>
+	<data name="BOMBERS!" xml:space="preserve">
+		<value>轰炸机</value>
+	</data>
+	<data name="BOMBS" xml:space="preserve">
+		<value>炸弹</value>
+	</data>
+	<data name="BONUS" xml:space="preserve">
+		<value>奖励</value>
+	</data>
+	<data name="BOOSTS DOUBLED" xml:space="preserve">
+		<value>奖金双倍！</value>
+	</data>
+	<data name="BOSS KILLER!" xml:space="preserve">
+		<value>BOSS KILLER!</value>
+	</data>
+	<data name="BOSS LEVEL" xml:space="preserve">
+		<value>与老板的关卡</value>
+	</data>
+	<data name="BOSS LEVEL LOCKED" xml:space="preserve">
+		<value>与老板的关卡不可用！</value>
+	</data>
+	<data name="BOSS1" xml:space="preserve">
+		<value>科普 罗德 （COP ROD）</value>
+	</data>
+	<data name="BOSS2" xml:space="preserve">
+		<value>闪电 （BLAZE）</value>
+	</data>
+	<data name="BOSS3" xml:space="preserve">
+		<value>铁盒 （CAP BUCKET）</value>
+	</data>
+	<data name="BOUGHT" xml:space="preserve">
+		<value>买了</value>
+	</data>
+	<data name="BUILD" xml:space="preserve">
+		<value>创作</value>
+	</data>
+	<data name="BUY" xml:space="preserve">
+		<value>购买</value>
+	</data>
+	<data name="BUY ADDITIONAL BOXES OR CONTINUE PLAYING" xml:space="preserve">
+		<value>购买额外的箱子或继续进行游戏。</value>
+	</data>
+	<data name="BUY FUEL" xml:space="preserve">
+		<value>买汽油</value>
+	</data>
+	<data name="BUY NOW" xml:space="preserve">
+		<value>立即购买！</value>
+	</data>
+	<data name="BUY RUBIES" xml:space="preserve">
+		<value>买红宝石</value>
+	</data>
+	<data name="BY PROCEEDING YOU AGREE TO OUR UPDATED PRIVACY POLICY." xml:space="preserve">
+		<value>通过继续，您同意我们更新的隐私政策。</value>
+	</data>
+	<data name="Can we continue to use your data to tailor ads for your?" xml:space="preserve">
+		<value>Can we continue to use your data to tailor ads for your?</value>
+	</data>
+	<data name="CANCEL" xml:space="preserve">
+		<value>取消</value>
+	</data>
+	<data name="CAN'T FIND PURCHASED PRODUCTS" xml:space="preserve">
+		<value>无已购买产品。</value>
+	</data>
+	<data name="CAN'T PASS A LEVEL?" xml:space="preserve">
+		<value>不能够通过关卡吗？</value>
+	</data>
+	<data name="CAN'T WAIT?" xml:space="preserve">
+		<value>等不急了？</value>
+	</data>
+	<data name="CAR COLLECTION" xml:space="preserve">
+		<value>汽车收藏</value>
+	</data>
+	<data name="CAR EATS CAR" xml:space="preserve">
+		<value>车斗车</value>
+	</data>
+	<data name="CAR LOCKED" xml:space="preserve">
+		<value>在车辆上解锁车辆*</value>
+	</data>
+	<data name="CAROCOP" xml:space="preserve">
+		<value>CAROCOP</value>
+	</data>
+	<data name="CAROCOP - BUNKER ON WHEELS" xml:space="preserve">
+		<value>CAROCOP - 在轮子上的面包车！</value>
+	</data>
+	<data name="CHOOSE AN EGG" xml:space="preserve">
+		<value>选择一个蛋</value>
+	</data>
+	<data name="CLEARED" xml:space="preserve">
+		<value>已清除</value>
+	</data>
+	<data name="CLOSE" xml:space="preserve">
+		<value>关闭</value>
+	</data>
+	<data name="CLUSTER BOMB" xml:space="preserve">
+		<value>集群炸弹</value>
+	</data>
+	<data name="COCKCHAFER" xml:space="preserve">
+		<value>金龟子</value>
+	</data>
+	<data name="COLLECT ALL PARTS AND GET TANKOMINATOR" xml:space="preserve">
+		<value>收集所有部分，并获得坦克手！</value>
+	</data>
+	<data name="COLLECT BOXES AND WIN PRIZES BY SPINNING A WHEEL AFTER EVERY LEVEL" xml:space="preserve">
+		<value>收集箱子，在每一关结束后旋转幸运轮来赢得奖品。</value>
+	</data>
+	<data name="COLLECT EGGS AND GEMS IN THE CAVE" xml:space="preserve">
+		<value>收集鸡蛋和宝石在洞穴</value>
+	</data>
+	<data name="COLLECTED" xml:space="preserve">
+		<value>已收集</value>
+	</data>
+	<data name="COMBO!" xml:space="preserve">
+		<value>组合！</value>
+	</data>
+	<data name="COMING SOON" xml:space="preserve">
+		<value>即将推出</value>
+	</data>
+	<data name="COMPACTOR" xml:space="preserve">
+		<value>压土机</value>
+	</data>
+	<data name="CONGRATULATIONS" xml:space="preserve">
+		<value>恭喜</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU WON TANKOMINATOR" xml:space="preserve">
+		<value>恭喜！TANKMINATOR</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED ANTIGRAVS" xml:space="preserve">
+		<value>恭喜！ANTIGRAV</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED MEGA TURBO" xml:space="preserve">
+		<value>恭喜！MEGA TURBO</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED SUPER GUN" xml:space="preserve">
+		<value>恭喜！SUPER GUN</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED TANK" xml:space="preserve">
+		<value>恭喜！TANK</value>
+	</data>
+	<data name="CONNECTION FAILED" xml:space="preserve">
+		<value>连接失败</value>
+	</data>
+	<data name="CONNECTION SUCCESS" xml:space="preserve">
+		<value>连接成功</value>
+	</data>
+	<data name="CONSTRUCT IN POLICEPEDIA" xml:space="preserve">
+		<value>构建 POLICEPEDIA</value>
+	</data>
+	<data name="CONTINUE" xml:space="preserve">
+		<value>继续</value>
+	</data>
+	<data name="Copter" xml:space="preserve">
+		<value>直升飞机</value>
+	</data>
+	<data name="COPTER!" xml:space="preserve">
+		<value>直升飞机！</value>
+	</data>
+	<data name="COPYRIGHT 2015 BY SMOKOKO SA" xml:space="preserve">
+		<value>SMOKOKO LTD 版权所有 2015-2018</value>
+	</data>
+	<data name="CREDITS" xml:space="preserve">
+		<value>制作人员</value>
+	</data>
+	<data name="DAILY BONUS" xml:space="preserve">
+		<value>每日红利</value>
+	</data>
+	<data name="DAMAGE" xml:space="preserve">
+		<value>损失</value>
+	</data>
+	<data name="DAY *" xml:space="preserve">
+		<value>日*</value>
+	</data>
+	<data name="DEADLY BLADES" xml:space="preserve">
+		<value>刀片</value>
+	</data>
+	<data name="DEFEAT" xml:space="preserve">
+		<value>您被抓到了！</value>
+	</data>
+	<data name="DESCRIPTION BASIC BOMB " xml:space="preserve">
+		<value>基本协定炸弹</value>
+	</data>
+	<data name="DESCRIPTION BOMB REPLICATOR" xml:space="preserve">
+		<value>慢慢补充您的炸弹贮存</value>
+	</data>
+	<data name="DESCRIPTION CLUSTER BOMB" xml:space="preserve">
+		<value>高爆微炸弹的集群。大面积的伤害。</value>
+	</data>
+	<data name="DESCRIPTION EMP EMITTER" xml:space="preserve">
+		<value>释放电磁脉冲，周围的所有敌人。</value>
+	</data>
+	<data name="DESCRIPTION FLAME BOMB" xml:space="preserve">
+		<value>火酒炸弹。在命中界全部放火烧。</value>
+	</data>
+	<data name="DESCRIPTION FRAG BOMB" xml:space="preserve">
+		<value>基本杀伤炸弹。用碎块伤害补足的损失。</value>
+	</data>
+	<data name="DESCRIPTION FREEZE RAY" xml:space="preserve">
+		<value>射出液氮的血块，冻结敌人。</value>
+	</data>
+	<data name="DESCRIPTION MAGNET" xml:space="preserve">
+		<value>生成磁场，把您身边的红宝石拉近</value>
+	</data>
+	<data name="DESCRIPTION MISSILE LAUNCHER" xml:space="preserve">
+		<value>整合型的起动装置。发射强大的自寻的火箭。</value>
+	</data>
+	<data name="DESCRIPTION SHRINK BOMB" xml:space="preserve">
+		<value>技术含量高炸弹。减少您的敌人到安全大小。</value>
+	</data>
+	<data name="DISTANCE" xml:space="preserve">
+		<value>距离</value>
+	</data>
+	<data name="DRILL GUN" xml:space="preserve">
+		<value>钻石枪</value>
+	</data>
+	<data name="Driller" xml:space="preserve">
+		<value>钻孔机</value>
+	</data>
+	<data name="DRON1 DESCRIPTION" xml:space="preserve">
+		<value>第五天收到免费</value>
+	</data>
+	<data name="DRON2 DESCRIPTION" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DROWNED CITY" xml:space="preserve">
+		<value>淹没之城</value>
+	</data>
+	<data name="EASTER EGG HUNT" xml:space="preserve">
+		<value>EASTER EGG HUNT</value>
+	</data>
+	<data name="EAT POLICE AND CIVILS" xml:space="preserve">
+		<value>DESTROY YOUR ENEMIES TO GAIN BADGES</value>
+	</data>
+	<data name="ECO FUEL" xml:space="preserve">
+		<value>生态汽油</value>
+	</data>
+	<data name="EMP EMITTER" xml:space="preserve">
+		<value>电磁脉冲</value>
+	</data>
+	<data name="ENDLESS STOCK OF FUEL" xml:space="preserve">
+		<value>无限的汽油贮存</value>
+	</data>
+	<data name="ENGINE" xml:space="preserve">
+		<value>引擎</value>
+	</data>
+	<data name="ENIGMA" xml:space="preserve">
+		<value>ENIGMA!</value>
+	</data>
+	<data name="EQUIP" xml:space="preserve">
+		<value>配戴配备</value>
+	</data>
+	<data name="EQUIPED" xml:space="preserve">
+		<value>拿的</value>
+	</data>
+	<data name="EVOLUTION COMPLETE" xml:space="preserve">
+		<value>演变完成</value>
+	</data>
+	<data name="Excavator" xml:space="preserve">
+		<value>挖掘机</value>
+	</data>
+	<data name="EXCELLENT!" xml:space="preserve">
+		<value>棒极了！</value>
+	</data>
+	<data name="EXIT" xml:space="preserve">
+		<value>EXIT</value>
+	</data>
+	<data name="FIND AT ARENA" xml:space="preserve">
+		<value>找到ARENA</value>
+	</data>
+	<data name="FIND AT EASTER EGG HUNT" xml:space="preserve">
+		<value>找到EASTER EGG HUNT</value>
+	</data>
+	<data name="FIND IN THE CAVE" xml:space="preserve">
+		<value>在洞穴里找到</value>
+	</data>
+	<data name="FIREBUG" xml:space="preserve">
+		<value>萤火虫</value>
+	</data>
+	<data name="FIRED!?!" xml:space="preserve">
+		<value>解雇的吗！?！</value>
+	</data>
+	<data name="FLAME BOMB" xml:space="preserve">
+		<value>火热</value>
+	</data>
+	<data name="FORTUNE" xml:space="preserve">
+		<value>幸运</value>
+	</data>
+	<data name="FRAG BOMB" xml:space="preserve">
+		<value>杀伤</value>
+	</data>
+	<data name="FRANCOPSTEIN" xml:space="preserve">
+		<value>FRANCOPSTEIN</value>
+	</data>
+	<data name="FRANCOPSTEIN - IT'S ALIVE!" xml:space="preserve">
+		<value>FRANCOPSTEIN - 它还活着！</value>
+	</data>
+	<data name="FREE" xml:space="preserve">
+		<value>免费</value>
+	</data>
+	<data name="FREE FUEL PACK" xml:space="preserve">
+		<value>免费的汽油</value>
+	</data>
+	<data name="FREE RUBIES PACK" xml:space="preserve">
+		<value>免费的红宝石</value>
+	</data>
+	<data name="FREE SPIN" xml:space="preserve">
+		<value>次免费转盘</value>
+	</data>
+	<data name="FREEDOM ISLAND!!!" xml:space="preserve">
+		<value>自由岛！！！</value>
+	</data>
+	<data name="FREEZE RAY" xml:space="preserve">
+		<value>冷冻</value>
+	</data>
+	<data name="FRIENDOPEDIA" xml:space="preserve">
+		<value>FRIENDOPEDIA</value>
+	</data>
+	<data name="FUEL" xml:space="preserve">
+		<value>汽油</value>
+	</data>
+	<data name="GADGETS" xml:space="preserve">
+		<value>道具</value>
+	</data>
+	<data name="GAME DESIGN" xml:space="preserve">
+		<value>游戏设计</value>
+	</data>
+	<data name="GAME DEVELOPED BY SMOKOKO SA" xml:space="preserve">
+		<value>SMOKOKO LTD 制作开发</value>
+	</data>
+	<data name="GAME PUBLISHED BY SPIL GAMES" xml:space="preserve">
+		<value>SPIL GAMES 发行</value>
+	</data>
+	<data name="GARAGE" xml:space="preserve">
+		<value>车库</value>
+	</data>
+	<data name="GATOR" xml:space="preserve">
+		<value>鳄鱼</value>
+	</data>
+	<data name="GET ADDITIONAL BOMBS" xml:space="preserve">
+		<value>获得额外的炸弹。</value>
+	</data>
+	<data name="GET ADDITIONAL TURBO" xml:space="preserve">
+		<value>获得额外的涡轮增压。</value>
+	</data>
+	<data name="GET FUEL" xml:space="preserve">
+		<value>获得汽油</value>
+	</data>
+	<data name="GET RUBIES" xml:space="preserve">
+		<value>取得红宝石</value>
+	</data>
+	<data name="GHOST TOWN" xml:space="preserve">
+		<value>鬼城</value>
+	</data>
+	<data name="GOOD" xml:space="preserve">
+		<value>GOOD</value>
+	</data>
+	<data name="HARVESTER" xml:space="preserve">
+		<value>收割机</value>
+	</data>
+	<data name="HAVEN'T PLAYED YET?" xml:space="preserve">
+		<value>还没玩过？</value>
+	</data>
+	<data name="HOW TO PLAY" xml:space="preserve">
+		<value>操纵</value>
+	</data>
+	<data name="I AGREE" xml:space="preserve">
+		<value>我同意</value>
+	</data>
+	<data name="ICE AGE" xml:space="preserve">
+		<value>冰河世纪</value>
+	</data>
+	<data name="INCREASES CAR'S HEALTH" xml:space="preserve">
+		<value>增加车子的健康。</value>
+	</data>
+	<data name="INCREASES CAR'S TOP SPEED" xml:space="preserve">
+		<value>提高车子的最高极速</value>
+	</data>
+	<data name="INCUBATOR" xml:space="preserve">
+		<value>孵化器</value>
+	</data>
+	<data name="Ketchup" xml:space="preserve">
+		<value>番茄酱</value>
+	</data>
+	<data name="KILLED" xml:space="preserve">
+		<value>击毙</value>
+	</data>
+	<data name="LANGUAGE" xml:space="preserve">
+		<value>语言</value>
+	</data>
+	<data name="LARGE FUEL TANK" xml:space="preserve">
+		<value>大储油槽</value>
+	</data>
+	<data name="LARGER TURBO TANK CAPACITY" xml:space="preserve">
+		<value>更大的涡轮汽缸容量。</value>
+	</data>
+	<data name="Learn how CAR EATS CAR 3 and our partners collect and use data" xml:space="preserve">
+		<value>Learn how CAR EATS CAR 3 and our partners collect and use data</value>
+	</data>
+	<data name="LEAVING SO SOON" xml:space="preserve">
+		<value>已经离开吗？</value>
+	</data>
+	<data name="LESS POWER!" xml:space="preserve">
+		<value>易损性</value>
+	</data>
+	<data name="LET'S LEVEL UP THE SPEED" xml:space="preserve">
+		<value>让改善速度</value>
+	</data>
+	<data name="LET'S RETURN TO MAP" xml:space="preserve">
+		<value>让回到地图</value>
+	</data>
+	<data name="LEVEL" xml:space="preserve">
+		<value>关卡</value>
+	</data>
+	<data name="LEVEL *" xml:space="preserve">
+		<value>关卡 *</value>
+	</data>
+	<data name="LEVEL * COMPLETED" xml:space="preserve">
+		<value>通过第 * 关</value>
+	</data>
+	<data name="LEVEL * FAILED" xml:space="preserve">
+		<value>未通过第 * 关</value>
+	</data>
+	<data name="LEVEL DESIGN" xml:space="preserve">
+		<value>关卡设计</value>
+	</data>
+	<data name="LEVELS" xml:space="preserve">
+		<value>关卡</value>
+	</data>
+	<data name="Limited offer, left * min" xml:space="preserve">
+		<value>限时优惠，左*分钟</value>
+	</data>
+	<data name="LIMITED TIME OFFER" xml:space="preserve">
+		<value>有限制的建议</value>
+	</data>
+	<data name="LOAD" xml:space="preserve">
+		<value>装载</value>
+	</data>
+	<data name="LOAD THIS GAME?" xml:space="preserve">
+		<value>加载此游戏？</value>
+	</data>
+	<data name="LOADING" xml:space="preserve">
+		<value>正在加载</value>
+	</data>
+	<data name="LOCKED" xml:space="preserve">
+		<value>已锁定</value>
+	</data>
+	<data name="LOCOMACHINE" xml:space="preserve">
+		<value>LOCOMACHINE</value>
+	</data>
+	<data name="LOGIN" xml:space="preserve">
+		<value>登录</value>
+	</data>
+	<data name="LOGIN AND GET" xml:space="preserve">
+		<value>登录以获得</value>
+	</data>
+	<data name="LOGIN AND GET BONUSES" xml:space="preserve">
+		<value>开始会议并赢得奖金！</value>
+	</data>
+	<data name="LOGOUT" xml:space="preserve">
+		<value>登出</value>
+	</data>
+	<data name="MAGNET" xml:space="preserve">
+		<value>磁铁</value>
+	</data>
+	<data name="Matt" xml:space="preserve">
+		<value>麦特</value>
+	</data>
+	<data name="MAX." xml:space="preserve">
+		<value>最大</value>
+	</data>
+	<data name="MEGA TURBO" xml:space="preserve">
+		<value>超强涡轮增压</value>
+	</data>
+	<data name="METEOR SHOWER" xml:space="preserve">
+		<value>流星雨</value>
+	</data>
+	<data name="MIN" xml:space="preserve">
+		<value>MIN</value>
+	</data>
+	<data name="MISSILE LAUNCHER" xml:space="preserve">
+		<value>信号枪</value>
+	</data>
+	<data name="MISTY FOREST" xml:space="preserve">
+		<value>迷雾森林</value>
+	</data>
+	<data name="MODERATE BLAST AREA AND DAMAGE" xml:space="preserve">
+		<value>中等爆破区域伤害力</value>
+	</data>
+	<data name="MONSTROPEDIA" xml:space="preserve">
+		<value>MONSTROPEDIA</value>
+	</data>
+	<data name="MORE GAMES" xml:space="preserve">
+		<value>更多游戏</value>
+	</data>
+	<data name="MORE POWER!" xml:space="preserve">
+		<value>锋利的牙齿！</value>
+	</data>
+	<data name="MR BOMBASTIC" xml:space="preserve">
+		<value>Mr. BOMBASTIC</value>
+	</data>
+	<data name="MUSIC &amp; SOUND" xml:space="preserve">
+		<value>音乐与音效</value>
+	</data>
+	<data name="NEW" xml:space="preserve">
+		<value>新</value>
+	</data>
+	<data name="NEXT" xml:space="preserve">
+		<value>下一步</value>
+	</data>
+	<data name="NEXT IN" xml:space="preserve">
+		<value>下一步</value>
+	</data>
+	<data name="NEXT LEVEL" xml:space="preserve">
+		<value>下一关</value>
+	</data>
+	<data name="NO" xml:space="preserve">
+		<value>否</value>
+	</data>
+	<data name="NO INTERNET CONNECTION WAS FOUND. PLEASE TRY AGAIN LATER" xml:space="preserve">
+		<value>找不到网络连接。 请稍后再重试</value>
+	</data>
+	<data name="NO NEW VIDEOS AVAILABLE RIGHT NOW" xml:space="preserve">
+		<value>现在无新视频可观看。</value>
+	</data>
+	<data name="NO THANKS" xml:space="preserve">
+		<value>不，谢了</value>
+	</data>
+	<data name="NO VIDEO AVALIABLE" xml:space="preserve">
+		<value>现在无新视频可观看。</value>
+	</data>
+	<data name="No, see ads that are less relevant" xml:space="preserve">
+		<value>No, see ads that are less relevant</value>
+	</data>
+	<data name="NOT ENOUGH" xml:space="preserve">
+		<value>不够</value>
+	</data>
+	<data name="NOTHING WILL STOP HIM" xml:space="preserve">
+		<value>洛科车 （LOCOMACHINE） - 什么也不会停止它！</value>
+	</data>
+	<data name="OFF" xml:space="preserve">
+		<value>的折扣</value>
+	</data>
+	<data name="Om-Nom-nom" xml:space="preserve">
+		<value>Om-Nom-nom</value>
+	</data>
+	<data name="OOPS!" xml:space="preserve">
+		<value>糟糕！</value>
+	</data>
+	<data name="OPEN ALL LEVELS" xml:space="preserve">
+		<value>解锁全部关卡</value>
+	</data>
+	<data name="OPEN FIRST LEVEL" xml:space="preserve">
+		<value>开启第一关</value>
+	</data>
+	<data name="OPEN LOCATION" xml:space="preserve">
+		<value>开启地点</value>
+	</data>
+	<data name="OPEN NEXT LEVEL" xml:space="preserve">
+		<value>开启下一关</value>
+	</data>
+	<data name="OR BUY NOW!" xml:space="preserve">
+		<value>现在购买</value>
+	</data>
+	<data name="PART */4" xml:space="preserve">
+		<value>组件* / 4</value>
+	</data>
+	<data name="PLAY" xml:space="preserve">
+		<value>开始游戏</value>
+	</data>
+	<data name="PLAY NOW" xml:space="preserve">
+		<value>现在玩</value>
+	</data>
+	<data name="PLEASE CHOOSE" xml:space="preserve">
+		<value>请选择</value>
+	</data>
+	<data name="PLEASE RATE CAR EATS CAR" xml:space="preserve">
+		<value>评估凶猛车</value>
+	</data>
+	<data name="POLICE!" xml:space="preserve">
+		<value>警察！</value>
+	</data>
+	<data name="POLICEPEDIA" xml:space="preserve">
+		<value>POLICEPEDIA</value>
+	</data>
+	<data name="preloader_description_arena" xml:space="preserve">
+		<value>狂战士 - 杀死你所有的敌人！</value>
+	</data>
+	<data name="preloader_description_boss1" xml:space="preserve">
+		<value>科普 罗德 （COP ROD） - 最危险的警车</value>
+	</data>
+	<data name="preloader_description_boss2" xml:space="preserve">
+		<value>闪电 （BLAZE） - 最主要联邦</value>
+	</data>
+	<data name="preloader_description_boss3" xml:space="preserve">
+		<value>水桶大尉 （CAPTAIN BUCKET） - 胜利或沉没沉没！！！</value>
+	</data>
+	<data name="preloader_description_car1" xml:space="preserve">
+		<value>加托尔 （GATOR） - 新一代的凶猛车！</value>
+	</data>
+	<data name="preloader_description_car2" xml:space="preserve">
+		<value>康拜因 （HARVESTER） - 真正的强盗！</value>
+	</data>
+	<data name="preloader_description_car3" xml:space="preserve">
+		<value>阿尔希韦尔 （ARCHIVER） - 强壮的螯！</value>
+	</data>
+	<data name="preloader_description_convoy" xml:space="preserve">
+		<value>为了解放朋友，追上并摧毁护送队</value>
+	</data>
+	<data name="preloader_description_copter1" xml:space="preserve">
+		<value>空气空间通过巡逻！</value>
+	</data>
+	<data name="preloader_description_copter2" xml:space="preserve">
+		<value>空气空间通过巡逻！</value>
+	</data>
+	<data name="preloader_description_copter3" xml:space="preserve">
+		<value>空气空间通过巡逻！</value>
+	</data>
+	<data name="preloader_description_drones" xml:space="preserve">
+		<value>无人战斗航空载具 - 最好的助手！</value>
+	</data>
+	<data name="preloader_description_fbi" xml:space="preserve">
+		<value>联邦总是准备增添麻烦</value>
+	</data>
+	<data name="preloader_description_fire" xml:space="preserve">
+		<value>奥格涅斯瓦尔 （FIREBUG） - 注意燃烧的火焰！</value>
+	</data>
+	<data name="preloader_description_police1_1" xml:space="preserve">
+		<value>警察做任何事情要捉住你！</value>
+	</data>
+	<data name="preloader_description_police1_2" xml:space="preserve">
+		<value>警察做任何事情要捉住你！</value>
+	</data>
+	<data name="preloader_description_police1_3" xml:space="preserve">
+		<value>警察做任何事情要捉住你！</value>
+	</data>
+	<data name="preloader_description_police1_4" xml:space="preserve">
+		<value>警察做任何事情要捉住你！</value>
+	</data>
+	<data name="preloader_description_police2_1" xml:space="preserve">
+		<value>警察做任何事情要捉住你！</value>
+	</data>
+	<data name="preloader_description_police2_2" xml:space="preserve">
+		<value>警察做任何事情要捉住你！</value>
+	</data>
+	<data name="preloader_description_police2_3" xml:space="preserve">
+		<value>警察做任何事情要捉住你！</value>
+	</data>
+	<data name="preloader_description_police2_4" xml:space="preserve">
+		<value>警察做任何事情要捉住你！</value>
+	</data>
+	<data name="preloader_description_police3_1" xml:space="preserve">
+		<value>警察做任何事情要捉住你！</value>
+	</data>
+	<data name="preloader_description_police3_2" xml:space="preserve">
+		<value>警察做任何事情要捉住你！</value>
+	</data>
+	<data name="preloader_description_police3_3" xml:space="preserve">
+		<value>警察做任何事情要捉住你！</value>
+	</data>
+	<data name="preloader_description_police3_4" xml:space="preserve">
+		<value>警察做任何事情要捉住你！</value>
+	</data>
+	<data name="PREMIUM CONTENT" xml:space="preserve">
+		<value>高级内容</value>
+	</data>
+	<data name="PRESS TO FLIP BACKWARD" xml:space="preserve">
+		<value>PRESS TO FLIP BACKWARD</value>
+	</data>
+	<data name="PRESS TO FLIP FORWARD" xml:space="preserve">
+		<value>PRESS TO FLIP FORWARD</value>
+	</data>
+	<data name="PRESS TO USE" xml:space="preserve">
+		<value>PRESS TO USE</value>
+	</data>
+	<data name="PREVIOUS GAME FOUND" xml:space="preserve">
+		<value>发现旧版游戏</value>
+	</data>
+	<data name="PRIVACY DESCRIPTION" xml:space="preserve">
+		<value>我们的隐私政策已更新！ 请检查并接受更改以继续播放。</value>
+	</data>
+	<data name="PRIVACY POLICY" xml:space="preserve">
+		<value>隐私政策</value>
+	</data>
+	<data name="PRODUCERS" xml:space="preserve">
+		<value>制作人</value>
+	</data>
+	<data name="PROGRAMMING" xml:space="preserve">
+		<value>编程</value>
+	</data>
+	<data name="PROTECT YOUR CAR'S BODY" xml:space="preserve">
+		<value>保护车体。</value>
+	</data>
+	<data name="PUSH" xml:space="preserve">
+		<value>推</value>
+	</data>
+	<data name="RABBITSTER" xml:space="preserve">
+		<value>RABBITSTER</value>
+	</data>
+	<data name="RABBITSTER DESCRIPTION" xml:space="preserve">
+		<value>RABBITSTER - 耳朵和牙齿</value>
+	</data>
+	<data name="RAM" xml:space="preserve">
+		<value>冲撞杆</value>
+	</data>
+	<data name="RAM YOUR ENEMIES TILL DEATH" xml:space="preserve">
+		<value>冲撞敌人直至对方死亡为止。</value>
+	</data>
+	<data name="RATE" xml:space="preserve">
+		<value>立即评分</value>
+	</data>
+	<data name="RATE NOW" xml:space="preserve">
+		<value>立即评分</value>
+	</data>
+	<data name="RATE US SHAUT 1" xml:space="preserve">
+		<value>难道一切都很糟糕？</value>
+	</data>
+	<data name="RATE US SHAUT 2" xml:space="preserve">
+		<value>遗憾了，但我们一定会听取愿望！</value>
+	</data>
+	<data name="RATE US SHAUT 3" xml:space="preserve">
+		<value>感谢您的评价！</value>
+	</data>
+	<data name="RATE US SHAUT 4" xml:space="preserve">
+		<value>哇！ 我们一定会让游戏变得更好！</value>
+	</data>
+	<data name="RATE US SHAUT 5" xml:space="preserve">
+		<value>谢谢兄弟！ 你是世界上最好的！</value>
+	</data>
+	<data name="RATE YOUR EXPERIENCE!" xml:space="preserve">
+		<value>为游戏体验打分！</value>
+	</data>
+	<data name="REACH * M. TO GET ANTIGRAVS" xml:space="preserve">
+		<value>REACH * M. TO GET ANTIGRAVS</value>
+	</data>
+	<data name="REACH * M. TO GET MEGA TURBO" xml:space="preserve">
+		<value>REACH * M. TO GET MEGA TURBO</value>
+	</data>
+	<data name="REACH * M. TO GET SUPER GUN" xml:space="preserve">
+		<value>REACH * M. TO GET SUPER GUN</value>
+	</data>
+	<data name="REACH * M. TO GET TANK" xml:space="preserve">
+		<value>REACH * M. TO GET TANK</value>
+	</data>
+	<data name="REACH * M. TO GET TANKOMINATOR PART */4" xml:space="preserve">
+		<value>完成* M.获得坦克部分* / 4</value>
+	</data>
+	<data name="RECHARGER" xml:space="preserve">
+		<value>充电器</value>
+	</data>
+	<data name="REGENERATOR" xml:space="preserve">
+		<value>再生器</value>
+	</data>
+	<data name="RESET GAME" xml:space="preserve">
+		<value>重置游戏</value>
+	</data>
+	<data name="RESTART" xml:space="preserve">
+		<value>重新开始</value>
+	</data>
+	<data name="RESTORE PURCHASED" xml:space="preserve">
+		<value>回复已购买</value>
+	</data>
+	<data name="RESTORE PURCHASES" xml:space="preserve">
+		<value>回复购买</value>
+	</data>
+	<data name="RESUME" xml:space="preserve">
+		<value>回到游戏</value>
+	</data>
+	<data name="REVIVE YOUR HEALTH AND FINISH THE LEVEL" xml:space="preserve">
+		<value>恢复健康并完成关卡。</value>
+	</data>
+	<data name="REVIVE?" xml:space="preserve">
+		<value>复活</value>
+	</data>
+	<data name="REWARD" xml:space="preserve">
+		<value>奖赏</value>
+	</data>
+	<data name="RUBIES" xml:space="preserve">
+		<value>红宝石</value>
+	</data>
+	<data name="Sawcar" xml:space="preserve">
+		<value>链锯车</value>
+	</data>
+	<data name="School Bus" xml:space="preserve">
+		<value>校车</value>
+	</data>
+	<data name="SCORPION" xml:space="preserve">
+		<value>蝎</value>
+	</data>
+	<data name="SEE YOUR FRIENDS PROGRESS" xml:space="preserve">
+		<value>可查看好友的进度</value>
+	</data>
+	<data name="SETTINGS" xml:space="preserve">
+		<value>设置</value>
+	</data>
+	<data name="SHARE" xml:space="preserve">
+		<value>分享</value>
+	</data>
+	<data name="SHARE VIA FB AND RECEIVE REWARD" xml:space="preserve">
+		<value>与朋友分享并收到礼物</value>
+	</data>
+	<data name="SHIELD" xml:space="preserve">
+		<value>护盾</value>
+	</data>
+	<data name="SHOP" xml:space="preserve">
+		<value>商店</value>
+	</data>
+	<data name="Show consent form" xml:space="preserve">
+		<value>Show consent form</value>
+	</data>
+	<data name="SHRINK BOMB" xml:space="preserve">
+		<value>缩小炸弹</value>
+	</data>
+	<data name="SKIP" xml:space="preserve">
+		<value>跳越</value>
+	</data>
+	<data name="Smarty" xml:space="preserve">
+		<value>聪聪</value>
+	</data>
+	<data name="SPECIAL MISSION" xml:space="preserve">
+		<value>转让</value>
+	</data>
+	<data name="SPEED" xml:space="preserve">
+		<value>速度</value>
+	</data>
+	<data name="SPEED UP WITH TURBO BUTTON" xml:space="preserve">
+		<value>使用涡轮增压按钮来加速。</value>
+	</data>
+	<data name="Spike" xml:space="preserve">
+		<value>长钉</value>
+	</data>
+	<data name="SPIN" xml:space="preserve">
+		<value>次机会</value>
+	</data>
+	<data name="SPIN NOW" xml:space="preserve">
+		<value>现在玩！</value>
+	</data>
+	<data name="START" xml:space="preserve">
+		<value>开始</value>
+	</data>
+	<data name="START MINI GAME" xml:space="preserve">
+		<value>开始迷你游戏</value>
+	</data>
+	<data name="START RACE NOW!" xml:space="preserve">
+		<value>立刻开始比赛！</value>
+	</data>
+	<data name="Stinger" xml:space="preserve">
+		<value>尖刺</value>
+	</data>
+	<data name="STOP" xml:space="preserve">
+		<value>停止</value>
+	</data>
+	<data name="STRONG HULL" xml:space="preserve">
+		<value>强壮的船体</value>
+	</data>
+	<data name="SUPER FRICTION" xml:space="preserve">
+		<value>超级抓地力</value>
+	</data>
+	<data name="SUPER GUN" xml:space="preserve">
+		<value>无敌神枪</value>
+	</data>
+	<data name="SWAMP" xml:space="preserve">
+		<value>沼泽</value>
+	</data>
+	<data name="SWITCHING SUPER BONUS" xml:space="preserve">
+		<value>SWITCHING SUPER BONUS</value>
+	</data>
+	<data name="TAKE" xml:space="preserve">
+		<value>抓斗</value>
+	</data>
+	<data name="TAKE REWARD" xml:space="preserve">
+		<value>获奖</value>
+	</data>
+	<data name="TANK" xml:space="preserve">
+		<value>坦克</value>
+	</data>
+	<data name="TANK FULL" xml:space="preserve">
+		<value>油箱已满</value>
+	</data>
+	<data name="TANKOMINATOR" xml:space="preserve">
+		<value>TANKOMINATOR</value>
+	</data>
+	<data name="TAP" xml:space="preserve">
+		<value>TAP</value>
+	</data>
+	<data name="TAP THE SCREEN" xml:space="preserve">
+		<value>点击屏幕！</value>
+	</data>
+	<data name="TAP TO BUY THE UPGRADE" xml:space="preserve">
+		<value>点击购买</value>
+	</data>
+	<data name="TAP TO CONTINUE…" xml:space="preserve">
+		<value>点击继续...</value>
+	</data>
+	<data name="TAP TO DROP" xml:space="preserve">
+		<value>PRESS TO DROP</value>
+	</data>
+	<data name="TASTY" xml:space="preserve">
+		<value>好吃极了！</value>
+	</data>
+	<data name="TERMS OF USE" xml:space="preserve">
+		<value>使用条款</value>
+	</data>
+	<data name="TEST DRIVE" xml:space="preserve">
+		<value>TEST DRIVE</value>
+	</data>
+	<data name="TESTERS" xml:space="preserve">
+		<value>测试员</value>
+	</data>
+	<data name="THUNDERSTORM" xml:space="preserve">
+		<value>雷暴</value>
+	</data>
+	<data name="TILT" xml:space="preserve">
+		<value>调整平衡</value>
+	</data>
+	<data name="TO UNLOCK" xml:space="preserve">
+		<value>解锁</value>
+	</data>
+	<data name="TODAY" xml:space="preserve">
+		<value>今天</value>
+	</data>
+	<data name="TOTAL" xml:space="preserve">
+		<value>总计</value>
+	</data>
+	<data name="TRY AGAIN" xml:space="preserve">
+		<value>再试一次</value>
+	</data>
+	<data name="TRY HARVESTER FOR FREE!" xml:space="preserve">
+		<value>TRY HARVESTER FOR FREE!</value>
+	</data>
+	<data name="TRY TANKOMINATOR FOR FREE!" xml:space="preserve">
+		<value>TRY TANKOMINATOR FOR FREE!</value>
+	</data>
+	<data name="TURBO" xml:space="preserve">
+		<value>涡轮增压</value>
+	</data>
+	<data name="TURTLE" xml:space="preserve">
+		<value>龟</value>
+	</data>
+	<data name="TUTORIAL" xml:space="preserve">
+		<value>教程</value>
+	</data>
+	<data name="UNEQUIP" xml:space="preserve">
+		<value>解除配备</value>
+	</data>
+	<data name="UNLIMITED" xml:space="preserve">
+		<value>无限</value>
+	</data>
+	<data name="UNLOCK" xml:space="preserve">
+		<value>开锁</value>
+	</data>
+	<data name="UNLOCKED" xml:space="preserve">
+		<value>已解锁</value>
+	</data>
+	<data name="UPGRADE" xml:space="preserve">
+		<value>升级</value>
+	</data>
+	<data name="UPGRADE YOUR CAR NOW TO BEAT DIFFICULT LEVELS" xml:space="preserve">
+		<value>立刻升级车子来击败困难关卡。</value>
+	</data>
+	<data name="UPGRADES" xml:space="preserve">
+		<value>升级</value>
+	</data>
+	<data name="USE" xml:space="preserve">
+		<value>使用</value>
+	</data>
+	<data name="USE BOMBS TO DESTROY ENEMIES" xml:space="preserve">
+		<value>使用炸弹来摧毁敌人。</value>
+	</data>
+	<data name="USE BOOSTERS TO MAKE THE LEVEL EASIER" xml:space="preserve">
+		<value>用加分器来把关卡变简单。</value>
+	</data>
+	<data name="VALENTINE'S RUSH" xml:space="preserve">
+		<value>情人节比赛</value>
+	</data>
+	<data name="VIDEO" xml:space="preserve">
+		<value>视频</value>
+	</data>
+	<data name="VIDEO FAILED" xml:space="preserve">
+		<value>VIDEO FAILED</value>
+	</data>
+	<data name="WARNING" xml:space="preserve">
+		<value>警告</value>
+	</data>
+	<data name="We care about your privacy and data security. We keep this app free by showing ads." xml:space="preserve">
+		<value>We care about your privacy and data security. We keep this app free by showing ads.</value>
+	</data>
+	<data name="WHEEL OF FORTUNE" xml:space="preserve">
+		<value>幸运轮盘</value>
+	</data>
+	<data name="WHEELS" xml:space="preserve">
+		<value>轮胎</value>
+	</data>
+	<data name="Wick" xml:space="preserve">
+		<value>灯芯</value>
+	</data>
+	<data name="WIN BOSS 1 TO UNLOCK" xml:space="preserve">
+		<value>战胜老板1为解锁</value>
+	</data>
+	<data name="WIN BOSS 2 TO UNLOCK" xml:space="preserve">
+		<value>战胜老板2为解锁</value>
+	</data>
+	<data name="WIN KEYS TO UNLOCK BERSERKER" xml:space="preserve">
+		<value>赢取钥匙解锁狂战士</value>
+	</data>
+	<data name="WIN YOUR TANKOMINATOR ON ARENA" xml:space="preserve">
+		<value>让你的坦克在体育场</value>
+	</data>
+	<data name="WOULD YOU LIKE TO RATE THE GAME?" xml:space="preserve">
+		<value>是否要为游戏评分呢？</value>
+	</data>
+	<data name="WOW!" xml:space="preserve">
+		<value>哇！</value>
+	</data>
+	<data name="YES" xml:space="preserve">
+		<value>是</value>
+	</data>
+	<data name="Yes, continue to see relevant ads" xml:space="preserve">
+		<value>Yes, continue to see relevant ads</value>
+	</data>
+	<data name="YES/NO" xml:space="preserve">
+		<value>是/否</value>
+	</data>
+	<data name="YOU ARE FIRED!!!" xml:space="preserve">
+		<value>你被解雇了！！！</value>
+	</data>
+	<data name="YOU ARE GOING TO JAIL!" xml:space="preserve">
+		<value>您要坐牢！</value>
+	</data>
+	<data name="YOU ARE OLD AND RUSTY!" xml:space="preserve">
+		<value>您已经成为老的和长锈的！</value>
+	</data>
+	<data name="YOU ARE OLD, RUSTY AND EVIL!" xml:space="preserve">
+		<value>您是老的，长锈的和恶的！</value>
+	</data>
+	<data name="YOU BEAT YOUR FRIEND" xml:space="preserve">
+		<value>你打败了你的好友</value>
+	</data>
+	<data name="You can change your choice anytime for CAR EATS CAR 3 in the app settings. Our partners will collect data and use a unique identifier on your device to show you ads. " xml:space="preserve">
+		<value>You can change your choice anytime for CAR EATS CAR 3 in the app settings. Our partners will collect data and use a unique identifier on your device to show you ads. </value>
+	</data>
+	<data name="YOU CANT FIGHT" xml:space="preserve">
+		<value>您不能战斗与</value>
+	</data>
+	<data name="YOU DEFEATED" xml:space="preserve">
+		<value>您赢了</value>
+	</data>
+	<data name="YOU FOUND ARMOR" xml:space="preserve">
+		<value>YOU PICKED UP ARMOR</value>
+	</data>
+	<data name="YOU FOUND BOMB" xml:space="preserve">
+		<value>YOU PICKED UP BOMB</value>
+	</data>
+	<data name="YOU FOUND TURBO" xml:space="preserve">
+		<value>YOU PICKED UP TURBO</value>
+	</data>
+	<data name="YOU FREED" xml:space="preserve">
+		<value>您解放了</value>
+	</data>
+	<data name="You gadget is successfully crafter. Let's use it!" xml:space="preserve">
+		<value>配件改造成功，用上试试吧！</value>
+	</data>
+	<data name="YOU HAVE COLLECTED SOME BOXES. TRY YOUR LUCK AND WIN FREE BONUSES!" xml:space="preserve">
+		<value>你已收集到了一些箱子。 试试你的手气来赢得免费奖励！</value>
+	</data>
+	<data name="YOU NEED" xml:space="preserve">
+		<value>需要</value>
+	</data>
+	<data name="YOU ROCK!" xml:space="preserve">
+		<value>有力！</value>
+	</data>
+	<data name="YOU WILL LOSE YOUR CURRENT GAME PROGRESS!" xml:space="preserve">
+		<value>您将丢失当前游戏进度！</value>
+	</data>
+	<data name="YOUR BOOSTS" xml:space="preserve">
+		<value>您的奖金</value>
+	</data>
+	<data name="Your daily bonus is ready. Get it!" xml:space="preserve">
+		<value>你的日常奖金准备就绪。拿走吧！</value>
+	</data>
+	<data name="Your gas has refilled in Car Eats Car. Let's go race!" xml:space="preserve">
+		<value>您的汽油恢复了！走吧？！</value>
+	</data>
+	<data name="YOUR PREVIOUSLY PURCHASD PRODUCTS HAVE BEEN RESTORED" xml:space="preserve">
+		<value>您之前购买的产品已回复。</value>
+	</data>
+	<data name="YOUR RATING HELPS US PROVIDE UPDATES FOR THE GAME" xml:space="preserve">
+		<value>您的打分将有助于我们改进游戏体验</value>
+	</data>
+	<data name="YOU'VE PLAYED CAR EATS CAR BEFORE!" xml:space="preserve">
+		<value>您曾经玩过 CAR EATS CAR!</value>
+	</data>
+	<data name="YUM-YUM!" xml:space="preserve">
+		<value>냠 냠!</value>
+	</data>
+</root>

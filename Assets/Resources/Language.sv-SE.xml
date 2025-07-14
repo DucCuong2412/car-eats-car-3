@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="-*%  cheaper than buying parts separately" xml:space="preserve">
+		<value>X% Billigare än att köpa de separata delarna</value>
+	</data>
+	<data name="_beatFriend_description" xml:space="preserve">
+		<value />
+	</data>
+	<data name="_rateUs_btn" xml:space="preserve">
+		<value>BETYG</value>
+	</data>
+	<data name="_rateUs_caption" xml:space="preserve">
+		<value>BETYGSÄTT SPELET!</value>
+	</data>
+	<data name="_rateUs_description" xml:space="preserve">
+		<value>DITT BETYG HJÄLPER OSS ATT UPPDATERA SPELET</value>
+	</data>
+	<data name="_rateUs_remind" xml:space="preserve">
+		<value>Påminn mig senare!</value>
+	</data>
+	<data name="+* MAX" xml:space="preserve">
+		<value>+* max.</value>
+	</data>
+	<data name="1 FREE SPIN" xml:space="preserve">
+		<value>1 GRATIS SNURR</value>
+	</data>
+	<data name="1 RACE COSTS * GALLONS OF FUEL" xml:space="preserve">
+		<value>ETT RACE KOSTAR FEM LITER BRÄNSLE.</value>
+	</data>
+	<data name="1-2-3-GO!" xml:space="preserve">
+		<value>KÖR!</value>
+	</data>
+	<data name="5 SEC." xml:space="preserve">
+		<value>5 sekunder</value>
+	</data>
+	<data name="A MONSTROUS MIXTURE OF DRILL AND TANK GUN" xml:space="preserve">
+		<value>TANKOMINATOR - EN MONSTROUSMIXTURE OF DRILL AND TANK GUN</value>
+	</data>
+	<data name="ACTIVE" xml:space="preserve">
+		<value>AKTIV</value>
+	</data>
+	<data name="Ads allow you to play for free. We apologize if it was obsessive to you. Making any in-app purchase will disable ads forever." xml:space="preserve">
+		<value>Annonser låter dig spela gratis. Vi ber om ursäkt om det var obsessivt för dig. Om du gör något inköp i appen kommer de alltid att inaktivera annonser.</value>
+	</data>
+	<data name="ADS IN THIS GAME" xml:space="preserve">
+		<value>Reklam i spelet</value>
+	</data>
+	<data name="AIRSTRIKE!" xml:space="preserve">
+		<value>Luft stöd!</value>
+	</data>
+	<data name="ALL PROGESS LOST" xml:space="preserve">
+		<value>Progressen kommer att annulleras</value>
+	</data>
+	<data name="ALL PROGRESS IS NOW SYNCHRONIZED WITH YOUR ACCOUNT!" xml:space="preserve">
+		<value>ALLA FRAMSTEG ÄR NU SYNKADE MED DITT KONTO!</value>
+	</data>
+	<data name="ALLIGATOR" xml:space="preserve">
+		<value>ALLIGATOR</value>
+	</data>
+	<data name="ANTIGRAVS" xml:space="preserve">
+		<value>ANTIGRAVITATION</value>
+	</data>
+	<data name="ANY PURCHASE REMOVES ALL ADS" xml:space="preserve">
+		<value>VALFRITT KÖP TAR BORT ALL REKLAM</value>
+	</data>
+	<data name="Archiver" xml:space="preserve">
+		<value>Arkiverare</value>
+	</data>
+	<data name="ARE YOU SHURE" xml:space="preserve">
+		<value>Är du säker?</value>
+	</data>
+	<data name="ARE YOU SHURE YOU WANT TO QUIT" xml:space="preserve">
+		<value>Vill du verkligen sluta?</value>
+	</data>
+	<data name="ARE YOU SURE YOU WANT TO BUY ADDITIONAL BOXES FOR * RUBIES?" xml:space="preserve">
+		<value>ÄR DU SÄKER PÅ ATT DU VILL KÖPA FLER LÅDOR FÖR * RUBINER?</value>
+	</data>
+	<data name="ARENA *" xml:space="preserve">
+		<value>ARENA *</value>
+	</data>
+	<data name="ARMOR" xml:space="preserve">
+		<value>RUSTNING</value>
+	</data>
+	<data name="ART" xml:space="preserve">
+		<value>GRAFIK</value>
+	</data>
+	<data name="ASK ME LATER" xml:space="preserve">
+		<value>FRÅGA MIG SENARE</value>
+	</data>
+	<data name="ATTRACT STARS WHILE DRIVING" xml:space="preserve">
+		<value>ATTRAHERA STJÄRNOR UNDER FÄRDEN.</value>
+	</data>
+	<data name="AWESOME!" xml:space="preserve">
+		<value>AWESOME!</value>
+	</data>
+	<data name="BAD" xml:space="preserve">
+		<value>DÅLIG</value>
+	</data>
+	<data name="BALANCE YOUR CAR USING TILT BUTTONS" xml:space="preserve">
+		<value>BALANSERA BILEN MED LUTA-KNAPPARNA.</value>
+	</data>
+	<data name="BASIC BOMB" xml:space="preserve">
+		<value>Huvudbomben</value>
+	</data>
+	<data name="BEERANHA" xml:space="preserve">
+		<value>Struntprat!</value>
+	</data>
+	<data name="Beetlee" xml:space="preserve">
+		<value>BEETLEE</value>
+	</data>
+	<data name="Beetlee description" xml:space="preserve">
+		<value>BEETLEE - Han brukade vara snäll men nu är han ond</value>
+	</data>
+	<data name="BERSERKER" xml:space="preserve">
+		<value>BÄRSÄRK</value>
+	</data>
+	<data name="BEST" xml:space="preserve">
+		<value>BÄST</value>
+	</data>
+	<data name="BETTER TRACTION ON THE GROUND" xml:space="preserve">
+		<value>BÄTTRE GREPP PÅ MARKEN.</value>
+	</data>
+	<data name="Bigfoot" xml:space="preserve">
+		<value>Bigfoot</value>
+	</data>
+	<data name="BOMB REPLICATOR" xml:space="preserve">
+		<value>Regenerator</value>
+	</data>
+	<data name="Bomber" xml:space="preserve">
+		<value>Bombare</value>
+	</data>
+	<data name="BOMBERS!" xml:space="preserve">
+		<value>Bombare!</value>
+	</data>
+	<data name="BOMBS" xml:space="preserve">
+		<value>BOMBER</value>
+	</data>
+	<data name="BONUS" xml:space="preserve">
+		<value>BONUS</value>
+	</data>
+	<data name="BOOSTS DOUBLED" xml:space="preserve">
+		<value>Vinna dubbel!</value>
+	</data>
+	<data name="BOSS KILLER!" xml:space="preserve">
+		<value>BOSS KILLER!</value>
+	</data>
+	<data name="BOSS LEVEL" xml:space="preserve">
+		<value>Nivå med bossen</value>
+	</data>
+	<data name="BOSS LEVEL LOCKED" xml:space="preserve">
+		<value>Nivå med bossen är inte tillgänglig!</value>
+	</data>
+	<data name="BOSS1" xml:space="preserve">
+		<value>Polis rodeo</value>
+	</data>
+	<data name="BOSS2" xml:space="preserve">
+		<value>Blixt</value>
+	</data>
+	<data name="BOSS3" xml:space="preserve">
+		<value>Bleck</value>
+	</data>
+	<data name="BOUGHT" xml:space="preserve">
+		<value>KÖPTE</value>
+	</data>
+	<data name="BUILD" xml:space="preserve">
+		<value>Skapa</value>
+	</data>
+	<data name="BUY" xml:space="preserve">
+		<value>KÖP</value>
+	</data>
+	<data name="BUY ADDITIONAL BOXES OR CONTINUE PLAYING" xml:space="preserve">
+		<value>KÖP FLER LÅDOR ELLER FORTSÄTT SPELA.</value>
+	</data>
+	<data name="BUY FUEL" xml:space="preserve">
+		<value>Köpa gasolin</value>
+	</data>
+	<data name="BUY NOW" xml:space="preserve">
+		<value>KÖP NU!</value>
+	</data>
+	<data name="BUY RUBIES" xml:space="preserve">
+		<value>Köpa rubiner</value>
+	</data>
+	<data name="BY PROCEEDING YOU AGREE TO OUR UPDATED PRIVACY POLICY." xml:space="preserve">
+		<value>Genom att fortsätta godkänner du vår uppdaterade sekretesspolicy.</value>
+	</data>
+	<data name="Can we continue to use your data to tailor ads for your?" xml:space="preserve">
+		<value>Can we continue to use your data to tailor ads for your?</value>
+	</data>
+	<data name="CANCEL" xml:space="preserve">
+		<value>ANNULLERA</value>
+	</data>
+	<data name="CAN'T FIND PURCHASED PRODUCTS" xml:space="preserve">
+		<value>KAN INTE HITTA KÖPTA PRODUKTER.</value>
+	</data>
+	<data name="CAN'T PASS A LEVEL?" xml:space="preserve">
+		<value>Kan du inte passera nivån?</value>
+	</data>
+	<data name="CAN'T WAIT?" xml:space="preserve">
+		<value>OTÅLIG?</value>
+	</data>
+	<data name="CAR COLLECTION" xml:space="preserve">
+		<value>CAR COLLECTION</value>
+	</data>
+	<data name="CAR EATS CAR" xml:space="preserve">
+		<value>BIL ÄTER BIL</value>
+	</data>
+	<data name="CAR LOCKED" xml:space="preserve">
+		<value>Lås upp bil på nivå *</value>
+	</data>
+	<data name="CAROCOP" xml:space="preserve">
+		<value>CAROCOP</value>
+	</data>
+	<data name="CAROCOP - BUNKER ON WHEELS" xml:space="preserve">
+		<value>CAROCOP - BUNKER PÅ HJUL</value>
+	</data>
+	<data name="CHOOSE AN EGG" xml:space="preserve">
+		<value>VÄLJ EN EGG</value>
+	</data>
+	<data name="CLEARED" xml:space="preserve">
+		<value>KLART</value>
+	</data>
+	<data name="CLOSE" xml:space="preserve">
+		<value>STÄNG</value>
+	</data>
+	<data name="CLUSTER BOMB" xml:space="preserve">
+		<value>Klusterbomb</value>
+	</data>
+	<data name="COCKCHAFER" xml:space="preserve">
+		<value>OLLONBORRE</value>
+	</data>
+	<data name="COLLECT ALL PARTS AND GET TANKOMINATOR" xml:space="preserve">
+		<value>SAMLAR ALLA DELAR OCH FÅ TANKMINATOR!</value>
+	</data>
+	<data name="COLLECT BOXES AND WIN PRIZES BY SPINNING A WHEEL AFTER EVERY LEVEL" xml:space="preserve">
+		<value>SAMLA IHOP LÅDOR OCH VINN PÅ SPELHJULET EFTER VARJE NIVÅ.</value>
+	</data>
+	<data name="COLLECT EGGS AND GEMS IN THE CAVE" xml:space="preserve">
+		<value>Samla in ägg och ädelstenar i grottan</value>
+	</data>
+	<data name="COLLECTED" xml:space="preserve">
+		<value>IHOPSAMLAT</value>
+	</data>
+	<data name="COMBO!" xml:space="preserve">
+		<value>Combo!</value>
+	</data>
+	<data name="COMING SOON" xml:space="preserve">
+		<value>KOMMER SNART</value>
+	</data>
+	<data name="COMPACTOR" xml:space="preserve">
+		<value>Kompaktor</value>
+	</data>
+	<data name="CONGRATULATIONS" xml:space="preserve">
+		<value>GRATTIS</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU WON TANKOMINATOR" xml:space="preserve">
+		<value>GRATTIS! GÖR OPEN TANKMINATOR</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED ANTIGRAVS" xml:space="preserve">
+		<value>GRATTIS! GÖR OPEN ANTIGRAV</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED MEGA TURBO" xml:space="preserve">
+		<value>GRATTIS! GÖR ÅPEN MEGA TURBO</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED SUPER GUN" xml:space="preserve">
+		<value>GRATTIS! GÖR OPEN SUPER GUN</value>
+	</data>
+	<data name="CONGRATULATIONS! YOU'VE OPENED TANK" xml:space="preserve">
+		<value>GRATTIS! GÖR ÅPEN TANK</value>
+	</data>
+	<data name="CONNECTION FAILED" xml:space="preserve">
+		<value>FEL VID ANSLUTNING</value>
+	</data>
+	<data name="CONNECTION SUCCESS" xml:space="preserve">
+		<value>ANSLUTNING LYCKADES</value>
+	</data>
+	<data name="CONSTRUCT IN POLICEPEDIA" xml:space="preserve">
+		<value>KONSTRUKT I POLICEPEDIA</value>
+	</data>
+	<data name="CONTINUE" xml:space="preserve">
+		<value>FORTSÄTT</value>
+	</data>
+	<data name="Copter" xml:space="preserve">
+		<value>Kopter</value>
+	</data>
+	<data name="COPTER!" xml:space="preserve">
+		<value>Kopter!</value>
+	</data>
+	<data name="COPYRIGHT 2015 BY SMOKOKO SA" xml:space="preserve">
+		<value>COPYRIGHT 2015-2018 AV SMOKOKO LTD</value>
+	</data>
+	<data name="CREDITS" xml:space="preserve">
+		<value>TACKLISTA</value>
+	</data>
+	<data name="DAILY BONUS" xml:space="preserve">
+		<value>DAGLIG BONUS</value>
+	</data>
+	<data name="DAMAGE" xml:space="preserve">
+		<value>Skada</value>
+	</data>
+	<data name="DAY *" xml:space="preserve">
+		<value>DAG *</value>
+	</data>
+	<data name="DEADLY BLADES" xml:space="preserve">
+		<value>SHARPING BLADES</value>
+	</data>
+	<data name="DEFEAT" xml:space="preserve">
+		<value>Du har blivit busted</value>
+	</data>
+	<data name="DESCRIPTION BASIC BOMB " xml:space="preserve">
+		<value>Grundläggande konventionell bomb.</value>
+	</data>
+	<data name="DESCRIPTION BOMB REPLICATOR" xml:space="preserve">
+		<value>Fyller på ditt lager av bomber</value>
+	</data>
+	<data name="DESCRIPTION CLUSTER BOMB" xml:space="preserve">
+		<value>Ett stort område av skada.</value>
+	</data>
+	<data name="DESCRIPTION EMP EMITTER" xml:space="preserve">
+		<value>Utsänder en elektromagnetisk impuls som lamper alla fiender runt.</value>
+	</data>
+	<data name="DESCRIPTION FLAME BOMB" xml:space="preserve">
+		<value>Molotov cocktailbomb. Släcker alla i nederlagets zon.</value>
+	</data>
+	<data name="DESCRIPTION FRAG BOMB" xml:space="preserve">
+		<value>Fragmenterings bomb. Erbjuder ytterligare skador från splinter.</value>
+	</data>
+	<data name="DESCRIPTION FREEZE RAY" xml:space="preserve">
+		<value>Skottar vätskekvoter, fryser fienden.</value>
+	</data>
+	<data name="DESCRIPTION MAGNET" xml:space="preserve">
+		<value>Genererar ett magnetfält som lockar rubiner runt dig.</value>
+	</data>
+	<data name="DESCRIPTION MISSILE LAUNCHER" xml:space="preserve">
+		<value>Lanserar kraftfulla missiler.</value>
+	</data>
+	<data name="DESCRIPTION SHRINK BOMB" xml:space="preserve">
+		<value>Högteknologisk bomb. Minskar dina fiender till säkra storlekar.</value>
+	</data>
+	<data name="DISTANCE" xml:space="preserve">
+		<value>KÖRT AVSTÅND</value>
+	</data>
+	<data name="DRILL GUN" xml:space="preserve">
+		<value>DRILL</value>
+	</data>
+	<data name="Driller" xml:space="preserve">
+		<value>Borrare</value>
+	</data>
+	<data name="DRON1 DESCRIPTION" xml:space="preserve">
+		<value>Få gratis på femte dagen</value>
+	</data>
+	<data name="DRON2 DESCRIPTION" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DROWNED CITY" xml:space="preserve">
+		<value>STAD UNDER YTAN</value>
+	</data>
+	<data name="EASTER EGG HUNT" xml:space="preserve">
+		<value>PÅSKÄGGS-JAKT</value>
+	</data>
+	<data name="EAT POLICE AND CIVILS" xml:space="preserve">
+		<value>DESTROY YOUR ENEMIES TO GAIN BADGES</value>
+	</data>
+	<data name="ECO FUEL" xml:space="preserve">
+		<value>Eco gasoline</value>
+	</data>
+	<data name="EMP EMITTER" xml:space="preserve">
+		<value>Eektromagnetisk impulsering</value>
+	</data>
+	<data name="ENDLESS STOCK OF FUEL" xml:space="preserve">
+		<value>Obegränsad förråd av gasolin</value>
+	</data>
+	<data name="ENGINE" xml:space="preserve">
+		<value>MOTOR</value>
+	</data>
+	<data name="ENIGMA" xml:space="preserve">
+		<value>GÅTA!</value>
+	</data>
+	<data name="EQUIP" xml:space="preserve">
+		<value>ANVÄND</value>
+	</data>
+	<data name="EQUIPED" xml:space="preserve">
+		<value>Tagit</value>
+	</data>
+	<data name="EVOLUTION COMPLETE" xml:space="preserve">
+		<value>EVOLUTION FULLT</value>
+	</data>
+	<data name="Excavator" xml:space="preserve">
+		<value>Utgrävare</value>
+	</data>
+	<data name="EXCELLENT!" xml:space="preserve">
+		<value>JÄTTEBRA!</value>
+	</data>
+	<data name="EXIT" xml:space="preserve">
+		<value>UTGÅNG</value>
+	</data>
+	<data name="FIND AT ARENA" xml:space="preserve">
+		<value>Hitta i arena</value>
+	</data>
+	<data name="FIND AT EASTER EGG HUNT" xml:space="preserve">
+		<value>FINNS PÅ EASTER EGG HUNT</value>
+	</data>
+	<data name="FIND IN THE CAVE" xml:space="preserve">
+		<value>HITTA UNDER MARKEN</value>
+	</data>
+	<data name="FIREBUG" xml:space="preserve">
+		<value>ELDFLUGA</value>
+	</data>
+	<data name="FIRED!?!" xml:space="preserve">
+		<value>Uppsagd?!</value>
+	</data>
+	<data name="FLAME BOMB" xml:space="preserve">
+		<value>Flamm bomb</value>
+	</data>
+	<data name="FORTUNE" xml:space="preserve">
+		<value>LYCKA</value>
+	</data>
+	<data name="FRAG BOMB" xml:space="preserve">
+		<value>Frag bomb</value>
+	</data>
+	<data name="FRANCOPSTEIN" xml:space="preserve">
+		<value>FRANCOPSTEIN</value>
+	</data>
+	<data name="FRANCOPSTEIN - IT'S ALIVE!" xml:space="preserve">
+		<value>FRANCOPSTEIN - DET ÄR LEVANDE!</value>
+	</data>
+	<data name="FREE" xml:space="preserve">
+		<value>GRATIS</value>
+	</data>
+	<data name="FREE FUEL PACK" xml:space="preserve">
+		<value>GRATIS GASOLIN</value>
+	</data>
+	<data name="FREE RUBIES PACK" xml:space="preserve">
+		<value>GRATIS RUBIES!</value>
+	</data>
+	<data name="FREE SPIN" xml:space="preserve">
+		<value>GRATIS SNURR</value>
+	</data>
+	<data name="FREEDOM ISLAND!!!" xml:space="preserve">
+		<value>Frihetsön!</value>
+	</data>
+	<data name="FREEZE RAY" xml:space="preserve">
+		<value>Frysning</value>
+	</data>
+	<data name="FRIENDOPEDIA" xml:space="preserve">
+		<value>FRIENDOPEDIA</value>
+	</data>
+	<data name="FUEL" xml:space="preserve">
+		<value>BENSIN</value>
+	</data>
+	<data name="GADGETS" xml:space="preserve">
+		<value>PRYLAR</value>
+	</data>
+	<data name="GAME DESIGN" xml:space="preserve">
+		<value>SPEL DESIGN</value>
+	</data>
+	<data name="GAME DEVELOPED BY SMOKOKO SA" xml:space="preserve">
+		<value>SPELET ÄR UTVECKLAT AV SMOKOKO LTD</value>
+	</data>
+	<data name="GAME PUBLISHED BY SPIL GAMES" xml:space="preserve">
+		<value>SPELET ÄR UTGIVET AV SPIL GAMES</value>
+	</data>
+	<data name="GARAGE" xml:space="preserve">
+		<value>GARAGE</value>
+	</data>
+	<data name="GATOR" xml:space="preserve">
+		<value>GATOR</value>
+	</data>
+	<data name="GET ADDITIONAL BOMBS" xml:space="preserve">
+		<value>SKAFFA EXTRA BOMBER.</value>
+	</data>
+	<data name="GET ADDITIONAL TURBO" xml:space="preserve">
+		<value>SKAFFA EXTRA TURBO.</value>
+	</data>
+	<data name="GET FUEL" xml:space="preserve">
+		<value>SKAFFA BRÄNSLE</value>
+	</data>
+	<data name="GET RUBIES" xml:space="preserve">
+		<value>SKAFFA RUBINER</value>
+	</data>
+	<data name="GHOST TOWN" xml:space="preserve">
+		<value>SPÖKSTADEN</value>
+	</data>
+	<data name="GOOD" xml:space="preserve">
+		<value>BRA</value>
+	</data>
+	<data name="HARVESTER" xml:space="preserve">
+		<value>Skördare</value>
+	</data>
+	<data name="HAVEN'T PLAYED YET?" xml:space="preserve">
+		<value>har inte spelat än?</value>
+	</data>
+	<data name="HOW TO PLAY" xml:space="preserve">
+		<value>Hur att spela vidare</value>
+	</data>
+	<data name="I AGREE" xml:space="preserve">
+		<value>JAG HÅLLER MED</value>
+	</data>
+	<data name="ICE AGE" xml:space="preserve">
+		<value>ISTID!</value>
+	</data>
+	<data name="INCREASES CAR'S HEALTH" xml:space="preserve">
+		<value>ÖKAR BILENS HÄLSA.</value>
+	</data>
+	<data name="INCREASES CAR'S TOP SPEED" xml:space="preserve">
+		<value>ÖKAR BILENS TOPPFART.</value>
+	</data>
+	<data name="INCUBATOR" xml:space="preserve">
+		<value>INKUBATOR</value>
+	</data>
+	<data name="Ketchup" xml:space="preserve">
+		<value>Ketchup</value>
+	</data>
+	<data name="KILLED" xml:space="preserve">
+		<value>DÖDADE</value>
+	</data>
+	<data name="LANGUAGE" xml:space="preserve">
+		<value>SPRÅK</value>
+	</data>
+	<data name="LARGE FUEL TANK" xml:space="preserve">
+		<value>Stora bäcken</value>
+	</data>
+	<data name="LARGER TURBO TANK CAPACITY" xml:space="preserve">
+		<value>STÖRRE TURBOTANK.</value>
+	</data>
+	<data name="Learn how CAR EATS CAR 3 and our partners collect and use data" xml:space="preserve">
+		<value>Learn how CAR EATS CAR 3 and our partners collect and use data</value>
+	</data>
+	<data name="LEAVING SO SOON" xml:space="preserve">
+		<value>Redan slutar?</value>
+	</data>
+	<data name="LESS POWER!" xml:space="preserve">
+		<value>Sårbarhet</value>
+	</data>
+	<data name="LET'S LEVEL UP THE SPEED" xml:space="preserve">
+		<value>Låt oss förbätta snabbhet</value>
+	</data>
+	<data name="LET'S RETURN TO MAP" xml:space="preserve">
+		<value>Låt oss återvända till kartan</value>
+	</data>
+	<data name="LEVEL" xml:space="preserve">
+		<value>NIVÅ</value>
+	</data>
+	<data name="LEVEL *" xml:space="preserve">
+		<value>NIVÅ *</value>
+	</data>
+	<data name="LEVEL * COMPLETED" xml:space="preserve">
+		<value>NIVÅ * ÄR AVKLARAD</value>
+	</data>
+	<data name="LEVEL * FAILED" xml:space="preserve">
+		<value>NIVÅ * MISSLYCKADES</value>
+	</data>
+	<data name="LEVEL DESIGN" xml:space="preserve">
+		<value>NIVÅDESIGN</value>
+	</data>
+	<data name="LEVELS" xml:space="preserve">
+		<value>NIVÅER</value>
+	</data>
+	<data name="Limited offer, left * min" xml:space="preserve">
+		<value>Begränsat erbjudande, vänster * min</value>
+	</data>
+	<data name="LIMITED TIME OFFER" xml:space="preserve">
+		<value>Begränsad erbjudande</value>
+	</data>
+	<data name="LOAD" xml:space="preserve">
+		<value>Nedladdning</value>
+	</data>
+	<data name="LOAD THIS GAME?" xml:space="preserve">
+		<value>LÄS IN DET HÄR SPELET?</value>
+	</data>
+	<data name="LOADING" xml:space="preserve">
+		<value>LÄSER IN</value>
+	</data>
+	<data name="LOCKED" xml:space="preserve">
+		<value>LÅST</value>
+	</data>
+	<data name="LOCOMACHINE" xml:space="preserve">
+		<value>Lokomaskin</value>
+	</data>
+	<data name="LOGIN" xml:space="preserve">
+		<value>LOGGA IN</value>
+	</data>
+	<data name="LOGIN AND GET" xml:space="preserve">
+		<value>LOGGA IN OCH FÅ</value>
+	</data>
+	<data name="LOGIN AND GET BONUSES" xml:space="preserve">
+		<value>START SESSION OCH VIN BONUSER!</value>
+	</data>
+	<data name="LOGOUT" xml:space="preserve">
+		<value>LOGGA UT</value>
+	</data>
+	<data name="MAGNET" xml:space="preserve">
+		<value>MAGNET</value>
+	</data>
+	<data name="Matt" xml:space="preserve">
+		<value>Matt</value>
+	</data>
+	<data name="MAX." xml:space="preserve">
+		<value>MAX</value>
+	</data>
+	<data name="MEGA TURBO" xml:space="preserve">
+		<value>MEGATURBO</value>
+	</data>
+	<data name="METEOR SHOWER" xml:space="preserve">
+		<value>METEORREGN!</value>
+	</data>
+	<data name="MIN" xml:space="preserve">
+		<value>MIN</value>
+	</data>
+	<data name="MISSILE LAUNCHER" xml:space="preserve">
+		<value>Raketpistol</value>
+	</data>
+	<data name="MISTY FOREST" xml:space="preserve">
+		<value>DIMMORNAS SKOG</value>
+	</data>
+	<data name="MODERATE BLAST AREA AND DAMAGE" xml:space="preserve">
+		<value>HALVSTOR SPRÄNGSKADA</value>
+	</data>
+	<data name="MONSTROPEDIA" xml:space="preserve">
+		<value>MONSTROPEDIA</value>
+	</data>
+	<data name="MORE GAMES" xml:space="preserve">
+		<value>FLER SPEL</value>
+	</data>
+	<data name="MORE POWER!" xml:space="preserve">
+		<value>Vassa tänder!</value>
+	</data>
+	<data name="MR BOMBASTIC" xml:space="preserve">
+		<value>Mr. BOMBASTIC</value>
+	</data>
+	<data name="MUSIC &amp; SOUND" xml:space="preserve">
+		<value>MUSIK &amp; LJUD</value>
+	</data>
+	<data name="NEW" xml:space="preserve">
+		<value>NY</value>
+	</data>
+	<data name="NEXT" xml:space="preserve">
+		<value>NÄSTA</value>
+	</data>
+	<data name="NEXT IN" xml:space="preserve">
+		<value>NÄSTA</value>
+	</data>
+	<data name="NEXT LEVEL" xml:space="preserve">
+		<value>NÄSTA NIVÅ</value>
+	</data>
+	<data name="NO" xml:space="preserve">
+		<value>NEJ</value>
+	</data>
+	<data name="NO INTERNET CONNECTION WAS FOUND. PLEASE TRY AGAIN LATER" xml:space="preserve">
+		<value>INGEN INTERNETANSLUTNING HITTADES. FÖRSÖK IGEN SENARE.</value>
+	</data>
+	<data name="NO NEW VIDEOS AVAILABLE RIGHT NOW" xml:space="preserve">
+		<value>INGA NYA VIDEOKLIPP ÄR TILLGÄNGLIGA NU.</value>
+	</data>
+	<data name="NO THANKS" xml:space="preserve">
+		<value>NEJ TACK</value>
+	</data>
+	<data name="NO VIDEO AVALIABLE" xml:space="preserve">
+		<value>INGA NYA VIDEOKLIPP ÄR TILLGÄNGLIGA NU.</value>
+	</data>
+	<data name="No, see ads that are less relevant" xml:space="preserve">
+		<value>No, see ads that are less relevant</value>
+	</data>
+	<data name="NOT ENOUGH" xml:space="preserve">
+		<value>INTE TILLRÄCKLIGT</value>
+	</data>
+	<data name="NOTHING WILL STOP HIM" xml:space="preserve">
+		<value>Lokomaskin stannar aldrig!</value>
+	</data>
+	<data name="OFF" xml:space="preserve">
+		<value>rabatt</value>
+	</data>
+	<data name="Om-Nom-nom" xml:space="preserve">
+		<value>Om-Nom-nom</value>
+	</data>
+	<data name="OOPS!" xml:space="preserve">
+		<value>HOPPSAN!</value>
+	</data>
+	<data name="OPEN ALL LEVELS" xml:space="preserve">
+		<value>LÅS UPP ALLA NIVÅER</value>
+	</data>
+	<data name="OPEN FIRST LEVEL" xml:space="preserve">
+		<value>ÖPPNA FÖRSTA NIVÅN</value>
+	</data>
+	<data name="OPEN LOCATION" xml:space="preserve">
+		<value>ÖPPNA PLATS</value>
+	</data>
+	<data name="OPEN NEXT LEVEL" xml:space="preserve">
+		<value>ÖPPNA NÄSTA NIVÅ</value>
+	</data>
+	<data name="OR BUY NOW!" xml:space="preserve">
+		<value>KÖP NU</value>
+	</data>
+	<data name="PART */4" xml:space="preserve">
+		<value>DEL * / 4</value>
+	</data>
+	<data name="PLAY" xml:space="preserve">
+		<value>SPELA</value>
+	</data>
+	<data name="PLAY NOW" xml:space="preserve">
+		<value>PLAY NU</value>
+	</data>
+	<data name="PLEASE CHOOSE" xml:space="preserve">
+		<value>VÄNLIGEN VÄLJ</value>
+	</data>
+	<data name="PLEASE RATE CAR EATS CAR" xml:space="preserve">
+		<value>Uppskatta CAR EATS CAR 3</value>
+	</data>
+	<data name="POLICE!" xml:space="preserve">
+		<value>POLIS!</value>
+	</data>
+	<data name="POLICEPEDIA" xml:space="preserve">
+		<value>POLICEPEDIA</value>
+	</data>
+	<data name="preloader_description_arena" xml:space="preserve">
+		<value>BÄRSÄRK - Döda alla dina fiender!</value>
+	</data>
+	<data name="preloader_description_boss1" xml:space="preserve">
+		<value>Kop rod är de farligaste polisbilen</value>
+	</data>
+	<data name="preloader_description_boss2" xml:space="preserve">
+		<value>Blixt är federalernas chef</value>
+	</data>
+	<data name="preloader_description_boss3" xml:space="preserve">
+		<value>Kapten Bucket - vinn, eller du kommer att gå ned till botten!</value>
+	</data>
+	<data name="preloader_description_car1" xml:space="preserve">
+		<value>Gator är en ny generations predatormaskin!</value>
+	</data>
+	<data name="preloader_description_car2" xml:space="preserve">
+		<value>Kombine är en verklig predator!</value>
+	</data>
+	<data name="preloader_description_car3" xml:space="preserve">
+		<value>Archiver har kraftiga klåvar!</value>
+	</data>
+	<data name="preloader_description_convoy" xml:space="preserve">
+		<value>Jaga oh döda patrollen för att rädda din vän</value>
+	</data>
+	<data name="preloader_description_copter1" xml:space="preserve">
+		<value>Luften är alltid patrolerad!</value>
+	</data>
+	<data name="preloader_description_copter2" xml:space="preserve">
+		<value>Luften är alltid patrolerad!</value>
+	</data>
+	<data name="preloader_description_copter3" xml:space="preserve">
+		<value>Luften är alltid patrolerad!</value>
+	</data>
+	<data name="preloader_description_drones" xml:space="preserve">
+		<value>Droner är de bästa hjälparna!</value>
+	</data>
+	<data name="preloader_description_fbi" xml:space="preserve">
+		<value>Federaler är alltid redo att skita</value>
+	</data>
+	<data name="preloader_description_fire" xml:space="preserve">
+		<value>En eldig fälla - akta dig för flamman!</value>
+	</data>
+	<data name="preloader_description_police1_1" xml:space="preserve">
+		<value>Polisen kommer göra allt för att fånga dig!</value>
+	</data>
+	<data name="preloader_description_police1_2" xml:space="preserve">
+		<value>Polisen kommer göra allt för att fånga dig!</value>
+	</data>
+	<data name="preloader_description_police1_3" xml:space="preserve">
+		<value>Polisen kommer göra allt för att fånga dig!</value>
+	</data>
+	<data name="preloader_description_police1_4" xml:space="preserve">
+		<value>Polisen kommer göra allt för att fånga dig!</value>
+	</data>
+	<data name="preloader_description_police2_1" xml:space="preserve">
+		<value>Polisen kommer göra allt för att fånga dig!</value>
+	</data>
+	<data name="preloader_description_police2_2" xml:space="preserve">
+		<value>Polisen kommer göra allt för att fånga dig!</value>
+	</data>
+	<data name="preloader_description_police2_3" xml:space="preserve">
+		<value>Polisen kommer göra allt för att fånga dig!</value>
+	</data>
+	<data name="preloader_description_police2_4" xml:space="preserve">
+		<value>Polisen kommer göra allt för att fånga dig!</value>
+	</data>
+	<data name="preloader_description_police3_1" xml:space="preserve">
+		<value>Polisen kommer göra allt för att fånga dig!</value>
+	</data>
+	<data name="preloader_description_police3_2" xml:space="preserve">
+		<value>Polisen kommer göra allt för att fånga dig!</value>
+	</data>
+	<data name="preloader_description_police3_3" xml:space="preserve">
+		<value>Polisen kommer göra allt för att fånga dig!</value>
+	</data>
+	<data name="preloader_description_police3_4" xml:space="preserve">
+		<value>Polisen kommer göra allt för att fånga dig!</value>
+	</data>
+	<data name="PREMIUM CONTENT" xml:space="preserve">
+		<value>PREMIUMINNEHÅLL</value>
+	</data>
+	<data name="PRESS TO FLIP BACKWARD" xml:space="preserve">
+		<value>PRESS TO FLIP BACKWARD</value>
+	</data>
+	<data name="PRESS TO FLIP FORWARD" xml:space="preserve">
+		<value>PRESS AT FLIP FORWARD</value>
+	</data>
+	<data name="PRESS TO USE" xml:space="preserve">
+		<value>PRESS FÖR ANVÄNDNING</value>
+	</data>
+	<data name="PREVIOUS GAME FOUND" xml:space="preserve">
+		<value>TIDIGARE SPEL HITTADES</value>
+	</data>
+	<data name="PRIVACY DESCRIPTION" xml:space="preserve">
+		<value>Vår integritetspolicy har uppdaterats! Vänligen granska och acceptera ändringarna för att fortsätta spela.</value>
+	</data>
+	<data name="PRIVACY POLICY" xml:space="preserve">
+		<value>INTEGRITETSPOLICY</value>
+	</data>
+	<data name="PRODUCERS" xml:space="preserve">
+		<value>PRODUCENTER</value>
+	</data>
+	<data name="PROGRAMMING" xml:space="preserve">
+		<value>PROGRAMMERING</value>
+	</data>
+	<data name="PROTECT YOUR CAR'S BODY" xml:space="preserve">
+		<value>SKYDDA DIN BIL.</value>
+	</data>
+	<data name="PUSH" xml:space="preserve">
+		<value>TRYCK</value>
+	</data>
+	<data name="RABBITSTER" xml:space="preserve">
+		<value>RABBITSTER</value>
+	</data>
+	<data name="RABBITSTER DESCRIPTION" xml:space="preserve">
+		<value>RABBITSTER - skarpa tänder, långa öron</value>
+	</data>
+	<data name="RAM" xml:space="preserve">
+		<value>BAGGE</value>
+	</data>
+	<data name="RAM YOUR ENEMIES TILL DEATH" xml:space="preserve">
+		<value>STÅNGA DINA FIENDER TILLS DE DÖR.</value>
+	</data>
+	<data name="RATE" xml:space="preserve">
+		<value>BETYGSÄTT NU</value>
+	</data>
+	<data name="RATE NOW" xml:space="preserve">
+		<value>BETYGSÄTT NU</value>
+	</data>
+	<data name="RATE US SHAUT 1" xml:space="preserve">
+		<value>Är det verkligen så illa?</value>
+	</data>
+	<data name="RATE US SHAUT 2" xml:space="preserve">
+		<value>Det är synd, men vi alltid lyssnar nog till dina önskningar!</value>
+	</data>
+	<data name="RATE US SHAUT 3" xml:space="preserve">
+		<value>Tack för din utvärdering!</value>
+	</data>
+	<data name="RATE US SHAUT 4" xml:space="preserve">
+		<value>Wow! Vi kommer att definitivt göra spelet ännu bättre!</value>
+	</data>
+	<data name="RATE US SHAUT 5" xml:space="preserve">
+		<value>Tack, bro! Du är den bäste i världen!</value>
+	</data>
+	<data name="RATE YOUR EXPERIENCE!" xml:space="preserve">
+		<value>BETYGSÄTT SPELET!</value>
+	</data>
+	<data name="REACH * M. TO GET ANTIGRAVS" xml:space="preserve">
+		<value>REACH * M. TO GET ANTIGRAVS</value>
+	</data>
+	<data name="REACH * M. TO GET MEGA TURBO" xml:space="preserve">
+		<value>REACH * M. TO GET MEGA TURBO</value>
+	</data>
+	<data name="REACH * M. TO GET SUPER GUN" xml:space="preserve">
+		<value>REACH * M. TO GET SUPER GUN</value>
+	</data>
+	<data name="REACH * M. TO GET TANK" xml:space="preserve">
+		<value>REACH * M. TO GET TANK</value>
+	</data>
+	<data name="REACH * M. TO GET TANKOMINATOR PART */4" xml:space="preserve">
+		<value>REACH * M. FÖR ATT HÅLLA TANKMINATOR DEL * / 4</value>
+	</data>
+	<data name="RECHARGER" xml:space="preserve">
+		<value>LADDARE</value>
+	</data>
+	<data name="REGENERATOR" xml:space="preserve">
+		<value>REGENERATOR</value>
+	</data>
+	<data name="RESET GAME" xml:space="preserve">
+		<value>NOLLSTÄLL SPEL</value>
+	</data>
+	<data name="RESTART" xml:space="preserve">
+		<value>STARTA OM</value>
+	</data>
+	<data name="RESTORE PURCHASED" xml:space="preserve">
+		<value>ÅTERSTÄLL KÖP</value>
+	</data>
+	<data name="RESTORE PURCHASES" xml:space="preserve">
+		<value>ÅTERSTÄLL KÖP</value>
+	</data>
+	<data name="RESUME" xml:space="preserve">
+		<value>ÅTERGÅ</value>
+	</data>
+	<data name="REVIVE YOUR HEALTH AND FINISH THE LEVEL" xml:space="preserve">
+		<value>ÖKA DIN HÄLSA OCH KLARA NIVÅN.</value>
+	</data>
+	<data name="REVIVE?" xml:space="preserve">
+		<value>FÖRNYA</value>
+	</data>
+	<data name="REWARD" xml:space="preserve">
+		<value>Belöning</value>
+	</data>
+	<data name="RUBIES" xml:space="preserve">
+		<value>RUBINER</value>
+	</data>
+	<data name="Sawcar" xml:space="preserve">
+		<value>Sågbil</value>
+	</data>
+	<data name="School Bus" xml:space="preserve">
+		<value>Skolbuss</value>
+	</data>
+	<data name="SCORPION" xml:space="preserve">
+		<value>SKORPION</value>
+	</data>
+	<data name="SEE YOUR FRIENDS PROGRESS" xml:space="preserve">
+		<value>SE HUR DET GÅR FÖR DINA VÄNNER</value>
+	</data>
+	<data name="SETTINGS" xml:space="preserve">
+		<value>INSTÄLLNINGAR</value>
+	</data>
+	<data name="SHARE" xml:space="preserve">
+		<value>DELA</value>
+	</data>
+	<data name="SHARE VIA FB AND RECEIVE REWARD" xml:space="preserve">
+		<value>Del med andra och få en gåva</value>
+	</data>
+	<data name="SHIELD" xml:space="preserve">
+		<value>SKÖLD</value>
+	</data>
+	<data name="SHOP" xml:space="preserve">
+		<value>BUTIK</value>
+	</data>
+	<data name="Show consent form" xml:space="preserve">
+		<value>Show consent form</value>
+	</data>
+	<data name="SHRINK BOMB" xml:space="preserve">
+		<value>Krympbomb</value>
+	</data>
+	<data name="SKIP" xml:space="preserve">
+		<value>Strunta!</value>
+	</data>
+	<data name="Smarty" xml:space="preserve">
+		<value>Smarty</value>
+	</data>
+	<data name="SPECIAL MISSION" xml:space="preserve">
+		<value>uppdrag</value>
+	</data>
+	<data name="SPEED" xml:space="preserve">
+		<value>FART</value>
+	</data>
+	<data name="SPEED UP WITH TURBO BUTTON" xml:space="preserve">
+		<value>ÖKA FARTEN MED TURBOKNAPPEN.</value>
+	</data>
+	<data name="Spike" xml:space="preserve">
+		<value>Spik</value>
+	</data>
+	<data name="SPIN" xml:space="preserve">
+		<value>SNURRA</value>
+	</data>
+	<data name="SPIN NOW" xml:space="preserve">
+		<value>Spel nu!</value>
+	</data>
+	<data name="START" xml:space="preserve">
+		<value>STARTA</value>
+	</data>
+	<data name="START MINI GAME" xml:space="preserve">
+		<value>START MINI SPEL</value>
+	</data>
+	<data name="START RACE NOW!" xml:space="preserve">
+		<value>STARTA RACET NU!</value>
+	</data>
+	<data name="Stinger" xml:space="preserve">
+		<value>Stinger</value>
+	</data>
+	<data name="STOP" xml:space="preserve">
+		<value>STOPP</value>
+	</data>
+	<data name="STRONG HULL" xml:space="preserve">
+		<value>STRONG HULL</value>
+	</data>
+	<data name="SUPER FRICTION" xml:space="preserve">
+		<value>SUPER GRIP</value>
+	</data>
+	<data name="SUPER GUN" xml:space="preserve">
+		<value>SUPERVAPEN</value>
+	</data>
+	<data name="SWAMP" xml:space="preserve">
+		<value>TRÄSKET</value>
+	</data>
+	<data name="SWITCHING SUPER BONUS" xml:space="preserve">
+		<value>SWITCHING SUPER BONUS</value>
+	</data>
+	<data name="TAKE" xml:space="preserve">
+		<value>FÅ</value>
+	</data>
+	<data name="TAKE REWARD" xml:space="preserve">
+		<value>Ta ditt pris!</value>
+	</data>
+	<data name="TANK" xml:space="preserve">
+		<value>STRIDSVAGN</value>
+	</data>
+	<data name="TANK FULL" xml:space="preserve">
+		<value>TANKEN ÄR FULL</value>
+	</data>
+	<data name="TANKOMINATOR" xml:space="preserve">
+		<value>TANKOMINATOR</value>
+	</data>
+	<data name="TAP" xml:space="preserve">
+		<value>TAP</value>
+	</data>
+	<data name="TAP THE SCREEN" xml:space="preserve">
+		<value>Klicka på rutan!</value>
+	</data>
+	<data name="TAP TO BUY THE UPGRADE" xml:space="preserve">
+		<value>Klicka för att köpa uppgradering!</value>
+	</data>
+	<data name="TAP TO CONTINUE…" xml:space="preserve">
+		<value>TRYCK FÖR ATT FORTSÄTTA ...</value>
+	</data>
+	<data name="TAP TO DROP" xml:space="preserve">
+		<value>PRESS TO DROP</value>
+	</data>
+	<data name="TASTY" xml:space="preserve">
+		<value>Smakar gott!</value>
+	</data>
+	<data name="TERMS OF USE" xml:space="preserve">
+		<value>VILLKOR</value>
+	</data>
+	<data name="TEST DRIVE" xml:space="preserve">
+		<value>TEST DRIVE</value>
+	</data>
+	<data name="TESTERS" xml:space="preserve">
+		<value>TESTARE</value>
+	</data>
+	<data name="THUNDERSTORM" xml:space="preserve">
+		<value>ÅSKA!</value>
+	</data>
+	<data name="TILT" xml:space="preserve">
+		<value>Balansering</value>
+	</data>
+	<data name="TO UNLOCK" xml:space="preserve">
+		<value>Att låsa upp</value>
+	</data>
+	<data name="TODAY" xml:space="preserve">
+		<value>I DAG</value>
+	</data>
+	<data name="TOTAL" xml:space="preserve">
+		<value>TOTALT</value>
+	</data>
+	<data name="TRY AGAIN" xml:space="preserve">
+		<value>FÖRSÖK IGEN</value>
+	</data>
+	<data name="TRY HARVESTER FOR FREE!" xml:space="preserve">
+		<value>TRY HARVESTER FOR FREE!</value>
+	</data>
+	<data name="TRY TANKOMINATOR FOR FREE!" xml:space="preserve">
+		<value>TRY TANKOMINATOR FOR FREE!</value>
+	</data>
+	<data name="TURBO" xml:space="preserve">
+		<value>TURBO</value>
+	</data>
+	<data name="TURTLE" xml:space="preserve">
+		<value>SKÖLDPADDA</value>
+	</data>
+	<data name="TUTORIAL" xml:space="preserve">
+		<value>HANDLEDNING</value>
+	</data>
+	<data name="UNEQUIP" xml:space="preserve">
+		<value>ANVÄND INTE</value>
+	</data>
+	<data name="UNLIMITED" xml:space="preserve">
+		<value>Ändlös</value>
+	</data>
+	<data name="UNLOCK" xml:space="preserve">
+		<value>låsa upp</value>
+	</data>
+	<data name="UNLOCKED" xml:space="preserve">
+		<value>olåst</value>
+	</data>
+	<data name="UPGRADE" xml:space="preserve">
+		<value>UPPGRADERA</value>
+	</data>
+	<data name="UPGRADE YOUR CAR NOW TO BEAT DIFFICULT LEVELS" xml:space="preserve">
+		<value>UPPGRADERA DIN BIL NU OCH KLARA SVÅRA NIVÅER.</value>
+	</data>
+	<data name="UPGRADES" xml:space="preserve">
+		<value>UPPGRADERA</value>
+	</data>
+	<data name="USE" xml:space="preserve">
+		<value>ANV</value>
+	</data>
+	<data name="USE BOMBS TO DESTROY ENEMIES" xml:space="preserve">
+		<value>FÖRINTA FIENDER MED BOMBER.</value>
+	</data>
+	<data name="USE BOOSTERS TO MAKE THE LEVEL EASIER" xml:space="preserve">
+		<value>ANVÄND EXTRAFART FÖR ATT LÄTTARE KLARA NIVÅN.</value>
+	</data>
+	<data name="VALENTINE'S RUSH" xml:space="preserve">
+		<value>VALENTINE'S RUSH</value>
+	</data>
+	<data name="VIDEO" xml:space="preserve">
+		<value>VIDEO</value>
+	</data>
+	<data name="VIDEO FAILED" xml:space="preserve">
+		<value>VIDEO FAILED</value>
+	</data>
+	<data name="WARNING" xml:space="preserve">
+		<value>VARNING</value>
+	</data>
+	<data name="We care about your privacy and data security. We keep this app free by showing ads." xml:space="preserve">
+		<value>We care about your privacy and data security. We keep this app free by showing ads.</value>
+	</data>
+	<data name="WHEEL OF FORTUNE" xml:space="preserve">
+		<value>LYCKOHJULET</value>
+	</data>
+	<data name="WHEELS" xml:space="preserve">
+		<value>HJUL</value>
+	</data>
+	<data name="Wick" xml:space="preserve">
+		<value>Veke</value>
+	</data>
+	<data name="WIN BOSS 1 TO UNLOCK" xml:space="preserve">
+		<value>Besegra Bossen - 1</value>
+	</data>
+	<data name="WIN BOSS 2 TO UNLOCK" xml:space="preserve">
+		<value>Besegra Bossen - 2</value>
+	</data>
+	<data name="WIN KEYS TO UNLOCK BERSERKER" xml:space="preserve">
+		<value>VIN NYCKEL FÖR ATT LÅS BÄRSÄRK</value>
+	</data>
+	<data name="WIN YOUR TANKOMINATOR ON ARENA" xml:space="preserve">
+		<value>FÅ DIN TANKMINATOR PÅ STADIUM</value>
+	</data>
+	<data name="WOULD YOU LIKE TO RATE THE GAME?" xml:space="preserve">
+		<value>VILL DU BETYGSÄTTA SPELET?</value>
+	</data>
+	<data name="WOW!" xml:space="preserve">
+		<value>WOW!</value>
+	</data>
+	<data name="YES" xml:space="preserve">
+		<value>JA</value>
+	</data>
+	<data name="Yes, continue to see relevant ads" xml:space="preserve">
+		<value>Yes, continue to see relevant ads</value>
+	</data>
+	<data name="YES/NO" xml:space="preserve">
+		<value>JA/NEJ</value>
+	</data>
+	<data name="YOU ARE FIRED!!!" xml:space="preserve">
+		<value>Du är avfyrad!</value>
+	</data>
+	<data name="YOU ARE GOING TO JAIL!" xml:space="preserve">
+		<value>Din plats är bakom gallret!</value>
+	</data>
+	<data name="YOU ARE OLD AND RUSTY!" xml:space="preserve">
+		<value>Du är gammal och rostig!</value>
+	</data>
+	<data name="YOU ARE OLD, RUSTY AND EVIL!" xml:space="preserve">
+		<value>Du är gammal, rostig och ond!</value>
+	</data>
+	<data name="YOU BEAT YOUR FRIEND" xml:space="preserve">
+		<value>DU VANN ÖVER DIN VÄN</value>
+	</data>
+	<data name="You can change your choice anytime for CAR EATS CAR 3 in the app settings. Our partners will collect data and use a unique identifier on your device to show you ads. " xml:space="preserve">
+		<value>You can change your choice anytime for CAR EATS CAR 3 in the app settings. Our partners will collect data and use a unique identifier on your device to show you ads. </value>
+	</data>
+	<data name="YOU CANT FIGHT" xml:space="preserve">
+		<value>Du kan inte slåss!</value>
+	</data>
+	<data name="YOU DEFEATED" xml:space="preserve">
+		<value>Du vinnar!</value>
+	</data>
+	<data name="YOU FOUND ARMOR" xml:space="preserve">
+		<value>YOU PICKED UP ARMOR</value>
+	</data>
+	<data name="YOU FOUND BOMB" xml:space="preserve">
+		<value>YOU PICKED UP BOMB</value>
+	</data>
+	<data name="YOU FOUND TURBO" xml:space="preserve">
+		<value>YOU PICKED UP TURBO</value>
+	</data>
+	<data name="YOU FREED" xml:space="preserve">
+		<value>Du räddade!</value>
+	</data>
+	<data name="You gadget is successfully crafter. Let's use it!" xml:space="preserve">
+		<value>Din pryl har skapats. Använd den!</value>
+	</data>
+	<data name="YOU HAVE COLLECTED SOME BOXES. TRY YOUR LUCK AND WIN FREE BONUSES!" xml:space="preserve">
+		<value>DU HAR SAMLAT IHOP NÅGRA LÅDOR. PRÖVA LYCKAN OCH VINN GRATISBONUSAR!</value>
+	</data>
+	<data name="YOU NEED" xml:space="preserve">
+		<value>Det är nödigt</value>
+	</data>
+	<data name="YOU ROCK!" xml:space="preserve">
+		<value>Kraftfullt!</value>
+	</data>
+	<data name="YOU WILL LOSE YOUR CURRENT GAME PROGRESS!" xml:space="preserve">
+		<value>DINA NUVARANDE SPELFRAMGÅNGAR KOMMER ATT GÅ FÖRLORADE!</value>
+	</data>
+	<data name="YOUR BOOSTS" xml:space="preserve">
+		<value>Dina vinster</value>
+	</data>
+	<data name="Your daily bonus is ready. Get it!" xml:space="preserve">
+		<value>Din dagliga bonus är klar. Ta det!</value>
+	</data>
+	<data name="Your gas has refilled in Car Eats Car. Let's go race!" xml:space="preserve">
+		<value>Din bensin är återställd! Kom så kör vi?!</value>
+	</data>
+	<data name="YOUR PREVIOUSLY PURCHASD PRODUCTS HAVE BEEN RESTORED" xml:space="preserve">
+		<value>DINA TIDIGARE KÖPTA PRODUKTER HAR ÅTERSTÄLLTS.</value>
+	</data>
+	<data name="YOUR RATING HELPS US PROVIDE UPDATES FOR THE GAME" xml:space="preserve">
+		<value>DITT BETYG HJÄLPER OSS ATT GÖRA UPPDATERINGAR AV SPELET</value>
+	</data>
+	<data name="YOU'VE PLAYED CAR EATS CAR BEFORE!" xml:space="preserve">
+		<value>DU HAR SPELAT CAR EATS CAR FÖRUT!</value>
+	</data>
+	<data name="YUM-YUM!" xml:space="preserve">
+		<value>MUMS MUMS!</value>
+	</data>
+</root>
