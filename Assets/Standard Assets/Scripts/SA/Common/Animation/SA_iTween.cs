@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace SA.Common.Animation
 {
@@ -315,13 +316,13 @@ namespace SA.Common.Animation
 			{
 				args.Add("easetype", EaseType.linear);
 			}
-			if ((bool)target.GetComponent<GUITexture>())
+			if ((bool)target.GetComponent<Image>())
 			{
-				color2 = (color = target.GetComponent<GUITexture>().color);
+				color2 = (color = target.GetComponent<Image>().color);
 			}
-			else if ((bool)target.GetComponent<GUIText>())
+			else if ((bool)target.GetComponent<Text>())
 			{
-				color2 = (color = target.GetComponent<GUIText>().material.color);
+				color2 = (color = target.GetComponent<Text>().material.color);
 			}
 			else if ((bool)target.GetComponent<Renderer>())
 			{
@@ -364,13 +365,13 @@ namespace SA.Common.Animation
 				color.a = (float)args["alpha"];
 				args.Remove("alpha");
 			}
-			if ((bool)target.GetComponent<GUITexture>())
+			if ((bool)target.GetComponent<Image	>())
 			{
-				target.GetComponent<GUITexture>().color = color;
+				target.GetComponent<Image>().color = color;
 			}
-			else if ((bool)target.GetComponent<GUIText>())
+			else if ((bool)target.GetComponent<Text>())
 			{
-				target.GetComponent<GUIText>().material.color = color;
+				target.GetComponent<Text>().material.color = color;
 			}
 			else if ((bool)target.GetComponent<Renderer>())
 			{
@@ -1340,15 +1341,15 @@ namespace SA.Common.Animation
 
 		private void GenerateColorToTargets()
 		{
-			if ((bool)GetComponent<GUITexture>())
+			if ((bool)GetComponent<Image>())
 			{
 				colors = new Color[1, 3];
-				colors[0, 0] = (colors[0, 1] = GetComponent<GUITexture>().color);
+				colors[0, 0] = (colors[0, 1] = GetComponent<Image>().color);
 			}
-			else if ((bool)GetComponent<GUIText>())
+			else if ((bool)GetComponent<Text>())
 			{
 				colors = new Color[1, 3];
-				colors[0, 0] = (colors[0, 1] = GetComponent<GUIText>().material.color);
+				colors[0, 0] = (colors[0, 1] = GetComponent<Text>().material.color);
 			}
 			else if ((bool)GetComponent<Renderer>())
 			{
@@ -2111,11 +2112,11 @@ namespace SA.Common.Animation
 				colors[i, 2].b = ease(colors[i, 0].b, colors[i, 1].b, percentage);
 				colors[i, 2].a = ease(colors[i, 0].a, colors[i, 1].a, percentage);
 			}
-			if ((bool)GetComponent<GUITexture>())
+			if ((bool)GetComponent<Image>())
 			{
-				GetComponent<GUITexture>().color = colors[0, 2];
+				GetComponent<Image>().color = colors[0, 2];
 			}
-			else if (!GetComponent<GUIText>())
+			else if (!GetComponent<Text>())
 			{
 				if ((bool)GetComponent<Renderer>())
 				{
@@ -2133,13 +2134,13 @@ namespace SA.Common.Animation
 			{
 				return;
 			}
-			if ((bool)GetComponent<GUITexture>())
+			if ((bool)GetComponent<Image>())
 			{
-				GetComponent<GUITexture>().color = colors[0, 1];
+				GetComponent<Image>().color = colors[0, 1];
 			}
 			else
 			{
-				if ((bool)GetComponent<GUIText>())
+				if ((bool)GetComponent<Text>())
 				{
 					return;
 				}
@@ -2700,13 +2701,13 @@ namespace SA.Common.Animation
 			{
 				num = Defaults.updateTime;
 			}
-			if ((bool)target.GetComponent<GUITexture>())
+			if ((bool)target.GetComponent<Image>())
 			{
-				array[0] = (array[1] = target.GetComponent<GUITexture>().color);
+				array[0] = (array[1] = target.GetComponent<Image>().color);
 			}
-			else if ((bool)target.GetComponent<GUIText>())
+			else if ((bool)target.GetComponent<Text>())
 			{
-				array[0] = (array[1] = target.GetComponent<GUIText>().material.color);
+				array[0] = (array[1] = target.GetComponent<Text>().material.color);
 			}
 			else if ((bool)target.GetComponent<Renderer>())
 			{
@@ -2743,13 +2744,13 @@ namespace SA.Common.Animation
 			array[3].g = Mathf.SmoothDamp(array[0].g, array[1].g, ref array[2].g, num);
 			array[3].b = Mathf.SmoothDamp(array[0].b, array[1].b, ref array[2].b, num);
 			array[3].a = Mathf.SmoothDamp(array[0].a, array[1].a, ref array[2].a, num);
-			if ((bool)target.GetComponent<GUITexture>())
+			if ((bool)target.GetComponent<Image>())
 			{
-				target.GetComponent<GUITexture>().color = array[3];
+				target.GetComponent<Image>().color = array[3];
 			}
-			else if ((bool)target.GetComponent<GUIText>())
+			else if ((bool)target.GetComponent<Text>())
 			{
-				target.GetComponent<GUIText>().material.color = array[3];
+				target.GetComponent<Text>().material.color = array[3];
 			}
 			else if ((bool)target.GetComponent<Renderer>())
 			{
@@ -3455,7 +3456,7 @@ namespace SA.Common.Animation
 		{
 			if ((bool)cameraFade)
 			{
-				cameraFade.GetComponent<GUITexture>().texture = texture;
+				cameraFade.GetComponent<RawImage>().texture = texture;
 			}
 		}
 
@@ -3467,9 +3468,9 @@ namespace SA.Common.Animation
 			}
 			cameraFade = new GameObject("iTween Camera Fade");
 			cameraFade.transform.position = new Vector3(0.5f, 0.5f, depth);
-			cameraFade.AddComponent<GUITexture>();
-			cameraFade.GetComponent<GUITexture>().texture = texture;
-			cameraFade.GetComponent<GUITexture>().color = new Color(0.5f, 0.5f, 0.5f, 0f);
+			cameraFade.AddComponent<RawImage>();
+			cameraFade.GetComponent<RawImage>().texture = texture;
+			cameraFade.GetComponent<RawImage>().color = new Color(0.5f, 0.5f, 0.5f, 0f);
 			return cameraFade;
 		}
 
@@ -3481,9 +3482,9 @@ namespace SA.Common.Animation
 			}
 			cameraFade = new GameObject("iTween Camera Fade");
 			cameraFade.transform.position = new Vector3(0.5f, 0.5f, Defaults.cameraFadeDepth);
-			cameraFade.AddComponent<GUITexture>();
-			cameraFade.GetComponent<GUITexture>().texture = texture;
-			cameraFade.GetComponent<GUITexture>().color = new Color(0.5f, 0.5f, 0.5f, 0f);
+			cameraFade.AddComponent<RawImage>();
+			cameraFade.GetComponent<RawImage>().texture = texture;
+			cameraFade.GetComponent<RawImage>().color = new Color(0.5f, 0.5f, 0.5f, 0f);
 			return cameraFade;
 		}
 
@@ -3495,9 +3496,9 @@ namespace SA.Common.Animation
 			}
 			cameraFade = new GameObject("iTween Camera Fade");
 			cameraFade.transform.position = new Vector3(0.5f, 0.5f, Defaults.cameraFadeDepth);
-			cameraFade.AddComponent<GUITexture>();
-			cameraFade.GetComponent<GUITexture>().texture = CameraTexture(Color.black);
-			cameraFade.GetComponent<GUITexture>().color = new Color(0.5f, 0.5f, 0.5f, 0f);
+			cameraFade.AddComponent<RawImage>();
+			cameraFade.GetComponent<RawImage>().texture = CameraTexture(Color.black);
+			cameraFade.GetComponent<RawImage>().color = new Color(0.5f, 0.5f, 0.5f, 0f);
 			return cameraFade;
 		}
 

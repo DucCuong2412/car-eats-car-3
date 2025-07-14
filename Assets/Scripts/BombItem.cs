@@ -40,13 +40,15 @@ public class BombItem : MonoBehaviour
 		public bool mainCarCollision;
 	}
 
-	public UnityEngine.Object parameters = new Object();
+	[SerializeField]
+	public Object parameters = new Object();
 
-	private void OnCollisionEnter2D(Collision2D coll)
+	private void OnCollisionEnter2D(Collision2D collision)
 	{
-		if (RaceManager.instance.isStarted && parameters.onCollisionEnter)
+		if (collision != null && RaceManager.instance != null && 
+			RaceManager.instance.isStarted && parameters.onCollisionEnter)
 		{
-			BombLogic.instance.OnCollision(base.transform);
+			BombLogic.instance.OnCollision(transform);
 		}
 	}
 }

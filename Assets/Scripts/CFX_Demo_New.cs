@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CFX_Demo_New : MonoBehaviour
 {
-	public GUIText EffectLabel;
+	public Text EffectLabel;
 
-	public GUIText EffectIndexLabel;
+	public Text EffectIndexLabel;
 
 	public Renderer groundRenderer;
 

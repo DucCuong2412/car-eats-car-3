@@ -43,7 +43,7 @@ public static class NGUITools
 		}
 	}
 
-	public static bool fileAccess => Application.platform != RuntimePlatform.WindowsWebPlayer && Application.platform != RuntimePlatform.OSXWebPlayer;
+	//public static bool fileAccess => Application.platform != RuntimePlatform.WindowsWebPlayer && Application.platform != RuntimePlatform.OSXWebPlayer;
 
 	public static string clipboard
 	{
@@ -1022,10 +1022,10 @@ public static class NGUITools
 
 	public static bool Save(string fileName, byte[] bytes)
 	{
-		if (!fileAccess)
-		{
-			return false;
-		}
+		//if (!fileAccess)
+		//{
+		//	return false;
+		//}
 		string path = Application.persistentDataPath + "/" + fileName;
 		if (bytes == null)
 		{
@@ -1052,10 +1052,10 @@ public static class NGUITools
 
 	public static byte[] Load(string fileName)
 	{
-		if (!fileAccess)
-		{
-			return null;
-		}
+		//if (!fileAccess)
+		//{
+		//	return null;
+		//}
 		string path = Application.persistentDataPath + "/" + fileName;
 		if (File.Exists(path))
 		{

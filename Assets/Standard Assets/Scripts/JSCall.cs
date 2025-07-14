@@ -1,6 +1,6 @@
 using System;
 using UnityEngine;
-using UnityScript.Lang;
+//using UnityScript.Lang;
 
 [Serializable]
 public class JSCall : MonoBehaviour
@@ -18,10 +18,10 @@ public class JSCall : MonoBehaviour
 		}
 		if (GUI.Button(new Rect(10f, 60f, 150f, 40f), "Submit Achievement"))
 		{
-			UnityScript.Lang.Array array = new UnityScript.Lang.Array();
-			array.push("20.2");
-			array.push("your.achievement.id1.here");
-			SendMessage("SubmitAchievement", array.join("|"));
+			//UnityScript.Lang.Array array = new UnityScript.Lang.Array();
+			//array.push("20.2");
+			//array.push("your.achievement.id1.here");
+			//SendMessage("SubmitAchievement", array.join("|"));
 		}
 	}
 

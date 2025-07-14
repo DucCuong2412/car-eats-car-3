@@ -1,4 +1,4 @@
-using GooglePlayGames.OurUtils;
+//using GooglePlayGames.OurUtils;
 using System;
 
 namespace GooglePlayGames.BasicApi.SavedGame
@@ -19,7 +19,7 @@ namespace GooglePlayGames.BasicApi.SavedGame
 
 			public Builder WithUpdatedDescription(string description)
 			{
-				mNewDescription = Misc.CheckNotNull(description);
+				//mNewDescription = Misc.CheckNotNull(description);
 				mDescriptionUpdated = true;
 				return this;
 			}

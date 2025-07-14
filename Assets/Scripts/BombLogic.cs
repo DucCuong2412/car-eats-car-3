@@ -203,12 +203,15 @@ public class BombLogic : BombCommonLogic
 		}
 		else
 		{
-			UnityEngine.Debug.Log("Use default bomb settings, because BombItem component does'n finded!");
+			UnityEngine.Debug.LogWarning("Using default bomb settings - BombItem component not found on object!");
 		}
+
+		// Override damage if specified
 		if (dmg != -1f)
 		{
 			@object.damage = dmg;
 		}
+
 		if (@object != null)
 		{
 			activeObjects.Add(@object);
@@ -218,6 +221,7 @@ public class BombLogic : BombCommonLogic
 			}
 			return @object.transform.gameObject;
 		}
+		
 		return null;
 	}
 

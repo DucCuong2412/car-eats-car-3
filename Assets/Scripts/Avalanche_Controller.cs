@@ -1,4 +1,4 @@
-using SMKK;
+﻿using SMKK;
 using System.Collections;
 using UnityEngine;
 
@@ -75,15 +75,23 @@ public class Avalanche_Controller : MonoBehaviour
 			_tryGo = false;
 			StartCoroutine(DelayToStart());
 		}
-		if (RaceLogic.instance.car != null && RaceLogic.instance.car.HealthModule._barrel.Value <= 0f && _go)
-		{
-			_go = false;
-			Particle1.emission.rateOverTime = 0f;
-			Particle2.emission.rateOverTime = 0f;
-			Particle3.emission.rateOverTime = 0f;
-			StartCoroutine(DelayToOff());
-		}
-		if (_car != null && _go)
+        if (RaceLogic.instance.car != null && RaceLogic.instance.car.HealthModule._barrel.Value <= 0f && _go)
+        {
+            _go = false;
+
+            // Sửa lỗi CS1612 bằng cách tách emission module ra biến tạm
+            ParticleSystem.EmissionModule emission1 = Particle1.emission;
+            emission1.rateOverTime = 0f;
+
+            ParticleSystem.EmissionModule emission2 = Particle2.emission;
+            emission2.rateOverTime = 0f;
+
+            ParticleSystem.EmissionModule emission3 = Particle3.emission;
+            emission3.rateOverTime = 0f;
+
+            StartCoroutine(DelayToOff());
+        }
+        if (_car != null && _go)
 		{
 			if (_lastX == 0f)
 			{

@@ -783,10 +783,10 @@ public class PostProcessLoader : MonoBehaviour
 	private IEnumerator WaitAnConnetToGamecenter()
 	{
 		yield return null;
-		PlayGamesPlatform.DebugLogEnabled = true;
-		PlayGamesClientConfiguration config = new PlayGamesClientConfiguration.Builder().EnableSavedGames().Build();
-		PlayGamesPlatform.InitializeInstance(config);
-		PlayGamesPlatform.Activate();
+		//PlayGamesPlatform.DebugLogEnabled = true;
+		//PlayGamesClientConfiguration config = new PlayGamesClientConfiguration.Builder().EnableSavedGames().Build();
+		//PlayGamesPlatform.InitializeInstance(config);
+		//PlayGamesPlatform.Activate();
 		login();
 		if (isGCConectionFirst && Game.GPWasConnected() != 0)
 		{

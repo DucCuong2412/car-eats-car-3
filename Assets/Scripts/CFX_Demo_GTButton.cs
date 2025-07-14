@@ -1,42 +1,41 @@
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
-public class CFX_Demo_GTButton : MonoBehaviour
+public class CFX_Demo_GTButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
-	public Color NormalColor = new Color32(128, 128, 128, 128);
+    public Color NormalColor = new Color32(128, 128, 128, 128);
+    public Color HoverColor = new Color32(200, 200, 200, 200);
 
-	public Color HoverColor = new Color32(128, 128, 128, 128);
+    public string Callback;
+    public GameObject Receiver;
 
-	public string Callback;
+    private Image image;
 
-	public GameObject Receiver;
+    private void Awake()
+    {
+        image = GetComponent<Image>();
+        if (image != null)
+            image.color = NormalColor;
+    }
 
-	private Rect CollisionRect;
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        if (image != null)
+            image.color = HoverColor;
+    }
 
-	private bool Over;
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        if (image != null)
+            image.color = NormalColor;
+    }
 
-	private void Awake()
-	{
-		CollisionRect = GetComponent<GUITexture>().GetScreenRect(Camera.main);
-	}
-
-	private void Update()
-	{
-		if (CollisionRect.Contains(UnityEngine.Input.mousePosition))
-		{
-			GetComponent<GUITexture>().color = HoverColor;
-			if (Input.GetMouseButtonDown(0))
-			{
-				OnClick();
-			}
-		}
-		else
-		{
-			GetComponent<GUITexture>().color = NormalColor;
-		}
-	}
-
-	private void OnClick()
-	{
-		Receiver.SendMessage(Callback);
-	}
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        if (Receiver != null && !string.IsNullOrEmpty(Callback))
+        {
+            Receiver.SendMessage(Callback);
+        }
+    }
 }

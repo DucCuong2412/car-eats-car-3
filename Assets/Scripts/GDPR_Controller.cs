@@ -137,9 +137,9 @@ public class GDPR_Controller : MonoBehaviour
 		Progress.settings.GDPRads = "1";
 		UnityEngine.Debug.Log("posle Progress.game.GDPRads ====> " + Progress.settings.GDPRads);
 		AdColonyWrapper.instance.ConfigureAds();
-		MetaData metaData = new MetaData("gdpr");
-		metaData.Set("consent", "true");
-		Advertisement.SetMetaData(metaData);
+		//MetaData metaData = new MetaData("gdpr");
+		//metaData.Set("consent", "true");
+		//Advertisement.SetMetaData(metaData);
 		if (!Progress.settings.showGDPRads)
 		{
 			Progress.settings.showGDPRads = true;
@@ -162,9 +162,9 @@ public class GDPR_Controller : MonoBehaviour
 		Progress.settings.GDPRads = "0";
 		UnityEngine.Debug.Log("posle Progress.game.GDPRads ====> " + Progress.settings.GDPRads);
 		AdColonyWrapper.instance.ConfigureAds();
-		MetaData metaData = new MetaData("gdpr");
-		metaData.Set("consent", "false");
-		Advertisement.SetMetaData(metaData);
+		//MetaData metaData = new MetaData("gdpr");
+		//metaData.Set("consent", "false");
+		//Advertisement.SetMetaData(metaData);
 		if (!Progress.settings.showGDPRads)
 		{
 			Progress.settings.showGDPRads = true;

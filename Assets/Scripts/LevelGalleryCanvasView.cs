@@ -413,10 +413,10 @@ public class LevelGalleryCanvasView : LevelGalleryCanvasLogic
 		Progress.levels.SendRetention();
 		base.Awake();
 		ChekCAr();
-		btnBuyClose.onClick.AddListener((UnityAction)((LevelGalleryCanvasLogic)this).ButtonBuyClose);
-		btnBuyNext.onClick.AddListener((UnityAction)((LevelGalleryCanvasLogic)this).ButtonBuyPack);
-		btnBuyPack.onClick.AddListener((UnityAction)((LevelGalleryCanvasLogic)this).ButtonBuyAll);
-		btnBuyRealMoney.onClick.AddListener(ButtonBuyRealMoney);
+        btnBuyClose.onClick.AddListener(ButtonBuyClose);
+        btnBuyNext.onClick.AddListener(ButtonBuyPack);
+        btnBuyPack.onClick.AddListener(ButtonBuyAll);
+        btnBuyRealMoney.onClick.AddListener(ButtonBuyRealMoney);
 		YesLeave.onClick.AddListener(LeavesGame);
 		btnMonstropedia.onClick.AddListener(btnMonstroIn);
 		btnMonstropediaOut.onClick.AddListener(btnMonstro);

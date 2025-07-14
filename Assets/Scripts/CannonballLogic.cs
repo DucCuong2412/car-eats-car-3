@@ -152,9 +152,9 @@ public class CannonballLogic : MonoBehaviour
 	private void OnDrawGizmos()
 	{
 		Gizmos.color = Color.green;
-		foreach (UnityEngine.Object activeObject in activeObjects)
-		{
-			Gizmos.DrawLine(activeObject.positionInPreviusPreviusFrame, activeObject.positionInPreviusFrame);
-		}
+		//foreach (UnityEngine.Object activeObject in activeObjects)
+		//{
+		//	Gizmos.DrawLine(activeObject.positionInPreviusPreviusFrame, activeObject.positionInPreviusFrame);
+		//}
 	}
 }

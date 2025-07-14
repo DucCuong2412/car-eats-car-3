@@ -1,4 +1,4 @@
-using GooglePlayGames.OurUtils;
+//using GooglePlayGames.OurUtils;
 
 namespace GooglePlayGames.BasicApi.Nearby
 {
@@ -12,11 +12,11 @@ namespace GooglePlayGames.BasicApi.Nearby
 
 		public byte[] Payload => mPayload;
 
-		public ConnectionRequest(string remoteEndpointId, string remoteEndpointName, string serviceId, byte[] payload)
-		{
-			Logger.d("Constructing ConnectionRequest");
-			mRemoteEndpoint = new EndpointDetails(remoteEndpointId, remoteEndpointName, serviceId);
-			mPayload = Misc.CheckNotNull(payload);
-		}
+		//public ConnectionRequest(string remoteEndpointId, string remoteEndpointName, string serviceId, byte[] payload)
+		//{
+			//	Logger.d("Constructing ConnectionRequest");
+			//	mRemoteEndpoint = new EndpointDetails(remoteEndpointId, remoteEndpointName, serviceId);
+			//	mPayload = Misc.CheckNotNull(payload);
+		//}
 	}
 }

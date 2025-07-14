@@ -661,7 +661,7 @@ public abstract class tk2dBaseSprite : MonoBehaviour, ISpriteCollectionForceBuil
 				meshColliderMesh.triangles = ((!(num >= 0f)) ? tk2dSpriteDefinition.colliderIndicesBack : tk2dSpriteDefinition.colliderIndicesFwd);
 				meshCollider.sharedMesh = meshColliderMesh;
 				meshCollider.convex = tk2dSpriteDefinition.colliderConvex;
-				meshCollider.smoothSphereCollisions = tk2dSpriteDefinition.colliderSmoothSphereCollisions;
+				//meshCollider.smoothSphereCollisions = tk2dSpriteDefinition.colliderSmoothSphereCollisions;
 				if ((bool)GetComponent<Rigidbody>())
 				{
 					GetComponent<Rigidbody>().centerOfMass = Vector3.zero;

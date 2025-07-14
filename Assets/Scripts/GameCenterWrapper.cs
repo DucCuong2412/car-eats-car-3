@@ -87,19 +87,19 @@ public static class GameCenterWrapper
 
 	private static int loadedLevelCoins = -1;
 
-	public static ISavedGameMetadata temp;
+	//public static ISavedGameMetadata temp;
 
-	[CompilerGenerated]
-	private static Action<SavedGameRequestStatus, ISavedGameMetadata> _003C_003Ef__mg_0024cache0;
+	//[CompilerGenerated]
+	//private static Action<SavedGameRequestStatus, ISavedGameMetadata> _003C_003Ef__mg_0024cache0;
 
-	[CompilerGenerated]
-	private static Action<SavedGameRequestStatus, ISavedGameMetadata> _003C_003Ef__mg_0024cache1;
+	//[CompilerGenerated]
+	//private static Action<SavedGameRequestStatus, ISavedGameMetadata> _003C_003Ef__mg_0024cache1;
 
-	[CompilerGenerated]
-	private static Action<SavedGameRequestStatus, byte[]> _003C_003Ef__mg_0024cache2;
+	//[CompilerGenerated]
+	//private static Action<SavedGameRequestStatus, byte[]> _003C_003Ef__mg_0024cache2;
 
-	[CompilerGenerated]
-	private static Action<SavedGameRequestStatus, ISavedGameMetadata> _003C_003Ef__mg_0024cache3;
+	//[CompilerGenerated]
+	//private static Action<SavedGameRequestStatus, ISavedGameMetadata> _003C_003Ef__mg_0024cache3;
 
 	public static bool isLoggedIn
 	{
@@ -168,7 +168,7 @@ public static class GameCenterWrapper
 			CloudProgress details = new CloudProgress(fromProgress: true);
 			string s = XML.Serialize<CloudProgress>(details);
 			byte[] bytes = Encoding.UTF8.GetBytes(s);
-			SaveGame(temp, bytes, totalPlaytime);
+			//SaveGame(temp, bytes, totalPlaytime);
 		}
 	}
 
@@ -187,43 +187,43 @@ public static class GameCenterWrapper
 	private static void OpenSavedGame(string filename)
 	{
 		UnityEngine.Debug.Log("#@$!#!@#!@# OpenSavedGame");
-		ISavedGameClient savedGame = PlayGamesPlatform.Instance.SavedGame;
-		savedGame.OpenWithAutomaticConflictResolution(filename, DataSource.ReadCacheOrNetwork, ConflictResolutionStrategy.UseLongestPlaytime, OnSavedGameOpened);
+		//ISavedGameClient savedGame = PlayGamesPlatform.Instance.SavedGame;
+		//savedGame.OpenWithAutomaticConflictResolution(filename, DataSource.ReadCacheOrNetwork, ConflictResolutionStrategy.UseLongestPlaytime, OnSavedGameOpened);
 	}
 
-	public static void OnSavedGameOpened(SavedGameRequestStatus status, ISavedGameMetadata game)
-	{
-		if (status == SavedGameRequestStatus.Success)
-		{
-			UnityEngine.Debug.Log("#@$!#!@#!@# OnSavedGameOpened");
-			LoadGameData(game);
-			temp = game;
-		}
-	}
+	//public static void OnSavedGameOpened(SavedGameRequestStatus status, ISavedGameMetadata game)
+	//{
+	//	if (status == SavedGameRequestStatus.Success)
+	//	{
+	//		UnityEngine.Debug.Log("#@$!#!@#!@# OnSavedGameOpened");
+	//		LoadGameData(game);
+	//		temp = game;
+	//	}
+	//}
 
-	public static void SaveGame(ISavedGameMetadata game, byte[] savedData, TimeSpan totalPlaytime)
-	{
-		UnityEngine.Debug.Log("#@$!#!@#!@# SaveGame");
-		ISavedGameClient savedGame = PlayGamesPlatform.Instance.SavedGame;
-		Texture2D screenshot = getScreenshot();
-		SavedGameMetadataUpdate.Builder builder = default(SavedGameMetadataUpdate.Builder).WithUpdatedPlayedTime(totalPlaytime).WithUpdatedDescription("Saved game at " + DateTime.Now);
-		if (screenshot != null)
-		{
-			byte[] newPngCoverImage = screenshot.EncodeToPNG();
-			builder = builder.WithUpdatedPngCoverImage(newPngCoverImage);
-		}
-		SavedGameMetadataUpdate updateForMetadata = builder.Build();
-		savedGame.CommitUpdate(game, updateForMetadata, savedData, OnSavedGameWritten);
-	}
+	//public static void SaveGame(ISavedGameMetadata game, byte[] savedData, TimeSpan totalPlaytime)
+	//{
+	//	UnityEngine.Debug.Log("#@$!#!@#!@# SaveGame");
+	//	ISavedGameClient savedGame = PlayGamesPlatform.Instance.SavedGame;
+	//	Texture2D screenshot = getScreenshot();
+	//	SavedGameMetadataUpdate.Builder builder = default(SavedGameMetadataUpdate.Builder).WithUpdatedPlayedTime(totalPlaytime).WithUpdatedDescription("Saved game at " + DateTime.Now);
+	//	if (screenshot != null)
+	//	{
+	//		byte[] newPngCoverImage = screenshot.EncodeToPNG();
+	//		builder = builder.WithUpdatedPngCoverImage(newPngCoverImage);
+	//	}
+	//	SavedGameMetadataUpdate updateForMetadata = builder.Build();
+	//	savedGame.CommitUpdate(game, updateForMetadata, savedData, OnSavedGameWritten);
+	//}
 
-	public static void OnSavedGameWritten(SavedGameRequestStatus status, ISavedGameMetadata game)
-	{
-		UnityEngine.Debug.Log("#@$!#!@#!@# OnSavedGameWritten");
-		if (status == SavedGameRequestStatus.Success)
-		{
-			UnityEngine.Debug.Log("#@$!#!@#!@# OnSavedGameWrittenSuccess");
-		}
-	}
+	//public static void OnSavedGameWritten(SavedGameRequestStatus status, ISavedGameMetadata game)
+	//{
+	//	UnityEngine.Debug.Log("#@$!#!@#!@# OnSavedGameWritten");
+	//	if (status == SavedGameRequestStatus.Success)
+	//	{
+	//		UnityEngine.Debug.Log("#@$!#!@#!@# OnSavedGameWrittenSuccess");
+	//	}
+	//}
 
 	public static Texture2D getScreenshot()
 	{
@@ -232,50 +232,50 @@ public static class GameCenterWrapper
 		return texture2D;
 	}
 
-	private static void LoadGameData(ISavedGameMetadata game)
-	{
-		UnityEngine.Debug.Log("#@$!#!@#!@# LoadGameData");
-		ISavedGameClient savedGame = PlayGamesPlatform.Instance.SavedGame;
-		savedGame.ReadBinaryData(game, OnSavedGameDataRead);
-	}
+	//private static void LoadGameData(ISavedGameMetadata game)
+	//{
+	//	UnityEngine.Debug.Log("#@$!#!@#!@# LoadGameData");
+	//	ISavedGameClient savedGame = PlayGamesPlatform.Instance.SavedGame;
+	//	savedGame.ReadBinaryData(game, OnSavedGameDataRead);
+	//}
 
-	public static void OnSavedGameDataRead(SavedGameRequestStatus status, byte[] data)
-	{
-		if (status == SavedGameRequestStatus.Success)
-		{
-			UnityEngine.Debug.Log("#@$!#!@#!@# OnSavedGameDataReadSuccess");
-			string @string = Encoding.UTF8.GetString(data);
-			loadedCloudProgress = XML.Deserialize<CloudProgress>(@string);
-			loadedLevelCoins = loadedCloudProgress.shop.currency;
-			loadedLevelNum = Utilities.LevelNumberGlobal(loadedCloudProgress.levels.Max_Active_Level, loadedCloudProgress.levels.Max_Active_Pack).ToString();
-			int num = Utilities.LevelNumberGlobal(loadedCloudProgress.levels.Max_Active_Level, loadedCloudProgress.levels.Max_Active_Pack);
-			int num2 = Utilities.LevelNumberGlobal(Progress.levels.Max_Active_Level, Progress.levels.Max_Active_Pack);
-			UnityEngine.Debug.Log("CURENCY ====>>> " + loadedCloudProgress.shop.currency + " : " + Progress.shop.currency);
-			UnityEngine.Debug.Log("LEVELS ====>>> " + num + " : " + num2);
-			if (loadedCloudProgress.shop.currency >= Progress.shop.currency || num >= num2)
-			{
-				UnityEngine.Debug.Log("Invoking Saves Found Event");
-				ShowCloudProgress();
-			}
-		}
-		else
-		{
-			Progress.shop.foundProgress = false;
-		}
-	}
+	//public static void OnSavedGameDataRead(SavedGameRequestStatus status, byte[] data)
+	//{
+	//	if (status == SavedGameRequestStatus.Success)
+	//	{
+	//		UnityEngine.Debug.Log("#@$!#!@#!@# OnSavedGameDataReadSuccess");
+	//		string @string = Encoding.UTF8.GetString(data);
+	//		loadedCloudProgress = XML.Deserialize<CloudProgress>(@string);
+	//		loadedLevelCoins = loadedCloudProgress.shop.currency;
+	//		loadedLevelNum = Utilities.LevelNumberGlobal(loadedCloudProgress.levels.Max_Active_Level, loadedCloudProgress.levels.Max_Active_Pack).ToString();
+	//		int num = Utilities.LevelNumberGlobal(loadedCloudProgress.levels.Max_Active_Level, loadedCloudProgress.levels.Max_Active_Pack);
+	//		int num2 = Utilities.LevelNumberGlobal(Progress.levels.Max_Active_Level, Progress.levels.Max_Active_Pack);
+	//		UnityEngine.Debug.Log("CURENCY ====>>> " + loadedCloudProgress.shop.currency + " : " + Progress.shop.currency);
+	//		UnityEngine.Debug.Log("LEVELS ====>>> " + num + " : " + num2);
+	//		if (loadedCloudProgress.shop.currency >= Progress.shop.currency || num >= num2)
+	//		{
+	//			UnityEngine.Debug.Log("Invoking Saves Found Event");
+	//			ShowCloudProgress();
+	//		}
+	//	}
+	//	else
+	//	{
+	//		Progress.shop.foundProgress = false;
+	//	}
+	//}
 
-	private static void DeleteGameData(string filename)
-	{
-		ISavedGameClient savedGame = PlayGamesPlatform.Instance.SavedGame;
-		savedGame.OpenWithAutomaticConflictResolution(filename, DataSource.ReadCacheOrNetwork, ConflictResolutionStrategy.UseLongestPlaytime, DeleteSavedGame);
-	}
+	//private static void DeleteGameData(string filename)
+	//{
+	//	ISavedGameClient savedGame = PlayGamesPlatform.Instance.SavedGame;
+	//	savedGame.OpenWithAutomaticConflictResolution(filename, DataSource.ReadCacheOrNetwork, ConflictResolutionStrategy.UseLongestPlaytime, DeleteSavedGame);
+	//}
 
-	public static void DeleteSavedGame(SavedGameRequestStatus status, ISavedGameMetadata game)
-	{
-		if (status == SavedGameRequestStatus.Success)
-		{
-			ISavedGameClient savedGame = PlayGamesPlatform.Instance.SavedGame;
-			savedGame.Delete(game);
-		}
-	}
+	//public static void DeleteSavedGame(SavedGameRequestStatus status, ISavedGameMetadata game)
+	//{
+	//	if (status == SavedGameRequestStatus.Success)
+	//	{
+	//		ISavedGameClient savedGame = PlayGamesPlatform.Instance.SavedGame;
+	//		savedGame.Delete(game);
+	//	}
+	//}
 }

@@ -1,4 +1,4 @@
-using GooglePlayGames.OurUtils;
+//using GooglePlayGames.OurUtils;
 using System;
 
 namespace GooglePlayGames.BasicApi.Nearby
@@ -9,18 +9,18 @@ namespace GooglePlayGames.BasicApi.Nearby
 
 		public const int MaxReliableMessagePayloadLength = 4096;
 
-		private readonly Action<InitializationStatus> mInitializationCallback;
+		//private readonly Action<InitializationStatus> mInitializationCallback;
 
 		private readonly long mLocalClientId;
 
 		public long LocalClientId => mLocalClientId;
 
-		public Action<InitializationStatus> InitializationCallback => mInitializationCallback;
+		//public Action<InitializationStatus> InitializationCallback => mInitializationCallback;
 
-		public NearbyConnectionConfiguration(Action<InitializationStatus> callback, long localClientId)
-		{
-			mInitializationCallback = Misc.CheckNotNull(callback);
-			mLocalClientId = localClientId;
-		}
+		//public NearbyConnectionConfiguration(Action<InitializationStatus> callback, long localClientId)
+		//{
+		//	mInitializationCallback = Misc.CheckNotNull(callback);
+		//	mLocalClientId = localClientId;
+		//}
 	}
 }
