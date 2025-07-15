@@ -35,9 +35,9 @@ public class LimitedTimeOffer : MonoBehaviour
 		int count = Cars.Count;
 		for (int i = 0; i < count; i++)
 		{
-			Cars[i].SetActive(value: false);
+			//Cars[i].SetActive(value: false);
 		}
-		Cars[index].SetActive(value: true);
+		//Cars[index].SetActive(value: true);
 		if ((Progress.levels.Max_Active_Pack > 1 && Progress.levels.Max_Active_Level > 6 && !Progress.shop.ShowLimittedOffer) || (Progress.levels.Max_Active_Pack == 1 && Progress.levels.Max_Active_Level > 6 && !Progress.shop.ShowLimittedOffer))
 		{
 			Progress.shop.TimerForSpecialOfferShow = DateTime.Now.ToString();

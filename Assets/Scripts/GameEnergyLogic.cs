@@ -61,7 +61,7 @@ public class GameEnergyLogic : MonoBehaviour
 
 	public class GameEnergy
 	{
-		public int maximum = 50;
+		public int maximum = 2000;
 
 		public int eachStart = 5;
 

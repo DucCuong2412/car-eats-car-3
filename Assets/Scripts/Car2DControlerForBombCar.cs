@@ -18,7 +18,10 @@ public class Car2DControlerForBombCar : MonoBehaviour
 
 	public delegate void DieDelegate();
 
+
+
 	[Serializable]
+
 	public class CIVIC
 	{
 		[Header("HEALTH")]
@@ -1068,6 +1071,7 @@ public class Car2DControlerForBombCar : MonoBehaviour
 
 	private void Update()
 	{
+		Debug.Log("score" + Progress.gameEnergy.energy);
 		if (Time.timeScale != 0f)
 		{
 			LookAtTarget();
