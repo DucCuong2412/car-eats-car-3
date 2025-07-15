@@ -120,6 +120,7 @@ public class tk2dSystem : ScriptableObject
 
 	public static T LoadResourceByName<T>(string guid) where T : UnityEngine.Object
 	{
+		Debug.Log("load source by name: " + inst.LoadResourceByNameImpl<T>(guid));
 		return inst.LoadResourceByNameImpl<T>(guid);
 	}
 }

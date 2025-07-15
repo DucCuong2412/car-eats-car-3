@@ -91,7 +91,7 @@ public class GoogleAnalyticsV4 : MonoBehaviour
 
 	public static readonly string EXCEPTION_HIT = "createException";
 
-	private GoogleAnalyticsAndroidV4 androidTracker = new GoogleAnalyticsAndroidV4();
+	//private GoogleAnalyticsAndroidV4 androidTracker = new GoogleAnalyticsAndroidV4();
 
 	private void Awake()
 	{
@@ -147,17 +147,17 @@ public class GoogleAnalyticsV4 : MonoBehaviour
 				bundleVersion = Application.version;
 			}
 			UnityEngine.Debug.Log("Initializing Google Analytics 0.2.");
-			androidTracker.SetTrackingCode(androidTrackingCode);
-			androidTracker.SetAppName(productName);
-			androidTracker.SetBundleIdentifier(bundleIdentifier);
-			androidTracker.SetAppVersion(bundleVersion);
-			androidTracker.SetDispatchPeriod(dispatchPeriod);
-			androidTracker.SetSampleFrequency(sampleFrequency);
-			androidTracker.SetLogLevelValue(logLevel);
-			androidTracker.SetAnonymizeIP(anonymizeIP);
-			androidTracker.SetAdIdCollection(enableAdId);
-			androidTracker.SetDryRun(dryRun);
-			androidTracker.InitializeTracker();
+			//androidTracker.SetTrackingCode(androidTrackingCode);
+			//androidTracker.SetAppName(productName);
+			//androidTracker.SetBundleIdentifier(bundleIdentifier);
+			//androidTracker.SetAppVersion(bundleVersion);
+			//androidTracker.SetDispatchPeriod(dispatchPeriod);
+			//androidTracker.SetSampleFrequency(sampleFrequency);
+			//androidTracker.SetLogLevelValue(logLevel);
+			//androidTracker.SetAnonymizeIP(anonymizeIP);
+			//androidTracker.SetAdIdCollection(enableAdId);
+			//androidTracker.SetDryRun(dryRun);
+			//androidTracker.InitializeTracker();
 			initialized = true;
 			SetOnTracker(Fields.DEVELOPER_ID, "GbOCSs");
 		}
@@ -166,7 +166,7 @@ public class GoogleAnalyticsV4 : MonoBehaviour
 	public void SetAppLevelOptOut(bool optOut)
 	{
 		InitializeTracker();
-		androidTracker.SetOptOut(optOut);
+		//androidTracker.SetOptOut(optOut);
 	}
 
 	public void SetUserIDOverride(string userID)
@@ -177,31 +177,31 @@ public class GoogleAnalyticsV4 : MonoBehaviour
 	public void ClearUserIDOverride()
 	{
 		InitializeTracker();
-		androidTracker.ClearUserIDOverride();
+		//androidTracker.ClearUserIDOverride();
 	}
 
 	public void DispatchHits()
 	{
 		InitializeTracker();
-		androidTracker.DispatchHits();
+		//androidTracker.DispatchHits();
 	}
 
 	public void StartSession()
 	{
 		InitializeTracker();
-		androidTracker.StartSession();
+		//androidTracker.StartSession();
 	}
 
 	public void StopSession()
 	{
 		InitializeTracker();
-		androidTracker.StopSession();
+		//androidTracker.StopSession();
 	}
 
 	public void SetOnTracker(Field fieldName, object value)
 	{
 		InitializeTracker();
-		androidTracker.SetTrackerVal(fieldName, value);
+		//androidTracker.SetTrackerVal(fieldName, value);
 	}
 
 	public void LogScreen(string title)
@@ -219,7 +219,7 @@ public class GoogleAnalyticsV4 : MonoBehaviour
 			{
 				UnityEngine.Debug.Log("Logging screen.");
 			}
-			androidTracker.LogScreen(builder);
+			//androidTracker.LogScreen(builder);
 		}
 	}
 
@@ -239,7 +239,7 @@ public class GoogleAnalyticsV4 : MonoBehaviour
 			{
 				UnityEngine.Debug.Log("Logging event.");
 			}
-			androidTracker.LogEvent(builder);
+			//androidTracker.LogEvent(builder);
 		}
 	}
 
@@ -266,7 +266,7 @@ public class GoogleAnalyticsV4 : MonoBehaviour
 			{
 				UnityEngine.Debug.Log("Logging transaction.");
 			}
-			androidTracker.LogTransaction(builder);
+			//androidTracker.LogTransaction(builder);
 		}
 	}
 
@@ -294,7 +294,7 @@ public class GoogleAnalyticsV4 : MonoBehaviour
 			{
 				UnityEngine.Debug.Log("Logging item.");
 			}
-			androidTracker.LogItem(builder);
+			//androidTracker.LogItem(builder);
 		}
 	}
 
@@ -313,7 +313,7 @@ public class GoogleAnalyticsV4 : MonoBehaviour
 			{
 				UnityEngine.Debug.Log("Logging exception.");
 			}
-			androidTracker.LogException(builder);
+			//androidTracker.LogException(builder);
 		}
 	}
 
@@ -332,7 +332,7 @@ public class GoogleAnalyticsV4 : MonoBehaviour
 			{
 				UnityEngine.Debug.Log("Logging social.");
 			}
-			androidTracker.LogSocial(builder);
+			//androidTracker.LogSocial(builder);
 		}
 	}
 
@@ -352,14 +352,14 @@ public class GoogleAnalyticsV4 : MonoBehaviour
 			{
 				UnityEngine.Debug.Log("Logging timing.");
 			}
-			androidTracker.LogTiming(builder);
+			//androidTracker.LogTiming(builder);
 		}
 	}
 
 	public void Dispose()
 	{
 		initialized = false;
-		androidTracker.Dispose();
+		//androidTracker.Dispose();
 	}
 
 	public static bool belowThreshold(DebugMode userLogLevel, DebugMode comparelogLevel)
