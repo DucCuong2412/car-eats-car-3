@@ -1,4 +1,4 @@
-using CompleteProject;
+﻿using CompleteProject;
 using SmartLocalization;
 using Smokoko.DebugModule;
 using System;
@@ -144,7 +144,8 @@ public class PremiumShopNew : MonoBehaviour
 			FuelInf.gameObject.SetActive(value: false);
 			Fuel.gameObject.SetActive(value: true);
 			Fuel.text = Progress.gameEnergy.energy.ToString();
-			_btnByInfFuel.gameObject.SetActive(value: true);
+			Debug.Log(Progress.gameEnergy.energy+"                     ===================");	//xăng xe fuel
+            _btnByInfFuel.gameObject.SetActive(value: true);
 			_obgButtonVideoFuel.SetActive(value: true);
 			_objtankFull.SetActive(value: false);
 			_btnFuel2.gameObject.SetActive(value: true);
@@ -152,7 +153,9 @@ public class PremiumShopNew : MonoBehaviour
 		}
 		Actions();
 		Coin.text = Progress.shop.currency.ToString();
-		_btnCoin.onClick.AddListener(BtnCoinClick);
+		Debug.Log(Progress.shop.currency+"                     ===================");		///coin ruby
+		
+        _btnCoin.onClick.AddListener(BtnCoinClick);
 		_btnFuel.onClick.AddListener(BtnFuelClick);
 		_btnExit.onClick.AddListener(BtnExitClick);
 		_btnFirstVideoFuel.onClick.AddListener(ShowVideoFuel);

@@ -261,7 +261,8 @@ public class GUIPositionBar : MonoBehaviour
 			{
 				Thumb.gameObject.SetActive(value: true);
 			}
-			Thumb.transform.localPosition = new Vector3(RawVal(_car) * background.sprite.rect.width, 0f);
+			////Debug.Log(Thumb.transform.localPosition);	
+            Thumb.transform.localPosition = new Vector3(RawVal(_car) * background.sprite.rect.width, 0f);
 			Slider slider = progressSlider;
 			Vector3 localPosition10 = Thumb.transform.localPosition;
 			slider.value = localPosition10.x / background.sprite.rect.width;
