@@ -1256,6 +1256,8 @@ public class Car2DController : MonoBehaviour, ICarControlls
         {
             return;
         }
+    
+
         StartCoroutine(timer_electric(timerForElectric));
         UpdateKeys();
         if (Progress.settings.x2damage)

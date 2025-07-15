@@ -30,7 +30,7 @@ public class LimitedTimeOffer : MonoBehaviour
 	private void OnEnable()
 	{
 		state = Game.gameState.Levels;
-		_btnLimitted.onClick.AddListener(ClicShow);
+		//_btnLimitted.onClick.AddListener(ClicShow);
 		int index = UnityEngine.Random.Range(0, Cars.Count);
 		int count = Cars.Count;
 		for (int i = 0; i < count; i++)
@@ -75,7 +75,7 @@ public class LimitedTimeOffer : MonoBehaviour
 
 	private void OnDisable()
 	{
-		_btnLimitted.onClick.RemoveAllListeners();
+		//_btnLimitted.onClick.RemoveAllListeners();
 	}
 
 	private void ClicShow()
@@ -95,7 +95,7 @@ public class LimitedTimeOffer : MonoBehaviour
 		}
 		else if (Progress.shop.ShowLimittedOffer)
 		{
-			_btnLimitted.gameObject.SetActive(!Progress.shop.RefreshLimittedOffer);
+			if (_btnLimitted.gameObject == null) return;
 			if (Progress.shop.RefreshLimittedOffer)
 			{
 				RefreshTimer();
@@ -107,7 +107,7 @@ public class LimitedTimeOffer : MonoBehaviour
 		}
 		else
 		{
-			_btnLimitted.gameObject.SetActive(value: false);
+			//_btnLimitted.gameObject.SetActive(value: false);
 		}
 	}
 

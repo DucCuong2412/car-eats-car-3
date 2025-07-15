@@ -1,4 +1,4 @@
-using SmartLocalization;
+﻿using SmartLocalization;
 using System;
 using System.Collections;
 using UnityEngine;
@@ -99,6 +99,8 @@ public class GUIPause : MonoBehaviour
 
 	public void Show(string levelNumber, Action onResumeAction, Action onRestartAction, Action onLevelsAction, Action Sound, Action Music, bool isSound, bool isMusic)
 	{
+		//
+		Debug.Log("show========");
 		if (RaceLogic.instance.gui.CageBut.gameObject.activeSelf)
 		{
 			hideMGbtn = true;
@@ -248,7 +250,8 @@ public class GUIPause : MonoBehaviour
 
 	public void Hide()
 	{
-		GUITransparent.SetActive(value: false);
+		Debug.Log("hide========");	
+        GUITransparent.SetActive(value: false);
 		pauseGameObject.SetActive(value: false);
 		if (hideMGbtn)
 		{
@@ -266,7 +269,9 @@ public class GUIPause : MonoBehaviour
 	{
 		if (!_isResumeClicked && onResumeAction != null)
 		{
-			onResumeAction();
+			//
+			Debug.Log("onResumeClick========");
+            onResumeAction();
 		}
 	}
 
