@@ -1,4 +1,4 @@
-using AnimationOrTween;
+﻿using AnimationOrTween;
 using System;
 using System.Collections;
 using UnityEngine;
@@ -38,7 +38,7 @@ public class GUIBoosters : MonoBehaviour
 
 	private string tTimeNNN = "00.00";
 
-	private float TimeToDethNum = 5f;
+	private float TimeToDethNum = 0f;
 
 	private static string str_gui_boosters_activation = "gui_boosters_activation";
 
@@ -119,21 +119,22 @@ public class GUIBoosters : MonoBehaviour
 
 	public void ShowRestoreBoost(int rubinsCount, int restoreBonus, int price, float time, Action onClick, Action onHideCallback = null)
 	{
-		base.gameObject.SetActive(value: true);
-		tintRed.SetActive(value: true);
-		tintGreen.SetActive(value: false);
-		StartCoroutine(animFor());
-		onHealthRestoreAction = onClick;
-		SetBooster(restoreBonus, activate: true, HealthRestoreLabel, purchased: false, price, HealthRestoreRubieSprite);
-		timerRestore = TimerForRevive(time, delegate
-		{
-			onHideCallback();
-			timerRestore = null;
-		});
-		StartCoroutine(timerRestore);
-		timerRestoreFORME = TimeToDeathCorut();
-		StartCoroutine(timerRestoreFORME);
-	}
+        //base.gameObject.SetActive(value: true);
+        //tintRed.SetActive(value: true);
+        //tintGreen.SetActive(value: false);
+        //StartCoroutine(animFor());
+        //onHealthRestoreAction = onClick;
+        //SetBooster(restoreBonus, activate: true, HealthRestoreLabel, purchased: false, price, HealthRestoreRubieSprite);
+        //timerRestore = TimerForRevive(time, delegate
+        //{
+        //	onHideCallback();
+        //	timerRestore = null;
+        //});
+        //StartCoroutine(timerRestore);
+        //timerRestoreFORME = TimeToDeathCorut();
+        //StartCoroutine(timerRestoreFORME);
+        RaceLogic.instance.GameOver(); // nhảy thẳng sang UI chết
+    }
 
 	private IEnumerator TimeToDeathCorut()
 	{

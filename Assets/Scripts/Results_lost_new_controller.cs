@@ -46,12 +46,12 @@ public class Results_lost_new_controller : MonoBehaviour
 
 	public Canvas canvaNeedForCamera;
 
-	[Header("Top Panel")]
-	public CounterController text;
+	//[Header("Top Panel")]
+	//public CounterController text;
 
 	public CounterController textRuby;
 
-	public GameObject icoInf;
+	//public GameObject icoInf;
 
 	[Header("For Suma")]
 	public CounterController Collectable;
@@ -147,16 +147,16 @@ public class Results_lost_new_controller : MonoBehaviour
 		{
 			frontPanel.SetActive(value: true);
 		}
-		text.count = Progress.gameEnergy.energy.ToString();
+		//text.count = Progress.gameEnergy.energy.ToString();
 		if (Progress.gameEnergy.isInfinite)
 		{
-			text.gameObject.SetActive(value: false);
-			icoInf.gameObject.SetActive(value: true);
+			//text.gameObject.SetActive(value: false);
+			//icoInf.gameObject.SetActive(value: true);
 		}
 		else
 		{
-			text.gameObject.SetActive(value: true);
-			icoInf.gameObject.SetActive(value: false);
+			//text.gameObject.SetActive(value: true);
+			//icoInf.gameObject.SetActive(value: false);
 		}
 		if (Progress.shop.bossLevel)
 		{
@@ -220,17 +220,17 @@ public class Results_lost_new_controller : MonoBehaviour
 
 	private void Update()
 	{
-		text.count = Progress.gameEnergy.energy.ToString();
+		//text.count = Progress.gameEnergy.energy.ToString();
 		textRuby.count = Progress.shop.currency.ToString();
 		if (Progress.gameEnergy.isInfinite)
 		{
-			text.gameObject.SetActive(value: false);
-			icoInf.gameObject.SetActive(value: true);
+			//text.gameObject.SetActive(value: false);
+			//icoInf.gameObject.SetActive(value: true);
 		}
 		else
 		{
-			text.gameObject.SetActive(value: true);
-			icoInf.gameObject.SetActive(value: false);
+			//text.gameObject.SetActive(value: true);
+			//icoInf.gameObject.SetActive(value: false);
 		}
 	}
 
@@ -391,14 +391,14 @@ public class Results_lost_new_controller : MonoBehaviour
 
 	private IEnumerator DelayForRestart()
 	{
-		Audio.Play("fuel-1");
-		RGC.AnimfuelText.text = "-" + PriceConfig.instance.energy.eachStart.ToString();
-		RGC.animfuel.Play();
-		RGC.animfuel["bodov_PAUSE_decreasFuel"].speed = 0.2f;
-		while (RGC.animfuel.isPlaying)
-		{
-			yield return 0;
-		}
+		//Audio.Play("fuel-1");
+		//RGC.AnimfuelText.text = "-" + PriceConfig.instance.energy.eachStart.ToString();
+		//RGC.animfuel.Play();
+		//RGC.animfuel["bodov_PAUSE_decreasFuel"].speed = 0.2f;
+		//while (RGC.animfuel.isPlaying)
+		//{
+		//	yield return 0;
+		//}
 		if (Progress.shop.ArenaNew)
 		{
 			PanelArena.SetBool(_isOn, value: false);
