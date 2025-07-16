@@ -53,7 +53,7 @@ public class LevelGalleryCanvasView : LevelGalleryCanvasLogic
 	[Header("Top Labels")]
 	public CounterController txtRubies;
 
-	public CounterController txtEnergy;
+	//public CounterController txtEnergy;
 
 	public GameObject InfEnergy;
 
@@ -735,7 +735,7 @@ public class LevelGalleryCanvasView : LevelGalleryCanvasLogic
 		ShowBuyCanvasWindow(isCoins: true);
 		FACVOM.enabled = false;
 		FACVOM._btnFirstVideoCoin.SetActive(value: false);
-		FACVOM._btnFirstVideoFuel.SetActive(value: false);
+		//FACVOM._btnFirstVideoFuel.SetActive(value: false);
 	}
 
 	private void OnScroll(bool left)
@@ -809,20 +809,20 @@ public class LevelGalleryCanvasView : LevelGalleryCanvasLogic
 	{
 		if (!Progress.gameEnergy.isInfinite)
 		{
-			InfEnergy.SetActive(value: false);
-			txtEnergy.gameObject.SetActive(value: true);
+			//InfEnergy.SetActive(value: false);
+			//txtEnergy.gameObject.SetActive(value: true);
 		}
 		else
 		{
-			InfEnergy.SetActive(value: true);
-			txtEnergy.gameObject.SetActive(value: false);
+			//InfEnergy.SetActive(value: true);
+			//txtEnergy.gameObject.SetActive(value: false);
 		}
 	}
 
 	protected override void SetEnergy(int energy)
 	{
 		base.SetEnergy(energy);
-		txtEnergy.count = energy.ToString();
+		//txtEnergy.count = energy.ToString();
 	}
 
 	protected override void ButtonBuyClose()
@@ -987,16 +987,17 @@ public class LevelGalleryCanvasView : LevelGalleryCanvasLogic
 	private IEnumerator AnimateFuel()
 	{
 		Audio.Play("fuel-1");
-		int fuel = GetFuelForRace();
-		AnimfuelText.text = "-" + fuel.ToString();
-		animfuel.Play();
-		animfuel["bodov_PAUSE_decreasFuel"].speed = 0.2f;
-		txtEnergy.count = GameEnergyLogic.GetEnergy.ToString();
-		while (animfuel.isPlaying)
-		{
-			yield return 0;
-		}
-		LoadRace();
+		//int fuel = GetFuelForRace();
+		//AnimfuelText.text = "-" + fuel.ToString();
+		//animfuel.Play();
+		//animfuel["bodov_PAUSE_decreasFuel"].speed = 0.2f;
+		////txtEnergy.count = GameEnergyLogic.GetEnergy.ToString();
+		//while (animfuel.isPlaying)
+		//{
+		//	yield return 0;
+		//}
+		yield return new WaitForSeconds(0.5f);
+        LoadRace();
 	}
 
 	protected override void NotEnoughFuel()

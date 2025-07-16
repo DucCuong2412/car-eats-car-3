@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class FuelAndCoinVideoOnMAp : MonoBehaviour
 {
-	public GameObject _btnFirstVideoFuel;
+	//public GameObject _btnFirstVideoFuel;
 
 	public GameObject _btnFirstVideoCoin;
 
@@ -25,19 +25,19 @@ public class FuelAndCoinVideoOnMAp : MonoBehaviour
 		fuel();
 		if (Progress.gameEnergy.energy >= PriceConfig.instance.energy.maxValue)
 		{
-			_btnFirstVideoFuel.gameObject.SetActive(value: false);
+			//_btnFirstVideoFuel.gameObject.SetActive(value: false);
 		}
 		else if (Progress.gameEnergy.isInfinite)
 		{
-			_btnFirstVideoFuel.gameObject.SetActive(value: false);
+			//_btnFirstVideoFuel.gameObject.SetActive(value: false);
 		}
 		else if (Progress.shop.CollReclamForFuel != 3)
 		{
-			_btnFirstVideoFuel.gameObject.SetActive(value: true);
+			//_btnFirstVideoFuel.gameObject.SetActive(value: true);
 		}
 		else
 		{
-			_btnFirstVideoFuel.gameObject.SetActive(value: false);
+			//_btnFirstVideoFuel.gameObject.SetActive(value: false);
 		}
 	}
 
@@ -99,17 +99,17 @@ public class FuelAndCoinVideoOnMAp : MonoBehaviour
 				}
 				if ((DateTime.Now - shopDateForFuel.Value).TotalSeconds > (double)PriceConfig.instance.currency.timeForFuel)
 				{
-					_btnFirstVideoFuel.gameObject.SetActive(value: true);
+					//_btnFirstVideoFuel.gameObject.SetActive(value: true);
 					Progress.shop.CollReclamForFuel = 0;
 				}
 				else
 				{
-					_btnFirstVideoFuel.gameObject.SetActive(value: false);
+					//_btnFirstVideoFuel.gameObject.SetActive(value: false);
 				}
 			}
 			else
 			{
-				_btnFirstVideoFuel.gameObject.SetActive(value: true);
+				//_btnFirstVideoFuel.gameObject.SetActive(value: true);
 			}
 		}
 		else

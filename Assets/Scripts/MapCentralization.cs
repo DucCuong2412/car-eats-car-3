@@ -16,9 +16,9 @@ public class MapCentralization : MonoBehaviour
 
 	public bool Underground;
 
-	public Animator CrossPromo1;
+	//public Animator CrossPromo1;
 
-	public Animator CrossPromo2;
+	//public Animator CrossPromo2;
 
 	public Camera Cameras;
 
@@ -221,39 +221,39 @@ public class MapCentralization : MonoBehaviour
 			{
 				if (coord.y < -100f && !_animOpened1)
 				{
-					_animOpened1 = true;
-					CrossPromo1.SetBool(is_active, value: true);
-					Progress.shop.Promo1Show = false;
+					//_animOpened1 = true;
+					//CrossPromo1.SetBool(is_active, value: true);
+					//Progress.shop.Promo1Show = false;
 				}
 				else if (coord.y >= -100f && _animOpened1)
 				{
-					_animOpened1 = false;
-					CrossPromo1.SetBool(is_active, value: false);
+					//_animOpened1 = false;
+					//CrossPromo1.SetBool(is_active, value: false);
 				}
 			}
 			else if (_animOpened1)
 			{
-				_animOpened1 = false;
-				CrossPromo1.SetBool(is_active, value: false);
+				//_animOpened1 = false;
+				//CrossPromo1.SetBool(is_active, value: false);
 			}
 			if (coord.x > 2300f)
 			{
 				if (coord.y > 200f && !_animOpened2)
 				{
-					_animOpened2 = true;
-					CrossPromo2.SetBool(is_active, value: true);
-					Progress.shop.Promo2Show = false;
+					//_animOpened2 = true;
+					//CrossPromo2.SetBool(is_active, value: true);
+					//Progress.shop.Promo2Show = false;
 				}
 				else if (coord.y <= 200f && _animOpened2)
 				{
-					_animOpened2 = false;
-					CrossPromo2.SetBool(is_active, value: false);
+					//_animOpened2 = false;
+					//CrossPromo2.SetBool(is_active, value: false);
 				}
 			}
 			else if (_animOpened2)
 			{
-				_animOpened2 = false;
-				CrossPromo2.SetBool(is_active, value: false);
+				//	_animOpened2 = false;
+				//	CrossPromo2.SetBool(is_active, value: false);
 			}
 			if (_visEggArrow)
 			{
