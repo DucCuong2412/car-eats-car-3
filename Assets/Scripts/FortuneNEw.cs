@@ -16,7 +16,7 @@ public class FortuneNEw : MonoBehaviour
 
 	public Button btn_exit;
 
-	public Button Yes;
+	//public Button Yes;
 
 	public Button No;
 
@@ -221,7 +221,7 @@ public class FortuneNEw : MonoBehaviour
 		index = UnityEngine.Random.Range(0, 8);
 		CurrentAngle3 = sectorsFor3CircleRotation[index];
 		Clic.onClick.AddListener(Spin);
-		Yes.onClick.AddListener(YesReclama);
+		//Yes.onClick.AddListener(YesReclama);
 		No.onClick.AddListener(NoReclama);
 		for (int i = 0; i < 12; i++)
 		{
@@ -260,7 +260,7 @@ public class FortuneNEw : MonoBehaviour
 	public void YesReclama()
 	{
 		Audio.PlayAsync("gui_button_02_sn");
-		Yes.interactable = false;
+		//Yes.interactable = false;
 		StartCoroutine(checkInternetConnection(delegate(bool isConnected)
 		{
 			if (isConnected)
@@ -291,7 +291,7 @@ public class FortuneNEw : MonoBehaviour
 		Progress.fortune.SumPercentDamage = Progress.fortune.SumPercentDamage * 2f;
 		Progress.fortune.SumPercentHP = Progress.fortune.SumPercentHP * 2f;
 		Progress.fortune.SumBombStart = Progress.fortune.SumBombStart * 2;
-		Yes.interactable = true;
+		//Yes.interactable = true;
 		RA.animator_Res.SetBool("isDoubled", value: true);
 		if (win1 != SectorFortuneNew.SectorType.AddOneBomb)
 		{
@@ -330,7 +330,7 @@ public class FortuneNEw : MonoBehaviour
 	public void NoSucses()
 	{
 		RaceLogic.instance.FortuneVideo = false;
-		Yes.interactable = true;
+		//Yes.interactable = true;
 		RA.animator_Res.SetBool("video_isFailed", value: true);
 		RaceLogic.instance.rewiveVideo = false;
 	}
@@ -341,7 +341,7 @@ public class FortuneNEw : MonoBehaviour
 		{
 			RA.animator_Res.SetBool("video_isAvaliable", value: false);
 		}
-		Yes.interactable = true;
+		//Yes.interactable = true;
 		GameObject gameObject = UnityEngine.Object.Instantiate(Resources.Load("noVideoBox", typeof(GameObject))) as GameObject;
 		RaceLogic.instance.FortuneVideo = false;
 		RaceLogic.instance.rewiveVideo = false;
@@ -373,7 +373,7 @@ public class FortuneNEw : MonoBehaviour
 		OnSpinEnded2 = (SpinEnded2)Delegate.Remove(OnSpinEnded2, new SpinEnded2(SpinEnd2reward));
 		OnSpinEnded3 = (SpinEnded3)Delegate.Remove(OnSpinEnded3, new SpinEnded3(SpinEnd3reward));
 		Clic.onClick.RemoveAllListeners();
-		Yes.onClick.RemoveAllListeners();
+		//Yes.onClick.RemoveAllListeners();
 		No.onClick.RemoveAllListeners();
 	}
 
