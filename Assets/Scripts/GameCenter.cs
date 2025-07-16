@@ -107,15 +107,15 @@ public static class GameCenter
 
 	public static void SubmitScore(int scoreRuby, int scoreCivil, int scorePolice)
 	{
-		Social.ReportScore(scoreRuby, "CgkIrLuEnrkTEAIQAw", delegate
-		{
-		});
-		Social.ReportScore(scoreCivil, "CgkIrLuEnrkTEAIQAQ", delegate
-		{
-		});
-		Social.ReportScore(scorePolice, "CgkIrLuEnrkTEAIQAg", delegate
-		{
-		});
+		//Social.ReportScore(scoreRuby, "CgkIrLuEnrkTEAIQAw", delegate
+		//{
+		//});
+		//Social.ReportScore(scoreCivil, "CgkIrLuEnrkTEAIQAQ", delegate
+		//{
+		//});
+		//Social.ReportScore(scorePolice, "CgkIrLuEnrkTEAIQAg", delegate
+		//{
+		//});
 	}
 
 	public static void ResetAllAchievements()

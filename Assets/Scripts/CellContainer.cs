@@ -65,7 +65,7 @@ public class CellContainer : MonoBehaviour
 
 	public GameObject RubyText;
 
-	public GameObject FuelText;
+	//public GameObject FuelText;
 
 	private int boxesCollecteds;
 
@@ -84,6 +84,7 @@ public class CellContainer : MonoBehaviour
 
 	private void Update()
 	{
+		Debug.Log(GameEnergyLogic.instance.Energy);
 		if (J < 5)
 		{
 			J++;
@@ -134,8 +135,12 @@ public class CellContainer : MonoBehaviour
 		}
 		OnButtonClick();
 	}
-
-	private void OnEnable()
+    private void Start()
+    {
+      
+		GameEnergyLogic.instance.Energy = 999999;
+    }
+    private void OnEnable()
 	{
 		if (Progress.levels.active_level_last_openned == 1 && Progress.levels.active_pack_last_openned == 1 && Pack == 1 && Level == 1 && !ArenaNew && !SpecialLevel && !BossLevel)
 		{
@@ -272,7 +277,7 @@ public class CellContainer : MonoBehaviour
 				if (!ArenaNew)
 				{
 					RubyText.SetActive(value: false);
-					FuelText.SetActive(value: true);
+					//FuelText.SetActive(value: true);
 					Prices.text = "-5";
 				}
 				Audio.PlayAsync("gui_button_02_sn");
@@ -451,19 +456,19 @@ public class CellContainer : MonoBehaviour
 			else if (Progress.levels.active_pack_last_openned == 1)
 			{
 				RubyText.SetActive(value: true);
-				FuelText.SetActive(value: false);
+				//FuelText.SetActive(value: false);
 				Prices.text = DifficultyConfig.instance.RubinivForStartARENA1.ToString();
 			}
 			else if (Progress.levels.active_pack_last_openned == 2)
 			{
 				RubyText.SetActive(value: true);
-				FuelText.SetActive(value: false);
+				//FuelText.SetActive(value: false);
 				Prices.text = DifficultyConfig.instance.RubinivForStartARENA2.ToString();
 			}
 			else if (Progress.levels.active_pack_last_openned == 3)
 			{
 				RubyText.SetActive(value: true);
-				FuelText.SetActive(value: false);
+				//FuelText.SetActive(value: false);
 				Prices.text = DifficultyConfig.instance.RubinivForStartARENA3.ToString();
 			}
 			if (Pack == 1 && temp >= DifficultyConfig.instance.BudgesARENA1)
