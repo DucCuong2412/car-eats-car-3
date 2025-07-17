@@ -1,4 +1,4 @@
-using CompleteProject;
+//using CompleteProject;
 using Smokoko.DebugModule;
 using System.Collections;
 using UnityEngine;
@@ -108,7 +108,7 @@ public class ControllerGarageDrones : MonoBehaviour
 		}
 		else
 		{
-			Purchaser.BuyProductID(Purchaser.DroneBee, ByDroneBee);
+			//Purchaser.BuyProductID(Purchaser.DroneBee, ByDroneBee);
 		}
 	}
 
@@ -153,7 +153,7 @@ public class ControllerGarageDrones : MonoBehaviour
 		}
 		else
 		{
-			Purchaser.BuyProductID(Purchaser.DroneBomber, ByDroneBomber);
+			//Purchaser.BuyProductID(Purchaser.DroneBomber, ByDroneBomber);
 		}
 	}
 
@@ -216,10 +216,10 @@ public class ControllerGarageDrones : MonoBehaviour
 		{
 			gate3Fly.SetBool(_IsUnlockShop, value: true);
 		}
-		string BeePriceBee = Purchaser.m_StoreController.products.WithID(Purchaser.DroneBee).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.DroneBee).metadata.localizedPrice.ToString();
-		string BomberPriceBomber = Purchaser.m_StoreController.products.WithID(Purchaser.DroneBomber).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.DroneBomber).metadata.localizedPrice.ToString();
-		PriceBee.text = ((!string.IsNullOrEmpty(BeePriceBee)) ? BeePriceBee : PriceConfig.instance.premiumConten.DronBee.ToString());
-		PriceBomber.text = ((!string.IsNullOrEmpty(BomberPriceBomber)) ? BomberPriceBomber : PriceConfig.instance.premiumConten.DronBomber.ToString());
+		//string BeePriceBee = Purchaser.m_StoreController.products.WithID(Purchaser.DroneBee).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.DroneBee).metadata.localizedPrice.ToString();
+		//string BomberPriceBomber = Purchaser.m_StoreController.products.WithID(Purchaser.DroneBomber).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.DroneBomber).metadata.localizedPrice.ToString();
+		//PriceBee.text = ((!string.IsNullOrEmpty(BeePriceBee)) ? BeePriceBee : PriceConfig.instance.premiumConten.DronBee.ToString());
+		//PriceBomber.text = ((!string.IsNullOrEmpty(BomberPriceBomber)) ? BomberPriceBomber : PriceConfig.instance.premiumConten.DronBomber.ToString());
 	}
 
 	private void Change()

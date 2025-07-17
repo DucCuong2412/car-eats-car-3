@@ -8,12 +8,12 @@ namespace UnityEngine.Purchasing
 	public class IAPListener : MonoBehaviour
 	{
 		[Serializable]
-		public class OnPurchaseCompletedEvent : UnityEvent<Product>
+		public class OnPurchaseCompletedEvent// : UnityEvent<Product>
 		{
 		}
 
 		[Serializable]
-		public class OnPurchaseFailedEvent : UnityEvent<Product, PurchaseFailureReason>
+		public class OnPurchaseFailedEvent //: UnityEvent<Product, PurchaseFailureReason>
 		{
 		}
 
@@ -43,17 +43,17 @@ namespace UnityEngine.Purchasing
 			CodelessIAPStoreListener.Instance.RemoveListener(this);
 		}
 
-		public PurchaseProcessingResult ProcessPurchase(PurchaseEventArgs e)
-		{
-			UnityEngine.Debug.Log($"IAPListener.ProcessPurchase(PurchaseEventArgs {e} - {e.purchasedProduct.definition.id})");
-			onPurchaseComplete.Invoke(e.purchasedProduct);
-			return (!consumePurchase) ? PurchaseProcessingResult.Pending : PurchaseProcessingResult.Complete;
-		}
+		//public PurchaseProcessingResult ProcessPurchase(PurchaseEventArgs e)
+		//{
+		//	UnityEngine.Debug.Log($"IAPListener.ProcessPurchase(PurchaseEventArgs {e} - {e.purchasedProduct.definition.id})");
+		//	onPurchaseComplete.Invoke(e.purchasedProduct);
+		//	return (!consumePurchase) ? PurchaseProcessingResult.Pending : PurchaseProcessingResult.Complete;
+		//}
 
-		public void OnPurchaseFailed(Product product, PurchaseFailureReason reason)
-		{
-			UnityEngine.Debug.Log($"IAPListener.OnPurchaseFailed(Product {product}, PurchaseFailureReason {reason})");
-			onPurchaseFailed.Invoke(product, reason);
-		}
+		//public void OnPurchaseFailed(Product product, PurchaseFailureReason reason)
+		//{
+		//	UnityEngine.Debug.Log($"IAPListener.OnPurchaseFailed(Product {product}, PurchaseFailureReason {reason})");
+		//	onPurchaseFailed.Invoke(product, reason);
+		//}
 	}
 }

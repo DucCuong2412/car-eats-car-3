@@ -32,17 +32,17 @@ public class tk2dSprite : tk2dBaseSprite
 		}
 	}
 
-	protected void OnDestroy()
-	{
-		if ((bool)mesh)
-		{
-			UnityEngine.Object.Destroy(mesh);
-		}
-		if ((bool)meshColliderMesh)
-		{
-			UnityEngine.Object.Destroy(meshColliderMesh);
-		}
-	}
+	//protected void OnDestroy()
+	//{
+	//	if ((bool)mesh)
+	//	{
+	//		UnityEngine.Object.Destroy(mesh);
+	//	}
+	//	if ((bool)meshColliderMesh)
+	//	{
+	//		UnityEngine.Object.Destroy(meshColliderMesh);
+	//	}
+	//}
 
 	public override void Build()
 	{

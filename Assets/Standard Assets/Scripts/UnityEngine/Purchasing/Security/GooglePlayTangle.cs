@@ -35,7 +35,7 @@ namespace UnityEngine.Purchasing.Security
 			{
 				return null;
 			}
-			return Obfuscator.DeObfuscate(data, order, key);
+			return null;// Obfuscator.DeObfuscate(data, order, key);
 		}
 	}
 }

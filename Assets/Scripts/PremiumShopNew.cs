@@ -1,4 +1,4 @@
-﻿using CompleteProject;
+﻿//using CompleteProject;
 using SmartLocalization;
 using Smokoko.DebugModule;
 using System;
@@ -224,27 +224,27 @@ public class PremiumShopNew : MonoBehaviour
 
 	private void price()
 	{
-		string text = Purchaser.m_StoreController.products.WithID(Purchaser.UnlimitedFuel).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.UnlimitedFuel).metadata.localizedPrice.ToString();
-		text = ((!string.IsNullOrEmpty(text)) ? text : PriceConfig.instance.energy.fuelPack5DefaultPrice);
-		FuelPrice3.text = text;
-		string text2 = Purchaser.m_StoreController.products.WithID(Purchaser.FuelUpTank).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.FuelUpTank).metadata.localizedPrice.ToString();
-		text2 = ((!string.IsNullOrEmpty(text2)) ? text2 : PriceConfig.instance.energy.fuelPackToMaxPrice);
-		FuelPrice1.text = text2;
-		string text3 = Purchaser.m_StoreController.products.WithID(Purchaser.FuelAddMore).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.FuelAddMore).metadata.localizedPrice.ToString();
-		text3 = ((!string.IsNullOrEmpty(text3)) ? text3 : PriceConfig.instance.energy.fuelPack100Price);
-		FuelPrice2.text = text3;
-		string text4 = Purchaser.m_StoreController.products.WithID(Purchaser.Rubies1).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.Rubies1).metadata.localizedPrice.ToString();
-		string text5 = Purchaser.m_StoreController.products.WithID(Purchaser.Rubies2).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.Rubies2).metadata.localizedPrice.ToString();
-		string text6 = Purchaser.m_StoreController.products.WithID(Purchaser.Rubies3).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.Rubies3).metadata.localizedPrice.ToString();
-		string text7 = Purchaser.m_StoreController.products.WithID(Purchaser.Rubies4).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.Rubies4).metadata.localizedPrice.ToString();
-		text4 = ((!string.IsNullOrEmpty(text4)) ? text4 : PriceConfig.instance.currency.coinsPack2DefaultPrice.ToString());
-		text5 = ((!string.IsNullOrEmpty(text5)) ? text5 : PriceConfig.instance.currency.coinsPack3DefaultPrice.ToString());
-		text6 = ((!string.IsNullOrEmpty(text6)) ? text6 : PriceConfig.instance.currency.coinsPack4DefaultPrice.ToString());
-		text7 = ((!string.IsNullOrEmpty(text7)) ? text7 : PriceConfig.instance.currency.coinsPack5DefaultPrice.ToString());
-		CoinPrice1.text = text4;
-		CoinPrice2.text = text5;
-		CoinPrice3.text = text6;
-		CoinPrice4.text = text7;
+		//string text = Purchaser.m_StoreController.products.WithID(Purchaser.UnlimitedFuel).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.UnlimitedFuel).metadata.localizedPrice.ToString();
+		//text = ((!string.IsNullOrEmpty(text)) ? text : PriceConfig.instance.energy.fuelPack5DefaultPrice);
+		//FuelPrice3.text = text;
+		//string text2 = Purchaser.m_StoreController.products.WithID(Purchaser.FuelUpTank).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.FuelUpTank).metadata.localizedPrice.ToString();
+		//text2 = ((!string.IsNullOrEmpty(text2)) ? text2 : PriceConfig.instance.energy.fuelPackToMaxPrice);
+		//FuelPrice1.text = text2;
+		//string text3 = Purchaser.m_StoreController.products.WithID(Purchaser.FuelAddMore).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.FuelAddMore).metadata.localizedPrice.ToString();
+		//text3 = ((!string.IsNullOrEmpty(text3)) ? text3 : PriceConfig.instance.energy.fuelPack100Price);
+		//FuelPrice2.text = text3;
+		//string text4 = Purchaser.m_StoreController.products.WithID(Purchaser.Rubies1).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.Rubies1).metadata.localizedPrice.ToString();
+		//string text5 = Purchaser.m_StoreController.products.WithID(Purchaser.Rubies2).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.Rubies2).metadata.localizedPrice.ToString();
+		//string text6 = Purchaser.m_StoreController.products.WithID(Purchaser.Rubies3).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.Rubies3).metadata.localizedPrice.ToString();
+		//string text7 = Purchaser.m_StoreController.products.WithID(Purchaser.Rubies4).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.Rubies4).metadata.localizedPrice.ToString();
+		//text4 = ((!string.IsNullOrEmpty(text4)) ? text4 : PriceConfig.instance.currency.coinsPack2DefaultPrice.ToString());
+		//text5 = ((!string.IsNullOrEmpty(text5)) ? text5 : PriceConfig.instance.currency.coinsPack3DefaultPrice.ToString());
+		//text6 = ((!string.IsNullOrEmpty(text6)) ? text6 : PriceConfig.instance.currency.coinsPack4DefaultPrice.ToString());
+		//text7 = ((!string.IsNullOrEmpty(text7)) ? text7 : PriceConfig.instance.currency.coinsPack5DefaultPrice.ToString());
+		//CoinPrice1.text = text4;
+		//CoinPrice2.text = text5;
+		//CoinPrice3.text = text6;
+		//CoinPrice4.text = text7;
 	}
 
 	private void Values()
@@ -497,21 +497,21 @@ public class PremiumShopNew : MonoBehaviour
 
 	private void BuyCoinsForRealMoney(int index)
 	{
-		switch (index)
-		{
-		case 2:
-			Purchaser.BuyProductID(Purchaser.Rubies1, null, OnMoneytierBought);
-			break;
-		case 3:
-			Purchaser.BuyProductID(Purchaser.Rubies2, null, OnMoneytierBought);
-			break;
-		case 4:
-			Purchaser.BuyProductID(Purchaser.Rubies3, null, OnMoneytierBought);
-			break;
-		case 5:
-			Purchaser.BuyProductID(Purchaser.Rubies4, null, OnMoneytierBought);
-			break;
-		}
+		//switch (index)
+		//{
+		//case 2:
+		//	Purchaser.BuyProductID(Purchaser.Rubies1, null, OnMoneytierBought);
+		//	break;
+		//case 3:
+		//	Purchaser.BuyProductID(Purchaser.Rubies2, null, OnMoneytierBought);
+		//	break;
+		//case 4:
+		//	Purchaser.BuyProductID(Purchaser.Rubies3, null, OnMoneytierBought);
+		//	break;
+		//case 5:
+		//	Purchaser.BuyProductID(Purchaser.Rubies4, null, OnMoneytierBought);
+		//	break;
+		//}
 	}
 
 	private void OnMoneytierBought(int current)
@@ -621,7 +621,7 @@ public class PremiumShopNew : MonoBehaviour
 		}
 		else
 		{
-			Purchaser.BuyProductID(Purchaser.UnlimitedFuel, OnFuelBought);
+			//Purchaser.BuyProductID(Purchaser.UnlimitedFuel, OnFuelBought);
 		}
 	}
 
@@ -651,7 +651,7 @@ public class PremiumShopNew : MonoBehaviour
 		}
 		else
 		{
-			Purchaser.BuyProductID(Purchaser.FuelUpTank, ByFueltoMax);
+			//Purchaser.BuyProductID(Purchaser.FuelUpTank, ByFueltoMax);
 		}
 	}
 
@@ -663,7 +663,7 @@ public class PremiumShopNew : MonoBehaviour
 		}
 		else
 		{
-			Purchaser.BuyProductID(Purchaser.FuelAddMore, ByCollFuel);
+			//Purchaser.BuyProductID(Purchaser.FuelAddMore, ByCollFuel);
 		}
 	}
 

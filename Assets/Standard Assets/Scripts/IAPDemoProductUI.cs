@@ -23,17 +23,17 @@ public class IAPDemoProductUI : MonoBehaviour
 
 	private string m_Receipt;
 
-	public void SetProduct(Product p, Action<string> purchaseCallback)
-	{
-		titleText.text = p.metadata.localizedTitle;
-		descriptionText.text = p.metadata.localizedDescription;
-		priceText.text = p.metadata.localizedPriceString;
-		receiptButton.interactable = p.hasReceipt;
-		m_Receipt = p.receipt;
-		m_ProductID = p.definition.id;
-		m_PurchaseCallback = purchaseCallback;
-		statusText.text = ((!p.availableToPurchase) ? "Unavailable" : "Available");
-	}
+	//public void SetProduct(Product p, Action<string> purchaseCallback)
+	//{
+	//	titleText.text = p.metadata.localizedTitle;
+	//	descriptionText.text = p.metadata.localizedDescription;
+	//	priceText.text = p.metadata.localizedPriceString;
+	//	receiptButton.interactable = p.hasReceipt;
+	//	m_Receipt = p.receipt;
+	//	m_ProductID = p.definition.id;
+	//	m_PurchaseCallback = purchaseCallback;
+	//	statusText.text = ((!p.availableToPurchase) ? "Unavailable" : "Available");
+	//}
 
 	public void SetPendingTime(int secondsRemaining)
 	{

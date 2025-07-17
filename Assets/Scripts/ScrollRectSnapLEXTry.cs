@@ -1,4 +1,4 @@
-using CompleteProject;
+//using CompleteProject;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -436,30 +436,30 @@ public class ScrollRectSnapLEXTry : MonoBehaviour
 			}
 			if (Progress.shop.activeCar == 3)
 			{
-				string text = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar).metadata.localizedPrice.ToString();
-				text = ((!string.IsNullOrEmpty(text)) ? text : ShopManagerPrice.instance.Price.CarByu3);
-				CG.unlockPricePremium.text = text;
+				//string text = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar).metadata.localizedPrice.ToString();
+				//text = ((!string.IsNullOrEmpty(text)) ? text : ShopManagerPrice.instance.Price.CarByu3);
+				//CG.unlockPricePremium.text = text;
 				CG.btn_UNLOCK_RUBY.SetActive(value: false);
 			}
 			if (Progress.shop.activeCar == 4)
 			{
-				string text2 = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar2).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar2).metadata.localizedPrice.ToString();
-				text2 = ((!string.IsNullOrEmpty(text2)) ? text2 : ShopManagerPrice.instance.Price.CarByu4);
-				CG.unlockPricePremium2.text = text2;
+				//string text2 = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar2).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar2).metadata.localizedPrice.ToString();
+				//text2 = ((!string.IsNullOrEmpty(text2)) ? text2 : ShopManagerPrice.instance.Price.CarByu4);
+				//CG.unlockPricePremium2.text = text2;
 				CG.btn_UNLOCK_RUBY.SetActive(value: false);
 			}
 			if (Progress.shop.activeCar == 5)
 			{
-				string text3 = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar3).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar3).metadata.localizedPrice.ToString();
-				text3 = ((!string.IsNullOrEmpty(text3)) ? text3 : ShopManagerPrice.instance.Price.CarByu5);
-				CG.unlockPricePremium3.text = text3;
+				//string text3 = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar3).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar3).metadata.localizedPrice.ToString();
+				//text3 = ((!string.IsNullOrEmpty(text3)) ? text3 : ShopManagerPrice.instance.Price.CarByu5);
+				//CG.unlockPricePremium3.text = text3;
 				CG.btn_UNLOCK_RUBY.SetActive(value: false);
 			}
 			if (Progress.shop.activeCar == 6)
 			{
-				string text4 = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar4).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar4).metadata.localizedPrice.ToString();
-				text4 = ((!string.IsNullOrEmpty(text4)) ? text4 : ShopManagerPrice.instance.Price.CarByu5);
-				priceFranc.text = text4;
+				//string text4 = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar4).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar4).metadata.localizedPrice.ToString();
+				//text4 = ((!string.IsNullOrEmpty(text4)) ? text4 : ShopManagerPrice.instance.Price.CarByu5);
+				//priceFranc.text = text4;
 				if (Progress.shop.Get1partForPoliceCar && Progress.shop.Get2partForPoliceCar && Progress.shop.Get3partForPoliceCar && Progress.shop.Get4partForPoliceCar)
 				{
 					Progress.shop.Cars[Progress.shop.activeCar].bought = true;
@@ -473,9 +473,9 @@ public class ScrollRectSnapLEXTry : MonoBehaviour
 			}
 			if (Progress.shop.activeCar == 7)
 			{
-				string text5 = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar5).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar5).metadata.localizedPrice.ToString();
-				text5 = ((!string.IsNullOrEmpty(text5)) ? text5 : ShopManagerPrice.instance.Price.CarByu5);
-				priceFranc.text = text5;
+				//string text5 = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar5).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar5).metadata.localizedPrice.ToString();
+				//text5 = ((!string.IsNullOrEmpty(text5)) ? text5 : ShopManagerPrice.instance.Price.CarByu5);
+				//priceFranc.text = text5;
 				if (Progress.shop.Get1partForPoliceCar2 && Progress.shop.Get2partForPoliceCar2 && Progress.shop.Get3partForPoliceCar2 && Progress.shop.Get4partForPoliceCar2)
 				{
 					Progress.shop.Cars[Progress.shop.activeCar].bought = true;
@@ -489,9 +489,9 @@ public class ScrollRectSnapLEXTry : MonoBehaviour
 			}
 			if (Progress.shop.activeCar == 11)
 			{
-				string text6 = Purchaser.m_StoreController.products.WithID(Purchaser.Tankominator).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.Tankominator).metadata.localizedPrice.ToString();
-				text6 = ((!string.IsNullOrEmpty(text6)) ? text6 : ShopManagerPrice.instance.Price.CarByu5);
-				priceFranc.text = text6;
+				//string text6 = Purchaser.m_StoreController.products.WithID(Purchaser.Tankominator).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.Tankominator).metadata.localizedPrice.ToString();
+				//text6 = ((!string.IsNullOrEmpty(text6)) ? text6 : ShopManagerPrice.instance.Price.CarByu5);
+				//priceFranc.text = text6;
 				if (Progress.shop.Get1partForPoliceCar3 && Progress.shop.Get2partForPoliceCar3 && Progress.shop.Get3partForPoliceCar3 && Progress.shop.Get4partForPoliceCar3)
 				{
 					Progress.shop.Cars[Progress.shop.activeCar].bought = true;
@@ -505,33 +505,33 @@ public class ScrollRectSnapLEXTry : MonoBehaviour
 			}
 			if (Progress.shop.activeCar == 8)
 			{
-				string text7 = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar6).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar6).metadata.localizedPrice.ToString();
-				text7 = ((!string.IsNullOrEmpty(text7)) ? text7 : ShopManagerPrice.instance.Price.CarByu5);
-				priceKroll.text = text7;
+				//string text7 = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar6).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar6).metadata.localizedPrice.ToString();
+				//text7 = ((!string.IsNullOrEmpty(text7)) ? text7 : ShopManagerPrice.instance.Price.CarByu5);
+				//priceKroll.text = text7;
 			}
 			if (Progress.shop.activeCar == 9)
 			{
-				string text8 = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar9).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar9).metadata.localizedPrice.ToString();
-				text8 = ((!string.IsNullOrEmpty(text8)) ? text8 : ShopManagerPrice.instance.Price.CarByu9);
-				priceFranc.text = text8;
+				//	string text8 = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar9).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar9).metadata.localizedPrice.ToString();
+				//	text8 = ((!string.IsNullOrEmpty(text8)) ? text8 : ShopManagerPrice.instance.Price.CarByu9);
+				//	priceFranc.text = text8;
 			}
 			if (Progress.shop.activeCar == 10)
 			{
-				string text9 = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar10).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar10).metadata.localizedPrice.ToString();
-				text9 = ((!string.IsNullOrEmpty(text9)) ? text9 : ShopManagerPrice.instance.Price.CarByu10);
-				priceFranc.text = text9;
+				//string text9 = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar10).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar10).metadata.localizedPrice.ToString();
+				//text9 = ((!string.IsNullOrEmpty(text9)) ? text9 : ShopManagerPrice.instance.Price.CarByu10);
+				//priceFranc.text = text9;
 			}
 			if (Progress.shop.activeCar == 12)
 			{
-				string text10 = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar10).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar10).metadata.localizedPrice.ToString();
-				text10 = ((!string.IsNullOrEmpty(text10)) ? text10 : ShopManagerPrice.instance.Price.CarByu10);
-				priceFranc.text = text10;
+				//string text10 = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar10).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar10).metadata.localizedPrice.ToString();
+				//text10 = ((!string.IsNullOrEmpty(text10)) ? text10 : ShopManagerPrice.instance.Price.CarByu10);
+				//priceFranc.text = text10;
 			}
 			if (Progress.shop.activeCar == 13)
 			{
-				string text11 = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar10).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar10).metadata.localizedPrice.ToString();
-				text11 = ((!string.IsNullOrEmpty(text11)) ? text11 : ShopManagerPrice.instance.Price.CarByu10);
-				priceFranc.text = text11;
+				//string text11 = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar10).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar10).metadata.localizedPrice.ToString();
+				//text11 = ((!string.IsNullOrEmpty(text11)) ? text11 : ShopManagerPrice.instance.Price.CarByu10);
+				//priceFranc.text = text11;
 			}
 			if (temps >= 0)
 			{

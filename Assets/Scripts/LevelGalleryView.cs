@@ -1,5 +1,5 @@
 using AnimationOrTween;
-using CompleteProject;
+//using CompleteProject;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -195,27 +195,27 @@ public class LevelGalleryView : MonoBehaviour
 
 	private void SetPricesText()
 	{
-		string text = Purchaser.m_StoreController.products.WithID(Purchaser.UnlockNext).metadata.localizedPrice.ToString();
-		string text2 = Purchaser.m_StoreController.products.WithID(Purchaser.UnlockWorld1).metadata.localizedPrice.ToString();
-		string text3 = Purchaser.m_StoreController.products.WithID(Purchaser.UnlockWorld2).metadata.localizedPrice.ToString();
-		string text4 = Purchaser.m_StoreController.products.WithID(Purchaser.UnlockWorld3).metadata.localizedPrice.ToString();
-		text = ((!string.IsNullOrEmpty(text)) ? text : PriceConfig.instance.levelsGallery.unlockNextLevelDefaultPrice);
-		text2 = ((!string.IsNullOrEmpty(text2)) ? text2 : PriceConfig.instance.levelsGallery.unlockWorld1DefaultPrice);
-		text3 = ((!string.IsNullOrEmpty(text3)) ? text3 : PriceConfig.instance.levelsGallery.unlockWorld2DefaultPrice);
-		text4 = ((!string.IsNullOrEmpty(text4)) ? text4 : PriceConfig.instance.levelsGallery.unlockWorld3DefaultPrice);
-		labelBuyNext.text = text;
-		switch (Model.activePack)
-		{
-		case 1:
-			labelBuyPack.text = text2;
-			break;
-		case 2:
-			labelBuyPack.text = text3;
-			break;
-		case 3:
-			labelBuyPack.text = text4;
-			break;
-		}
+		//	string text = Purchaser.m_StoreController.products.WithID(Purchaser.UnlockNext).metadata.localizedPrice.ToString();
+		//	string text2 = Purchaser.m_StoreController.products.WithID(Purchaser.UnlockWorld1).metadata.localizedPrice.ToString();
+		//	string text3 = Purchaser.m_StoreController.products.WithID(Purchaser.UnlockWorld2).metadata.localizedPrice.ToString();
+		//	string text4 = Purchaser.m_StoreController.products.WithID(Purchaser.UnlockWorld3).metadata.localizedPrice.ToString();
+		//text = ((!string.IsNullOrEmpty(text)) ? text : PriceConfig.instance.levelsGallery.unlockNextLevelDefaultPrice);
+		//text2 = ((!string.IsNullOrEmpty(text2)) ? text2 : PriceConfig.instance.levelsGallery.unlockWorld1DefaultPrice);
+		//text3 = ((!string.IsNullOrEmpty(text3)) ? text3 : PriceConfig.instance.levelsGallery.unlockWorld2DefaultPrice);
+		//text4 = ((!string.IsNullOrEmpty(text4)) ? text4 : PriceConfig.instance.levelsGallery.unlockWorld3DefaultPrice);
+		//labelBuyNext.text = text;
+		//switch (Model.activePack)
+		//{
+		//case 1:
+		//	labelBuyPack.text = text2;
+		//	break;
+		//case 2:
+		//	labelBuyPack.text = text3;
+		//	break;
+		//case 3:
+		//	labelBuyPack.text = text4;
+		//	break;
+		//}
 	}
 
 	public void HideBuyAllLevelsPanel()

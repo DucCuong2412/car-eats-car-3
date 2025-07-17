@@ -1,4 +1,4 @@
-using CompleteProject;
+//using CompleteProject;
 using SmartLocalization;
 using Smokoko.DebugModule;
 using System;
@@ -56,15 +56,15 @@ public class LimitedTimeOfferForpanel : MonoBehaviour
 		_btnBodyBuyCars.onClick.AddListener(ClicBuyCars);
 		_btnBodyBuyCars2.onClick.AddListener(ClicBuyCars2);
 		_btnBodyExit.onClick.AddListener(ClicExit);
-		string text = Purchaser.m_StoreController.products.WithID(Purchaser.Megapack).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.Megapack).metadata.localizedPrice.ToString();
-		text = ((!string.IsNullOrEmpty(text)) ? text : "$9.99");
-		Price.text = text;
-		string text2 = Purchaser.m_StoreController.products.WithID(Purchaser.Carpark).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.Carpark).metadata.localizedPrice.ToString();
-		text2 = ((!string.IsNullOrEmpty(text2)) ? text2 : "$9.99");
-		PriceCars.text = text2;
-		string text3 = Purchaser.m_StoreController.products.WithID(Purchaser.Carpark2).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.Carpark2).metadata.localizedPrice.ToString();
-		text3 = ((!string.IsNullOrEmpty(text2)) ? text3 : "$9.99");
-		PriceCars2.text = text3;
+		//string text = Purchaser.m_StoreController.products.WithID(Purchaser.Megapack).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.Megapack).metadata.localizedPrice.ToString();
+		//text = ((!string.IsNullOrEmpty(text)) ? text : "$9.99");
+		//Price.text = text;
+		//string text2 = Purchaser.m_StoreController.products.WithID(Purchaser.Carpark).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.Carpark).metadata.localizedPrice.ToString();
+		//text2 = ((!string.IsNullOrEmpty(text2)) ? text2 : "$9.99");
+		//PriceCars.text = text2;
+		//string text3 = Purchaser.m_StoreController.products.WithID(Purchaser.Carpark2).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.Carpark2).metadata.localizedPrice.ToString();
+		//text3 = ((!string.IsNullOrEmpty(text2)) ? text3 : "$9.99");
+		//PriceCars2.text = text3;
 		AnimShowHide.SetBool(isON, value: true);
 		if (Progress.shop.TimerForSpecialOfferShow == string.Empty)
 		{
@@ -103,7 +103,7 @@ public class LimitedTimeOfferForpanel : MonoBehaviour
 		}
 		else
 		{
-			Purchaser.BuyProductID(Purchaser.Megapack, Buy);
+			//Purchaser.BuyProductID(Purchaser.Megapack, Buy);
 		}
 	}
 
@@ -132,7 +132,7 @@ public class LimitedTimeOfferForpanel : MonoBehaviour
 		}
 		else
 		{
-			Purchaser.BuyProductID(Purchaser.Carpark, BuyCars);
+			//Purchaser.BuyProductID(Purchaser.Carpark, BuyCars);
 		}
 	}
 
@@ -170,7 +170,7 @@ public class LimitedTimeOfferForpanel : MonoBehaviour
 		}
 		else
 		{
-			Purchaser.BuyProductID(Purchaser.Carpark2, BuyCars2);
+			//Purchaser.BuyProductID(Purchaser.Carpark2, BuyCars2);
 		}
 	}
 

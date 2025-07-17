@@ -1,4 +1,4 @@
-using CompleteProject;
+//using CompleteProject;
 using SA.Common.Data;
 using SmartLocalization;
 using Smokoko.DebugModule;
@@ -111,8 +111,8 @@ public class SettingController : MonoBehaviour
 		{
 			StartCoroutine(checkRegion());
 		}
-		Purchaser.ForRestoreIos = null;
-		Purchaser.ForRestoreIos = (Action<bool>)Delegate.Combine(Purchaser.ForRestoreIos, new Action<bool>(ActionsForrestore));
+		//Purchaser.ForRestoreIos = null;
+		//Purchaser.ForRestoreIos = (Action<bool>)Delegate.Combine(Purchaser.ForRestoreIos, new Action<bool>(ActionsForrestore));
 		global.SetTrigger(_Test);
 		credits.onClick.AddListener(creditsClic);
 		FbLogin.onClick.AddListener(FbLoginClic);
@@ -329,7 +329,7 @@ public class SettingController : MonoBehaviour
 	private void restoreClic()
 	{
 		Audio.PlayAsync("gui_button_02_sn");
-		Purchaser.RestorePurchases();
+		//Purchaser.RestorePurchases();
 	}
 
 	private void languageClic()

@@ -1,4 +1,4 @@
-using CompleteProject;
+//using CompleteProject;
 using SmartLocalization;
 using Smokoko.Social;
 using System;
@@ -752,30 +752,30 @@ public class LevelGalleryCanvasView : LevelGalleryCanvasLogic
 
 	protected override void SetInAppPrices(CellContainer cell)
 	{
-		string id = Purchaser.UnlockWorld1;
+		//string id = Purchaser.UnlockWorld1;
 		string text = PriceConfig.instance.levelsGallery.unlockWorld1DefaultPrice;
 		Progress.shop.BuyPack = cell.Pack;
 		switch (cell.Pack)
 		{
 		case 1:
-			id = Purchaser.UnlockWorld1;
+			//id = Purchaser.UnlockWorld1;
 			text = PriceConfig.instance.levelsGallery.unlockWorld1DefaultPrice;
 			break;
 		case 2:
-			id = Purchaser.UnlockWorld2;
+			//id = Purchaser.UnlockWorld2;
 			text = PriceConfig.instance.levelsGallery.unlockWorld2DefaultPrice;
 			break;
 		case 3:
-			id = Purchaser.UnlockWorld3;
+			//id = Purchaser.UnlockWorld3;
 			text = PriceConfig.instance.levelsGallery.unlockWorld3DefaultPrice;
 			break;
 		}
-		string text2 = Purchaser.m_StoreController.products.WithID(Purchaser.UnlockNext).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.UnlockNext).metadata.localizedPrice.ToString();
-		text2 = ((!string.IsNullOrEmpty(text2)) ? text2 : PriceConfig.instance.levelsGallery.unlockNextLevelDefaultPrice);
-		string text3 = Purchaser.m_StoreController.products.WithID(id).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(id).metadata.localizedPrice.ToString();
-		text3 = ((!string.IsNullOrEmpty(text3)) ? text3 : text);
-		txtBuyPackPrice.text = text2;
-		txtBuyNextPrice.text = text3;
+		//string text2 = Purchaser.m_StoreController.products.WithID(Purchaser.UnlockNext).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.UnlockNext).metadata.localizedPrice.ToString();
+		//text2 = ((!string.IsNullOrEmpty(text2)) ? text2 : PriceConfig.instance.levelsGallery.unlockNextLevelDefaultPrice);
+		//string text3 = Purchaser.m_StoreController.products.WithID(id).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(id).metadata.localizedPrice.ToString();
+		//text3 = ((!string.IsNullOrEmpty(text3)) ? text3 : text);
+		//txtBuyPackPrice.text = text2;
+		//txtBuyNextPrice.text = text3;
 	}
 
 	protected override void ScrollToLeft()

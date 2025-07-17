@@ -1,4 +1,4 @@
-using CompleteProject;
+//using CompleteProject;
 using Smokoko.DebugModule;
 using System;
 using System.Collections;
@@ -437,9 +437,9 @@ public class ControllerGarage : MonoBehaviour
 		if (Progress.shop.activeCar == 3 && !progressShop.showOpenGateCar4)
 		{
 			yield return new WaitForSeconds(1f);
-			string price6 = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar).metadata.localizedPrice.ToString();
-			price6 = ((!string.IsNullOrEmpty(price6)) ? price6 : ShopManagerPrice.instance.Price.CarByu3);
-			unlockPricePremium.text = price6;
+			//string price6 = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar).metadata.localizedPrice.ToString();
+			//price6 = ((!string.IsNullOrEmpty(price6)) ? price6 : ShopManagerPrice.instance.Price.CarByu3);
+			//unlockPricePremium.text = price6;
 			progressShop.showOpenGateCar4 = true;
 			ForUnlocksStart();
 			btn_UNLOCK_RUBY.SetActive(value: false);
@@ -452,9 +452,9 @@ public class ControllerGarage : MonoBehaviour
 		if (Progress.shop.activeCar == 4 && !progressShop.showOpenGateCar5)
 		{
 			yield return new WaitForSeconds(1f);
-			string price5 = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar2).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar2).metadata.localizedPrice.ToString();
-			price5 = ((!string.IsNullOrEmpty(price5)) ? price5 : ShopManagerPrice.instance.Price.CarByu4);
-			unlockPricePremium2.text = price5;
+			//string price5 = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar2).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar2).metadata.localizedPrice.ToString();
+			//price5 = ((!string.IsNullOrEmpty(price5)) ? price5 : ShopManagerPrice.instance.Price.CarByu4);
+			//unlockPricePremium2.text = price5;
 			progressShop.showOpenGateCar5 = true;
 			ForUnlocksStart();
 			btn_UNLOCK_RUBY.SetActive(value: false);
@@ -808,7 +808,7 @@ public class ControllerGarage : MonoBehaviour
 		}
 		else
 		{
-			Purchaser.BuyProductID(Purchaser.PremiumCar, ByPC);
+			//Purchaser.BuyProductID(Purchaser.PremiumCar, ByPC);
 		}
 	}
 
@@ -827,7 +827,7 @@ public class ControllerGarage : MonoBehaviour
 		}
 		else
 		{
-			Purchaser.BuyProductID(Purchaser.PremiumCar2, ByPC2);
+			//Purchaser.BuyProductID(Purchaser.PremiumCar2, ByPC2);
 		}
 	}
 
@@ -848,7 +848,7 @@ public class ControllerGarage : MonoBehaviour
 			}
 			else
 			{
-				Purchaser.BuyProductID(Purchaser.PremiumCar9, ByBug1);
+				//Purchaser.BuyProductID(Purchaser.PremiumCar9, ByBug1);
 			}
 		}
 		else if (progressShop.activeCar == 10)
@@ -859,7 +859,7 @@ public class ControllerGarage : MonoBehaviour
 			}
 			else
 			{
-				Purchaser.BuyProductID(Purchaser.PremiumCar10, ByBug2);
+				//Purchaser.BuyProductID(Purchaser.PremiumCar10, ByBug2);
 			}
 		}
 		else if (progressShop.activeCar == 6)
@@ -870,7 +870,7 @@ public class ControllerGarage : MonoBehaviour
 			}
 			else
 			{
-				Purchaser.BuyProductID(Purchaser.PremiumCar4, Byfranc);
+				//Purchaser.BuyProductID(Purchaser.PremiumCar4, Byfranc);
 			}
 		}
 		else if (progressShop.activeCar == 7)
@@ -881,7 +881,7 @@ public class ControllerGarage : MonoBehaviour
 			}
 			else
 			{
-				Purchaser.BuyProductID(Purchaser.PremiumCar5, ByCarCop);
+				//Purchaser.BuyProductID(Purchaser.PremiumCar5, ByCarCop);
 			}
 		}
 		else if (progressShop.activeCar == 11)
@@ -892,7 +892,7 @@ public class ControllerGarage : MonoBehaviour
 			}
 			else
 			{
-				Purchaser.BuyProductID(Purchaser.Tankominator, ByCarTank);
+				//Purchaser.BuyProductID(Purchaser.Tankominator, ByCarTank);
 			}
 		}
 		else if (progressShop.activeCar == 12)
@@ -903,7 +903,7 @@ public class ControllerGarage : MonoBehaviour
 			}
 			else
 			{
-				Purchaser.BuyProductID(Purchaser.Croco, ByCroco);
+				//Purchaser.BuyProductID(Purchaser.Croco, ByCroco);
 			}
 		}
 		else if (progressShop.activeCar == 13)
@@ -914,7 +914,7 @@ public class ControllerGarage : MonoBehaviour
 			}
 			else
 			{
-				Purchaser.BuyProductID(Purchaser.Cherepaha, ByCherepaha);
+				//Purchaser.BuyProductID(Purchaser.Cherepaha, ByCherepaha);
 			}
 		}
 	}
@@ -976,7 +976,7 @@ public class ControllerGarage : MonoBehaviour
 		}
 		else
 		{
-			Purchaser.BuyProductID(Purchaser.PremiumCar6, ByPCKroll);
+			//Purchaser.BuyProductID(Purchaser.PremiumCar6, ByPCKroll);
 		}
 	}
 
@@ -995,7 +995,7 @@ public class ControllerGarage : MonoBehaviour
 		}
 		else
 		{
-			Purchaser.BuyProductID(Purchaser.PremiumCar3, ByPC3);
+			//Purchaser.BuyProductID(Purchaser.PremiumCar3, ByPC3);
 		}
 	}
 

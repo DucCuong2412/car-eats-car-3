@@ -1,4 +1,4 @@
-using CompleteProject;
+//using CompleteProject;
 using Smokoko.DebugModule;
 using System;
 using System.Collections;
@@ -461,7 +461,7 @@ public class LevelGalleryCanvasLogic : MonoBehaviour
 		}
 		else
 		{
-			Purchaser.BuyProductID(Purchaser.UnlockNext, OpenAllLoc);
+			//Purchaser.BuyProductID(Purchaser.UnlockNext, OpenAllLoc);
 		}
 	}
 
@@ -489,24 +489,24 @@ public class LevelGalleryCanvasLogic : MonoBehaviour
 			ModalWindow.instance.Show("Debug buy location" + num, new ButtonInfo("Buy", OpenLocation));
 			return;
 		}
-		string productId = Purchaser.UnlockWorld1;
-		if (Progress.shop.BuyPack == -1)
-		{
-			Progress.shop.BuyPack = activePack;
-		}
-		switch (Progress.shop.BuyPack)
-		{
-		case 1:
-			productId = ((!Progress.levels.InUndeground) ? Purchaser.UnlockWorld1 : Purchaser.UnlockWorldUnder);
-			break;
-		case 2:
-			productId = ((!Progress.levels.InUndeground) ? Purchaser.UnlockWorld2 : Purchaser.UnlockWorldUnder2);
-			break;
-		case 3:
-			productId = Purchaser.UnlockWorld3;
-			break;
-		}
-		Purchaser.BuyProductID(productId, OpenLocation);
+		//string productId = Purchaser.UnlockWorld1;
+		//if (Progress.shop.BuyPack == -1)
+		//{
+		//	Progress.shop.BuyPack = activePack;
+		//}
+		//switch (Progress.shop.BuyPack)
+		//{
+		//case 1:
+		//	productId = ((!Progress.levels.InUndeground) ? Purchaser.UnlockWorld1 : Purchaser.UnlockWorldUnder);
+		//	break;
+		//case 2:
+		//	productId = ((!Progress.levels.InUndeground) ? Purchaser.UnlockWorld2 : Purchaser.UnlockWorldUnder2);
+		//	break;
+		//case 3:
+		//	productId = Purchaser.UnlockWorld3;
+		//	break;
+		//}
+		//Purchaser.BuyProductID(productId, OpenLocation);
 		Progress.shop.BuyPack = -1;
 	}
 

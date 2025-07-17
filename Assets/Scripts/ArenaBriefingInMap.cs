@@ -1,4 +1,4 @@
-using CompleteProject;
+//using CompleteProject;
 using Smokoko.DebugModule;
 using System.Collections;
 using System.Collections.Generic;
@@ -44,9 +44,9 @@ public class ArenaBriefingInMap : MonoBehaviour
 		ForRealMoney.gameObject.SetActive(!Progress.shop.Cars[4].equipped);
 		Progress.shop.ArenaBrifOpen = true;
 		temp = 0;
-		string text = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar2).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar2).metadata.localizedPrice.ToString();
-		text = ((!string.IsNullOrEmpty(text)) ? text : ShopManagerPrice.instance.Price.CarByu4);
-		MoneyForByuNow.text = text;
+		//string text = Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar2).metadata.isoCurrencyCode + Purchaser.m_StoreController.products.WithID(Purchaser.PremiumCar2).metadata.localizedPrice.ToString();
+		//text = ((!string.IsNullOrEmpty(text)) ? text : ShopManagerPrice.instance.Price.CarByu4);
+		//MoneyForByuNow.text = text;
 		Exit.onClick.AddListener(ClicExit);
 		ForRealMoney.onClick.AddListener(ClicPremium);
 		int num = 0;
@@ -171,7 +171,7 @@ public class ArenaBriefingInMap : MonoBehaviour
 		}
 		else
 		{
-			Purchaser.BuyProductID(Purchaser.PremiumCar2, ByPC2);
+			//Purchaser.BuyProductID(Purchaser.PremiumCar2, ByPC2);
 		}
 	}
 

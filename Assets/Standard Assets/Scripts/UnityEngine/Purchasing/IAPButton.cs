@@ -16,12 +16,12 @@ namespace UnityEngine.Purchasing
 		}
 
 		[Serializable]
-		public class OnPurchaseCompletedEvent : UnityEvent<Product>
+		public class OnPurchaseCompletedEvent// : UnityEvent<Product>
 		{
 		}
 
 		[Serializable]
-		public class OnPurchaseFailedEvent : UnityEvent<Product, PurchaseFailureReason>
+		public class OnPurchaseFailedEvent //: UnityEvent<Product, PurchaseFailureReason>
 		{
 		}
 
@@ -80,7 +80,7 @@ namespace UnityEngine.Purchasing
 				CodelessIAPStoreListener.Instance.AddButton(this);
 				if (CodelessIAPStoreListener.initializationComplete)
 				{
-					UpdateText();
+					//UpdateText();
 				}
 			}
 		}
@@ -108,27 +108,27 @@ namespace UnityEngine.Purchasing
 			{
 				if (Application.platform == RuntimePlatform.MetroPlayerX86 || Application.platform == RuntimePlatform.MetroPlayerX64 || Application.platform == RuntimePlatform.MetroPlayerARM)
 				{
-					CodelessIAPStoreListener.Instance.ExtensionProvider.GetExtension<IMicrosoftExtensions>().RestoreTransactions();
+					//CodelessIAPStoreListener.Instance.ExtensionProvider.GetExtension<IMicrosoftExtensions>().RestoreTransactions();
 				}
-				else if (Application.platform == RuntimePlatform.IPhonePlayer || Application.platform == RuntimePlatform.OSXPlayer || Application.platform == RuntimePlatform.tvOS)
-				{
-					CodelessIAPStoreListener.Instance.ExtensionProvider.GetExtension<IAppleExtensions>().RestoreTransactions(OnTransactionsRestored);
-				}
-				else if (Application.platform == RuntimePlatform.Android && StandardPurchasingModule.Instance().appStore == AppStore.SamsungApps)
-				{
-					CodelessIAPStoreListener.Instance.ExtensionProvider.GetExtension<ISamsungAppsExtensions>().RestoreTransactions(OnTransactionsRestored);
-				}
-				else if (Application.platform == RuntimePlatform.Android && StandardPurchasingModule.Instance().appStore == AppStore.CloudMoolah)
-				{
-					CodelessIAPStoreListener.Instance.ExtensionProvider.GetExtension<IMoolahExtension>().RestoreTransactionID(delegate(RestoreTransactionIDState restoreTransactionIDState)
-					{
-						OnTransactionsRestored(restoreTransactionIDState != RestoreTransactionIDState.RestoreFailed && restoreTransactionIDState != RestoreTransactionIDState.NotKnown);
-					});
-				}
-				else
-				{
-					UnityEngine.Debug.LogWarning(Application.platform.ToString() + " is not a supported platform for the Codeless IAP restore button");
-				}
+				//else if (Application.platform == RuntimePlatform.IPhonePlayer || Application.platform == RuntimePlatform.OSXPlayer || Application.platform == RuntimePlatform.tvOS)
+				//{
+				//	//CodelessIAPStoreListener.Instance.ExtensionProvider.GetExtension<IAppleExtensions>().RestoreTransactions(OnTransactionsRestored);
+				//}
+				//else if (Application.platform == RuntimePlatform.Android && StandardPurchasingModule.Instance().appStore == AppStore.SamsungApps)
+				//{
+				//	//CodelessIAPStoreListener.Instance.ExtensionProvider.GetExtension<ISamsungAppsExtensions>().RestoreTransactions(OnTransactionsRestored);
+				//}
+				//else if (Application.platform == RuntimePlatform.Android && StandardPurchasingModule.Instance().appStore == AppStore.CloudMoolah)
+				//{
+				//	//CodelessIAPStoreListener.Instance.ExtensionProvider.GetExtension<IMoolahExtension>().RestoreTransactionID(delegate(RestoreTransactionIDState restoreTransactionIDState)
+				//	//{
+				//	//	OnTransactionsRestored(restoreTransactionIDState != RestoreTransactionIDState.RestoreFailed && restoreTransactionIDState != RestoreTransactionIDState.NotKnown);
+				//	//});
+				//}
+				//else
+				//{
+				//	UnityEngine.Debug.LogWarning(Application.platform.ToString() + " is not a supported platform for the Codeless IAP restore button");
+				//}
 			}
 		}
 
@@ -137,37 +137,37 @@ namespace UnityEngine.Purchasing
 			UnityEngine.Debug.Log("Transactions restored: " + success);
 		}
 
-		public PurchaseProcessingResult ProcessPurchase(PurchaseEventArgs e)
-		{
-			UnityEngine.Debug.Log($"IAPButton.ProcessPurchase(PurchaseEventArgs {e} - {e.purchasedProduct.definition.id})");
-			onPurchaseComplete.Invoke(e.purchasedProduct);
-			return (!consumePurchase) ? PurchaseProcessingResult.Pending : PurchaseProcessingResult.Complete;
-		}
+		//public PurchaseProcessingResult ProcessPurchase(PurchaseEventArgs e)
+		//{
+		//	UnityEngine.Debug.Log($"IAPButton.ProcessPurchase(PurchaseEventArgs {e} - {e.purchasedProduct.definition.id})");
+		//	onPurchaseComplete.Invoke(e.purchasedProduct);
+		//	return (!consumePurchase) ? PurchaseProcessingResult.Pending : PurchaseProcessingResult.Complete;
+		//}
 
-		public void OnPurchaseFailed(Product product, PurchaseFailureReason reason)
-		{
-			UnityEngine.Debug.Log($"IAPButton.OnPurchaseFailed(Product {product}, PurchaseFailureReason {reason})");
-			onPurchaseFailed.Invoke(product, reason);
-		}
+		//public void OnPurchaseFailed(Product product, PurchaseFailureReason reason)
+		//{
+		//	UnityEngine.Debug.Log($"IAPButton.OnPurchaseFailed(Product {product}, PurchaseFailureReason {reason})");
+		//	onPurchaseFailed.Invoke(product, reason);
+		//}
 
-		internal void UpdateText()
-		{
-			Product product = CodelessIAPStoreListener.Instance.GetProduct(productId);
-			if (product != null)
-			{
-				if (titleText != null)
-				{
-					titleText.text = product.metadata.localizedTitle;
-				}
-				if (descriptionText != null)
-				{
-					descriptionText.text = product.metadata.localizedDescription;
-				}
-				if (priceText != null)
-				{
-					priceText.text = product.metadata.localizedPriceString;
-				}
-			}
-		}
+		//internal void UpdateText()
+		//{
+		//	Product product = CodelessIAPStoreListener.Instance.GetProduct(productId);
+		//	if (product != null)
+		//	{
+		//		if (titleText != null)
+		//		{
+		//			titleText.text = product.metadata.localizedTitle;
+		//		}
+		//		if (descriptionText != null)
+		//		{
+		//			descriptionText.text = product.metadata.localizedDescription;
+		//		}
+		//		if (priceText != null)
+		//		{
+		//			priceText.text = product.metadata.localizedPriceString;
+		//		}
+		//	}
+		//}
 	}
 }
