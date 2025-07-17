@@ -1354,10 +1354,10 @@ public class ControllerGarage : MonoBehaviour
 
 	private IEnumerator InitShopCanvasWindows()
 	{
-		SceneManager.LoadScene("premium_shop", LoadSceneMode.Additive);
+		//SceneManager.LoadScene("premium_shop", LoadSceneMode.Additive);
 		yield return 0;
-		GameObject go = UnityEngine.Object.FindObjectOfType<PremiumShopNew>().gameObject;
-		PremiumShopNew view = _shopWindowModel = go.GetComponent<PremiumShopNew>();
+		//GameObject go = UnityEngine.Object.FindObjectOfType<PremiumShopNew>().gameObject;
+		//PremiumShopNew view = _shopWindowModel = go.GetComponent<PremiumShopNew>();
 	}
 
 	public void ShowBuyCanvasWindow(bool isCoins = false)

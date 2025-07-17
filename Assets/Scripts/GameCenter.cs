@@ -141,9 +141,9 @@ public static class GameCenter
 		Achievement achievement = achievements.Find((Achievement a) => a.Name == ach);
 		if (achievement != null && Value >= achievement.Value)
 		{
-			Social.ReportProgress(achievement.Id, 100.0, delegate
-			{
-			});
+			//Social.ReportProgress(achievement.Id, 100.0, delegate
+			//{
+			//});
 		}
 	}
 

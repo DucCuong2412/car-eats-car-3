@@ -88,14 +88,14 @@ public class NewControllerForButtonPlayOnMap : MonoBehaviour
 
 	private void Update()
 	{
-		if (AD.activeSelf)
-		{
-			PLAY.gameObject.SetActive(value: false);
-		}
-		else
-		{
-			PLAY.gameObject.SetActive(value: true);
-		}
+		//if (AD.activeSelf)
+		//{
+		//	PLAY.gameObject.SetActive(value: false);
+		//}
+		//else
+		//{
+		//	PLAY.gameObject.SetActive(value: true);
+		//}
 	}
 
 	private void EsterClicBtnVideo()

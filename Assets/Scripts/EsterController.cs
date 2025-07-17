@@ -22,7 +22,7 @@ public class EsterController : MonoBehaviour
 
 	public Button CloseBut;
 
-	public Text BalanceEggs;
+	//public Text BalanceEggs;
 
 	public Text TimerToEnd;
 
@@ -165,7 +165,7 @@ public class EsterController : MonoBehaviour
 		CheckEags();
 		X2TimerObl.SetActive(Progress.shop.EsterX2TimeActivate);
 		X2BuyBut.gameObject.SetActive(!Progress.shop.EsterX2TimeActivate);
-		BalanceEggs.text = Progress.shop.EsterEggsBalance.ToString();
+		//BalanceEggs.text = Progress.shop.EsterEggsBalance.ToString();
 		if (GetTimeNextPlay() <= 0)
 		{
 			OffersPlayBut.gameObject.SetActive(value: true);
@@ -625,7 +625,7 @@ public class EsterController : MonoBehaviour
 	private void Update()
 	{
 		ruby();
-		BalanceEggs.text = Progress.shop.EsterEggsBalance.ToString();
+		//BalanceEggs.text = Progress.shop.EsterEggsBalance.ToString();
 		if (UnityEngine.Input.GetKeyDown(KeyCode.Escape))
 		{
 			HideFunk();
