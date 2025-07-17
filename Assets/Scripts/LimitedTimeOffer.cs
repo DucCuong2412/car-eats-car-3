@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class LimitedTimeOffer : MonoBehaviour
 {
-	public Button _btnLimitted;
+	//public Button _btnLimitted;
 
 	public GameObject BodySpecial;
 
-	public Text timerInBtn;
+	//public Text timerInBtn;
 
 	public float TimerShow;
 
@@ -91,11 +91,11 @@ public class LimitedTimeOffer : MonoBehaviour
 	{
 		if (Progress.shop.Cars[7].equipped && Progress.shop.Cars[8].equipped && Progress.shop.Cars[9].equipped && Progress.shop.Cars[10].equipped && Progress.shop.Cars[3].equipped && Progress.shop.Cars[4].equipped && Progress.shop.Cars[5].equipped && Progress.shop.Cars[6].equipped && Progress.shop.dronBeeBuy && Progress.shop.Cars[3].equipped && Progress.gameEnergy.isInfinite)
 		{
-			_btnLimitted.gameObject.SetActive(value: false);
+			//_btnLimitted.gameObject.SetActive(value: false);
 		}
 		else if (Progress.shop.ShowLimittedOffer)
 		{
-			if (_btnLimitted.gameObject == null) return;
+			//if (_btnLimitted.gameObject == null) return;
 			if (Progress.shop.RefreshLimittedOffer)
 			{
 				RefreshTimer();
@@ -143,15 +143,15 @@ public class LimitedTimeOffer : MonoBehaviour
 			Progress.shop.RefreshLimittedOffer = false;
 			if (num9 > 0.0)
 			{
-				timerInBtn.text = text3;
+				//timerInBtn.text = text3;
 			}
 			else if (num5 > 0.0)
 			{
-				timerInBtn.text = text2;
+				//timerInBtn.text = text2;
 			}
 			else
 			{
-				timerInBtn.text = text;
+				//timerInBtn.text = text;
 			}
 		}
 		else

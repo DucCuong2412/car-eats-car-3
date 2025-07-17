@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class GUIPause : MonoBehaviour
 {
-	public Results_Glogal_controller RGC;
+	//public Results_Glogal_controller RGC;
 
 	public GameObject pauseGameObject;
 
@@ -290,9 +290,9 @@ public class GUIPause : MonoBehaviour
 	private IEnumerator StartFuelAnim()
 	{
 		_isResumeClicked = true;
-		RGC.AnimfuelText.text = "-" + PriceConfig.instance.energy.eachStart.ToString();
-		RGC.animfuel.Play();
-		RGC.animfuel["bodov_PAUSE_decreasFuel"].speed = 0.2f;
+		//RGC.AnimfuelText.text = "-" + PriceConfig.instance.energy.eachStart.ToString();
+		//RGC.animfuel.Play();
+		//RGC.animfuel["bodov_PAUSE_decreasFuel"].speed = 0.2f;
 		yield return null;
 		_isResumeClicked = false;
 		if (onRestartAction != null)

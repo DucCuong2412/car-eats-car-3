@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using UnityEngine;
 
 public class GUIControllsMessenger : MonoBehaviour
@@ -55,7 +55,29 @@ public class GUIControllsMessenger : MonoBehaviour
     }
     private void Update()
     {
-        
+        // --- Trái ---
+        if (Input.GetKeyDown(KeyCode.A))
+            TiltLeftOn();
+        if (Input.GetKeyUp(KeyCode.A))
+            TiltLeftOff();
+
+        // --- Phải ---
+        if (Input.GetKeyDown(KeyCode.D))
+            TiltRightOn();
+        if (Input.GetKeyUp(KeyCode.D))
+            TiltRightOff();
+
+        // --- Turbo (J) ---
+        if (Input.GetKeyDown(KeyCode.J))
+            PowerOn();
+        if (Input.GetKeyUp(KeyCode.J))
+            PowerOff();
+
+        // --- Thả bom (K) ---
+        if (Input.GetKeyDown(KeyCode.K))
+            FireOn();
+        if (Input.GetKeyUp(KeyCode.K))
+            FireOff();
     }
     public void InitControlls(Action onRotateLeft, Action onRotateRight, Action onRotateStop, Action onTurbo, Action onTurboStop, Action onFire, Action onTopRightButton)
     {

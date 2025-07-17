@@ -64,9 +64,9 @@ public class Results_new_controller : MonoBehaviour
 	[Header("Top Panel")]
 	public CounterController RubyText;
 
-	public CounterController text;
+	//public CounterController text;
 
-	public GameObject icoInf;
+	//public GameObject icoInf;
 
 	[Header("For Suma")]
 	public CounterController Collectable;
@@ -193,16 +193,16 @@ public class Results_new_controller : MonoBehaviour
 
 	private void Update()
 	{
-		text.count = Progress.gameEnergy.energy.ToString();
+		//text.count = Progress.gameEnergy.energy.ToString();
 		if (Progress.gameEnergy.isInfinite)
 		{
-			text.gameObject.SetActive(value: false);
-			icoInf.gameObject.SetActive(value: true);
+			//text.gameObject.SetActive(value: false);
+			//icoInf.gameObject.SetActive(value: true);
 		}
 		else
 		{
-			text.gameObject.SetActive(value: true);
-			icoInf.gameObject.SetActive(value: false);
+			//text.gameObject.SetActive(value: true);
+			//icoInf.gameObject.SetActive(value: false);
 		}
 	}
 
@@ -258,17 +258,17 @@ public class Results_new_controller : MonoBehaviour
 		backGround.SetActive(value: true);
 		frontPanel.SetActive(value: true);
 		_btnGarageUnlockCar.onClick.AddListener(ShopUnlockCar);
-		text.count = Progress.gameEnergy.energy.ToString();
+		//text.count = Progress.gameEnergy.energy.ToString();
 		x2.onClick.AddListener(X2);
 		if (Progress.gameEnergy.isInfinite)
 		{
-			text.gameObject.SetActive(value: false);
-			icoInf.gameObject.SetActive(value: true);
+			//text.gameObject.SetActive(value: false);
+			//icoInf.gameObject.SetActive(value: true);
 		}
 		else
 		{
-			text.gameObject.SetActive(value: true);
-			icoInf.gameObject.SetActive(value: false);
+			//text.gameObject.SetActive(value: true);
+			//icoInf.gameObject.SetActive(value: false);
 		}
 		if (Progress.shop.bossLevel)
 		{
