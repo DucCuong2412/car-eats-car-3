@@ -7,8 +7,8 @@ public class StopFolow : MonoBehaviour
 		if (other.tag == "CarMain" || other.tag == "CarMainChild")
 		{
 			RaceLogic.instance.follow.Stop();
-			ParallaxSystem parallaxSystem = UnityEngine.Object.FindObjectOfType<ParallaxSystem>();
-			parallaxSystem.enabled = false;
+			//ParallaxSystem parallaxSystem = UnityEngine.Object.FindObjectOfType<ParallaxSystem>();
+			//parallaxSystem.enabled = false;
 		}
 	}
 }

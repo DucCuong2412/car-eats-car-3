@@ -29,7 +29,10 @@ public class PostProcessLoader : MonoBehaviour
 
 	private void Start()
 	{
-		if (!Progress.shop.showPP)
+        splash1.gameObject.SetActive(false);
+        splash2.gameObject.SetActive(false);
+
+        if (!Progress.shop.showPP)
 		{
 			if (Progress.shop.Tutorial)
 			{
@@ -777,7 +780,7 @@ public class PostProcessLoader : MonoBehaviour
 		if (!Progress.review.atLeastOnePurchase)
 		{
 		}
-		StartCoroutine(showSplash2());
+		showSplash2();
 	}
 
 	private IEnumerator WaitAnConnetToGamecenter()
@@ -818,42 +821,43 @@ public class PostProcessLoader : MonoBehaviour
 		});
 	}
 
-	private IEnumerator showSplash2()
+	private void showSplash2()
 	{
-		HSBColor hsb = HSBColor.FromColor(cam.backgroundColor);
-		while (hsb.b > 0f)
-		{
-			hsb.b -= 0.05f;
-			cam.backgroundColor = hsb.ToColor();
-			yield return new WaitForFixedUpdate();
-		}
-		float speed = 0.02f;
-		while (true)
-		{
-			Color color = splash2.color;
-			if (!(color.a < 1f))
-			{
-				break;
-			}
-			SpriteRenderer spriteRenderer = splash2;
-			Color color2 = splash2.color;
-			spriteRenderer.color = new Color(1f, 1f, 1f, color2.a + speed);
-			yield return new WaitForFixedUpdate();
-		}
-		InitAll();
-		yield return new WaitForSeconds(3f);
-		while (true)
-		{
-			Color color3 = splash2.color;
-			if (!(color3.a > 0f))
-			{
-				break;
-			}
-			SpriteRenderer spriteRenderer2 = splash2;
-			Color color4 = splash2.color;
-			spriteRenderer2.color = new Color(1f, 1f, 1f, color4.a - speed);
-			yield return new WaitForFixedUpdate();
-		}
+
+		//HSBColor hsb = HSBColor.FromColor(cam.backgroundColor);
+		//while (hsb.b > 0f)
+		//{
+		//	hsb.b -= 0.05f;
+		//	cam.backgroundColor = hsb.ToColor();
+		//	yield return new WaitForFixedUpdate();
+		//}
+		//float speed = 0.02f;
+		//while (true)
+		//{
+		//	Color color = splash2.color;
+		//	if (!(color.a < 1f))
+		//	{
+		//		break;
+		//	}
+		//	SpriteRenderer spriteRenderer = splash2;
+		//	Color color2 = splash2.color;
+		//	spriteRenderer.color = new Color(1f, 1f, 1f, color2.a + speed);
+		//	yield return new WaitForFixedUpdate();
+		//}
+		//InitAll();
+		//yield return new WaitForSeconds(3f);
+		//while (true)
+		//{
+		//	Color color3 = splash2.color;
+		//	if (!(color3.a > 0f))
+		//	{
+		//		break;
+		//	}
+		//	SpriteRenderer spriteRenderer2 = splash2;
+		//	Color color4 = splash2.color;
+		//	spriteRenderer2.color = new Color(1f, 1f, 1f, color4.a - speed);
+		//	yield return new WaitForFixedUpdate();
+		//}
 		UnityEngine.SceneManagement.SceneManager.LoadScene("Start_Preloader");
 	}
 

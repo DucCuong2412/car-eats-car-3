@@ -10,9 +10,9 @@ public class NewControllerForButtonPlayOnMap : MonoBehaviour
 
 	public Button PLAY;
 
-	public Button PLAYARENA;
+	//public Button PLAYARENA;
 
-	public Button PLAYARENAVIDEO;
+	//public Button PLAYARENAVIDEO;
 
 	public GameObject AD;
 
@@ -35,8 +35,8 @@ public class NewControllerForButtonPlayOnMap : MonoBehaviour
 	private void OnEnable()
 	{
 		PLAY.onClick.AddListener(ClicBtn);
-		PLAYARENA.onClick.AddListener(ClicBtnARENA);
-		PLAYARENAVIDEO.onClick.AddListener(ClicBtnVideo);
+		//PLAYARENA.onClick.AddListener(ClicBtnARENA);
+		//PLAYARENAVIDEO.onClick.AddListener(ClicBtnVideo);
 		if (EsterPlay != null)
 		{
 			EsterPlay.onClick.AddListener(EsterClicBtn);
@@ -54,8 +54,8 @@ public class NewControllerForButtonPlayOnMap : MonoBehaviour
 	private void OnDisable()
 	{
 		PLAY.onClick.RemoveAllListeners();
-		PLAYARENA.onClick.RemoveAllListeners();
-		PLAYARENAVIDEO.onClick.RemoveAllListeners();
+		//PLAYARENA.onClick.RemoveAllListeners();
+		//PLAYARENAVIDEO.onClick.RemoveAllListeners();
 		if (EsterPlay != null)
 		{
 			EsterPlay.onClick.RemoveAllListeners();
@@ -131,30 +131,30 @@ public class NewControllerForButtonPlayOnMap : MonoBehaviour
 
 	private void ClicBtnVideo()
 	{
-		PLAYARENAVIDEO.interactable = false;
-		PLAYARENA.interactable = false;
+		//PLAYARENAVIDEO.interactable = false;
+		//PLAYARENA.interactable = false;
 		NewWrapperForAppodeal.instance.ShowVideo(delegate(bool sucsess)
 		{
 			if (sucsess)
 			{
 				Act();
-				PLAYARENAVIDEO.interactable = true;
-				PLAYARENA.interactable = true;
+				//PLAYARENAVIDEO.interactable = true;
+				//PLAYARENA.interactable = true;
 			}
 			else
 			{
-				PLAYARENAVIDEO.interactable = true;
-				PLAYARENA.interactable = true;
+				//PLAYARENAVIDEO.interactable = true;
+				//PLAYARENA.interactable = true;
 			}
 		}, delegate
 		{
 			GameObject gameObject = UnityEngine.Object.Instantiate(Resources.Load("noVideoBox", typeof(GameObject))) as GameObject;
-			PLAYARENAVIDEO.interactable = true;
-			PLAYARENA.interactable = true;
+			//PLAYARENAVIDEO.interactable = true;
+			//PLAYARENA.interactable = true;
 		}, delegate
 		{
-			PLAYARENAVIDEO.interactable = true;
-			PLAYARENA.interactable = true;
+			//PLAYARENAVIDEO.interactable = true;
+			//PLAYARENA.interactable = true;
 		});
 	}
 
@@ -180,19 +180,19 @@ public class NewControllerForButtonPlayOnMap : MonoBehaviour
 		{
 			if (Progress.levels.active_pack_last_openned == 1 && Progress.shop.currency > DifficultyConfig.instance.RubinivForStartARENA1)
 			{
-				PLAYARENA.interactable = false;
+				//PLAYARENA.interactable = false;
 				Progress.shop.currency -= DifficultyConfig.instance.RubinivForStartARENA1;
 				Act();
 			}
 			else if (Progress.levels.active_pack_last_openned == 2 && Progress.shop.currency > DifficultyConfig.instance.RubinivForStartARENA2)
 			{
-				PLAYARENA.interactable = false;
+				//PLAYARENA.interactable = false;
 				Progress.shop.currency -= DifficultyConfig.instance.RubinivForStartARENA2;
 				Act();
 			}
 			else if (Progress.levels.active_pack_last_openned == 3 && Progress.shop.currency > DifficultyConfig.instance.RubinivForStartARENA3)
 			{
-				PLAYARENA.interactable = false;
+				//PLAYARENA.interactable = false;
 				Progress.shop.currency -= DifficultyConfig.instance.RubinivForStartARENA3;
 				Act();
 			}

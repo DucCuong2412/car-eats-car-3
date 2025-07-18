@@ -14,7 +14,7 @@ public class EsterController : MonoBehaviour
 
 	public Animator MapFuncObj;
 
-	public GameObject PanelObj;
+	//public GameObject PanelObj;
 
 	public GameObject IntroObj;
 
@@ -71,7 +71,7 @@ public class EsterController : MonoBehaviour
 
 	public Text Сrystal4ButText;
 
-	public Button X2BuyBut;
+	//public Button X2BuyBut;
 
 	public GameObject X2NoVideoObl;
 
@@ -105,9 +105,9 @@ public class EsterController : MonoBehaviour
 
 	private void Start()
 	{
-		PanelObj.SetActive(value: false);
+		//PanelObj.SetActive(value: false);
 		Progress.shop.EsterLevelPlay = false;
-		X2BuyBut.gameObject.SetActive(!Progress.shop.EsterX2TimeActivate);
+		//X2BuyBut.gameObject.SetActive(!Progress.shop.EsterX2TimeActivate);
 		if (GetTimeNextPlayMinutes() <= 0 && GetTimeNextPlayHours() <= 0 && GetTimeNextPlayDay() <= 0 && GetTimeNextPlaySeconds() <= 0)
 		{
 			base.gameObject.SetActive(value: false);
@@ -134,14 +134,14 @@ public class EsterController : MonoBehaviour
 	{
 		Game.OnStateChange(Game.gameState.OpenWindow);
 		MapFuncObj.SetBool("is_ON", value: false);
-		PanelObj.SetActive(value: true);
+		//PanelObj.SetActive(value: true);
 		IntroObj.SetActive(value: true);
 		OffersObj.SetActive(value: false);
 		IntroLoadingObj.SetActive(value: true);
 		IntroPlayBut.gameObject.SetActive(value: false);
 		StartCoroutine(DelayToOffers());
 		CloseBut.onClick.AddListener(ClosePress);
-		X2BuyBut.onClick.AddListener(X2EggsVideoPress);
+		//X2BuyBut.onClick.AddListener(X2EggsVideoPress);
 		FreeBuyBut.onClick.AddListener(ShowVideoCoin);
 		IncubatorBut.onClick.AddListener(IncubatorPress);
 		OffersPlayBut.onClick.AddListener(PlayPress);
@@ -164,7 +164,7 @@ public class EsterController : MonoBehaviour
 		Сrystal4ButNoMoney.GetComponentInChildren<Text>().text = ConfigForEster.instance.Config.price4.ToString();
 		CheckEags();
 		X2TimerObl.SetActive(Progress.shop.EsterX2TimeActivate);
-		X2BuyBut.gameObject.SetActive(!Progress.shop.EsterX2TimeActivate);
+		//X2BuyBut.gameObject.SetActive(!Progress.shop.EsterX2TimeActivate);
 		//BalanceEggs.text = Progress.shop.EsterEggsBalance.ToString();
 		if (GetTimeNextPlay() <= 0)
 		{
@@ -382,7 +382,7 @@ public class EsterController : MonoBehaviour
 		Act = delegate
 		{
 			Progress.shop.EsterX2TimeActivate = true;
-			X2BuyBut.gameObject.SetActive(value: false);
+			//X2BuyBut.gameObject.SetActive(value: false);
 			X2TimerObl.SetActive(value: true);
 		};
 		NewWrapperForAppodeal.instance.ShowVideo(delegate(bool sucsess)
@@ -393,15 +393,15 @@ public class EsterController : MonoBehaviour
 			}
 			else
 			{
-				X2BuyBut.interactable = true;
+				//X2BuyBut.interactable = true;
 			}
 		}, delegate
 		{
 			GameObject gameObject = UnityEngine.Object.Instantiate(Resources.Load("noVideoBox", typeof(GameObject))) as GameObject;
-			X2BuyBut.interactable = true;
+			//X2BuyBut.interactable = true;
 		}, delegate
 		{
-			X2BuyBut.interactable = true;
+			//X2BuyBut.interactable = true;
 		});
 	}
 
@@ -442,7 +442,7 @@ public class EsterController : MonoBehaviour
 			}
 		}
 		X2TimerObl.SetActive(value: false);
-		X2BuyBut.gameObject.SetActive(value: true);
+		//X2BuyBut.gameObject.SetActive(value: true);
 	}
 
 	public int GetTimeX2()
@@ -592,7 +592,7 @@ public class EsterController : MonoBehaviour
 		OffersPlayBut.onClick.RemoveAllListeners();
 		OffersPlayVideoBut.onClick.RemoveAllListeners();
 		CloseBut.onClick.RemoveAllListeners();
-		X2BuyBut.onClick.RemoveAllListeners();
+		//X2BuyBut.onClick.RemoveAllListeners();
 		FreeBuyBut.onClick.RemoveAllListeners();
 		Сrystal1But.onClick.RemoveAllListeners();
 		Сrystal2But.onClick.RemoveAllListeners();
@@ -604,7 +604,7 @@ public class EsterController : MonoBehaviour
 		Сrystal4ButFree.onClick.RemoveAllListeners();
 		yield return 0;
 		MapFuncObj.SetBool("is_ON", value: true);
-		PanelObj.SetActive(value: false);
+		//PanelObj.SetActive(value: false);
 	}
 
 	private void HideFunk()
@@ -648,15 +648,15 @@ public class EsterController : MonoBehaviour
 			}
 			else
 			{
-				X2BuyBut.interactable = true;
+				//X2BuyBut.interactable = true;
 			}
 		}, delegate
 		{
 			GameObject gameObject = UnityEngine.Object.Instantiate(Resources.Load("noVideoBox", typeof(GameObject))) as GameObject;
-			X2BuyBut.interactable = true;
+			//X2BuyBut.interactable = true;
 		}, delegate
 		{
-			X2BuyBut.interactable = true;
+			//X2BuyBut.interactable = true;
 		});
 	}
 

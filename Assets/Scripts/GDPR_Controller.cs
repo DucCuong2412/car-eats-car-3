@@ -116,7 +116,7 @@ public class GDPR_Controller : MonoBehaviour
 
 	private void Link()
 	{
-		Application.OpenURL(URL);
+		//Application.OpenURL(URL);
 	}
 
 	private void ShowWindow()

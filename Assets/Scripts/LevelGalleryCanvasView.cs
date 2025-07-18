@@ -60,9 +60,9 @@ public class LevelGalleryCanvasView : LevelGalleryCanvasLogic
 	[Header("Buy Panel")]
 	public GameObject buyLevelsWindow;
 
-	public Button btnBuyNext;
+	//public Button btnBuyNext;
 
-	public Button btnBuyPack;
+	//public Button btnBuyPack;
 
 	public Button btnBuyClose;
 
@@ -414,8 +414,8 @@ public class LevelGalleryCanvasView : LevelGalleryCanvasLogic
 		base.Awake();
 		ChekCAr();
         btnBuyClose.onClick.AddListener(ButtonBuyClose);
-        btnBuyNext.onClick.AddListener(ButtonBuyPack);
-        btnBuyPack.onClick.AddListener(ButtonBuyAll);
+        //btnBuyNext.onClick.AddListener(ButtonBuyPack);
+        //btnBuyPack.onClick.AddListener(ButtonBuyAll);
         btnBuyRealMoney.onClick.AddListener(ButtonBuyRealMoney);
 		YesLeave.onClick.AddListener(LeavesGame);
 		btnMonstropedia.onClick.AddListener(btnMonstroIn);
@@ -1009,8 +1009,8 @@ public class LevelGalleryCanvasView : LevelGalleryCanvasLogic
 	{
 		SceneManager.LoadScene("premium_shop", LoadSceneMode.Additive);
 		yield return 0;
-		GameObject go = UnityEngine.Object.FindObjectOfType<PremiumShopNew>().gameObject;
-		PremiumShopNew view = _shopWindowModel = go.GetComponent<PremiumShopNew>();
+		//GameObject go = UnityEngine.Object.FindObjectOfType<PremiumShopNew>().gameObject;
+		//PremiumShopNew view = _shopWindowModel = go.GetComponent<PremiumShopNew>();
 	}
 
 	public void ShowBuyCanvasWindow(bool isCoins = false)
