@@ -135,7 +135,7 @@ public class SettingController : MonoBehaviour
 		});
 		Music.isOn = !Progress.settings.isMusic;
 		Sound.isOn = !Progress.settings.isSound;
-		Version.text = "v." + GoogleAnalyticsV4.instance.bundleVersion;
+		Version.text = "v." + Application.version;
 		if (btnGDPR != null)
 		{
 			btnGDPR.onClick.AddListener(ShowWindow);

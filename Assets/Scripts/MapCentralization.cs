@@ -48,14 +48,14 @@ public class MapCentralization : MonoBehaviour
 
 	public GameObject KompasArrow;
 
-	[Header("Promo Kompas")]
-	public GameObject KompasPromo1Obj;
+	//[Header("Promo Kompas")]
+	//public GameObject KompasPromo1Obj;
 
-	public GameObject KompasPromo1Arrow;
+	//public GameObject KompasPromo1Arrow;
 
-	public GameObject KompasPromo2Obj;
+	//public GameObject KompasPromo2Obj;
 
-	public GameObject KompasPromo2Arrow;
+	//public GameObject KompasPromo2Arrow;
 
 	[Header("Egg Kompas")]
 	public GameObject KompasEggObj;
@@ -274,40 +274,40 @@ public class MapCentralization : MonoBehaviour
 			{
 				if (coord.x > 2100f && coord.y < -100f)
 				{
-					KompasPromo1Obj.SetActive(value: false);
+					//KompasPromo1Obj.SetActive(value: false);
 				}
 				else
 				{
-					KompasPromo1Obj.SetActive(value: true);
+					//KompasPromo1Obj.SetActive(value: true);
 					ang = getAngle(coord, _posPromo1);
-					KompasPromo1Arrow.transform.eulerAngles = new Vector3(0f, 0f, ang);
+					//KompasPromo1Arrow.transform.eulerAngles = new Vector3(0f, 0f, ang);
 					AngOpt();
-					KompasPromo1Obj.transform.localPosition = vec3Pos;
+					//KompasPromo1Obj.transform.localPosition = vec3Pos;
 				}
 			}
-			else if (KompasPromo1Obj.activeSelf)
-			{
-				KompasPromo1Obj.SetActive(value: false);
-			}
+			//else if (KompasPromo1Obj.activeSelf)
+			//{
+			//	KompasPromo1Obj.SetActive(value: false);
+			//}
 			if (Progress.shop.Promo2Show)
 			{
 				if (coord.x > 2300f && coord.y > 200f)
 				{
-					KompasPromo2Obj.SetActive(value: false);
+					//KompasPromo2Obj.SetActive(value: false);
 				}
 				else
 				{
-					KompasPromo2Obj.SetActive(value: true);
+					//KompasPromo2Obj.SetActive(value: true);
 					ang = getAngle(coord, _posPromo2);
-					KompasPromo2Arrow.transform.eulerAngles = new Vector3(0f, 0f, ang);
+					//KompasPromo2Arrow.transform.eulerAngles = new Vector3(0f, 0f, ang);
 					AngOpt();
-					KompasPromo2Obj.transform.localPosition = vec3Pos;
+					//KompasPromo2Obj.transform.localPosition = vec3Pos;
 				}
 			}
-			else if (KompasPromo2Obj.activeSelf)
-			{
-				KompasPromo2Obj.SetActive(value: false);
-			}
+			//else if (KompasPromo2Obj.activeSelf)
+			//{
+			//	KompasPromo2Obj.SetActive(value: false);
+			//}
 			if (Progress.shop.ActivCellNum != -1)
 			{
 				if (Vector3.Distance(coord, SpecialMission[Progress.shop.ActivCellNum].pos + vec) < 700f)
@@ -332,14 +332,14 @@ public class MapCentralization : MonoBehaviour
 			{
 				KompasObj.SetActive(value: false);
 			}
-			if (KompasPromo1Obj != null && KompasPromo1Obj.activeSelf)
-			{
-				KompasPromo1Obj.SetActive(value: false);
-			}
-			if (KompasPromo2Obj != null && KompasPromo2Obj.activeSelf)
-			{
-				KompasPromo2Obj.SetActive(value: false);
-			}
+			//if (KompasPromo1Obj != null && KompasPromo1Obj.activeSelf)
+			//{
+			//	KompasPromo1Obj.SetActive(value: false);
+			//}
+			//if (KompasPromo2Obj != null && KompasPromo2Obj.activeSelf)
+			//{
+			//	KompasPromo2Obj.SetActive(value: false);
+			//}
 			if (KompasEggObj != null && KompasEggObj.activeSelf)
 			{
 				KompasEggObj.SetActive(value: false);
