@@ -163,9 +163,9 @@ public class ControllerGarage : MonoBehaviour
 
 	private bool _isEnergyInfinite;
 
-	public CounterController FueLabel;
+	//public CounterController FueLabel;
 
-	public Image FuelInfinytyIcon;
+	//public Image FuelInfinytyIcon;
 
 	public CounterController coinsLabel;
 
@@ -679,9 +679,9 @@ public class ControllerGarage : MonoBehaviour
 		progressShop = Progress.shop;
 		_coins = progressShop.currency;
 		coinsLabel.count = Progress.shop.currency.ToString();
-		FueLabel.count = Progress.gameEnergy.energy.ToString();
-		FueLabel.gameObject.SetActive(!Progress.gameEnergy.isInfinite);
-		FuelInfinytyIcon.gameObject.SetActive(Progress.gameEnergy.isInfinite);
+		//FueLabel.count = Progress.gameEnergy.energy.ToString();
+		//FueLabel.gameObject.SetActive(!Progress.gameEnergy.isInfinite);
+		//FuelInfinytyIcon.gameObject.SetActive(Progress.gameEnergy.isInfinite);
 		for (int i = 0; i < GoGate.Count; i++)
 		{
 			GoGate[i].SetActive(!progressShop.Cars[i].equipped);
@@ -1396,7 +1396,7 @@ public class ControllerGarage : MonoBehaviour
 
 	public void SetEnergyLabel(int count)
 	{
-		FueLabel.count = count.ToString();
+		//FueLabel.count = count.ToString();
 	}
 
 	public void SetCanvasTransparent(bool enable)
@@ -1411,7 +1411,7 @@ public class ControllerGarage : MonoBehaviour
 
 	public void SetFuelInfinytyIcon(bool enable)
 	{
-		FuelInfinytyIcon.gameObject.SetActive(enable);
-		FueLabel.gameObject.SetActive(!enable);
+		//FuelInfinytyIcon.gameObject.SetActive(enable);
+		//FueLabel.gameObject.SetActive(!enable);
 	}
 }
